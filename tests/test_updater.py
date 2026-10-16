@@ -65,3 +65,27 @@ class PublisherTests(unittest.TestCase):
   self.assertEqual(u.publisher_selections('<h3>Cardinals (+12.5) at Rams</h3>','sportingnews'),[])
  def test_sportschat_explicit_free_pick(self):
   self.assertEqual(u.publisher_selections("<h2>Andrew's Free Pick: Green Bay Packers -1.5</h2>",'sportschat')[0]['selection'],'Green Bay Packers -1.5')
+
+class PropCoverageTests(unittest.TestCase):
+ def test_explicit_prop_table_keeps_player_line_and_price(self):
+  raw='<table><tr><th>Player</th><th>Prop bet</th><th>Best odds</th></tr><tr><td>Test Player</td><td>Over 62.5 receiving yards</td><td>-114 via FanDuel</td></tr></table>'
+  p=u.publisher_selections(raw,'sbr')[0];self.assertEqual(p['selection'],'Test Player Over 62.5 receiving yards (-114)');self.assertEqual(p['market'],'Props')
+ def test_roster_matches_player_and_explicit_week(self):
+  a={'title':'NFL Week 7 props','publishedAt':'2026-10-20T12:00:00+00:00','picks':[{'selection':'Test Player Over 62.5 receiving yards','market':'Props'}]}
+  u.attach_players([a],{'testplayer':[{'name':'Test Player','team':'Falcons','athleteId':'1'}]})
+  game={'id':'2','startAt':'2026-10-25T17:00Z','teams':['Bears','Falcons'],'week':7,'state':'pre'}
+  self.assertEqual(u.match_event(a['picks'][0],a,[game]),game)
+  self.assertIsNone(u.match_event(a['picks'][0],{**a,'title':'NFL Week 6 props'},[game]))
+ def test_ambiguous_player_stays_unmatched(self):
+  a={'picks':[{'selection':'Test Player Over 62.5 receiving yards','market':'Props'}]}
+  u.attach_players([a],{'testplayer':[{'name':'Test Player','team':'Falcons'},{'name':'Test Player','team':'Bears'}]})
+  self.assertNotIn('player',a['picks'][0])
+
+ def test_discovers_next_week_without_config_change(self):
+  import json
+  source=next(s for s in json.loads((u.ROOT/'sources.json').read_text()) if s['id']=='sbr')
+  url='https://www.sportsbookreview.com/picks/nfl/player-props-week-7-2026/'
+  article='<script type="application/ld+json">'+json.dumps({'@type':'NewsArticle','headline':'NFL Week 7 props','datePublished':'2026-10-20T12:00:00+00:00','author':{'name':'Test Analyst'}})+'</script><table><tr><th>Player</th><th>Prop bet</th><th>Best odds</th></tr><tr><td>Test Player</td><td>Over 62.5 receiving yards</td><td>-110</td></tr></table>'
+  with patch.object(u,'fetch_text',side_effect=lambda u: '<a href="'+url+'">Props</a>' if u==source['feed'] else article):
+   rows=u.fetch_articles(source,dt.datetime(2026,10,21,tzinfo=dt.timezone.utc))
+  self.assertEqual(rows[0]['url'],url);self.assertEqual(len(rows[0]['picks']),1)

@@ -240,6 +240,15 @@ def article_metadata(raw):
 def publisher_selections(raw,source_id):
     if source_id=='sbr':
         table=TableCells();table.feed(raw);out=[]
+        prop_table=False
+        for row in table.rows:
+            if len(row)>=3 and row[0]['text']=='Player' and row[1]['text']=='Prop bet':prop_table=True;continue
+            if prop_table and len(row)>=3:
+                player,bet,price=[c['text'] for c in row[:3]]
+                if re.fullmatch(r'[A-Za-z .’\'-]+',player) and re.search(r'over|under|anytime|touchdown|\bTD\b',bet,re.I):
+                    m=re.search(r'[+-]\d{3,5}',price)
+                    out.append({'selection':player+' '+bet+(' ('+m[0]+')' if m else ''),'market':'Props','context':'','method':'Explicit player prop selection in publisher pick table'})
+        if out:return out
         for row in table.rows:
             if len(row)<2 or len(names(row[0]['text']))!=2:continue
             label=row[1]['text'];m=re.fullmatch(r'([A-Za-z0-9 ]+)\s*\(([+-]\d+(?:\.\d+)?)\)',label)
@@ -312,6 +321,47 @@ def fetch_schedule(now,previous):
     except Exception as exc:
         return previous.get('games',[]),{'status':'unavailable','checkedAt':now.isoformat(),'lastSuccessAt':previous.get('scheduleStatus',{}).get('lastSuccessAt'),'message':str(exc)[:140]}
 
+
+def player_key(name):return re.sub(r'[^a-z0-9]+','',name.lower())
+
+def fetch_rosters(now,previous):
+    cache=previous.get('playerTeams',{})
+    try:
+        if cache and now-dt.datetime.fromisoformat(previous['rostersCheckedAt'])<dt.timedelta(hours=24):return cache,previous['rostersCheckedAt']
+    except (KeyError,ValueError):pass
+    base='https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams'
+    teams=json.loads(fetch_text(base))['sports'][0]['leagues'][0]['teams']
+    def one(entry):
+        team=entry['team'];raw=json.loads(fetch_text(base+'/'+team['id']+'/roster'));out=[]
+        for group in raw.get('athletes',[]):
+            for a in group.get('items',[]):
+                name=a.get('fullName') or a.get('displayName')
+                if name:out.append((player_key(name),{'name':name,'team':team['name'],'athleteId':a['id']}))
+        return out
+    result={}
+    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
+        futures=[pool.submit(one,entry) for entry in teams]
+        for f in futures:
+            try:
+                for key,person in f.result():result.setdefault(key,[]).append(person)
+            except Exception as exc:print('A roster could not be retrieved: '+str(exc)[:100])
+    if not result:raise ValueError('No roster data')
+    # Retry partial responses on the next hourly run instead of caching them for a day.
+    if len({p['team'] for people in result.values() for p in people})<len(teams):return result,(now-dt.timedelta(hours=24)).isoformat()
+    return result,now.isoformat()
+
+def attach_players(articles,players):
+    # Longest exact normalized name match, never fuzzy-match players or infer team from prose.
+    for article in articles:
+        for pick in article.get('picks',[]):
+            if pick['market']!='Props':continue
+            label=player_key(pick['selection']);matches=[]
+            for key,people in players.items():
+                if len(key)>5 and key in label and len(people)==1:matches.append((len(key),people[0]))
+            if matches:
+                matches.sort(key=lambda x:x[0],reverse=True)
+                if len(matches)==1 or matches[0][0]>matches[1][0]:pick['player']=matches[0][1]
+
 def match_event(pick,article,games):
     from zoneinfo import ZoneInfo
     teams=names(pick.get('context',''))
@@ -319,6 +369,7 @@ def match_event(pick,article,games):
     week_match=re.search(r'\bWeek\s+(\d+)\b',article['title'],re.I)
     if len(teams)!=2:
         teams=names(pick['selection'])
+        if not teams and pick.get('player'):teams=[pick['player']['team']]
         # A lone team can be resolved only when the article explicitly identifies its week.
         if len(teams)!=1 or not week_match:return None
     published=dt.datetime.fromisoformat(article['publishedAt'])
@@ -342,12 +393,16 @@ def main():
         results=list(pool.map(lambda s:fetch_source(s,now,previous),[s for s in sources if s.get('enabled',True)]))
     articles={a['id']:a for rows,_ in results for a in rows}
     games,schedule_status=fetch_schedule(now,previous)
+    try:players,rosters_checked=fetch_rosters(now,previous)
+    except Exception as exc:
+        print('Roster matching unavailable: '+str(exc)[:120]);players={};rosters_checked=None
+    attach_players(articles.values(),players)
     for a in articles.values():
         for pick in a.get('picks',[]):pick['event']=match_event(pick,a,games)
         for parlay in a.get('parlays',[]):
             for leg in parlay['legs']:leg['event']=match_event(leg,a,games)
     statuses=[s for _,s in results];success=any(s['status']=='ok' for s in statuses)
-    payload={'schemaVersion':1,'checkedAt':now.isoformat(),'lastSuccessfulUpdate':now.isoformat() if success else previous.get('lastSuccessfulUpdate'),'sources':statuses,'articles':sorted(articles.values(),key=lambda a:a['publishedAt'],reverse=True),'refreshMinutes':60,'games':games,'scheduleStatus':schedule_status}
+    payload={'schemaVersion':1,'checkedAt':now.isoformat(),'lastSuccessfulUpdate':now.isoformat() if success else previous.get('lastSuccessfulUpdate'),'sources':statuses,'articles':sorted(articles.values(),key=lambda a:a['publishedAt'],reverse=True),'refreshMinutes':60,'games':games,'scheduleStatus':schedule_status,'playerTeams':players,'rostersCheckedAt':rosters_checked,'rosterStatus':'ok' if players else 'unavailable'}
     path.parent.mkdir(exist_ok=True);tmp=path.with_suffix('.tmp');tmp.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n');os.replace(tmp,path)
     for s in statuses:print(f"{s['name']}: {s['status']} ({s['count']} articles)")
     print(f"Saved {len(articles)} NFL articles; {sum(len(a['picks']) for a in articles.values())} explicit selections")

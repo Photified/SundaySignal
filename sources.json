@@ -44,7 +44,7 @@
     "feed": "https://www.sportsbookreview.com/picks/nfl/",
     "website": "https://www.sportsbookreview.com/picks/nfl/",
     "kind": "articles",
-    "articlePattern": "/picks/nfl/picks-against-the-spread-ats-predictions-week-\\d+-\\d{4}/$",
+    "articlePattern": "/picks/nfl/(?:picks-against-the-spread-ats-predictions|player-props)-week-\\d+-\\d{4}/$",
     "enabled": true
   },
   {

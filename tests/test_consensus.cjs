@@ -15,3 +15,8 @@ groups=grouped([article('1','Expert One','Falcons +3.5'),article('2','Expert Two
 assert.equal(ctx.upcoming({event}),true);assert.equal(ctx.upcoming({event:{...event,state:'post'}}),false);assert.equal(Boolean(ctx.upcoming({event:null})),false);
 assert.equal(ctx.formatOdds(-110,'decimal'),'1.91');assert.equal(ctx.formatOdds(150,'fractional'),'3/2');assert.equal(ctx.formatOdds(null,'decimal'),'—');assert.equal(ctx.parseSelection('Falcons +3.5','Spread').american,null);
 console.log('Consensus checks passed: exact lines, same game, distinct analysts, cross-source agreement, opposing picks, latest votes, staff exclusion, kickoff, odds.');
+const player={athleteId:'12',name:'Test Player'};
+assert.equal(ctx.selectionIdentity('Test Player Anytime TD','Props',player).key,ctx.selectionIdentity('Test Player Anytime Touchdown Scorer','Props',player).key);
+assert.notEqual(ctx.selectionIdentity('Test Player First Touchdown Scorer','Props',player).key,ctx.selectionIdentity('Test Player Anytime TD','Props',player).key);
+assert.equal(ctx.selectionIdentity('Test Player Over 1.5 Passing TDs','Props',player).key,ctx.selectionIdentity('Test Player Over 1.5 Passing Touchdowns','Props',player).key);
+assert.notEqual(ctx.selectionIdentity('Test Player Over 61.5 Receiving Yards','Props',player).key,ctx.selectionIdentity('Test Player Over 62.5 Receiving Yards','Props',player).key);
