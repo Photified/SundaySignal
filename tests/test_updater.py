@@ -32,3 +32,36 @@ class PicksTests(unittest.TestCase):
  def test_no_promotional_heading(self):
   self.assertEqual(u.selections('<h3>Bonus: Falcons +3.5 promo code</h3>'),[])
 if __name__=='__main__':unittest.main()
+
+class ConsensusSourceTests(unittest.TestCase):
+ def test_cbs_named_metadata_and_team(self):
+  import json
+  cfg=json.dumps({'marketName':'Spread','meta':{'bets':[{'expertLabel':'Test Analyst'}]}})
+  parser=u.CBSRows();parser.feed('<table><tr><td><a href="/nfl/gametracker/preview/NFL_20261018_CHI@ATL/">Game</a></td><td><button data-config=\''+cfg+'\'><div>ATL +3.5</div><span>Remove</span></button></td></tr></table>')
+  self.assertEqual(parser.rows[0]['picks'],[('Test Analyst','Falcons +3.5')])
+ def test_cover_table_team_is_explicit(self):
+  parser=u.TableCells();parser.feed('<table><tr><td>Falcons vs Bears</td><td><img alt="Falcons">+3.5</td></tr></table>')
+  self.assertEqual(parser.rows[0][1]['images'],['Falcons']);self.assertEqual(parser.rows[0][1]['text'],'+3.5')
+ def test_parlay_retains_original_legs_and_combined_price(self):
+  content='<h3>Falcons at Bears</h3><p>Leg 1: Falcons +3.5 (-110)</p><p>Leg 2: Over 44.5 (-110)</p><p>Parlay Odds: +250</p>'
+  parlay=u.extract_parlays(content)[0];self.assertEqual(parlay['americanOdds'],250);self.assertEqual(len(parlay['legs']),2);self.assertEqual(parlay['legs'][0]['context'],'Falcons at Bears')
+ def test_incomplete_parlay_is_not_invented(self):
+  self.assertEqual(u.extract_parlays('<p>Leg 1: Falcons +3.5</p><p>Leg 3: Over 44.5</p><p>Parlay Odds: +250</p>'),[])
+ def test_event_matching_requires_unambiguous_week(self):
+  article={'title':'NFL Week 6 picks','publishedAt':'2026-10-16T12:00:00+00:00'}
+  game={'id':'1','startAt':'2026-10-18T17:00Z','teams':['Bears','Falcons'],'week':6,'state':'pre'}
+  self.assertEqual(u.match_event({'selection':'Falcons +3.5','context':''},article,[game]),game)
+  self.assertIsNone(u.match_event({'selection':'Falcons +3.5','context':''},{**article,'title':'NFL Week 7 picks'},[game]))
+  self.assertIsNone(u.match_event({'selection':'Falcons +3.5','context':''},{**article,'title':'NFL picks'},[game]))
+
+class PublisherTests(unittest.TestCase):
+ def test_sbr_selected_column_not_matchup_favorite(self):
+  raw='<table><tr><td>Panthers vs Eagles (-1.5)</td><td>Panthers (+1.5)</td></tr></table>'
+  self.assertEqual(u.publisher_selections(raw,'sbr')[0]['selection'],'Panthers +1.5')
+ def test_sportingnews_ats_not_predicted_winner(self):
+  raw='<h3>Cardinals (+12.5, 51.5 o/u) at Rams</h3><p>Pick: Rams win 31-20 but fail to cover the spread.</p>'
+  self.assertEqual(u.publisher_selections(raw,'sportingnews')[0]['selection'],'Cardinals +12.5')
+ def test_sportingnews_requires_pick_statement(self):
+  self.assertEqual(u.publisher_selections('<h3>Cardinals (+12.5) at Rams</h3>','sportingnews'),[])
+ def test_sportschat_explicit_free_pick(self):
+  self.assertEqual(u.publisher_selections("<h2>Andrew's Free Pick: Green Bay Packers -1.5</h2>",'sportschat')[0]['selection'],'Green Bay Packers -1.5')

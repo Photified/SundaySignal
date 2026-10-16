@@ -1,4 +1,68 @@
 [
-  {"id":"sbd","name":"Sports Betting Dime","feed":"https://www.sportsbettingdime.com/news/nfl/feed/","website":"https://www.sportsbettingdime.com/nfl/","enabled":true},
-  {"id":"bettingpros","name":"BettingPros","feed":"https://www.bettingpros.com/feed/","website":"https://www.bettingpros.com/nfl/","enabled":true}
+  {
+    "id": "sbd",
+    "name": "Sports Betting Dime",
+    "feed": "https://www.sportsbettingdime.com/news/nfl/feed/",
+    "website": "https://www.sportsbettingdime.com/nfl/",
+    "enabled": true
+  },
+  {
+    "id": "bettingpros",
+    "name": "BettingPros",
+    "feed": "https://www.bettingpros.com/feed/",
+    "website": "https://www.bettingpros.com/nfl/",
+    "enabled": true
+  },
+  {
+    "id": "cbs",
+    "name": "CBS Sports",
+    "kind": "cbs",
+    "feed": "https://www.cbssports.com/nfl/picks/experts/",
+    "website": "https://www.cbssports.com/nfl/picks/experts/",
+    "enabled": true
+  },
+  {
+    "id": "covers",
+    "name": "Covers",
+    "kind": "covers",
+    "feed": "https://www.covers.com/nfl",
+    "website": "https://www.covers.com/nfl",
+    "enabled": true
+  },
+  {
+    "id": "sportschat",
+    "name": "Sports Chat Place",
+    "feed": "https://sportschatplace.com/nfl-picks/",
+    "website": "https://sportschatplace.com/nfl-picks/",
+    "kind": "articles",
+    "articlePattern": "/nfl-picks/[^/]+prediction[^/]+/$",
+    "enabled": true
+  },
+  {
+    "id": "sbr",
+    "name": "Sportsbook Review",
+    "feed": "https://www.sportsbookreview.com/picks/nfl/",
+    "website": "https://www.sportsbookreview.com/picks/nfl/",
+    "kind": "articles",
+    "articlePattern": "/picks/nfl/picks-against-the-spread-ats-predictions-week-\\d+-\\d{4}/$",
+    "enabled": true
+  },
+  {
+    "id": "sportingnews",
+    "name": "Sporting News",
+    "feed": "https://www.sportingnews.com/us/nfl",
+    "website": "https://www.sportingnews.com/us/nfl",
+    "kind": "articles",
+    "articlePattern": "/us/nfl/news/nfl-picks-predictions-against-spread-week-\\d+/",
+    "enabled": true
+  },
+  {
+    "id": "rotowire",
+    "name": "RotoWire",
+    "feed": "https://www.rotowire.com/betting/nfl/picks/",
+    "website": "https://www.rotowire.com/betting/nfl/picks/",
+    "kind": "articles",
+    "articlePattern": "/football/article/(?:nfl-picks-and-props|[^/]*odds-picks-and-predictions|[^/]*betting-odds-picks-and-predictions)[^/]+$",
+    "enabled": true
+  }
 ]
