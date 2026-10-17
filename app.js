@@ -117,16 +117,22 @@ function render(){
  $('#board').hidden=tab==='settings'||tab==='publishers';$('#publishers').hidden=tab!=='publishers';$('#settings').hidden=tab!=='settings';if(tab==='settings'||tab==='publishers')return;
  $('#viewTitle').textContent=({best:'The consensus',props:'Player props',parlays:'Expert parlays',saved:'Your saved picks'})[tab];
  $('#sortInfo').hidden=tab!=='best';$('#rangeLabel').hidden=tab!=='parlays'&&tab!=='props';$('#marketFilters').hidden=tab==='parlays'||tab==='props'||tab==='best';$('#propCategoryLabel').hidden=tab!=='props';
- const query=$('#search').value.toLowerCase().trim(),mode=$('#range').value;
- const match=p=>!query||[p.label,p.matchup,p.author,p.publisher,p.title].join(' ').toLowerCase().includes(query);
+ $('#pageIntro').textContent=({
+  props:'Expert picks on individual player stats, including yards, receptions and touchdowns. Choose a category to browse.',
+  best:'Picks backed by at least two analysts on the same game and exact betting line. Open a card to see who agrees and any opposing picks.',
+  parlays:'Browse experts’ published combinations of two or more picks. Each card shows the original legs and combined odds.',
+  saved:'The picks you’ve starred, kept together for quick access. Tap a star again to remove a pick.'
+ })[tab];
+ $('#filterToolbar').hidden=tab!=='saved';
+ const mode=$('#range').value;
  if(tab==='parlays'){
-  const rows=allParlays.filter(p=>follows(p)&&match({...p,label:p.legs.map(l=>l.selection).join(' ')})&&(mode==='recent'||(scheduleFresh()&&sourceReady(p)&&p.legs.every(upcoming)))).sort((a,b)=>b.publishedAt.localeCompare(a.publishedAt));
+  const rows=allParlays.filter(p=>follows(p)&&(mode==='recent'||(scheduleFresh()&&sourceReady(p)&&p.legs.every(upcoming)))).sort((a,b)=>b.publishedAt.localeCompare(a.publishedAt));
   visibleRows=[];$('#resultCount').textContent=rows.length+' published parlays';
   $('#results').innerHTML=rows.length?rows.map(parlayCard).join(''):'<div class="empty"><h2>No verified upcoming parlays yet.</h2>Choose Recent to browse earlier expert parlays.</div>';return;
  }
  let rows=tab==='saved'?Object.values(saved):allPicks.filter(follows);
  rows=rows.filter(p=>(tab==='props'?p.market==='Props'&&( $('#propCategory').value==='all'||propCategory(p.label)===$('#propCategory').value):(tab==='best'||chosenMarket==='all'||p.market===chosenMarket))&&(tab==='saved'||(tab==='best'?(scheduleFresh()&&upcoming(p)&&sourceReady(p)):(mode==='recent'||upcoming(p)))));
- const grouped=(tab==='saved'?rows:ranked(rows)).filter(p=>match(p)||(p.contributors||[]).some(match));
+ const grouped=tab==='saved'?rows:ranked(rows);
  const selected=tab==='best'?grouped.filter(p=>p.support>=2&&p.support>p.opponents.length):grouped;
  visibleRows=selected;
  $('#resultCount').textContent=tab==='best'?selected.length+' picks with agreement':visibleRows.length+(tab==='props'?' player props':' picks');
@@ -153,8 +159,8 @@ $('#sources').addEventListener('click',e=>{const button=e.target.closest('[data-
 $('#oddsFormat').value=oddsFormat;$('#oddsFormat').addEventListener('change',e=>{oddsFormat=e.target.value;writeStore('ss-odds-format',oddsFormat);render()});
 $$('[data-tab]').forEach(b=>b.addEventListener('click',()=>setTab(b.dataset.tab)));
 $$('[data-market]').forEach(b=>b.addEventListener('click',()=>{chosenMarket=b.dataset.market;setChips();render()}));
-$('#propCategory').addEventListener('change',render);$('#search').addEventListener('input',render);$('#range').addEventListener('change',render);$('#refresh').addEventListener('click',()=>load(true));
-function showProps(){$('#propCategory').value='all';$('#search').value='';$('#range').value='upcoming';setTab('props')}
+$('#propCategory').addEventListener('change',render);$('#range').addEventListener('change',render);$('#refresh').addEventListener('click',()=>load(true));
+function showProps(){$('#propCategory').value='all';$('#range').value='upcoming';setTab('props')}
 $('#sourceShortcut').addEventListener('click',()=>setTab('publishers'));
 $('#results').addEventListener('click',e=>{
  if(e.target.closest('#showProps'))showProps();
