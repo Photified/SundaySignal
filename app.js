@@ -163,9 +163,27 @@ $('#results').addEventListener('click',e=>{
  if(!writeStore('ss-saved-picks-v2',saved))notify('Saved for this session. Device storage is unavailable.');$('#savedCount').textContent=Object.keys(saved).length;render();
 });
 $('#sortInfo').addEventListener('click',()=>$('#infoDialog').showModal());$('#closeInfo').addEventListener('click',()=>$('#infoDialog').close());
-window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();installPrompt=e;$('#installHint').textContent='Install for quick access and offline picks.'});
-$('#install').addEventListener('click',async()=>{if(installPrompt){await installPrompt.prompt();await installPrompt.userChoice;installPrompt=null}else notify('Use your browser menu → Install app or Add to Home Screen.')});
-window.addEventListener('appinstalled',()=>notify('Sunday Signal installed.'));
+let installedThisSession=false;
+function standaloneMode(){return Boolean(window.matchMedia?.('(display-mode: standalone)').matches||window.matchMedia?.('(display-mode: fullscreen)').matches||navigator.standalone)}
+function updateInstallUI(){
+ const button=$('#install'),hint=$('#installHint');
+ if(standaloneMode()){button.textContent='Installed';button.disabled=true;hint.textContent='You are using the installed app.';return}
+ button.disabled=false;
+ if(installedThisSession){button.textContent='Open from your apps';hint.textContent='Installation accepted. Open Sunday Signal from your phone’s apps or home screen.';return}
+ if(installPrompt){button.textContent='Install Sunday Signal';hint.textContent='Install to open Sunday Signal in its own app window.';return}
+ button.textContent='How to install';hint.textContent=/iPad|iPhone|iPod/.test(navigator.userAgent||'')?'In Safari, tap Share → Add to Home Screen.':'In Chrome, use the menu → Add to Home screen. If it says “already installed”, choose that option to open the app. “Create shortcut” opens a browser tab.';
+}
+window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();installPrompt=e;installedThisSession=false;updateInstallUI()});
+$('#install').addEventListener('click',async()=>{
+ if(!installPrompt){updateInstallUI();notify(installedThisSession?'Open Sunday Signal from your phone’s apps or home screen.':$('#installHint').textContent);return}
+ const prompt=installPrompt;installPrompt=null;
+ try{await prompt.prompt();const choice=await prompt.userChoice;if(choice.outcome==='accepted')installedThisSession=true}
+ catch{notify('Use your browser menu to install or open the existing app.')}
+ updateInstallUI();
+});
+window.addEventListener('appinstalled',()=>{installedThisSession=true;installPrompt=null;updateInstallUI();notify('Installed. Open Sunday Signal from your apps.')});
+window.matchMedia?.('(display-mode: standalone)').addEventListener?.('change',updateInstallUI);
+updateInstallUI();
 window.addEventListener('online',()=>load());window.addEventListener('offline',updateStatus);
 let lastVisibleCheck=Date.now();document.addEventListener('visibilitychange',()=>{if(!document.hidden&&Date.now()-lastVisibleCheck>60000){lastVisibleCheck=Date.now();load()}});setInterval(()=>{if(!document.hidden)load()},300000);
 // Reload on a new service worker so old cached JS cannot mix with the new layout.
