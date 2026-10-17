@@ -1,6 +1,6 @@
 // Increment APP_VERSION when changing app files. Feed JSON always uses network first.
-const APP_VERSION='sunday-signal-v12';
-const SHELL=['./','./index.html','./styles.css?v=12','./app.js?v=12','./manifest.json','./icons/icon-192.png','./icons/icon-512.png','./icons/maskable-192.png','./icons/maskable-512.png','./icons/apple-touch-icon.png','./icons/favicon-32.png'];
+const APP_VERSION='sunday-signal-v13';
+const SHELL=['./','./index.html','./styles.css?v=13','./app.js?v=13','./manifest.json','./icons/icon-192.png','./icons/icon-512.png','./icons/maskable-192.png','./icons/maskable-512.png','./icons/apple-touch-icon.png','./icons/favicon-32.png'];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(APP_VERSION).then(async cache=>{await cache.addAll(SHELL.map(path=>new Request(path,{cache:'reload'})));await self.skipWaiting()}))});
 self.addEventListener('activate',event=>event.waitUntil((async()=>{for(const key of await caches.keys())if(key.startsWith('sunday-signal-')&&key!==APP_VERSION)await caches.delete(key);await self.clients.claim()})()));
 self.addEventListener('fetch',event=>{
