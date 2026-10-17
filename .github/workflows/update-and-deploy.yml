@@ -1,32 +1,41 @@
 name: Update NFL picks and deploy
+
 on:
   push:
     branches: [main]
   workflow_dispatch:
   schedule:
     - cron: '17 * * * *'
+
 permissions:
   contents: write
   pages: write
   id-token: write
+
 concurrency:
   group: nfl-pages
   cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
     timeout-minutes: 6
+
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+
       - name: Verify parsers
         run: python -m unittest discover -s tests -v
+
       - name: Retrieve publisher feeds
         id: feeds
         continue-on-error: true
         run: python scripts/update_picks.py
+
       - name: Save refreshed data
         run: |
           git config user.name 'github-actions[bot]'
@@ -36,25 +45,32 @@ jobs:
             git commit -m 'Refresh NFL expert feeds'
             git push
           fi
+
       - name: Prepare public files
         run: |
           mkdir -p _site
-          cp index.html styles.css app.js sw.js manifest.webmanifest _site/
+          cp index.html styles.css app.js sw.js manifest.json _site/
           cp -R icons data _site/
           touch _site/.nojekyll
+
       - uses: actions/configure-pages@v5
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
+
       - name: Report unavailable feeds
         if: steps.feeds.outcome == 'failure'
-        run: echo '::warning::All publisher feeds failed. Cached data and source warnings will be deployed. Check Actions logs and the Sources tab.'
+        run: echo '::warning::Publisher updater failed. Check the updater logs and publisher status in the app.'
+
   deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+
     runs-on: ubuntu-latest
     needs: update
+
     steps:
       - name: Publish GitHub Pages
         id: deployment
