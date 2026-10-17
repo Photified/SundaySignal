@@ -73,7 +73,7 @@ function ranked(rows){return groupPicks(rows).sort((a,b)=>b.publisherCount-a.pub
 function propCategory(label){if(/touchdown|\btds?\b|scorer/i.test(label))return 'touchdown';if(/passing|pass attempts|completions|interceptions/i.test(label))return 'passing';if(/rushing|rush attempts|carries/i.test(label))return 'rushing';if(/receiving|receptions/i.test(label))return 'receiving';return 'other'}
 function upcoming(p){return p.event&&p.event.state==='pre'&&new Date(p.event.startAt).getTime()>Date.now()}
 function buildParlays(articles){return articles.flatMap(a=>(a.parlays||[]).map((p,i)=>({...p,id:a.id+'-parlay-'+i,author:a.author,publisher:a.publisher,url:a.url,publishedAt:a.publishedAt,title:a.title,sourceId:a.sourceId})))}
-let data=null,allPicks=[],allParlays=[],tab='best',chosenMarket='all',busy=false,offlineCopy=false,installPrompt=null;
+let data=null,allPicks=[],allParlays=[],tab='props',chosenMarket='all',busy=false,offlineCopy=false,installPrompt=null;
 let oddsFormat=readStore('ss-odds-format','decimal');if(!['decimal','american','fractional'].includes(oddsFormat))oddsFormat='decimal';
 let mutedPublishers=readStore('ss-muted-publishers-v1',[]);if(!Array.isArray(mutedPublishers))mutedPublishers=[];
 function follows(p){return !mutedPublishers.includes(p.sourceId||p.id)}
@@ -87,7 +87,7 @@ function sourceReady(p){return data?.sources?.find(s=>s.id===p.sourceId)?.status
 function updateStatus(){
  const messages=[];if(!navigator.onLine||offlineCopy)messages.push('Offline edition');
  const overdue=!data?.lastSuccessfulUpdate||ageHours(data.lastSuccessfulUpdate)>3;
- if(data&&overdue)messages.push('Update overdue. Check Publishers.');
+ if(data&&overdue)messages.push('Update overdue. Check Settings.');
  if(data?.sources.some(s=>s.status!=='ok'))messages.push('A source is unavailable.');
  if(data?.rosterStatus==='unavailable')messages.push('Player matching is unavailable. Some props may be missing.');
  if(data&&!scheduleFresh())messages.push('Schedule needs an update. Upcoming recommendations are paused.');
@@ -114,24 +114,24 @@ function parlayCard(p){
 }
 let visibleRows=[];
 function render(){
- $('#board').hidden=tab==='settings';$('#settings').hidden=tab!=='settings';if(tab==='settings')return;
- $('#viewTitle').textContent=({best:'The consensus',all:'Explore picks',props:'Player props',parlays:'Expert parlays',saved:'Your saved picks'})[tab];
- $('#sortInfo').hidden=tab!=='best';$('#rangeLabel').hidden=tab!=='all'&&tab!=='parlays'&&tab!=='props';$('#marketFilters').hidden=tab==='parlays'||tab==='props';$('#propCategoryLabel').hidden=tab!=='props';
+ $('#board').hidden=tab==='settings'||tab==='publishers';$('#publishers').hidden=tab!=='publishers';$('#settings').hidden=tab!=='settings';if(tab==='settings'||tab==='publishers')return;
+ $('#viewTitle').textContent=({best:'The consensus',props:'Player props',parlays:'Expert parlays',saved:'Your saved picks'})[tab];
+ $('#sortInfo').hidden=tab!=='best';$('#rangeLabel').hidden=tab!=='parlays'&&tab!=='props';$('#marketFilters').hidden=tab==='parlays'||tab==='props'||tab==='best';$('#propCategoryLabel').hidden=tab!=='props';
  const query=$('#search').value.toLowerCase().trim(),mode=$('#range').value;
  const match=p=>!query||[p.label,p.matchup,p.author,p.publisher,p.title].join(' ').toLowerCase().includes(query);
  if(tab==='parlays'){
   const rows=allParlays.filter(p=>follows(p)&&match({...p,label:p.legs.map(l=>l.selection).join(' ')})&&(mode==='recent'||(scheduleFresh()&&sourceReady(p)&&p.legs.every(upcoming)))).sort((a,b)=>b.publishedAt.localeCompare(a.publishedAt));
-  visibleRows=[];$('#resultCount').textContent=rows.length+' published parlays';$('#morePicks').hidden=true;
+  visibleRows=[];$('#resultCount').textContent=rows.length+' published parlays';
   $('#results').innerHTML=rows.length?rows.map(parlayCard).join(''):'<div class="empty"><h2>No verified upcoming parlays yet.</h2>Choose Recent to browse earlier expert parlays.</div>';return;
  }
  let rows=tab==='saved'?Object.values(saved):allPicks.filter(follows);
- rows=rows.filter(p=>(tab==='props'?p.market==='Props'&&( $('#propCategory').value==='all'||propCategory(p.label)===$('#propCategory').value):(chosenMarket==='all'||p.market===chosenMarket))&&(tab==='saved'||(tab==='best'?(scheduleFresh()&&upcoming(p)&&sourceReady(p)):(mode==='recent'||upcoming(p)))));
+ rows=rows.filter(p=>(tab==='props'?p.market==='Props'&&( $('#propCategory').value==='all'||propCategory(p.label)===$('#propCategory').value):(tab==='best'||chosenMarket==='all'||p.market===chosenMarket))&&(tab==='saved'||(tab==='best'?(scheduleFresh()&&upcoming(p)&&sourceReady(p)):(mode==='recent'||upcoming(p)))));
  const grouped=(tab==='saved'?rows:ranked(rows)).filter(p=>match(p)||(p.contributors||[]).some(match));
  const selected=tab==='best'?grouped.filter(p=>p.support>=2&&p.support>p.opponents.length):grouped;
- visibleRows=tab==='best'?selected.slice(0,9):selected;
- $('#resultCount').textContent=tab==='best'?selected.length+' picks with agreement':visibleRows.length+(tab==='props'?' player props':' picks');$('#morePicks').hidden=tab!=='best';
+ visibleRows=selected;
+ $('#resultCount').textContent=tab==='best'?selected.length+' picks with agreement':visibleRows.length+(tab==='props'?' player props':' picks');
  if(visibleRows.length){$('#results').innerHTML=visibleRows.map(pickCard).join('');return}
- $('#results').innerHTML='<div class="empty"><h2>'+(tab==='saved'?'No saved picks yet.':tab==='best'?'No consensus in this view.':tab==='props'?'No upcoming props in this view.':'No picks in this view.')+'</h2>'+(tab==='saved'?'Tap a star to save a pick.':tab==='best'?'Requires two named analysts, the same line, and an upcoming game.':'Try another market or choose Recent.')+(tab==='best'?'<br><button id="showAll">Explore individual picks</button>':'')+'</div>';
+ $('#results').innerHTML='<div class="empty"><h2>'+(tab==='saved'?'No saved picks yet.':tab==='best'?'No consensus in this view.':tab==='props'?'No upcoming props in this view.':'No picks in this view.')+'</h2>'+(tab==='saved'?'Tap a star to save a pick.':tab==='best'?'Requires two named analysts, the same line, and an upcoming game.':'Try another market or choose Recent.')+(tab==='best'?'<br><button id="showProps">Browse player props</button>':'')+'</div>';
 }
 function setChips(){$$('[data-market]').forEach(b=>{const active=b.dataset.market===chosenMarket;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active))})}
 async function load(manual=false){
@@ -154,10 +154,10 @@ $('#oddsFormat').value=oddsFormat;$('#oddsFormat').addEventListener('change',e=>
 $$('[data-tab]').forEach(b=>b.addEventListener('click',()=>setTab(b.dataset.tab)));
 $$('[data-market]').forEach(b=>b.addEventListener('click',()=>{chosenMarket=b.dataset.market;setChips();render()}));
 $('#propCategory').addEventListener('change',render);$('#search').addEventListener('input',render);$('#range').addEventListener('change',render);$('#refresh').addEventListener('click',()=>load(true));
-function showAll(){chosenMarket='all';$('#search').value='';$('#range').value='upcoming';setChips();setTab('all')}
-$('#morePicks').addEventListener('click',showAll);$('#sourceShortcut').addEventListener('click',()=>setTab('settings'));
+function showProps(){$('#propCategory').value='all';$('#search').value='';$('#range').value='upcoming';setTab('props')}
+$('#sourceShortcut').addEventListener('click',()=>setTab('publishers'));
 $('#results').addEventListener('click',e=>{
- if(e.target.closest('#showAll'))showAll();
+ if(e.target.closest('#showProps'))showProps();
  const button=e.target.closest('[data-save]');if(!button)return;const id=button.dataset.save;
  if(saved[id])delete saved[id];else{const pick=visibleRows.find(p=>p.id===id);if(!pick)return;const {bylines,...plain}=pick;saved[id]=plain}
  if(!writeStore('ss-saved-picks-v2',saved))notify('Saved for this session. Device storage is unavailable.');$('#savedCount').textContent=Object.keys(saved).length;render();
