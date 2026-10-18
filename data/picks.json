@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-18T20:43:47.239398+00:00",
-  "lastSuccessfulUpdate": "2026-10-18T20:43:47.239398+00:00",
+  "checkedAt": "2026-10-18T23:12:31.810745+00:00",
+  "lastSuccessfulUpdate": "2026-10-18T23:12:31.810745+00:00",
   "sources": [
     {
       "id": "sbd",
@@ -10,9 +10,9 @@
       "website": "https://www.sportsbettingdime.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-18T20:43:47.239398+00:00",
-      "lastSuccessAt": "2026-10-18T20:43:47.239398+00:00",
-      "count": 2,
+      "checkedAt": "2026-10-18T23:12:31.810745+00:00",
+      "lastSuccessAt": "2026-10-18T23:12:31.810745+00:00",
+      "count": 3,
       "message": "Feed retrieved successfully"
     },
     {
@@ -22,8 +22,8 @@
       "website": "https://www.bettingpros.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-18T20:43:47.239398+00:00",
-      "lastSuccessAt": "2026-10-18T20:43:47.239398+00:00",
+      "checkedAt": "2026-10-18T23:12:31.810745+00:00",
+      "lastSuccessAt": "2026-10-18T23:12:31.810745+00:00",
       "count": 36,
       "message": "Feed retrieved successfully"
     },
@@ -35,9 +35,9 @@
       "website": "https://www.cbssports.com/nfl/picks/experts/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-18T20:43:47.239398+00:00",
-      "lastSuccessAt": "2026-10-18T20:43:47.239398+00:00",
-      "count": 42,
+      "checkedAt": "2026-10-18T23:12:31.810745+00:00",
+      "lastSuccessAt": "2026-10-18T23:12:31.810745+00:00",
+      "count": 28,
       "message": "Public expert selections retrieved"
     },
     {
@@ -48,8 +48,8 @@
       "website": "https://www.covers.com/nfl",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-18T20:43:47.239398+00:00",
-      "lastSuccessAt": "2026-10-18T20:43:47.239398+00:00",
+      "checkedAt": "2026-10-18T23:12:31.810745+00:00",
+      "lastSuccessAt": "2026-10-18T23:12:31.810745+00:00",
       "count": 2,
       "message": "Public expert selections retrieved"
     },
@@ -62,8 +62,8 @@
       "articlePattern": "/nfl-picks/[^/]+prediction[^/]+/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-18T20:43:47.239398+00:00",
-      "lastSuccessAt": "2026-10-18T20:43:47.239398+00:00",
+      "checkedAt": "2026-10-18T23:12:31.810745+00:00",
+      "lastSuccessAt": "2026-10-18T23:12:31.810745+00:00",
       "count": 11,
       "message": "Public expert selections retrieved"
     },
@@ -76,8 +76,8 @@
       "articlePattern": "/picks/nfl/(?:picks-against-the-spread-ats-predictions|player-props)-week-\\d+-\\d{4}/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-18T20:43:47.239398+00:00",
-      "lastSuccessAt": "2026-10-18T20:43:47.239398+00:00",
+      "checkedAt": "2026-10-18T23:12:31.810745+00:00",
+      "lastSuccessAt": "2026-10-18T23:12:31.810745+00:00",
       "count": 2,
       "message": "Public expert selections retrieved"
     },
@@ -90,7 +90,7 @@
       "articlePattern": "/us/nfl/news/nfl-picks-predictions-against-spread-week-\\d+/",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-10-18T20:43:47.239398+00:00",
+      "checkedAt": "2026-10-18T23:12:31.810745+00:00",
       "lastSuccessAt": "2026-10-18T17:23:29.044357+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -104,179 +104,25 @@
       "articlePattern": "/football/article/(?:nfl-picks-and-props|[^/]*odds-picks-and-predictions|[^/]*betting-odds-picks-and-predictions)[^/]+$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-18T20:43:47.239398+00:00",
-      "lastSuccessAt": "2026-10-18T20:43:47.239398+00:00",
+      "checkedAt": "2026-10-18T23:12:31.810745+00:00",
+      "lastSuccessAt": "2026-10-18T23:12:31.810745+00:00",
       "count": 4,
       "message": "Public expert selections retrieved"
     }
   ],
   "articles": [
     {
-      "id": "32684d112fe4cf0b",
-      "title": "NFL Moneyline Picks for Every Week 6 Game",
-      "url": "https://www.covers.com/nfl/moneyline-picks-week-6-2026",
-      "publisher": "Covers",
-      "sourceId": "covers",
-      "author": "Trevor Knapp",
-      "publishedAt": "2026-10-18T21:37:00+00:00",
-      "picks": [
-        {
-          "selection": "Broncos Moneyline",
-          "market": "Moneyline",
-          "context": "Seahawks vs Broncos",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": null
-        },
-        {
-          "selection": "Jaguars Moneyline",
-          "market": "Moneyline",
-          "context": "Texans vs Jaguars",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": null
-        },
-        {
-          "selection": "Colts Moneyline",
-          "market": "Moneyline",
-          "context": "Titans vs Colts",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": null
-        },
-        {
-          "selection": "Panthers Moneyline",
-          "market": "Moneyline",
-          "context": "Panthers vs Eagles",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": null
-        },
-        {
-          "selection": "Buccaneers Moneyline",
-          "market": "Moneyline",
-          "context": "Steelers vs Buccaneers",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": null
-        },
-        {
-          "selection": "Ravens Moneyline",
-          "market": "Moneyline",
-          "context": "Ravens vs Browns",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": null
-        },
-        {
-          "selection": "Giants Moneyline",
-          "market": "Moneyline",
-          "context": "Saints vs Giants",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": null
-        },
-        {
-          "selection": "Falcons Moneyline",
-          "market": "Moneyline",
-          "context": "Bears vs Falcons",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": null
-        },
-        {
-          "selection": "Patriots Moneyline",
-          "market": "Moneyline",
-          "context": "Jets vs Patriots",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": null
-        },
-        {
-          "selection": "Rams Moneyline",
-          "market": "Moneyline",
-          "context": "Cardinals vs Rams",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873004",
-            "startAt": "2026-10-18T20:05Z",
-            "state": "in",
-            "teams": [
-              "Rams",
-              "Cardinals"
-            ],
-            "matchup": "Arizona Cardinals at Los Angeles Rams",
-            "week": 6,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Chiefs Moneyline",
-          "market": "Moneyline",
-          "context": "Chargers vs Chiefs",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873006",
-            "startAt": "2026-10-18T20:25Z",
-            "state": "in",
-            "teams": [
-              "Chiefs",
-              "Chargers"
-            ],
-            "matchup": "Los Angeles Chargers at Kansas City Chiefs",
-            "week": 6,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Bills Moneyline",
-          "market": "Moneyline",
-          "context": "Bills vs Raiders",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873005",
-            "startAt": "2026-10-18T20:25Z",
-            "state": "in",
-            "teams": [
-              "Raiders",
-              "Bills"
-            ],
-            "matchup": "Buffalo Bills at Las Vegas Raiders",
-            "week": 6,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Packers Moneyline",
-          "market": "Moneyline",
-          "context": "Cowboys vs Packers",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873007",
-            "startAt": "2026-10-19T00:20Z",
-            "state": "pre",
-            "teams": [
-              "Packers",
-              "Cowboys"
-            ],
-            "matchup": "Dallas Cowboys at Green Bay Packers",
-            "week": 6,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "49ers Moneyline",
-          "market": "Moneyline",
-          "context": "Commanders vs 49ers",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873008",
-            "startAt": "2026-10-20T00:15Z",
-            "state": "pre",
-            "teams": [
-              "49ers",
-              "Commanders"
-            ],
-            "matchup": "Washington Commanders at San Francisco 49ers",
-            "week": 6,
-            "season": 2026
-          }
-        }
-      ],
+      "id": "538383c540bb00fc",
+      "title": "Opening NFL Week 7 Odds – Point Spread, Moneyline, Total for All 14 Games",
+      "url": "https://www.sportsbettingdime.com/news/nfl/opening-nfl-week-7-odds-point-spread-moneyline-total-for-all-14-games/",
+      "publisher": "Sports Betting Dime",
+      "sourceId": "sbd",
+      "author": "Sascha Paruk",
+      "publishedAt": "2026-10-18T22:25:25+00:00",
+      "picks": [],
       "parlays": [],
       "markets": [
-        "Moneyline"
+        "Totals"
       ],
       "teams": []
     },
@@ -287,7 +133,7 @@
       "publisher": "Covers",
       "sourceId": "covers",
       "author": "Chris Vasile",
-      "publishedAt": "2026-10-18T18:22:00+00:00",
+      "publishedAt": "2026-10-18T21:44:00+00:00",
       "picks": [
         {
           "selection": "Seahawks -2.5",
@@ -308,126 +154,49 @@
           "market": "Spread",
           "context": "Bears vs Falcons",
           "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401872999",
-            "startAt": "2026-10-18T17:00Z",
-            "state": "post",
-            "teams": [
-              "Falcons",
-              "Bears"
-            ],
-            "matchup": "Chicago Bears at Atlanta Falcons",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         },
         {
           "selection": "Browns +5.5",
           "market": "Spread",
           "context": "Ravens vs Browns",
           "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401872997",
-            "startAt": "2026-10-18T17:00Z",
-            "state": "post",
-            "teams": [
-              "Browns",
-              "Ravens"
-            ],
-            "matchup": "Baltimore Ravens at Cleveland Browns",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         },
         {
           "selection": "Colts -6.5",
           "market": "Spread",
           "context": "Titans vs Colts",
           "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873003",
-            "startAt": "2026-10-18T17:00Z",
-            "state": "post",
-            "teams": [
-              "Colts",
-              "Titans"
-            ],
-            "matchup": "Tennessee Titans at Indianapolis Colts",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         },
         {
           "selection": "Jets +6.5",
           "market": "Spread",
           "context": "Jets vs Patriots",
           "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873001",
-            "startAt": "2026-10-18T17:00Z",
-            "state": "post",
-            "teams": [
-              "Patriots",
-              "Jets"
-            ],
-            "matchup": "New York Jets at New England Patriots",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         },
         {
           "selection": "Giants +1.5",
           "market": "Spread",
           "context": "Saints vs Giants",
           "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873000",
-            "startAt": "2026-10-18T17:00Z",
-            "state": "post",
-            "teams": [
-              "Giants",
-              "Saints"
-            ],
-            "matchup": "New Orleans Saints at New York Giants",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         },
         {
           "selection": "Panthers +1.5",
           "market": "Spread",
           "context": "Panthers vs Eagles",
           "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401872998",
-            "startAt": "2026-10-18T17:00Z",
-            "state": "post",
-            "teams": [
-              "Eagles",
-              "Panthers"
-            ],
-            "matchup": "Carolina Panthers at Philadelphia Eagles",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         },
         {
           "selection": "Buccaneers +2.5",
           "market": "Spread",
           "context": "Steelers vs Buccaneers",
           "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873002",
-            "startAt": "2026-10-18T17:00Z",
-            "state": "in",
-            "teams": [
-              "Buccaneers",
-              "Steelers"
-            ],
-            "matchup": "Pittsburgh Steelers at Tampa Bay Buccaneers",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         },
         {
           "selection": "Cardinals +12.5",
@@ -437,7 +206,7 @@
           "event": {
             "id": "401873004",
             "startAt": "2026-10-18T20:05Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Rams",
               "Cardinals"
@@ -523,6 +292,175 @@
       "parlays": [],
       "markets": [
         "Spread"
+      ],
+      "teams": []
+    },
+    {
+      "id": "32684d112fe4cf0b",
+      "title": "NFL Moneyline Picks for Every Week 6 Game",
+      "url": "https://www.covers.com/nfl/moneyline-picks-week-6-2026",
+      "publisher": "Covers",
+      "sourceId": "covers",
+      "author": "Trevor Knapp",
+      "publishedAt": "2026-10-18T21:37:00+00:00",
+      "picks": [
+        {
+          "selection": "Broncos Moneyline",
+          "market": "Moneyline",
+          "context": "Seahawks vs Broncos",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": null
+        },
+        {
+          "selection": "Jaguars Moneyline",
+          "market": "Moneyline",
+          "context": "Texans vs Jaguars",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": null
+        },
+        {
+          "selection": "Colts Moneyline",
+          "market": "Moneyline",
+          "context": "Titans vs Colts",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": null
+        },
+        {
+          "selection": "Panthers Moneyline",
+          "market": "Moneyline",
+          "context": "Panthers vs Eagles",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": null
+        },
+        {
+          "selection": "Buccaneers Moneyline",
+          "market": "Moneyline",
+          "context": "Steelers vs Buccaneers",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": null
+        },
+        {
+          "selection": "Ravens Moneyline",
+          "market": "Moneyline",
+          "context": "Ravens vs Browns",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": null
+        },
+        {
+          "selection": "Giants Moneyline",
+          "market": "Moneyline",
+          "context": "Saints vs Giants",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": null
+        },
+        {
+          "selection": "Falcons Moneyline",
+          "market": "Moneyline",
+          "context": "Bears vs Falcons",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": null
+        },
+        {
+          "selection": "Patriots Moneyline",
+          "market": "Moneyline",
+          "context": "Jets vs Patriots",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": null
+        },
+        {
+          "selection": "Rams Moneyline",
+          "market": "Moneyline",
+          "context": "Cardinals vs Rams",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873004",
+            "startAt": "2026-10-18T20:05Z",
+            "state": "post",
+            "teams": [
+              "Rams",
+              "Cardinals"
+            ],
+            "matchup": "Arizona Cardinals at Los Angeles Rams",
+            "week": 6,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Chiefs Moneyline",
+          "market": "Moneyline",
+          "context": "Chargers vs Chiefs",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873006",
+            "startAt": "2026-10-18T20:25Z",
+            "state": "in",
+            "teams": [
+              "Chiefs",
+              "Chargers"
+            ],
+            "matchup": "Los Angeles Chargers at Kansas City Chiefs",
+            "week": 6,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Bills Moneyline",
+          "market": "Moneyline",
+          "context": "Bills vs Raiders",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873005",
+            "startAt": "2026-10-18T20:25Z",
+            "state": "in",
+            "teams": [
+              "Raiders",
+              "Bills"
+            ],
+            "matchup": "Buffalo Bills at Las Vegas Raiders",
+            "week": 6,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Packers Moneyline",
+          "market": "Moneyline",
+          "context": "Cowboys vs Packers",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873007",
+            "startAt": "2026-10-19T00:20Z",
+            "state": "pre",
+            "teams": [
+              "Packers",
+              "Cowboys"
+            ],
+            "matchup": "Dallas Cowboys at Green Bay Packers",
+            "week": 6,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "49ers Moneyline",
+          "market": "Moneyline",
+          "context": "Commanders vs 49ers",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873008",
+            "startAt": "2026-10-20T00:15Z",
+            "state": "pre",
+            "teams": [
+              "49ers",
+              "Commanders"
+            ],
+            "matchup": "Washington Commanders at San Francisco 49ers",
+            "week": 6,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Moneyline"
       ],
       "teams": []
     },
@@ -1230,7 +1168,7 @@
               "event": {
                 "id": "401873002",
                 "startAt": "2026-10-18T17:00Z",
-                "state": "in",
+                "state": "post",
                 "teams": [
                   "Buccaneers",
                   "Steelers"
@@ -1247,7 +1185,7 @@
               "event": {
                 "id": "401873002",
                 "startAt": "2026-10-18T17:00Z",
-                "state": "in",
+                "state": "post",
                 "teams": [
                   "Buccaneers",
                   "Steelers"
@@ -1264,7 +1202,7 @@
               "event": {
                 "id": "401873002",
                 "startAt": "2026-10-18T17:00Z",
-                "state": "in",
+                "state": "post",
                 "teams": [
                   "Buccaneers",
                   "Steelers"
@@ -1287,7 +1225,7 @@
               "event": {
                 "id": "401873004",
                 "startAt": "2026-10-18T20:05Z",
-                "state": "in",
+                "state": "post",
                 "teams": [
                   "Rams",
                   "Cardinals"
@@ -1304,7 +1242,7 @@
               "event": {
                 "id": "401873004",
                 "startAt": "2026-10-18T20:05Z",
-                "state": "in",
+                "state": "post",
                 "teams": [
                   "Rams",
                   "Cardinals"
@@ -1321,7 +1259,7 @@
               "event": {
                 "id": "401873004",
                 "startAt": "2026-10-18T20:05Z",
-                "state": "in",
+                "state": "post",
                 "teams": [
                   "Rams",
                   "Cardinals"
@@ -1726,7 +1664,7 @@
           "event": {
             "id": "401873004",
             "startAt": "2026-10-18T20:05Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Rams",
               "Cardinals"
@@ -1749,7 +1687,7 @@
           "event": {
             "id": "401873004",
             "startAt": "2026-10-18T20:05Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Rams",
               "Cardinals"
@@ -1820,7 +1758,7 @@
           "event": {
             "id": "401873004",
             "startAt": "2026-10-18T20:05Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Rams",
               "Cardinals"
@@ -2196,7 +2134,7 @@
           "event": {
             "id": "401873004",
             "startAt": "2026-10-18T20:05Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Rams",
               "Cardinals"
@@ -2400,566 +2338,6 @@
       ]
     },
     {
-      "id": "f7371352fa1e65f4",
-      "title": "NFL Steelers vs Buccaneers expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Pete Prisco",
-      "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-18T20:43:47.239398+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Steelers -2.5",
-          "market": "Spread",
-          "context": "Steelers vs Buccaneers",
-          "eventDate": "2026-10-18",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873002",
-            "startAt": "2026-10-18T17:00Z",
-            "state": "in",
-            "teams": [
-              "Buccaneers",
-              "Steelers"
-            ],
-            "matchup": "Pittsburgh Steelers at Tampa Bay Buccaneers",
-            "week": 6,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Steelers",
-        "Buccaneers"
-      ]
-    },
-    {
-      "id": "703a912b2efa0b1c",
-      "title": "NFL Steelers vs Buccaneers expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Jared Dubin",
-      "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-18T20:43:47.239398+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Steelers -2.5",
-          "market": "Spread",
-          "context": "Steelers vs Buccaneers",
-          "eventDate": "2026-10-18",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873002",
-            "startAt": "2026-10-18T17:00Z",
-            "state": "in",
-            "teams": [
-              "Buccaneers",
-              "Steelers"
-            ],
-            "matchup": "Pittsburgh Steelers at Tampa Bay Buccaneers",
-            "week": 6,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Steelers",
-        "Buccaneers"
-      ]
-    },
-    {
-      "id": "59f8dfb02b44e57b",
-      "title": "NFL Steelers vs Buccaneers expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Ryan Wilson",
-      "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-18T20:43:47.239398+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Steelers -2.5",
-          "market": "Spread",
-          "context": "Steelers vs Buccaneers",
-          "eventDate": "2026-10-18",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873002",
-            "startAt": "2026-10-18T17:00Z",
-            "state": "in",
-            "teams": [
-              "Buccaneers",
-              "Steelers"
-            ],
-            "matchup": "Pittsburgh Steelers at Tampa Bay Buccaneers",
-            "week": 6,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Steelers",
-        "Buccaneers"
-      ]
-    },
-    {
-      "id": "045063e8e440e975",
-      "title": "NFL Steelers vs Buccaneers expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "John Breech",
-      "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-18T20:43:47.239398+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Buccaneers +2.5",
-          "market": "Spread",
-          "context": "Steelers vs Buccaneers",
-          "eventDate": "2026-10-18",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873002",
-            "startAt": "2026-10-18T17:00Z",
-            "state": "in",
-            "teams": [
-              "Buccaneers",
-              "Steelers"
-            ],
-            "matchup": "Pittsburgh Steelers at Tampa Bay Buccaneers",
-            "week": 6,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Steelers",
-        "Buccaneers"
-      ]
-    },
-    {
-      "id": "3336b69c0fb87223",
-      "title": "NFL Steelers vs Buccaneers expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Tyler Sullivan",
-      "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-18T20:43:47.239398+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Buccaneers +2.5",
-          "market": "Spread",
-          "context": "Steelers vs Buccaneers",
-          "eventDate": "2026-10-18",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873002",
-            "startAt": "2026-10-18T17:00Z",
-            "state": "in",
-            "teams": [
-              "Buccaneers",
-              "Steelers"
-            ],
-            "matchup": "Pittsburgh Steelers at Tampa Bay Buccaneers",
-            "week": 6,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Steelers",
-        "Buccaneers"
-      ]
-    },
-    {
-      "id": "76761acd90d1d565",
-      "title": "NFL Steelers vs Buccaneers expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Dave Richard",
-      "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-18T20:43:47.239398+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Steelers -2.5",
-          "market": "Spread",
-          "context": "Steelers vs Buccaneers",
-          "eventDate": "2026-10-18",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873002",
-            "startAt": "2026-10-18T17:00Z",
-            "state": "in",
-            "teams": [
-              "Buccaneers",
-              "Steelers"
-            ],
-            "matchup": "Pittsburgh Steelers at Tampa Bay Buccaneers",
-            "week": 6,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Steelers",
-        "Buccaneers"
-      ]
-    },
-    {
-      "id": "99ba35f047b1eba5",
-      "title": "NFL Steelers vs Buccaneers expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Jamey Eisenberg",
-      "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-18T20:43:47.239398+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Steelers -2.5",
-          "market": "Spread",
-          "context": "Steelers vs Buccaneers",
-          "eventDate": "2026-10-18",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873002",
-            "startAt": "2026-10-18T17:00Z",
-            "state": "in",
-            "teams": [
-              "Buccaneers",
-              "Steelers"
-            ],
-            "matchup": "Pittsburgh Steelers at Tampa Bay Buccaneers",
-            "week": 6,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Steelers",
-        "Buccaneers"
-      ]
-    },
-    {
-      "id": "ee34d34af93161bc",
-      "title": "NFL Cardinals vs Rams expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Pete Prisco",
-      "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-18T20:43:47.239398+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Rams -12.5",
-          "market": "Spread",
-          "context": "Cardinals vs Rams",
-          "eventDate": "2026-10-18",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873004",
-            "startAt": "2026-10-18T20:05Z",
-            "state": "in",
-            "teams": [
-              "Rams",
-              "Cardinals"
-            ],
-            "matchup": "Arizona Cardinals at Los Angeles Rams",
-            "week": 6,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Cardinals",
-        "Rams"
-      ]
-    },
-    {
-      "id": "03a8752bc1ddaa84",
-      "title": "NFL Cardinals vs Rams expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Jared Dubin",
-      "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-18T20:43:47.239398+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Cardinals +12.5",
-          "market": "Spread",
-          "context": "Cardinals vs Rams",
-          "eventDate": "2026-10-18",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873004",
-            "startAt": "2026-10-18T20:05Z",
-            "state": "in",
-            "teams": [
-              "Rams",
-              "Cardinals"
-            ],
-            "matchup": "Arizona Cardinals at Los Angeles Rams",
-            "week": 6,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Cardinals",
-        "Rams"
-      ]
-    },
-    {
-      "id": "c29fbebc229110e8",
-      "title": "NFL Cardinals vs Rams expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Ryan Wilson",
-      "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-18T20:43:47.239398+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Cardinals +12.5",
-          "market": "Spread",
-          "context": "Cardinals vs Rams",
-          "eventDate": "2026-10-18",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873004",
-            "startAt": "2026-10-18T20:05Z",
-            "state": "in",
-            "teams": [
-              "Rams",
-              "Cardinals"
-            ],
-            "matchup": "Arizona Cardinals at Los Angeles Rams",
-            "week": 6,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Cardinals",
-        "Rams"
-      ]
-    },
-    {
-      "id": "662dd3cce45af47a",
-      "title": "NFL Cardinals vs Rams expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "John Breech",
-      "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-18T20:43:47.239398+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Cardinals +12.5",
-          "market": "Spread",
-          "context": "Cardinals vs Rams",
-          "eventDate": "2026-10-18",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873004",
-            "startAt": "2026-10-18T20:05Z",
-            "state": "in",
-            "teams": [
-              "Rams",
-              "Cardinals"
-            ],
-            "matchup": "Arizona Cardinals at Los Angeles Rams",
-            "week": 6,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Cardinals",
-        "Rams"
-      ]
-    },
-    {
-      "id": "fc8872a359b89b06",
-      "title": "NFL Cardinals vs Rams expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Tyler Sullivan",
-      "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-18T20:43:47.239398+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Cardinals +12.5",
-          "market": "Spread",
-          "context": "Cardinals vs Rams",
-          "eventDate": "2026-10-18",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873004",
-            "startAt": "2026-10-18T20:05Z",
-            "state": "in",
-            "teams": [
-              "Rams",
-              "Cardinals"
-            ],
-            "matchup": "Arizona Cardinals at Los Angeles Rams",
-            "week": 6,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Cardinals",
-        "Rams"
-      ]
-    },
-    {
-      "id": "d0ebcb62db4ca388",
-      "title": "NFL Cardinals vs Rams expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Dave Richard",
-      "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-18T20:43:47.239398+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Rams -12.5",
-          "market": "Spread",
-          "context": "Cardinals vs Rams",
-          "eventDate": "2026-10-18",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873004",
-            "startAt": "2026-10-18T20:05Z",
-            "state": "in",
-            "teams": [
-              "Rams",
-              "Cardinals"
-            ],
-            "matchup": "Arizona Cardinals at Los Angeles Rams",
-            "week": 6,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Cardinals",
-        "Rams"
-      ]
-    },
-    {
-      "id": "75801361aaeb619d",
-      "title": "NFL Cardinals vs Rams expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Jamey Eisenberg",
-      "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-18T20:43:47.239398+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Rams -12.5",
-          "market": "Spread",
-          "context": "Cardinals vs Rams",
-          "eventDate": "2026-10-18",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873004",
-            "startAt": "2026-10-18T20:05Z",
-            "state": "in",
-            "teams": [
-              "Rams",
-              "Cardinals"
-            ],
-            "matchup": "Arizona Cardinals at Los Angeles Rams",
-            "week": 6,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Cardinals",
-        "Rams"
-      ]
-    },
-    {
       "id": "1585ac9fb5a79296",
       "title": "NFL Bills vs Raiders expert spread pick",
       "url": "https://www.cbssports.com/nfl/picks/experts/",
@@ -2967,7 +2345,7 @@
       "sourceId": "cbs",
       "author": "Pete Prisco",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-18T20:43:47.239398+00:00",
+      "observedAt": "2026-10-18T23:12:31.810745+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3007,7 +2385,7 @@
       "sourceId": "cbs",
       "author": "Jared Dubin",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-18T20:43:47.239398+00:00",
+      "observedAt": "2026-10-18T23:12:31.810745+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3047,7 +2425,7 @@
       "sourceId": "cbs",
       "author": "Ryan Wilson",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-18T20:43:47.239398+00:00",
+      "observedAt": "2026-10-18T23:12:31.810745+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3087,7 +2465,7 @@
       "sourceId": "cbs",
       "author": "John Breech",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-18T20:43:47.239398+00:00",
+      "observedAt": "2026-10-18T23:12:31.810745+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3127,7 +2505,7 @@
       "sourceId": "cbs",
       "author": "Tyler Sullivan",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-18T20:43:47.239398+00:00",
+      "observedAt": "2026-10-18T23:12:31.810745+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3167,7 +2545,7 @@
       "sourceId": "cbs",
       "author": "Dave Richard",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-18T20:43:47.239398+00:00",
+      "observedAt": "2026-10-18T23:12:31.810745+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3207,7 +2585,7 @@
       "sourceId": "cbs",
       "author": "Jamey Eisenberg",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-18T20:43:47.239398+00:00",
+      "observedAt": "2026-10-18T23:12:31.810745+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3247,7 +2625,7 @@
       "sourceId": "cbs",
       "author": "Pete Prisco",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-18T20:43:47.239398+00:00",
+      "observedAt": "2026-10-18T23:12:31.810745+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3287,7 +2665,7 @@
       "sourceId": "cbs",
       "author": "Jared Dubin",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-18T20:43:47.239398+00:00",
+      "observedAt": "2026-10-18T23:12:31.810745+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3327,7 +2705,7 @@
       "sourceId": "cbs",
       "author": "Ryan Wilson",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-18T20:43:47.239398+00:00",
+      "observedAt": "2026-10-18T23:12:31.810745+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3367,7 +2745,7 @@
       "sourceId": "cbs",
       "author": "John Breech",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-18T20:43:47.239398+00:00",
+      "observedAt": "2026-10-18T23:12:31.810745+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3407,7 +2785,7 @@
       "sourceId": "cbs",
       "author": "Tyler Sullivan",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-18T20:43:47.239398+00:00",
+      "observedAt": "2026-10-18T23:12:31.810745+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3447,7 +2825,7 @@
       "sourceId": "cbs",
       "author": "Dave Richard",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-18T20:43:47.239398+00:00",
+      "observedAt": "2026-10-18T23:12:31.810745+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3487,7 +2865,7 @@
       "sourceId": "cbs",
       "author": "Jamey Eisenberg",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-18T20:43:47.239398+00:00",
+      "observedAt": "2026-10-18T23:12:31.810745+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3527,7 +2905,7 @@
       "sourceId": "cbs",
       "author": "Pete Prisco",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-18T20:43:47.239398+00:00",
+      "observedAt": "2026-10-18T23:12:31.810745+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3567,7 +2945,7 @@
       "sourceId": "cbs",
       "author": "Jared Dubin",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-18T20:43:47.239398+00:00",
+      "observedAt": "2026-10-18T23:12:31.810745+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3607,7 +2985,7 @@
       "sourceId": "cbs",
       "author": "Ryan Wilson",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-18T20:43:47.239398+00:00",
+      "observedAt": "2026-10-18T23:12:31.810745+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3647,7 +3025,7 @@
       "sourceId": "cbs",
       "author": "John Breech",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-18T20:43:47.239398+00:00",
+      "observedAt": "2026-10-18T23:12:31.810745+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3687,7 +3065,7 @@
       "sourceId": "cbs",
       "author": "Tyler Sullivan",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-18T20:43:47.239398+00:00",
+      "observedAt": "2026-10-18T23:12:31.810745+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3727,7 +3105,7 @@
       "sourceId": "cbs",
       "author": "Dave Richard",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-18T20:43:47.239398+00:00",
+      "observedAt": "2026-10-18T23:12:31.810745+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3767,7 +3145,7 @@
       "sourceId": "cbs",
       "author": "Jamey Eisenberg",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-18T20:43:47.239398+00:00",
+      "observedAt": "2026-10-18T23:12:31.810745+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3807,7 +3185,7 @@
       "sourceId": "cbs",
       "author": "Pete Prisco",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-18T20:43:47.239398+00:00",
+      "observedAt": "2026-10-18T23:12:31.810745+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3847,7 +3225,7 @@
       "sourceId": "cbs",
       "author": "Jared Dubin",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-18T20:43:47.239398+00:00",
+      "observedAt": "2026-10-18T23:12:31.810745+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3887,7 +3265,7 @@
       "sourceId": "cbs",
       "author": "Ryan Wilson",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-18T20:43:47.239398+00:00",
+      "observedAt": "2026-10-18T23:12:31.810745+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3927,7 +3305,7 @@
       "sourceId": "cbs",
       "author": "John Breech",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-18T20:43:47.239398+00:00",
+      "observedAt": "2026-10-18T23:12:31.810745+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3967,7 +3345,7 @@
       "sourceId": "cbs",
       "author": "Tyler Sullivan",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-18T20:43:47.239398+00:00",
+      "observedAt": "2026-10-18T23:12:31.810745+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4007,7 +3385,7 @@
       "sourceId": "cbs",
       "author": "Dave Richard",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-18T20:43:47.239398+00:00",
+      "observedAt": "2026-10-18T23:12:31.810745+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4047,7 +3425,7 @@
       "sourceId": "cbs",
       "author": "Jamey Eisenberg",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-18T20:43:47.239398+00:00",
+      "observedAt": "2026-10-18T23:12:31.810745+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4212,7 +3590,7 @@
           "event": {
             "id": "401873004",
             "startAt": "2026-10-18T20:05Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Rams",
               "Cardinals"
@@ -4258,7 +3636,7 @@
           "event": {
             "id": "401873004",
             "startAt": "2026-10-18T20:05Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Rams",
               "Cardinals"
@@ -4281,7 +3659,7 @@
           "event": {
             "id": "401873004",
             "startAt": "2026-10-18T20:05Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Rams",
               "Cardinals"
@@ -4711,7 +4089,7 @@
           "event": {
             "id": "401873002",
             "startAt": "2026-10-18T17:00Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Buccaneers",
               "Steelers"
@@ -4729,7 +4107,7 @@
           "event": {
             "id": "401873004",
             "startAt": "2026-10-18T20:05Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Rams",
               "Cardinals"
@@ -5074,7 +4452,7 @@
           "event": {
             "id": "401873004",
             "startAt": "2026-10-18T20:05Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Rams",
               "Cardinals"
@@ -5236,7 +4614,7 @@
           "event": {
             "id": "401873002",
             "startAt": "2026-10-18T17:00Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Buccaneers",
               "Steelers"
@@ -5563,7 +4941,7 @@
           "event": {
             "id": "401873002",
             "startAt": "2026-10-18T17:00Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Buccaneers",
               "Steelers"
@@ -5652,30 +5030,6 @@
   ],
   "refreshMinutes": 60,
   "games": [
-    {
-      "id": "401873002",
-      "startAt": "2026-10-18T17:00Z",
-      "state": "in",
-      "teams": [
-        "Buccaneers",
-        "Steelers"
-      ],
-      "matchup": "Pittsburgh Steelers at Tampa Bay Buccaneers",
-      "week": 6,
-      "season": 2026
-    },
-    {
-      "id": "401873004",
-      "startAt": "2026-10-18T20:05Z",
-      "state": "in",
-      "teams": [
-        "Rams",
-        "Cardinals"
-      ],
-      "matchup": "Arizona Cardinals at Los Angeles Rams",
-      "week": 6,
-      "season": 2026
-    },
     {
       "id": "401873006",
       "startAt": "2026-10-18T20:25Z",
@@ -5781,6 +5135,30 @@
         "Panthers"
       ],
       "matchup": "Carolina Panthers at Philadelphia Eagles",
+      "week": 6,
+      "season": 2026
+    },
+    {
+      "id": "401873002",
+      "startAt": "2026-10-18T17:00Z",
+      "state": "post",
+      "teams": [
+        "Buccaneers",
+        "Steelers"
+      ],
+      "matchup": "Pittsburgh Steelers at Tampa Bay Buccaneers",
+      "week": 6,
+      "season": 2026
+    },
+    {
+      "id": "401873004",
+      "startAt": "2026-10-18T20:05Z",
+      "state": "post",
+      "teams": [
+        "Rams",
+        "Cardinals"
+      ],
+      "matchup": "Arizona Cardinals at Los Angeles Rams",
       "week": 6,
       "season": 2026
     },
@@ -5991,8 +5369,8 @@
   ],
   "scheduleStatus": {
     "status": "ok",
-    "checkedAt": "2026-10-18T20:43:47.239398+00:00",
-    "lastSuccessAt": "2026-10-18T20:43:47.239398+00:00"
+    "checkedAt": "2026-10-18T23:12:31.810745+00:00",
+    "lastSuccessAt": "2026-10-18T23:12:31.810745+00:00"
   },
   "playerTeams": {
     "tylerallgeier": [
