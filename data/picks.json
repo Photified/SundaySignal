@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-19T07:46:31.549691+00:00",
-  "lastSuccessfulUpdate": "2026-10-19T07:46:31.549691+00:00",
+  "checkedAt": "2026-10-19T15:35:59.332540+00:00",
+  "lastSuccessfulUpdate": "2026-10-19T15:35:59.332540+00:00",
   "sources": [
     {
       "id": "sbd",
@@ -10,9 +10,9 @@
       "website": "https://www.sportsbettingdime.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-19T07:46:31.549691+00:00",
-      "lastSuccessAt": "2026-10-19T07:46:31.549691+00:00",
-      "count": 2,
+      "checkedAt": "2026-10-19T15:35:59.332540+00:00",
+      "lastSuccessAt": "2026-10-19T15:35:59.332540+00:00",
+      "count": 3,
       "message": "Feed retrieved successfully"
     },
     {
@@ -22,9 +22,9 @@
       "website": "https://www.bettingpros.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-19T07:46:31.549691+00:00",
-      "lastSuccessAt": "2026-10-19T07:46:31.549691+00:00",
-      "count": 36,
+      "checkedAt": "2026-10-19T15:35:59.332540+00:00",
+      "lastSuccessAt": "2026-10-19T15:35:59.332540+00:00",
+      "count": 39,
       "message": "Feed retrieved successfully"
     },
     {
@@ -35,8 +35,8 @@
       "website": "https://www.cbssports.com/nfl/picks/experts/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-19T07:46:31.549691+00:00",
-      "lastSuccessAt": "2026-10-19T07:46:31.549691+00:00",
+      "checkedAt": "2026-10-19T15:35:59.332540+00:00",
+      "lastSuccessAt": "2026-10-19T15:35:59.332540+00:00",
       "count": 7,
       "message": "Public expert selections retrieved"
     },
@@ -48,8 +48,8 @@
       "website": "https://www.covers.com/nfl",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-19T07:46:31.549691+00:00",
-      "lastSuccessAt": "2026-10-19T07:46:31.549691+00:00",
+      "checkedAt": "2026-10-19T15:35:59.332540+00:00",
+      "lastSuccessAt": "2026-10-19T15:35:59.332540+00:00",
       "count": 2,
       "message": "Public expert selections retrieved"
     },
@@ -62,8 +62,8 @@
       "articlePattern": "/nfl-picks/[^/]+prediction[^/]+/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-19T07:46:31.549691+00:00",
-      "lastSuccessAt": "2026-10-19T07:46:31.549691+00:00",
+      "checkedAt": "2026-10-19T15:35:59.332540+00:00",
+      "lastSuccessAt": "2026-10-19T15:35:59.332540+00:00",
       "count": 11,
       "message": "Public expert selections retrieved"
     },
@@ -76,8 +76,8 @@
       "articlePattern": "/picks/nfl/(?:picks-against-the-spread-ats-predictions|player-props)-week-\\d+-\\d{4}/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-19T07:46:31.549691+00:00",
-      "lastSuccessAt": "2026-10-19T07:46:31.549691+00:00",
+      "checkedAt": "2026-10-19T15:35:59.332540+00:00",
+      "lastSuccessAt": "2026-10-19T15:35:59.332540+00:00",
       "count": 2,
       "message": "Public expert selections retrieved"
     },
@@ -90,7 +90,7 @@
       "articlePattern": "/us/nfl/news/nfl-picks-predictions-against-spread-week-\\d+/",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-10-19T07:46:31.549691+00:00",
+      "checkedAt": "2026-10-19T15:35:59.332540+00:00",
       "lastSuccessAt": "2026-10-18T17:23:29.044357+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -104,13 +104,272 @@
       "articlePattern": "/football/article/(?:nfl-picks-and-props|[^/]*odds-picks-and-predictions|[^/]*betting-odds-picks-and-predictions)[^/]+$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-19T07:46:31.549691+00:00",
-      "lastSuccessAt": "2026-10-19T07:46:31.549691+00:00",
+      "checkedAt": "2026-10-19T15:35:59.332540+00:00",
+      "lastSuccessAt": "2026-10-19T15:35:59.332540+00:00",
       "count": 4,
       "message": "Public expert selections retrieved"
     }
   ],
   "articles": [
+    {
+      "id": "49cb7a90f261a03a",
+      "title": "Picks Against the Spread for NFL Week 7 – ATS Predictions for All 14 Games",
+      "url": "https://www.sportsbettingdime.com/news/nfl/picks-against-the-spread-week-7-ats-predictions-all-games-2026/",
+      "publisher": "Sports Betting Dime",
+      "sourceId": "sbd",
+      "author": "Sascha Paruk",
+      "publishedAt": "2026-10-19T14:54:14+00:00",
+      "picks": [
+        {
+          "selection": "Bears -2.5",
+          "market": "Spread",
+          "context": "Patriots vs Bears ATS",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873010",
+            "startAt": "2026-10-23T00:15Z",
+            "state": "pre",
+            "teams": [
+              "Bears",
+              "Patriots"
+            ],
+            "matchup": "New England Patriots at Chicago Bears",
+            "week": 7,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Steelers -2.5",
+          "market": "Spread",
+          "context": "Steelers vs Saints ATS",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873011",
+            "startAt": "2026-10-25T13:30Z",
+            "state": "pre",
+            "teams": [
+              "Saints",
+              "Steelers"
+            ],
+            "matchup": "Pittsburgh Steelers at New Orleans Saints",
+            "week": 7,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Colts +5.5",
+          "market": "Spread",
+          "context": "Colts vs Vikings ATS",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873014",
+            "startAt": "2026-10-25T17:00Z",
+            "state": "pre",
+            "teams": [
+              "Vikings",
+              "Colts"
+            ],
+            "matchup": "Indianapolis Colts at Minnesota Vikings",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Bears",
+        "Colts",
+        "Steelers"
+      ]
+    },
+    {
+      "id": "64f76c8e3cd43f1c",
+      "title": "Early NFL Best Bets & Trends for Week 7 (2026)",
+      "url": "https://www.bettingpros.com/articles/early-nfl-best-bets-trends-for-week-7-2026/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "Jason Radowitz",
+      "publishedAt": "2026-10-19T14:39:02+00:00",
+      "picks": [
+        {
+          "selection": "Steelers -2.5 ( -115 )",
+          "market": "Spread",
+          "context": "Pittsburgh Steelers vs. New Orleans Saints",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873011",
+            "startAt": "2026-10-25T13:30Z",
+            "state": "pre",
+            "teams": [
+              "Saints",
+              "Steelers"
+            ],
+            "matchup": "Pittsburgh Steelers at New Orleans Saints",
+            "week": 7,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Giants +9.5 ( -110 )",
+          "market": "Spread",
+          "context": "New York Giants vs. Houston Texans",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873016",
+            "startAt": "2026-10-25T17:00Z",
+            "state": "pre",
+            "teams": [
+              "Texans",
+              "Giants"
+            ],
+            "matchup": "New York Giants at Houston Texans",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Giants",
+        "Steelers"
+      ]
+    },
+    {
+      "id": "f085cd83f7ed40c4",
+      "title": "NFL Monday Night Football Player Props & Picks: Commanders vs. 49ers",
+      "url": "https://www.bettingpros.com/articles/nfl-monday-night-football-player-props-picks-commanders-vs-49ers/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "Matt MacKay",
+      "publishedAt": "2026-10-19T14:39:00+00:00",
+      "picks": [
+        {
+          "selection": "Brock Purdy Under 0.5 Interceptions ( -127 )",
+          "market": "Props",
+          "context": "Best NFL Monday Night Football Player Prop Bets – Week 6: Commanders vs. 49ers",
+          "method": "Explicit selection in publisher feed",
+          "player": {
+            "name": "Brock Purdy",
+            "team": "49ers",
+            "athleteId": "4361741"
+          },
+          "event": {
+            "id": "401873008",
+            "startAt": "2026-10-20T00:15Z",
+            "state": "pre",
+            "teams": [
+              "49ers",
+              "Commanders"
+            ],
+            "matchup": "Washington Commanders at San Francisco 49ers",
+            "week": 6,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "George Kittle 60+ Receiving Yards ( -150 )",
+          "market": "Props",
+          "context": "Best NFL Monday Night Football Player Prop Bets – Week 6: Commanders vs. 49ers",
+          "method": "Explicit selection in publisher feed",
+          "player": {
+            "name": "George Kittle",
+            "team": "49ers",
+            "athleteId": "3040151"
+          },
+          "event": {
+            "id": "401873008",
+            "startAt": "2026-10-20T00:15Z",
+            "state": "pre",
+            "teams": [
+              "49ers",
+              "Commanders"
+            ],
+            "matchup": "Washington Commanders at San Francisco 49ers",
+            "week": 6,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Props"
+      ],
+      "teams": [
+        "49ers",
+        "Commanders"
+      ]
+    },
+    {
+      "id": "5b45e830153256aa",
+      "title": "Commanders vs 49ers Player Props, Picks & Best Bets for Monday Night Football (Oct 18)",
+      "url": "https://www.sportsbettingdime.com/news/nfl/commanders-vs-49ers-player-props-picks-best-bets-monday-night-football-oct-18/",
+      "publisher": "Sports Betting Dime",
+      "sourceId": "sbd",
+      "author": "Eric Rosales",
+      "publishedAt": "2026-10-19T13:05:00+00:00",
+      "picks": [
+        {
+          "selection": "Christian McCaffrey Under 62.5 Rushing Yards (-115 at BetMGM )",
+          "market": "Props",
+          "context": "Commanders vs 49ers Best Player Prop",
+          "method": "Explicit selection in publisher feed",
+          "player": {
+            "name": "Christian McCaffrey",
+            "team": "49ers",
+            "athleteId": "3117251"
+          },
+          "event": {
+            "id": "401873008",
+            "startAt": "2026-10-20T00:15Z",
+            "state": "pre",
+            "teams": [
+              "49ers",
+              "Commanders"
+            ],
+            "matchup": "Washington Commanders at San Francisco 49ers",
+            "week": 6,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Rachaad White Under 13.5 Rushing Attempts (-117 / 54¢ at Kalshi )",
+          "market": "Props",
+          "context": "Commanders vs 49ers Best Player Prop",
+          "method": "Explicit selection in publisher feed",
+          "player": {
+            "name": "Rachaad White",
+            "team": "Commanders",
+            "athleteId": "4697815"
+          },
+          "event": {
+            "id": "401873008",
+            "startAt": "2026-10-20T00:15Z",
+            "state": "pre",
+            "teams": [
+              "49ers",
+              "Commanders"
+            ],
+            "matchup": "Washington Commanders at San Francisco 49ers",
+            "week": 6,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Props"
+      ],
+      "teams": [
+        "49ers",
+        "Commanders"
+      ]
+    },
     {
       "id": "32684d112fe4cf0b",
       "title": "NFL Moneyline Picks for Every Week 6 Game",
@@ -118,7 +377,7 @@
       "publisher": "Covers",
       "sourceId": "covers",
       "author": "Trevor Knapp",
-      "publishedAt": "2026-10-19T02:08:40+00:00",
+      "publishedAt": "2026-10-19T12:31:00+00:00",
       "picks": [
         {
           "selection": "Broncos Moneyline",
@@ -209,18 +468,7 @@
           "market": "Moneyline",
           "context": "Cowboys vs Packers",
           "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873007",
-            "startAt": "2026-10-19T00:20Z",
-            "state": "post",
-            "teams": [
-              "Packers",
-              "Cowboys"
-            ],
-            "matchup": "Dallas Cowboys at Green Bay Packers",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         },
         {
           "selection": "49ers Moneyline",
@@ -254,7 +502,7 @@
       "publisher": "Covers",
       "sourceId": "covers",
       "author": "Chris Vasile",
-      "publishedAt": "2026-10-19T01:41:00+00:00",
+      "publishedAt": "2026-10-19T12:30:25+00:00",
       "picks": [
         {
           "selection": "Seahawks -2.5",
@@ -345,18 +593,7 @@
           "market": "Spread",
           "context": "Cowboys vs Packers",
           "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873007",
-            "startAt": "2026-10-19T00:20Z",
-            "state": "post",
-            "teams": [
-              "Packers",
-              "Cowboys"
-            ],
-            "matchup": "Dallas Cowboys at Green Bay Packers",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         },
         {
           "selection": "Commanders +7.5",
@@ -382,6 +619,226 @@
         "Spread"
       ],
       "teams": []
+    },
+    {
+      "id": "e88ae7374e786c62",
+      "title": "NFL Monday Night Football Same Game Parlay: Commanders vs. 49ers",
+      "url": "https://www.bettingpros.com/articles/nfl-monday-night-football-same-game-parlay-commanders-vs-49ers/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "Dan Servodidio",
+      "publishedAt": "2026-10-19T10:52:12+00:00",
+      "picks": [],
+      "parlays": [
+        {
+          "label": "Expert parlay",
+          "americanOdds": 500,
+          "legs": [
+            {
+              "selection": "George Kittle 60+ Receiving Yards ( -135 )",
+              "market": "Props",
+              "context": "Washington Commanders at San Francisco 49ers",
+              "event": {
+                "id": "401873008",
+                "startAt": "2026-10-20T00:15Z",
+                "state": "pre",
+                "teams": [
+                  "49ers",
+                  "Commanders"
+                ],
+                "matchup": "Washington Commanders at San Francisco 49ers",
+                "week": 6,
+                "season": 2026
+              }
+            },
+            {
+              "selection": "Christian McCaffrey Under 62.5 Rushing Yards ( -111 )",
+              "market": "Props",
+              "context": "Washington Commanders at San Francisco 49ers",
+              "event": {
+                "id": "401873008",
+                "startAt": "2026-10-20T00:15Z",
+                "state": "pre",
+                "teams": [
+                  "49ers",
+                  "Commanders"
+                ],
+                "matchup": "Washington Commanders at San Francisco 49ers",
+                "week": 6,
+                "season": 2026
+              }
+            },
+            {
+              "selection": "Rachaad White 15+ Receiving Yards ( +113 )",
+              "market": "Props",
+              "context": "Washington Commanders at San Francisco 49ers",
+              "event": {
+                "id": "401873008",
+                "startAt": "2026-10-20T00:15Z",
+                "state": "pre",
+                "teams": [
+                  "49ers",
+                  "Commanders"
+                ],
+                "matchup": "Washington Commanders at San Francisco 49ers",
+                "week": 6,
+                "season": 2026
+              }
+            }
+          ]
+        }
+      ],
+      "markets": [
+        "Other"
+      ],
+      "teams": [
+        "49ers",
+        "Commanders"
+      ]
+    },
+    {
+      "id": "210c6d46e36dcb81",
+      "title": "NFL Monday Night Football Anytime & First TD Scorers: Commanders vs. 49ers",
+      "url": "https://www.bettingpros.com/articles/nfl-monday-night-football-anytime-first-td-scorers-commanders-vs-49ers/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "Mike Fanelli",
+      "publishedAt": "2026-10-19T10:52:07+00:00",
+      "picks": [
+        {
+          "selection": "Washington Commanders First TD Scorer: Jayden Daniels ( +650 )",
+          "market": "Props",
+          "context": "NFL Monday Night Football Anytime & First TD Scorers: Commanders vs. 49ers",
+          "method": "Explicit selection in publisher feed",
+          "player": {
+            "name": "Jayden Daniels",
+            "team": "Commanders",
+            "athleteId": "4426348"
+          },
+          "event": {
+            "id": "401873008",
+            "startAt": "2026-10-20T00:15Z",
+            "state": "pre",
+            "teams": [
+              "49ers",
+              "Commanders"
+            ],
+            "matchup": "Washington Commanders at San Francisco 49ers",
+            "week": 6,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "San Francisco 49ers First TD Scorer: Mike Evans ( +360 )",
+          "market": "Props",
+          "context": "NFL Monday Night Football Anytime & First TD Scorers: Commanders vs. 49ers",
+          "method": "Explicit selection in publisher feed",
+          "player": {
+            "name": "Mike Evans",
+            "team": "49ers",
+            "athleteId": "16737"
+          },
+          "event": {
+            "id": "401873008",
+            "startAt": "2026-10-20T00:15Z",
+            "state": "pre",
+            "teams": [
+              "49ers",
+              "Commanders"
+            ],
+            "matchup": "Washington Commanders at San Francisco 49ers",
+            "week": 6,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Props"
+      ],
+      "teams": [
+        "49ers",
+        "Commanders"
+      ]
+    },
+    {
+      "id": "6ca639bd7f03fc6b",
+      "title": "NFL Monday Night Football Picks & Predictions: Commanders vs. 49ers",
+      "url": "https://www.bettingpros.com/articles/nfl-monday-night-football-picks-predictions-commanders-vs-49ers/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "Richard Janvrin",
+      "publishedAt": "2026-10-19T10:51:53+00:00",
+      "picks": [
+        {
+          "selection": "San Francisco 49ers -7.5 ( -108 )",
+          "market": "Spread",
+          "context": "NFL Monday Night Football Picks & Predictions: Commanders vs. 49ers",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873008",
+            "startAt": "2026-10-20T00:15Z",
+            "state": "pre",
+            "teams": [
+              "49ers",
+              "Commanders"
+            ],
+            "matchup": "Washington Commanders at San Francisco 49ers",
+            "week": 6,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "George Kittle Anytime Touchdown Scorer ( +110 )",
+          "market": "Props",
+          "context": "NFL Monday Night Football Picks & Predictions: Commanders vs. 49ers",
+          "method": "Explicit selection in publisher feed",
+          "player": {
+            "name": "George Kittle",
+            "team": "49ers",
+            "athleteId": "3040151"
+          },
+          "event": {
+            "id": "401873008",
+            "startAt": "2026-10-20T00:15Z",
+            "state": "pre",
+            "teams": [
+              "49ers",
+              "Commanders"
+            ],
+            "matchup": "Washington Commanders at San Francisco 49ers",
+            "week": 6,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Props",
+        "Spread"
+      ],
+      "teams": [
+        "49ers",
+        "Commanders"
+      ]
+    },
+    {
+      "id": "c2b29c9c4d2b79ab",
+      "title": "Best NFL Player Props: Monday Night Football (Commanders vs. 49ers)",
+      "url": "https://www.bettingpros.com/articles/best-nfl-player-props-monday-night-football-commanders-vs-49ers-week-6-2026/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "BettingPros Staff",
+      "publishedAt": "2026-10-19T10:51:41+00:00",
+      "picks": [],
+      "parlays": [],
+      "markets": [
+        "Props"
+      ],
+      "teams": [
+        "49ers",
+        "Commanders"
+      ]
     },
     {
       "id": "538383c540bb00fc",
@@ -410,21 +867,6 @@
       "parlays": [],
       "markets": [
         "Other"
-      ],
-      "teams": []
-    },
-    {
-      "id": "9ce38bed9b06c229",
-      "title": "High-Probability Week 6 NFL Parlay – Three Teased ATS Picks for Sunday",
-      "url": "https://www.sportsbettingdime.com/news/nfl/high-probability-week-6-parlay-teased-ats-picks/",
-      "publisher": "Sports Betting Dime",
-      "sourceId": "sbd",
-      "author": "Matt McEwan",
-      "publishedAt": "2026-10-18T12:00:00+00:00",
-      "picks": [],
-      "parlays": [],
-      "markets": [
-        "Spread"
       ],
       "teams": []
     },
@@ -2264,7 +2706,7 @@
       "sourceId": "cbs",
       "author": "Pete Prisco",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-19T07:46:31.549691+00:00",
+      "observedAt": "2026-10-19T15:35:59.332540+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2304,7 +2746,7 @@
       "sourceId": "cbs",
       "author": "Jared Dubin",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-19T07:46:31.549691+00:00",
+      "observedAt": "2026-10-19T15:35:59.332540+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2344,7 +2786,7 @@
       "sourceId": "cbs",
       "author": "Ryan Wilson",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-19T07:46:31.549691+00:00",
+      "observedAt": "2026-10-19T15:35:59.332540+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2384,7 +2826,7 @@
       "sourceId": "cbs",
       "author": "John Breech",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-19T07:46:31.549691+00:00",
+      "observedAt": "2026-10-19T15:35:59.332540+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2424,7 +2866,7 @@
       "sourceId": "cbs",
       "author": "Tyler Sullivan",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-19T07:46:31.549691+00:00",
+      "observedAt": "2026-10-19T15:35:59.332540+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2464,7 +2906,7 @@
       "sourceId": "cbs",
       "author": "Dave Richard",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-19T07:46:31.549691+00:00",
+      "observedAt": "2026-10-19T15:35:59.332540+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2504,7 +2946,7 @@
       "sourceId": "cbs",
       "author": "Jamey Eisenberg",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-19T07:46:31.549691+00:00",
+      "observedAt": "2026-10-19T15:35:59.332540+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3747,189 +4189,6 @@
       "teams": []
     },
     {
-      "id": "468438a8a827ddb4",
-      "title": "NFL Thursday Night Football Picks: Seahawks vs. Broncos (Week 6)",
-      "url": "https://www.bettingpros.com/articles/nfl-thursday-night-football-picks-seahawks-vs-broncos-week-6/",
-      "publisher": "BettingPros",
-      "sourceId": "bettingpros",
-      "author": "Josh Shepardson",
-      "publishedAt": "2026-10-14T14:56:46+00:00",
-      "picks": [
-        {
-          "selection": "Bo Nix Under 199.5 Passing Yards ( -111 )",
-          "market": "Props",
-          "context": "",
-          "method": "Explicit selection in publisher feed",
-          "event": {
-            "id": "401872995",
-            "startAt": "2026-10-16T00:15Z",
-            "state": "post",
-            "teams": [
-              "Broncos",
-              "Seahawks"
-            ],
-            "matchup": "Seattle Seahawks at Denver Broncos",
-            "week": 6,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Jaxon Smith-Njigba Over 94.5 Receiving Yards ( -112 )",
-          "market": "Props",
-          "context": "",
-          "method": "Explicit selection in publisher feed",
-          "player": {
-            "name": "Jaxon Smith-Njigba",
-            "team": "Seahawks",
-            "athleteId": "4430878"
-          },
-          "event": {
-            "id": "401872995",
-            "startAt": "2026-10-16T00:15Z",
-            "state": "post",
-            "teams": [
-              "Broncos",
-              "Seahawks"
-            ],
-            "matchup": "Seattle Seahawks at Denver Broncos",
-            "week": 6,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Props"
-      ],
-      "teams": [
-        "Broncos",
-        "Seahawks"
-      ]
-    },
-    {
-      "id": "000e481f36a189ca",
-      "title": "NFL Week 6 Confidence Pool Picks & Predictions (2026)",
-      "url": "https://www.bettingpros.com/articles/nfl-week-6-confidence-pool-picks-predictions-2026/",
-      "publisher": "BettingPros",
-      "sourceId": "bettingpros",
-      "author": "Jason Radowitz",
-      "publishedAt": "2026-10-14T13:00:44+00:00",
-      "picks": [],
-      "parlays": [],
-      "markets": [
-        "Other"
-      ],
-      "teams": []
-    },
-    {
-      "id": "872998c9f964eac1",
-      "title": "NFL Week 6 Picks & Predictions: Best Early Parlays (2026)",
-      "url": "https://www.bettingpros.com/articles/nfl-week-6-picks-predictions-best-early-parlays-2026/",
-      "publisher": "BettingPros",
-      "sourceId": "bettingpros",
-      "author": "Steve Krebs",
-      "publishedAt": "2026-10-14T11:00:48+00:00",
-      "picks": [],
-      "parlays": [
-        {
-          "label": "Early NFL Week 6 Parlay #1",
-          "americanOdds": 221,
-          "legs": [
-            {
-              "selection": "Seattle Seahawks Team Total 22+ Points ( -110 )",
-              "market": "Totals",
-              "context": "",
-              "event": {
-                "id": "401872995",
-                "startAt": "2026-10-16T00:15Z",
-                "state": "post",
-                "teams": [
-                  "Broncos",
-                  "Seahawks"
-                ],
-                "matchup": "Seattle Seahawks at Denver Broncos",
-                "week": 6,
-                "season": 2026
-              }
-            },
-            {
-              "selection": "Jaxon Smith-Njigba 70+ Yards ( -248 )",
-              "market": "Props",
-              "context": "",
-              "event": null
-            },
-            {
-              "selection": "Bhayshul Tuten 50+ Rushing Yards ( -296 )",
-              "market": "Props",
-              "context": "",
-              "event": null
-            }
-          ]
-        },
-        {
-          "label": "Early NFL Week 6 Parlay #2",
-          "americanOdds": 214,
-          "legs": [
-            {
-              "selection": "Indianapolis Colts Moneyline ( -340 )",
-              "market": "Moneyline",
-              "context": "",
-              "event": {
-                "id": "401873003",
-                "startAt": "2026-10-18T17:00Z",
-                "state": "post",
-                "teams": [
-                  "Colts",
-                  "Titans"
-                ],
-                "matchup": "Tennessee Titans at Indianapolis Colts",
-                "week": 6,
-                "season": 2026
-              }
-            },
-            {
-              "selection": "Carolina Panthers Moneyline ( -105 )",
-              "market": "Moneyline",
-              "context": "",
-              "event": {
-                "id": "401872998",
-                "startAt": "2026-10-18T17:00Z",
-                "state": "post",
-                "teams": [
-                  "Eagles",
-                  "Panthers"
-                ],
-                "matchup": "Carolina Panthers at Philadelphia Eagles",
-                "week": 6,
-                "season": 2026
-              }
-            },
-            {
-              "selection": "San Francisco 49ers Moneyline ( -410 )",
-              "market": "Moneyline",
-              "context": "",
-              "event": {
-                "id": "401873008",
-                "startAt": "2026-10-20T00:15Z",
-                "state": "pre",
-                "teams": [
-                  "49ers",
-                  "Commanders"
-                ],
-                "matchup": "Washington Commanders at San Francisco 49ers",
-                "week": 6,
-                "season": 2026
-              }
-            }
-          ]
-        }
-      ],
-      "markets": [
-        "Other"
-      ],
-      "teams": []
-    },
-    {
       "id": "5ea45aff6171b660",
       "title": "Jacksonville Jaguars vs Houston Texans Prediction 10/18/26 NFL Picks Today | Sports Chat Place",
       "url": "https://sportschatplace.com/nfl-picks/jacksonville-jaguars-vs-houston-texans-prediction-10-18-26-nfl-picks-today/",
@@ -4448,8 +4707,8 @@
   ],
   "scheduleStatus": {
     "status": "ok",
-    "checkedAt": "2026-10-19T07:46:31.549691+00:00",
-    "lastSuccessAt": "2026-10-19T07:46:31.549691+00:00"
+    "checkedAt": "2026-10-19T15:35:59.332540+00:00",
+    "lastSuccessAt": "2026-10-19T15:35:59.332540+00:00"
   },
   "playerTeams": {
     "tylerallgeier": [
