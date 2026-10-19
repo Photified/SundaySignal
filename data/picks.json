@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-19T01:17:18.877287+00:00",
-  "lastSuccessfulUpdate": "2026-10-19T01:17:18.877287+00:00",
+  "checkedAt": "2026-10-19T07:46:31.549691+00:00",
+  "lastSuccessfulUpdate": "2026-10-19T07:46:31.549691+00:00",
   "sources": [
     {
       "id": "sbd",
@@ -10,8 +10,8 @@
       "website": "https://www.sportsbettingdime.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-19T01:17:18.877287+00:00",
-      "lastSuccessAt": "2026-10-19T01:17:18.877287+00:00",
+      "checkedAt": "2026-10-19T07:46:31.549691+00:00",
+      "lastSuccessAt": "2026-10-19T07:46:31.549691+00:00",
       "count": 2,
       "message": "Feed retrieved successfully"
     },
@@ -22,8 +22,8 @@
       "website": "https://www.bettingpros.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-19T01:17:18.877287+00:00",
-      "lastSuccessAt": "2026-10-19T01:17:18.877287+00:00",
+      "checkedAt": "2026-10-19T07:46:31.549691+00:00",
+      "lastSuccessAt": "2026-10-19T07:46:31.549691+00:00",
       "count": 36,
       "message": "Feed retrieved successfully"
     },
@@ -35,9 +35,9 @@
       "website": "https://www.cbssports.com/nfl/picks/experts/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-19T01:17:18.877287+00:00",
-      "lastSuccessAt": "2026-10-19T01:17:18.877287+00:00",
-      "count": 14,
+      "checkedAt": "2026-10-19T07:46:31.549691+00:00",
+      "lastSuccessAt": "2026-10-19T07:46:31.549691+00:00",
+      "count": 7,
       "message": "Public expert selections retrieved"
     },
     {
@@ -48,8 +48,8 @@
       "website": "https://www.covers.com/nfl",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-19T01:17:18.877287+00:00",
-      "lastSuccessAt": "2026-10-19T01:17:18.877287+00:00",
+      "checkedAt": "2026-10-19T07:46:31.549691+00:00",
+      "lastSuccessAt": "2026-10-19T07:46:31.549691+00:00",
       "count": 2,
       "message": "Public expert selections retrieved"
     },
@@ -62,8 +62,8 @@
       "articlePattern": "/nfl-picks/[^/]+prediction[^/]+/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-19T01:17:18.877287+00:00",
-      "lastSuccessAt": "2026-10-19T01:17:18.877287+00:00",
+      "checkedAt": "2026-10-19T07:46:31.549691+00:00",
+      "lastSuccessAt": "2026-10-19T07:46:31.549691+00:00",
       "count": 11,
       "message": "Public expert selections retrieved"
     },
@@ -76,8 +76,8 @@
       "articlePattern": "/picks/nfl/(?:picks-against-the-spread-ats-predictions|player-props)-week-\\d+-\\d{4}/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-19T01:17:18.877287+00:00",
-      "lastSuccessAt": "2026-10-19T01:17:18.877287+00:00",
+      "checkedAt": "2026-10-19T07:46:31.549691+00:00",
+      "lastSuccessAt": "2026-10-19T07:46:31.549691+00:00",
       "count": 2,
       "message": "Public expert selections retrieved"
     },
@@ -90,7 +90,7 @@
       "articlePattern": "/us/nfl/news/nfl-picks-predictions-against-spread-week-\\d+/",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-10-19T01:17:18.877287+00:00",
+      "checkedAt": "2026-10-19T07:46:31.549691+00:00",
       "lastSuccessAt": "2026-10-18T17:23:29.044357+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -104,8 +104,8 @@
       "articlePattern": "/football/article/(?:nfl-picks-and-props|[^/]*odds-picks-and-predictions|[^/]*betting-odds-picks-and-predictions)[^/]+$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-19T01:17:18.877287+00:00",
-      "lastSuccessAt": "2026-10-19T01:17:18.877287+00:00",
+      "checkedAt": "2026-10-19T07:46:31.549691+00:00",
+      "lastSuccessAt": "2026-10-19T07:46:31.549691+00:00",
       "count": 4,
       "message": "Public expert selections retrieved"
     }
@@ -212,7 +212,7 @@
           "event": {
             "id": "401873007",
             "startAt": "2026-10-19T00:20Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Packers",
               "Cowboys"
@@ -348,7 +348,7 @@
           "event": {
             "id": "401873007",
             "startAt": "2026-10-19T00:20Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Packers",
               "Cowboys"
@@ -526,7 +526,7 @@
               "event": {
                 "id": "401873007",
                 "startAt": "2026-10-19T00:20Z",
-                "state": "in",
+                "state": "post",
                 "teams": [
                   "Packers",
                   "Cowboys"
@@ -543,7 +543,7 @@
               "event": {
                 "id": "401873007",
                 "startAt": "2026-10-19T00:20Z",
-                "state": "in",
+                "state": "post",
                 "teams": [
                   "Packers",
                   "Cowboys"
@@ -560,7 +560,7 @@
               "event": {
                 "id": "401873007",
                 "startAt": "2026-10-19T00:20Z",
-                "state": "in",
+                "state": "post",
                 "teams": [
                   "Packers",
                   "Cowboys"
@@ -577,7 +577,7 @@
               "event": {
                 "id": "401873007",
                 "startAt": "2026-10-19T00:20Z",
-                "state": "in",
+                "state": "post",
                 "teams": [
                   "Packers",
                   "Cowboys"
@@ -615,7 +615,7 @@
           "event": {
             "id": "401873007",
             "startAt": "2026-10-19T00:20Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Packers",
               "Cowboys"
@@ -638,7 +638,7 @@
           "event": {
             "id": "401873007",
             "startAt": "2026-10-19T00:20Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Packers",
               "Cowboys"
@@ -681,7 +681,7 @@
           "event": {
             "id": "401873007",
             "startAt": "2026-10-19T00:20Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Packers",
               "Cowboys"
@@ -704,7 +704,7 @@
           "event": {
             "id": "401873007",
             "startAt": "2026-10-19T00:20Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Packers",
               "Cowboys"
@@ -2257,286 +2257,6 @@
       ]
     },
     {
-      "id": "b3d6f45045471d3a",
-      "title": "NFL Cowboys vs Packers expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Pete Prisco",
-      "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-19T01:17:18.877287+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Packers -1",
-          "market": "Spread",
-          "context": "Cowboys vs Packers",
-          "eventDate": "2026-10-18",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873007",
-            "startAt": "2026-10-19T00:20Z",
-            "state": "in",
-            "teams": [
-              "Packers",
-              "Cowboys"
-            ],
-            "matchup": "Dallas Cowboys at Green Bay Packers",
-            "week": 6,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Cowboys",
-        "Packers"
-      ]
-    },
-    {
-      "id": "0b0880049e73c628",
-      "title": "NFL Cowboys vs Packers expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Jared Dubin",
-      "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-19T01:17:18.877287+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Packers -1",
-          "market": "Spread",
-          "context": "Cowboys vs Packers",
-          "eventDate": "2026-10-18",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873007",
-            "startAt": "2026-10-19T00:20Z",
-            "state": "in",
-            "teams": [
-              "Packers",
-              "Cowboys"
-            ],
-            "matchup": "Dallas Cowboys at Green Bay Packers",
-            "week": 6,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Cowboys",
-        "Packers"
-      ]
-    },
-    {
-      "id": "3e2d621f8f68eb13",
-      "title": "NFL Cowboys vs Packers expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Ryan Wilson",
-      "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-19T01:17:18.877287+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Cowboys +1",
-          "market": "Spread",
-          "context": "Cowboys vs Packers",
-          "eventDate": "2026-10-18",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873007",
-            "startAt": "2026-10-19T00:20Z",
-            "state": "in",
-            "teams": [
-              "Packers",
-              "Cowboys"
-            ],
-            "matchup": "Dallas Cowboys at Green Bay Packers",
-            "week": 6,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Cowboys",
-        "Packers"
-      ]
-    },
-    {
-      "id": "ace73cf3d7a4515c",
-      "title": "NFL Cowboys vs Packers expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "John Breech",
-      "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-19T01:17:18.877287+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Cowboys +1",
-          "market": "Spread",
-          "context": "Cowboys vs Packers",
-          "eventDate": "2026-10-18",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873007",
-            "startAt": "2026-10-19T00:20Z",
-            "state": "in",
-            "teams": [
-              "Packers",
-              "Cowboys"
-            ],
-            "matchup": "Dallas Cowboys at Green Bay Packers",
-            "week": 6,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Cowboys",
-        "Packers"
-      ]
-    },
-    {
-      "id": "b8aee9296c68ed15",
-      "title": "NFL Cowboys vs Packers expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Tyler Sullivan",
-      "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-19T01:17:18.877287+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Cowboys +1",
-          "market": "Spread",
-          "context": "Cowboys vs Packers",
-          "eventDate": "2026-10-18",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873007",
-            "startAt": "2026-10-19T00:20Z",
-            "state": "in",
-            "teams": [
-              "Packers",
-              "Cowboys"
-            ],
-            "matchup": "Dallas Cowboys at Green Bay Packers",
-            "week": 6,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Cowboys",
-        "Packers"
-      ]
-    },
-    {
-      "id": "57b9a55c323da620",
-      "title": "NFL Cowboys vs Packers expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Dave Richard",
-      "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-19T01:17:18.877287+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Packers -1",
-          "market": "Spread",
-          "context": "Cowboys vs Packers",
-          "eventDate": "2026-10-18",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873007",
-            "startAt": "2026-10-19T00:20Z",
-            "state": "in",
-            "teams": [
-              "Packers",
-              "Cowboys"
-            ],
-            "matchup": "Dallas Cowboys at Green Bay Packers",
-            "week": 6,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Cowboys",
-        "Packers"
-      ]
-    },
-    {
-      "id": "1cd0f7f5a0e7fb98",
-      "title": "NFL Cowboys vs Packers expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Jamey Eisenberg",
-      "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-19T01:17:18.877287+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Packers -1",
-          "market": "Spread",
-          "context": "Cowboys vs Packers",
-          "eventDate": "2026-10-18",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873007",
-            "startAt": "2026-10-19T00:20Z",
-            "state": "in",
-            "teams": [
-              "Packers",
-              "Cowboys"
-            ],
-            "matchup": "Dallas Cowboys at Green Bay Packers",
-            "week": 6,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Cowboys",
-        "Packers"
-      ]
-    },
-    {
       "id": "8a5e8449de4d8b28",
       "title": "NFL Commanders vs 49ers expert spread pick",
       "url": "https://www.cbssports.com/nfl/picks/experts/",
@@ -2544,7 +2264,7 @@
       "sourceId": "cbs",
       "author": "Pete Prisco",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-19T01:17:18.877287+00:00",
+      "observedAt": "2026-10-19T07:46:31.549691+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2584,7 +2304,7 @@
       "sourceId": "cbs",
       "author": "Jared Dubin",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-19T01:17:18.877287+00:00",
+      "observedAt": "2026-10-19T07:46:31.549691+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2624,7 +2344,7 @@
       "sourceId": "cbs",
       "author": "Ryan Wilson",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-19T01:17:18.877287+00:00",
+      "observedAt": "2026-10-19T07:46:31.549691+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2664,7 +2384,7 @@
       "sourceId": "cbs",
       "author": "John Breech",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-19T01:17:18.877287+00:00",
+      "observedAt": "2026-10-19T07:46:31.549691+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2704,7 +2424,7 @@
       "sourceId": "cbs",
       "author": "Tyler Sullivan",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-19T01:17:18.877287+00:00",
+      "observedAt": "2026-10-19T07:46:31.549691+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2744,7 +2464,7 @@
       "sourceId": "cbs",
       "author": "Dave Richard",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-19T01:17:18.877287+00:00",
+      "observedAt": "2026-10-19T07:46:31.549691+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2784,7 +2504,7 @@
       "sourceId": "cbs",
       "author": "Jamey Eisenberg",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-19T01:17:18.877287+00:00",
+      "observedAt": "2026-10-19T07:46:31.549691+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3268,7 +2988,7 @@
           "event": {
             "id": "401873007",
             "startAt": "2026-10-19T00:20Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Packers",
               "Cowboys"
@@ -3793,7 +3513,7 @@
           "event": {
             "id": "401873007",
             "startAt": "2026-10-19T00:20Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Packers",
               "Cowboys"
@@ -4263,7 +3983,7 @@
           "event": {
             "id": "401873007",
             "startAt": "2026-10-19T00:20Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Packers",
               "Cowboys"
@@ -4390,14 +4110,26 @@
   "refreshMinutes": 60,
   "games": [
     {
-      "id": "401873007",
-      "startAt": "2026-10-19T00:20Z",
-      "state": "in",
+      "id": "401873008",
+      "startAt": "2026-10-20T00:15Z",
+      "state": "pre",
       "teams": [
-        "Packers",
-        "Cowboys"
+        "49ers",
+        "Commanders"
       ],
-      "matchup": "Dallas Cowboys at Green Bay Packers",
+      "matchup": "Washington Commanders at San Francisco 49ers",
+      "week": 6,
+      "season": 2026
+    },
+    {
+      "id": "401872995",
+      "startAt": "2026-10-16T00:15Z",
+      "state": "post",
+      "teams": [
+        "Broncos",
+        "Seahawks"
+      ],
+      "matchup": "Seattle Seahawks at Denver Broncos",
       "week": 6,
       "season": 2026
     },
@@ -4534,26 +4266,14 @@
       "season": 2026
     },
     {
-      "id": "401872995",
-      "startAt": "2026-10-16T00:15Z",
+      "id": "401873007",
+      "startAt": "2026-10-19T00:20Z",
       "state": "post",
       "teams": [
-        "Broncos",
-        "Seahawks"
+        "Packers",
+        "Cowboys"
       ],
-      "matchup": "Seattle Seahawks at Denver Broncos",
-      "week": 6,
-      "season": 2026
-    },
-    {
-      "id": "401873008",
-      "startAt": "2026-10-20T00:15Z",
-      "state": "pre",
-      "teams": [
-        "49ers",
-        "Commanders"
-      ],
-      "matchup": "Washington Commanders at San Francisco 49ers",
+      "matchup": "Dallas Cowboys at Green Bay Packers",
       "week": 6,
       "season": 2026
     },
@@ -4728,8 +4448,8 @@
   ],
   "scheduleStatus": {
     "status": "ok",
-    "checkedAt": "2026-10-19T01:17:18.877287+00:00",
-    "lastSuccessAt": "2026-10-19T01:17:18.877287+00:00"
+    "checkedAt": "2026-10-19T07:46:31.549691+00:00",
+    "lastSuccessAt": "2026-10-19T07:46:31.549691+00:00"
   },
   "playerTeams": {
     "tylerallgeier": [
