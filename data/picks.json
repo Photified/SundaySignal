@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-19T15:35:59.332540+00:00",
-  "lastSuccessfulUpdate": "2026-10-19T15:35:59.332540+00:00",
+  "checkedAt": "2026-10-19T21:03:01.606250+00:00",
+  "lastSuccessfulUpdate": "2026-10-19T21:03:01.606250+00:00",
   "sources": [
     {
       "id": "sbd",
@@ -10,9 +10,9 @@
       "website": "https://www.sportsbettingdime.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-19T15:35:59.332540+00:00",
-      "lastSuccessAt": "2026-10-19T15:35:59.332540+00:00",
-      "count": 3,
+      "checkedAt": "2026-10-19T21:03:01.606250+00:00",
+      "lastSuccessAt": "2026-10-19T21:03:01.606250+00:00",
+      "count": 4,
       "message": "Feed retrieved successfully"
     },
     {
@@ -22,8 +22,8 @@
       "website": "https://www.bettingpros.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-19T15:35:59.332540+00:00",
-      "lastSuccessAt": "2026-10-19T15:35:59.332540+00:00",
+      "checkedAt": "2026-10-19T21:03:01.606250+00:00",
+      "lastSuccessAt": "2026-10-19T21:03:01.606250+00:00",
       "count": 39,
       "message": "Feed retrieved successfully"
     },
@@ -35,8 +35,8 @@
       "website": "https://www.cbssports.com/nfl/picks/experts/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-19T15:35:59.332540+00:00",
-      "lastSuccessAt": "2026-10-19T15:35:59.332540+00:00",
+      "checkedAt": "2026-10-19T21:03:01.606250+00:00",
+      "lastSuccessAt": "2026-10-19T21:03:01.606250+00:00",
       "count": 7,
       "message": "Public expert selections retrieved"
     },
@@ -48,8 +48,8 @@
       "website": "https://www.covers.com/nfl",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-19T15:35:59.332540+00:00",
-      "lastSuccessAt": "2026-10-19T15:35:59.332540+00:00",
+      "checkedAt": "2026-10-19T21:03:01.606250+00:00",
+      "lastSuccessAt": "2026-10-19T21:03:01.606250+00:00",
       "count": 2,
       "message": "Public expert selections retrieved"
     },
@@ -62,8 +62,8 @@
       "articlePattern": "/nfl-picks/[^/]+prediction[^/]+/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-19T15:35:59.332540+00:00",
-      "lastSuccessAt": "2026-10-19T15:35:59.332540+00:00",
+      "checkedAt": "2026-10-19T21:03:01.606250+00:00",
+      "lastSuccessAt": "2026-10-19T21:03:01.606250+00:00",
       "count": 11,
       "message": "Public expert selections retrieved"
     },
@@ -76,8 +76,8 @@
       "articlePattern": "/picks/nfl/(?:picks-against-the-spread-ats-predictions|player-props)-week-\\d+-\\d{4}/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-19T15:35:59.332540+00:00",
-      "lastSuccessAt": "2026-10-19T15:35:59.332540+00:00",
+      "checkedAt": "2026-10-19T21:03:01.606250+00:00",
+      "lastSuccessAt": "2026-10-19T21:03:01.606250+00:00",
       "count": 2,
       "message": "Public expert selections retrieved"
     },
@@ -90,7 +90,7 @@
       "articlePattern": "/us/nfl/news/nfl-picks-predictions-against-spread-week-\\d+/",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-10-19T15:35:59.332540+00:00",
+      "checkedAt": "2026-10-19T21:03:01.606250+00:00",
       "lastSuccessAt": "2026-10-18T17:23:29.044357+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -104,13 +104,50 @@
       "articlePattern": "/football/article/(?:nfl-picks-and-props|[^/]*odds-picks-and-predictions|[^/]*betting-odds-picks-and-predictions)[^/]+$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-19T15:35:59.332540+00:00",
-      "lastSuccessAt": "2026-10-19T15:35:59.332540+00:00",
+      "checkedAt": "2026-10-19T21:03:01.606250+00:00",
+      "lastSuccessAt": "2026-10-19T21:03:01.606250+00:00",
       "count": 4,
       "message": "Public expert selections retrieved"
     }
   ],
   "articles": [
+    {
+      "id": "2d0eff9767e3587b",
+      "title": "Commanders vs 49ers Public-Betting Splits for Monday Night Football (Oct 19)",
+      "url": "https://www.sportsbettingdime.com/news/nfl/commanders-vs-49ers-public-betting-splits-monday-night-football-oct-19/",
+      "publisher": "Sports Betting Dime",
+      "sourceId": "sbd",
+      "author": "Juan Pablo Aravena",
+      "publishedAt": "2026-10-19T18:30:00+00:00",
+      "picks": [
+        {
+          "selection": "Spread: 49ers -7.5 / Commanders +7.5",
+          "market": "Spread",
+          "context": "Spread: 49ers -7.5 / Commanders +7.5",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873008",
+            "startAt": "2026-10-20T00:15Z",
+            "state": "pre",
+            "teams": [
+              "49ers",
+              "Commanders"
+            ],
+            "matchup": "Washington Commanders at San Francisco 49ers",
+            "week": 6,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "49ers",
+        "Commanders"
+      ]
+    },
     {
       "id": "49cb7a90f261a03a",
       "title": "Picks Against the Spread for NFL Week 7 – ATS Predictions for All 14 Games",
@@ -307,7 +344,7 @@
     },
     {
       "id": "5b45e830153256aa",
-      "title": "Commanders vs 49ers Player Props, Picks & Best Bets for Monday Night Football (Oct 18)",
+      "title": "Commanders vs 49ers Player Props & Touchdown Picks for Monday Night Football (Oct 18)",
       "url": "https://www.sportsbettingdime.com/news/nfl/commanders-vs-49ers-player-props-picks-best-bets-monday-night-football-oct-18/",
       "publisher": "Sports Betting Dime",
       "sourceId": "sbd",
@@ -317,7 +354,7 @@
         {
           "selection": "Christian McCaffrey Under 62.5 Rushing Yards (-115 at BetMGM )",
           "market": "Props",
-          "context": "Commanders vs 49ers Best Player Prop",
+          "context": "Best Commanders vs 49ers Player-Prop",
           "method": "Explicit selection in publisher feed",
           "player": {
             "name": "Christian McCaffrey",
@@ -340,7 +377,7 @@
         {
           "selection": "Rachaad White Under 13.5 Rushing Attempts (-117 / 54¢ at Kalshi )",
           "market": "Props",
-          "context": "Commanders vs 49ers Best Player Prop",
+          "context": "Best Commanders vs 49ers Player-Prop",
           "method": "Explicit selection in publisher feed",
           "player": {
             "name": "Rachaad White",
@@ -2706,7 +2743,7 @@
       "sourceId": "cbs",
       "author": "Pete Prisco",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-19T15:35:59.332540+00:00",
+      "observedAt": "2026-10-19T21:03:01.606250+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2746,7 +2783,7 @@
       "sourceId": "cbs",
       "author": "Jared Dubin",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-19T15:35:59.332540+00:00",
+      "observedAt": "2026-10-19T21:03:01.606250+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2786,7 +2823,7 @@
       "sourceId": "cbs",
       "author": "Ryan Wilson",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-19T15:35:59.332540+00:00",
+      "observedAt": "2026-10-19T21:03:01.606250+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2826,7 +2863,7 @@
       "sourceId": "cbs",
       "author": "John Breech",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-19T15:35:59.332540+00:00",
+      "observedAt": "2026-10-19T21:03:01.606250+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2866,7 +2903,7 @@
       "sourceId": "cbs",
       "author": "Tyler Sullivan",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-19T15:35:59.332540+00:00",
+      "observedAt": "2026-10-19T21:03:01.606250+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2906,7 +2943,7 @@
       "sourceId": "cbs",
       "author": "Dave Richard",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-19T15:35:59.332540+00:00",
+      "observedAt": "2026-10-19T21:03:01.606250+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2946,7 +2983,7 @@
       "sourceId": "cbs",
       "author": "Jamey Eisenberg",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-19T15:35:59.332540+00:00",
+      "observedAt": "2026-10-19T21:03:01.606250+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4707,8 +4744,8 @@
   ],
   "scheduleStatus": {
     "status": "ok",
-    "checkedAt": "2026-10-19T15:35:59.332540+00:00",
-    "lastSuccessAt": "2026-10-19T15:35:59.332540+00:00"
+    "checkedAt": "2026-10-19T21:03:01.606250+00:00",
+    "lastSuccessAt": "2026-10-19T21:03:01.606250+00:00"
   },
   "playerTeams": {
     "tylerallgeier": [
@@ -5320,6 +5357,13 @@
         "athleteId": "4870612"
       }
     ],
+    "andydalton": [
+      {
+        "name": "Andy Dalton",
+        "team": "Falcons",
+        "athleteId": "14012"
+      }
+    ],
     "jahandotson": [
       {
         "name": "Jahan Dotson",
@@ -5423,13 +5467,6 @@
         "name": "Brian Robinson Jr.",
         "team": "Falcons",
         "athleteId": "4241474"
-      }
-    ],
-    "cooperrush": [
-      {
-        "name": "Cooper Rush",
-        "team": "Falcons",
-        "athleteId": "2972515"
       }
     ],
     "jackstrand": [
@@ -6909,6 +6946,13 @@
         "athleteId": "2978313"
       }
     ],
+    "tredaviouswhite": [
+      {
+        "name": "Tre'Davious White",
+        "team": "Bills",
+        "athleteId": "3042717"
+      }
+    ],
     "ajwoods": [
       {
         "name": "A.J. Woods",
@@ -8146,13 +8190,6 @@
         "athleteId": "4429000"
       }
     ],
-    "tannerhudson": [
-      {
-        "name": "Tanner Hudson",
-        "team": "Bengals",
-        "athleteId": "3050481"
-      }
-    ],
     "joshjohnson": [
       {
         "name": "Josh Johnson",
@@ -8452,6 +8489,13 @@
         "name": "Jalen Davis",
         "team": "Bengals",
         "athleteId": "3125356"
+      }
+    ],
+    "tannerhudson": [
+      {
+        "name": "Tanner Hudson",
+        "team": "Bengals",
+        "athleteId": "3050481"
       }
     ],
     "andreiiosivas": [
@@ -15131,13 +15175,6 @@
         "athleteId": "5125875"
       }
     ],
-    "blakegrupe": [
-      {
-        "name": "Blake Grupe",
-        "team": "Rams",
-        "athleteId": "4259619"
-      }
-    ],
     "matthewcaldwell": [
       {
         "name": "Matthew Caldwell",
@@ -15164,6 +15201,13 @@
         "name": "Myles Garrett",
         "team": "Rams",
         "athleteId": "3122132"
+      }
+    ],
+    "blakegrupe": [
+      {
+        "name": "Blake Grupe",
+        "team": "Rams",
+        "athleteId": "4259619"
       }
     ],
     "zechmcphearson": [
@@ -16412,13 +16456,6 @@
         "athleteId": "4240391"
       }
     ],
-    "romeodoubs": [
-      {
-        "name": "Romeo Doubs",
-        "team": "Patriots",
-        "athleteId": "4361432"
-      }
-    ],
     "demariodouglas": [
       {
         "name": "DeMario Douglas",
@@ -16762,6 +16799,13 @@
         "athleteId": "4565293"
       }
     ],
+    "romeodoubs": [
+      {
+        "name": "Romeo Doubs",
+        "team": "Patriots",
+        "athleteId": "4361432"
+      }
+    ],
     "reggiegilliam": [
       {
         "name": "Reggie Gilliam",
@@ -16888,13 +16932,6 @@
         "athleteId": "4877877"
       }
     ],
-    "dshawnjamison": [
-      {
-        "name": "D'Shawn Jamison",
-        "team": "Patriots",
-        "athleteId": "4362082"
-      }
-    ],
     "jakekubas": [
       {
         "name": "Jake Kubas",
@@ -16909,6 +16946,13 @@
         "athleteId": "4360063"
       }
     ],
+    "ryanmiller": [
+      {
+        "name": "Ryan Miller",
+        "team": "Patriots",
+        "athleteId": "4369466"
+      }
+    ],
     "xaviernewman": [
       {
         "name": "Xavier Newman",
@@ -16921,6 +16965,20 @@
         "name": "Jeremiah Pharms Jr.",
         "team": "Patriots",
         "athleteId": "5081728"
+      }
+    ],
+    "jacobrizy": [
+      {
+        "name": "Jacob Rizy",
+        "team": "Patriots",
+        "athleteId": "4695758"
+      }
+    ],
+    "andrewrupcich": [
+      {
+        "name": "Andrew Rupcich",
+        "team": "Patriots",
+        "athleteId": "4916597"
       }
     ],
     "bentonwhitley": [
@@ -20022,6 +20080,13 @@
         "athleteId": "3929641"
       }
     ],
+    "jalengraham": [
+      {
+        "name": "Jalen Graham",
+        "team": "49ers",
+        "athleteId": "4570410"
+      }
+    ],
     "renardogreen": [
       {
         "name": "Renardo Green",
@@ -20342,13 +20407,6 @@
         "name": "Viliami Fehoko Jr.",
         "team": "49ers",
         "athleteId": "4374148"
-      }
-    ],
-    "jalengraham": [
-      {
-        "name": "Jalen Graham",
-        "team": "49ers",
-        "athleteId": "4570410"
       }
     ],
     "wesleygrimes": [
@@ -20862,6 +20920,13 @@
         "athleteId": "4432525"
       }
     ],
+    "jacksonacker": [
+      {
+        "name": "Jackson Acker",
+        "team": "Seahawks",
+        "athleteId": "4431152"
+      }
+    ],
     "evanbeerntsen": [
       {
         "name": "Evan Beerntsen",
@@ -20888,6 +20953,13 @@
         "name": "Michael Dansby",
         "team": "Seahawks",
         "athleteId": "2094390"
+      }
+    ],
+    "josiahdeguara": [
+      {
+        "name": "Josiah Deguara",
+        "team": "Seahawks",
+        "athleteId": "3914151"
       }
     ],
     "deveneastern": [
@@ -20944,13 +21016,6 @@
         "name": "Federico Maranges",
         "team": "Seahawks",
         "athleteId": "4430070"
-      }
-    ],
-    "malickmeiga": [
-      {
-        "name": "Malick Meiga",
-        "team": "Seahawks",
-        "athleteId": "4570636"
       }
     ],
     "usoseumalo": [
@@ -22592,6 +22657,6 @@
       }
     ]
   },
-  "rostersCheckedAt": "2026-10-18T20:43:47.239398+00:00",
+  "rostersCheckedAt": "2026-10-19T21:03:01.606250+00:00",
   "rosterStatus": "ok"
 }
