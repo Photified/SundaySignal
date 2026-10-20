@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-19T21:03:01.606250+00:00",
-  "lastSuccessfulUpdate": "2026-10-19T21:03:01.606250+00:00",
+  "checkedAt": "2026-10-20T00:20:08.945515+00:00",
+  "lastSuccessfulUpdate": "2026-10-20T00:20:08.945515+00:00",
   "sources": [
     {
       "id": "sbd",
@@ -10,8 +10,8 @@
       "website": "https://www.sportsbettingdime.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-19T21:03:01.606250+00:00",
-      "lastSuccessAt": "2026-10-19T21:03:01.606250+00:00",
+      "checkedAt": "2026-10-20T00:20:08.945515+00:00",
+      "lastSuccessAt": "2026-10-20T00:20:08.945515+00:00",
       "count": 4,
       "message": "Feed retrieved successfully"
     },
@@ -22,8 +22,8 @@
       "website": "https://www.bettingpros.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-19T21:03:01.606250+00:00",
-      "lastSuccessAt": "2026-10-19T21:03:01.606250+00:00",
+      "checkedAt": "2026-10-20T00:20:08.945515+00:00",
+      "lastSuccessAt": "2026-10-20T00:20:08.945515+00:00",
       "count": 39,
       "message": "Feed retrieved successfully"
     },
@@ -35,8 +35,8 @@
       "website": "https://www.cbssports.com/nfl/picks/experts/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-19T21:03:01.606250+00:00",
-      "lastSuccessAt": "2026-10-19T21:03:01.606250+00:00",
+      "checkedAt": "2026-10-20T00:20:08.945515+00:00",
+      "lastSuccessAt": "2026-10-20T00:20:08.945515+00:00",
       "count": 7,
       "message": "Public expert selections retrieved"
     },
@@ -48,8 +48,8 @@
       "website": "https://www.covers.com/nfl",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-19T21:03:01.606250+00:00",
-      "lastSuccessAt": "2026-10-19T21:03:01.606250+00:00",
+      "checkedAt": "2026-10-20T00:20:08.945515+00:00",
+      "lastSuccessAt": "2026-10-20T00:20:08.945515+00:00",
       "count": 2,
       "message": "Public expert selections retrieved"
     },
@@ -62,8 +62,8 @@
       "articlePattern": "/nfl-picks/[^/]+prediction[^/]+/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-19T21:03:01.606250+00:00",
-      "lastSuccessAt": "2026-10-19T21:03:01.606250+00:00",
+      "checkedAt": "2026-10-20T00:20:08.945515+00:00",
+      "lastSuccessAt": "2026-10-20T00:20:08.945515+00:00",
       "count": 11,
       "message": "Public expert selections retrieved"
     },
@@ -76,9 +76,9 @@
       "articlePattern": "/picks/nfl/(?:picks-against-the-spread-ats-predictions|player-props)-week-\\d+-\\d{4}/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-19T21:03:01.606250+00:00",
-      "lastSuccessAt": "2026-10-19T21:03:01.606250+00:00",
-      "count": 2,
+      "checkedAt": "2026-10-20T00:20:08.945515+00:00",
+      "lastSuccessAt": "2026-10-20T00:20:08.945515+00:00",
+      "count": 1,
       "message": "Public expert selections retrieved"
     },
     {
@@ -90,7 +90,7 @@
       "articlePattern": "/us/nfl/news/nfl-picks-predictions-against-spread-week-\\d+/",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-10-19T21:03:01.606250+00:00",
+      "checkedAt": "2026-10-20T00:20:08.945515+00:00",
       "lastSuccessAt": "2026-10-18T17:23:29.044357+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -104,8 +104,8 @@
       "articlePattern": "/football/article/(?:nfl-picks-and-props|[^/]*odds-picks-and-predictions|[^/]*betting-odds-picks-and-predictions)[^/]+$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-19T21:03:01.606250+00:00",
-      "lastSuccessAt": "2026-10-19T21:03:01.606250+00:00",
+      "checkedAt": "2026-10-20T00:20:08.945515+00:00",
+      "lastSuccessAt": "2026-10-20T00:20:08.945515+00:00",
       "count": 4,
       "message": "Public expert selections retrieved"
     }
@@ -128,7 +128,7 @@
           "event": {
             "id": "401873008",
             "startAt": "2026-10-20T00:15Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "49ers",
               "Commanders"
@@ -299,7 +299,7 @@
           "event": {
             "id": "401873008",
             "startAt": "2026-10-20T00:15Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "49ers",
               "Commanders"
@@ -322,7 +322,7 @@
           "event": {
             "id": "401873008",
             "startAt": "2026-10-20T00:15Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "49ers",
               "Commanders"
@@ -364,7 +364,7 @@
           "event": {
             "id": "401873008",
             "startAt": "2026-10-20T00:15Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "49ers",
               "Commanders"
@@ -387,7 +387,7 @@
           "event": {
             "id": "401873008",
             "startAt": "2026-10-20T00:15Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "49ers",
               "Commanders"
@@ -515,7 +515,7 @@
           "event": {
             "id": "401873008",
             "startAt": "2026-10-20T00:15Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "49ers",
               "Commanders"
@@ -640,7 +640,7 @@
           "event": {
             "id": "401873008",
             "startAt": "2026-10-20T00:15Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "49ers",
               "Commanders"
@@ -678,7 +678,7 @@
               "event": {
                 "id": "401873008",
                 "startAt": "2026-10-20T00:15Z",
-                "state": "pre",
+                "state": "in",
                 "teams": [
                   "49ers",
                   "Commanders"
@@ -695,7 +695,7 @@
               "event": {
                 "id": "401873008",
                 "startAt": "2026-10-20T00:15Z",
-                "state": "pre",
+                "state": "in",
                 "teams": [
                   "49ers",
                   "Commanders"
@@ -712,7 +712,7 @@
               "event": {
                 "id": "401873008",
                 "startAt": "2026-10-20T00:15Z",
-                "state": "pre",
+                "state": "in",
                 "teams": [
                   "49ers",
                   "Commanders"
@@ -755,7 +755,7 @@
           "event": {
             "id": "401873008",
             "startAt": "2026-10-20T00:15Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "49ers",
               "Commanders"
@@ -778,7 +778,7 @@
           "event": {
             "id": "401873008",
             "startAt": "2026-10-20T00:15Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "49ers",
               "Commanders"
@@ -815,7 +815,7 @@
           "event": {
             "id": "401873008",
             "startAt": "2026-10-20T00:15Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "49ers",
               "Commanders"
@@ -838,7 +838,7 @@
           "event": {
             "id": "401873008",
             "startAt": "2026-10-20T00:15Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "49ers",
               "Commanders"
@@ -2743,7 +2743,7 @@
       "sourceId": "cbs",
       "author": "Pete Prisco",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-19T21:03:01.606250+00:00",
+      "observedAt": "2026-10-20T00:20:08.945515+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2755,7 +2755,7 @@
           "event": {
             "id": "401873008",
             "startAt": "2026-10-20T00:15Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "49ers",
               "Commanders"
@@ -2783,7 +2783,7 @@
       "sourceId": "cbs",
       "author": "Jared Dubin",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-19T21:03:01.606250+00:00",
+      "observedAt": "2026-10-20T00:20:08.945515+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2795,7 +2795,7 @@
           "event": {
             "id": "401873008",
             "startAt": "2026-10-20T00:15Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "49ers",
               "Commanders"
@@ -2823,7 +2823,7 @@
       "sourceId": "cbs",
       "author": "Ryan Wilson",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-19T21:03:01.606250+00:00",
+      "observedAt": "2026-10-20T00:20:08.945515+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2835,7 +2835,7 @@
           "event": {
             "id": "401873008",
             "startAt": "2026-10-20T00:15Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "49ers",
               "Commanders"
@@ -2863,7 +2863,7 @@
       "sourceId": "cbs",
       "author": "John Breech",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-19T21:03:01.606250+00:00",
+      "observedAt": "2026-10-20T00:20:08.945515+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2875,7 +2875,7 @@
           "event": {
             "id": "401873008",
             "startAt": "2026-10-20T00:15Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "49ers",
               "Commanders"
@@ -2903,7 +2903,7 @@
       "sourceId": "cbs",
       "author": "Tyler Sullivan",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-19T21:03:01.606250+00:00",
+      "observedAt": "2026-10-20T00:20:08.945515+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2915,7 +2915,7 @@
           "event": {
             "id": "401873008",
             "startAt": "2026-10-20T00:15Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "49ers",
               "Commanders"
@@ -2943,7 +2943,7 @@
       "sourceId": "cbs",
       "author": "Dave Richard",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-19T21:03:01.606250+00:00",
+      "observedAt": "2026-10-20T00:20:08.945515+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2955,7 +2955,7 @@
           "event": {
             "id": "401873008",
             "startAt": "2026-10-20T00:15Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "49ers",
               "Commanders"
@@ -2983,7 +2983,7 @@
       "sourceId": "cbs",
       "author": "Jamey Eisenberg",
       "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-19T21:03:01.606250+00:00",
+      "observedAt": "2026-10-20T00:20:08.945515+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2995,7 +2995,7 @@
           "event": {
             "id": "401873008",
             "startAt": "2026-10-20T00:15Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "49ers",
               "Commanders"
@@ -3240,7 +3240,7 @@
           "event": {
             "id": "401873008",
             "startAt": "2026-10-20T00:15Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "49ers",
               "Commanders"
@@ -3683,7 +3683,7 @@
           "event": {
             "id": "401873008",
             "startAt": "2026-10-20T00:15Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "49ers",
               "Commanders"
@@ -3958,274 +3958,6 @@
       ]
     },
     {
-      "id": "6130ec0636064a48",
-      "title": "NFL Picks Against the Spread Week 6: ATS Predictions for Every Game",
-      "url": "https://www.sportsbookreview.com/picks/nfl/picks-against-the-spread-ats-predictions-week-6-2026/",
-      "publisher": "Sportsbook Review",
-      "sourceId": "sbr",
-      "author": "Gary Pearson",
-      "publishedAt": "2026-10-14T21:22:00+00:00",
-      "picks": [
-        {
-          "selection": "49ers -7.5",
-          "market": "Spread",
-          "context": "Commanders vs. 49ers (-7.5)",
-          "method": "Explicit publisher pick table",
-          "event": {
-            "id": "401873008",
-            "startAt": "2026-10-20T00:15Z",
-            "state": "pre",
-            "teams": [
-              "49ers",
-              "Commanders"
-            ],
-            "matchup": "Washington Commanders at San Francisco 49ers",
-            "week": 6,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Packers -1",
-          "market": "Spread",
-          "context": "Cowboys vs. Packers (-1)",
-          "method": "Explicit publisher pick table",
-          "event": {
-            "id": "401873007",
-            "startAt": "2026-10-19T00:20Z",
-            "state": "post",
-            "teams": [
-              "Packers",
-              "Cowboys"
-            ],
-            "matchup": "Dallas Cowboys at Green Bay Packers",
-            "week": 6,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Rams -12.5",
-          "market": "Spread",
-          "context": "Cardinals vs. Rams (-12.5)",
-          "method": "Explicit publisher pick table",
-          "event": {
-            "id": "401873004",
-            "startAt": "2026-10-18T20:05Z",
-            "state": "post",
-            "teams": [
-              "Rams",
-              "Cardinals"
-            ],
-            "matchup": "Arizona Cardinals at Los Angeles Rams",
-            "week": 6,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Patriots -7",
-          "market": "Spread",
-          "context": "Jets vs. Patriots (-7)",
-          "method": "Explicit publisher pick table",
-          "event": {
-            "id": "401873001",
-            "startAt": "2026-10-18T17:00Z",
-            "state": "post",
-            "teams": [
-              "Patriots",
-              "Jets"
-            ],
-            "matchup": "New York Jets at New England Patriots",
-            "week": 6,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Colts -6.5",
-          "market": "Spread",
-          "context": "Titans vs. Colts (-6.5)",
-          "method": "Explicit publisher pick table",
-          "event": {
-            "id": "401873003",
-            "startAt": "2026-10-18T17:00Z",
-            "state": "post",
-            "teams": [
-              "Colts",
-              "Titans"
-            ],
-            "matchup": "Tennessee Titans at Indianapolis Colts",
-            "week": 6,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Jaguars -2.5",
-          "market": "Spread",
-          "context": "Texans vs. Jaguars (-2.5)",
-          "method": "Explicit publisher pick table",
-          "event": {
-            "id": "401872996",
-            "startAt": "2026-10-18T13:30Z",
-            "state": "post",
-            "teams": [
-              "Jaguars",
-              "Texans"
-            ],
-            "matchup": "Houston Texans at Jacksonville Jaguars",
-            "week": 6,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Seahawks -2.5",
-          "market": "Spread",
-          "context": "Seahawks (-2.5) vs. Broncos",
-          "method": "Explicit publisher pick table",
-          "event": {
-            "id": "401872995",
-            "startAt": "2026-10-16T00:15Z",
-            "state": "post",
-            "teams": [
-              "Broncos",
-              "Seahawks"
-            ],
-            "matchup": "Seattle Seahawks at Denver Broncos",
-            "week": 6,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Panthers +1.5",
-          "market": "Spread",
-          "context": "Panthers vs. Eagles (-1.5)",
-          "method": "Explicit publisher pick table",
-          "event": {
-            "id": "401872998",
-            "startAt": "2026-10-18T17:00Z",
-            "state": "post",
-            "teams": [
-              "Eagles",
-              "Panthers"
-            ],
-            "matchup": "Carolina Panthers at Philadelphia Eagles",
-            "week": 6,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Browns +4.5",
-          "market": "Spread",
-          "context": "Ravens (-4.5) vs. Browns",
-          "method": "Explicit publisher pick table",
-          "event": {
-            "id": "401872997",
-            "startAt": "2026-10-18T17:00Z",
-            "state": "post",
-            "teams": [
-              "Browns",
-              "Ravens"
-            ],
-            "matchup": "Baltimore Ravens at Cleveland Browns",
-            "week": 6,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Falcons +3",
-          "market": "Spread",
-          "context": "Bears (-3) vs. Falcons",
-          "method": "Explicit publisher pick table",
-          "event": {
-            "id": "401872999",
-            "startAt": "2026-10-18T17:00Z",
-            "state": "post",
-            "teams": [
-              "Falcons",
-              "Bears"
-            ],
-            "matchup": "Chicago Bears at Atlanta Falcons",
-            "week": 6,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Giants -1",
-          "market": "Spread",
-          "context": "Saints vs. Giants (-1)",
-          "method": "Explicit publisher pick table",
-          "event": {
-            "id": "401873000",
-            "startAt": "2026-10-18T17:00Z",
-            "state": "post",
-            "teams": [
-              "Giants",
-              "Saints"
-            ],
-            "matchup": "New Orleans Saints at New York Giants",
-            "week": 6,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Steelers -2.5",
-          "market": "Spread",
-          "context": "Steelers (-2.5) vs. Buccaneers",
-          "method": "Explicit publisher pick table",
-          "event": {
-            "id": "401873002",
-            "startAt": "2026-10-18T17:00Z",
-            "state": "post",
-            "teams": [
-              "Buccaneers",
-              "Steelers"
-            ],
-            "matchup": "Pittsburgh Steelers at Tampa Bay Buccaneers",
-            "week": 6,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Chargers +8.5",
-          "market": "Spread",
-          "context": "Chargers vs. Chiefs (-8.5)",
-          "method": "Explicit publisher pick table",
-          "event": {
-            "id": "401873006",
-            "startAt": "2026-10-18T20:25Z",
-            "state": "post",
-            "teams": [
-              "Chiefs",
-              "Chargers"
-            ],
-            "matchup": "Los Angeles Chargers at Kansas City Chiefs",
-            "week": 6,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Raiders +4.5",
-          "market": "Spread",
-          "context": "Bills (-4.5) vs. Raiders",
-          "method": "Explicit publisher pick table",
-          "event": {
-            "id": "401873005",
-            "startAt": "2026-10-18T20:25Z",
-            "state": "post",
-            "teams": [
-              "Raiders",
-              "Bills"
-            ],
-            "matchup": "Buffalo Bills at Las Vegas Raiders",
-            "week": 6,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": []
-    },
-    {
       "id": "5ea45aff6171b660",
       "title": "Jacksonville Jaguars vs Houston Texans Prediction 10/18/26 NFL Picks Today | Sports Chat Place",
       "url": "https://sportschatplace.com/nfl-picks/jacksonville-jaguars-vs-houston-texans-prediction-10-18-26-nfl-picks-today/",
@@ -4408,7 +4140,7 @@
     {
       "id": "401873008",
       "startAt": "2026-10-20T00:15Z",
-      "state": "pre",
+      "state": "in",
       "teams": [
         "49ers",
         "Commanders"
@@ -4744,8 +4476,8 @@
   ],
   "scheduleStatus": {
     "status": "ok",
-    "checkedAt": "2026-10-19T21:03:01.606250+00:00",
-    "lastSuccessAt": "2026-10-19T21:03:01.606250+00:00"
+    "checkedAt": "2026-10-20T00:20:08.945515+00:00",
+    "lastSuccessAt": "2026-10-20T00:20:08.945515+00:00"
   },
   "playerTeams": {
     "tylerallgeier": [
