@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-20T20:35:24.329785+00:00",
-  "lastSuccessfulUpdate": "2026-10-20T20:35:24.329785+00:00",
+  "checkedAt": "2026-10-20T23:52:46.799890+00:00",
+  "lastSuccessfulUpdate": "2026-10-20T23:52:46.799890+00:00",
   "sources": [
     {
       "id": "sbd",
@@ -10,8 +10,8 @@
       "website": "https://www.sportsbettingdime.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-20T20:35:24.329785+00:00",
-      "lastSuccessAt": "2026-10-20T20:35:24.329785+00:00",
+      "checkedAt": "2026-10-20T23:52:46.799890+00:00",
+      "lastSuccessAt": "2026-10-20T23:52:46.799890+00:00",
       "count": 7,
       "message": "Feed retrieved successfully"
     },
@@ -22,8 +22,8 @@
       "website": "https://www.bettingpros.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-20T20:35:24.329785+00:00",
-      "lastSuccessAt": "2026-10-20T20:35:24.329785+00:00",
+      "checkedAt": "2026-10-20T23:52:46.799890+00:00",
+      "lastSuccessAt": "2026-10-20T23:52:46.799890+00:00",
       "count": 35,
       "message": "Feed retrieved successfully"
     },
@@ -35,7 +35,7 @@
       "website": "https://www.cbssports.com/nfl/picks/experts/",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-10-20T20:35:24.329785+00:00",
+      "checkedAt": "2026-10-20T23:52:46.799890+00:00",
       "lastSuccessAt": "2026-10-20T00:20:08.945515+00:00",
       "count": 7,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -48,7 +48,7 @@
       "website": "https://www.covers.com/nfl",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-10-20T20:35:24.329785+00:00",
+      "checkedAt": "2026-10-20T23:52:46.799890+00:00",
       "lastSuccessAt": "2026-10-20T17:08:16.263005+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -62,8 +62,8 @@
       "articlePattern": "/nfl-picks/[^/]+prediction[^/]+/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-20T20:35:24.329785+00:00",
-      "lastSuccessAt": "2026-10-20T20:35:24.329785+00:00",
+      "checkedAt": "2026-10-20T23:52:46.799890+00:00",
+      "lastSuccessAt": "2026-10-20T23:52:46.799890+00:00",
       "count": 11,
       "message": "Public expert selections retrieved"
     },
@@ -76,7 +76,7 @@
       "articlePattern": "/picks/nfl/(?:picks-against-the-spread-ats-predictions|player-props)-week-\\d+-\\d{4}/$",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-10-20T20:35:24.329785+00:00",
+      "checkedAt": "2026-10-20T23:52:46.799890+00:00",
       "lastSuccessAt": "2026-10-20T11:36:53.193169+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -90,8 +90,8 @@
       "articlePattern": "/us/nfl/news/nfl-picks-predictions-against-spread-week-\\d+/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-20T20:35:24.329785+00:00",
-      "lastSuccessAt": "2026-10-20T20:35:24.329785+00:00",
+      "checkedAt": "2026-10-20T23:52:46.799890+00:00",
+      "lastSuccessAt": "2026-10-20T23:52:46.799890+00:00",
       "count": 1,
       "message": "Public expert selections retrieved"
     },
@@ -104,8 +104,8 @@
       "articlePattern": "/football/article/(?:nfl-picks-and-props|[^/]*odds-picks-and-predictions|[^/]*betting-odds-picks-and-predictions)[^/]+$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-20T20:35:24.329785+00:00",
-      "lastSuccessAt": "2026-10-20T20:35:24.329785+00:00",
+      "checkedAt": "2026-10-20T23:52:46.799890+00:00",
+      "lastSuccessAt": "2026-10-20T23:52:46.799890+00:00",
       "count": 4,
       "message": "Public expert selections retrieved"
     }
@@ -4242,8 +4242,8 @@
   ],
   "scheduleStatus": {
     "status": "ok",
-    "checkedAt": "2026-10-20T20:35:24.329785+00:00",
-    "lastSuccessAt": "2026-10-20T20:35:24.329785+00:00"
+    "checkedAt": "2026-10-20T23:52:46.799890+00:00",
+    "lastSuccessAt": "2026-10-20T23:52:46.799890+00:00"
   },
   "playerTeams": {
     "tylerallgeier": [
@@ -8066,6 +8066,25 @@
         "athleteId": "4429636"
       }
     ],
+    "emanyjohnson": [
+      {
+        "name": "Emany Johnson",
+        "team": "Bengals",
+        "athleteId": "4361437"
+      },
+      {
+        "name": "Emany Johnson",
+        "team": "Chargers",
+        "athleteId": "4361437"
+      }
+    ],
+    "joshkattus": [
+      {
+        "name": "Josh Kattus",
+        "team": "Bengals",
+        "athleteId": "4819215"
+      }
+    ],
     "kendallmilton": [
       {
         "name": "Kendall Milton",
@@ -8078,13 +8097,6 @@
         "name": "Jordan Moore",
         "team": "Bengals",
         "athleteId": "4594444"
-      }
-    ],
-    "isaiahnwokobia": [
-      {
-        "name": "Isaiah Nwokobia",
-        "team": "Bengals",
-        "athleteId": "4597253"
       }
     ],
     "garmonrandolph": [
@@ -10283,6 +10295,13 @@
         "athleteId": "3915802"
       }
     ],
+    "aidankeanaaina": [
+      {
+        "name": "Aidan Keanaaina",
+        "team": "Lions",
+        "athleteId": "4430121"
+      }
+    ],
     "lawrencekeysiii": [
       {
         "name": "Lawrence Keys III",
@@ -10337,13 +10356,6 @@
         "name": "Jabari Small",
         "team": "Lions",
         "athleteId": "4432545"
-      }
-    ],
-    "chrissmith": [
-      {
-        "name": "Chris Smith",
-        "team": "Lions",
-        "athleteId": "4367835"
       }
     ],
     "nickwhiteside": [
@@ -15338,6 +15350,13 @@
         "athleteId": "4360469"
       }
     ],
+    "zanegonzalez": [
+      {
+        "name": "Zane Gonzalez",
+        "team": "Dolphins",
+        "athleteId": "3043234"
+      }
+    ],
     "ajhenning": [
       {
         "name": "AJ Henning",
@@ -17095,13 +17114,6 @@
         "athleteId": "4243322"
       }
     ],
-    "najeeharris": [
-      {
-        "name": "Najee Harris",
-        "team": "Giants",
-        "athleteId": "4241457"
-      }
-    ],
     "bryanhudson": [
       {
         "name": "Bryan Hudson",
@@ -17401,13 +17413,6 @@
         "name": "Kayvon Thibodeaux",
         "team": "Giants",
         "athleteId": "4426326"
-      }
-    ],
-    "jihadward": [
-      {
-        "name": "Jihad Ward",
-        "team": "Giants",
-        "athleteId": "3115914"
       }
     ],
     "ardariuswashington": [
@@ -21265,13 +21270,6 @@
         "athleteId": "4567403"
       }
     ],
-    "jordanelliott": [
-      {
-        "name": "Jordan Elliott",
-        "team": "Titans",
-        "athleteId": "4039052"
-      }
-    ],
     "keldricfaulk": [
       {
         "name": "Keldric Faulk",
@@ -22155,6 +22153,6 @@
       }
     ]
   },
-  "rostersCheckedAt": "2026-10-19T21:03:01.606250+00:00",
+  "rostersCheckedAt": "2026-10-20T23:52:46.799890+00:00",
   "rosterStatus": "ok"
 }
