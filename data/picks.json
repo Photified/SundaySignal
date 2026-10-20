@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-20T06:00:27.963112+00:00",
-  "lastSuccessfulUpdate": "2026-10-20T06:00:27.963112+00:00",
+  "checkedAt": "2026-10-20T11:36:53.193169+00:00",
+  "lastSuccessfulUpdate": "2026-10-20T11:36:53.193169+00:00",
   "sources": [
     {
       "id": "sbd",
@@ -10,8 +10,8 @@
       "website": "https://www.sportsbettingdime.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-20T06:00:27.963112+00:00",
-      "lastSuccessAt": "2026-10-20T06:00:27.963112+00:00",
+      "checkedAt": "2026-10-20T11:36:53.193169+00:00",
+      "lastSuccessAt": "2026-10-20T11:36:53.193169+00:00",
       "count": 5,
       "message": "Feed retrieved successfully"
     },
@@ -22,9 +22,9 @@
       "website": "https://www.bettingpros.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-20T06:00:27.963112+00:00",
-      "lastSuccessAt": "2026-10-20T06:00:27.963112+00:00",
-      "count": 39,
+      "checkedAt": "2026-10-20T11:36:53.193169+00:00",
+      "lastSuccessAt": "2026-10-20T11:36:53.193169+00:00",
+      "count": 38,
       "message": "Feed retrieved successfully"
     },
     {
@@ -35,7 +35,7 @@
       "website": "https://www.cbssports.com/nfl/picks/experts/",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-10-20T06:00:27.963112+00:00",
+      "checkedAt": "2026-10-20T11:36:53.193169+00:00",
       "lastSuccessAt": "2026-10-20T00:20:08.945515+00:00",
       "count": 7,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -48,8 +48,8 @@
       "website": "https://www.covers.com/nfl",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-20T06:00:27.963112+00:00",
-      "lastSuccessAt": "2026-10-20T06:00:27.963112+00:00",
+      "checkedAt": "2026-10-20T11:36:53.193169+00:00",
+      "lastSuccessAt": "2026-10-20T11:36:53.193169+00:00",
       "count": 1,
       "message": "Public expert selections retrieved"
     },
@@ -62,8 +62,8 @@
       "articlePattern": "/nfl-picks/[^/]+prediction[^/]+/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-20T06:00:27.963112+00:00",
-      "lastSuccessAt": "2026-10-20T06:00:27.963112+00:00",
+      "checkedAt": "2026-10-20T11:36:53.193169+00:00",
+      "lastSuccessAt": "2026-10-20T11:36:53.193169+00:00",
       "count": 11,
       "message": "Public expert selections retrieved"
     },
@@ -76,8 +76,8 @@
       "articlePattern": "/picks/nfl/(?:picks-against-the-spread-ats-predictions|player-props)-week-\\d+-\\d{4}/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-20T06:00:27.963112+00:00",
-      "lastSuccessAt": "2026-10-20T06:00:27.963112+00:00",
+      "checkedAt": "2026-10-20T11:36:53.193169+00:00",
+      "lastSuccessAt": "2026-10-20T11:36:53.193169+00:00",
       "count": 1,
       "message": "Public expert selections retrieved"
     },
@@ -90,7 +90,7 @@
       "articlePattern": "/us/nfl/news/nfl-picks-predictions-against-spread-week-\\d+/",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-10-20T06:00:27.963112+00:00",
+      "checkedAt": "2026-10-20T11:36:53.193169+00:00",
       "lastSuccessAt": "2026-10-18T17:23:29.044357+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -104,8 +104,8 @@
       "articlePattern": "/football/article/(?:nfl-picks-and-props|[^/]*odds-picks-and-predictions|[^/]*betting-odds-picks-and-predictions)[^/]+$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-20T06:00:27.963112+00:00",
-      "lastSuccessAt": "2026-10-20T06:00:27.963112+00:00",
+      "checkedAt": "2026-10-20T11:36:53.193169+00:00",
+      "lastSuccessAt": "2026-10-20T11:36:53.193169+00:00",
       "count": 4,
       "message": "Public expert selections retrieved"
     }
@@ -3774,43 +3774,6 @@
       ]
     },
     {
-      "id": "7562f53fc56fa1e7",
-      "title": "Best NFL Player Props: Thursday Night Football (Seahawks vs. Broncos)",
-      "url": "https://www.bettingpros.com/articles/best-nfl-player-props-thursday-night-football-seahawks-vs-broncos-week-6-2026/",
-      "publisher": "BettingPros",
-      "sourceId": "bettingpros",
-      "author": "BettingPros Staff",
-      "publishedAt": "2026-10-15T10:56:19+00:00",
-      "picks": [
-        {
-          "selection": "Bo Nix Under 199.5 Passing Yards ( -111 )",
-          "market": "Props",
-          "context": "NFL Player Props Rankings & Predictions: Seahawks vs. Broncos (Thursday Night Football)",
-          "method": "Explicit selection in publisher feed",
-          "event": {
-            "id": "401872995",
-            "startAt": "2026-10-16T00:15Z",
-            "state": "post",
-            "teams": [
-              "Broncos",
-              "Seahawks"
-            ],
-            "matchup": "Seattle Seahawks at Denver Broncos",
-            "week": 6,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Props"
-      ],
-      "teams": [
-        "Broncos",
-        "Seahawks"
-      ]
-    },
-    {
       "id": "a23260a20fcbbe9c",
       "title": "Broncos vs Seahawks Prediction 10/15/26 NFL Picks Today | Sports Chat Place",
       "url": "https://sportschatplace.com/nfl-picks/broncos-vs-seahawks-prediction-10-15-26-nfl-picks-today/",
@@ -4366,8 +4329,8 @@
   ],
   "scheduleStatus": {
     "status": "ok",
-    "checkedAt": "2026-10-20T06:00:27.963112+00:00",
-    "lastSuccessAt": "2026-10-20T06:00:27.963112+00:00"
+    "checkedAt": "2026-10-20T11:36:53.193169+00:00",
+    "lastSuccessAt": "2026-10-20T11:36:53.193169+00:00"
   },
   "playerTeams": {
     "tylerallgeier": [
