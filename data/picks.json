@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-21T10:08:36.161070+00:00",
-  "lastSuccessfulUpdate": "2026-10-21T10:08:36.161070+00:00",
+  "checkedAt": "2026-10-21T15:14:30.450225+00:00",
+  "lastSuccessfulUpdate": "2026-10-21T15:14:30.450225+00:00",
   "sources": [
     {
       "id": "sbd",
@@ -10,8 +10,8 @@
       "website": "https://www.sportsbettingdime.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-21T10:08:36.161070+00:00",
-      "lastSuccessAt": "2026-10-21T10:08:36.161070+00:00",
+      "checkedAt": "2026-10-21T15:14:30.450225+00:00",
+      "lastSuccessAt": "2026-10-21T15:14:30.450225+00:00",
       "count": 8,
       "message": "Feed retrieved successfully"
     },
@@ -22,9 +22,9 @@
       "website": "https://www.bettingpros.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-21T10:08:36.161070+00:00",
-      "lastSuccessAt": "2026-10-21T10:08:36.161070+00:00",
-      "count": 35,
+      "checkedAt": "2026-10-21T15:14:30.450225+00:00",
+      "lastSuccessAt": "2026-10-21T15:14:30.450225+00:00",
+      "count": 37,
       "message": "Feed retrieved successfully"
     },
     {
@@ -35,7 +35,7 @@
       "website": "https://www.cbssports.com/nfl/picks/experts/",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-10-21T10:08:36.161070+00:00",
+      "checkedAt": "2026-10-21T15:14:30.450225+00:00",
       "lastSuccessAt": "2026-10-20T00:20:08.945515+00:00",
       "count": 7,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -48,7 +48,7 @@
       "website": "https://www.covers.com/nfl",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-10-21T10:08:36.161070+00:00",
+      "checkedAt": "2026-10-21T15:14:30.450225+00:00",
       "lastSuccessAt": "2026-10-20T17:08:16.263005+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -62,8 +62,8 @@
       "articlePattern": "/nfl-picks/[^/]+prediction[^/]+/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-21T10:08:36.161070+00:00",
-      "lastSuccessAt": "2026-10-21T10:08:36.161070+00:00",
+      "checkedAt": "2026-10-21T15:14:30.450225+00:00",
+      "lastSuccessAt": "2026-10-21T15:14:30.450225+00:00",
       "count": 11,
       "message": "Public expert selections retrieved"
     },
@@ -75,11 +75,11 @@
       "kind": "articles",
       "articlePattern": "/picks/nfl/(?:picks-against-the-spread-ats-predictions|player-props)-week-\\d+-\\d{4}/$",
       "enabled": true,
-      "status": "unavailable",
-      "checkedAt": "2026-10-21T10:08:36.161070+00:00",
-      "lastSuccessAt": "2026-10-20T11:36:53.193169+00:00",
+      "status": "ok",
+      "checkedAt": "2026-10-21T15:14:30.450225+00:00",
+      "lastSuccessAt": "2026-10-21T15:14:30.450225+00:00",
       "count": 1,
-      "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
+      "message": "Public expert selections retrieved"
     },
     {
       "id": "sportingnews",
@@ -90,8 +90,8 @@
       "articlePattern": "/us/nfl/news/nfl-picks-predictions-against-spread-week-\\d+/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-21T10:08:36.161070+00:00",
-      "lastSuccessAt": "2026-10-21T10:08:36.161070+00:00",
+      "checkedAt": "2026-10-21T15:14:30.450225+00:00",
+      "lastSuccessAt": "2026-10-21T15:14:30.450225+00:00",
       "count": 1,
       "message": "Public expert selections retrieved"
     },
@@ -104,13 +104,382 @@
       "articlePattern": "/football/article/(?:nfl-picks-and-props|[^/]*odds-picks-and-predictions|[^/]*betting-odds-picks-and-predictions)[^/]+$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-21T10:08:36.161070+00:00",
-      "lastSuccessAt": "2026-10-21T10:08:36.161070+00:00",
+      "checkedAt": "2026-10-21T15:14:30.450225+00:00",
+      "lastSuccessAt": "2026-10-21T15:14:30.450225+00:00",
       "count": 4,
       "message": "Public expert selections retrieved"
     }
   ],
   "articles": [
+    {
+      "id": "8a6c2ac39addf2bf",
+      "title": "NFL Picks Against the Spread Week 7: ATS Predictions for Every Game",
+      "url": "https://www.sportsbookreview.com/picks/nfl/picks-against-the-spread-ats-predictions-week-7-2026/",
+      "publisher": "Sportsbook Review",
+      "sourceId": "sbr",
+      "author": "Gary Pearson",
+      "publishedAt": "2026-10-21T14:07:00+00:00",
+      "picks": [
+        {
+          "selection": "Colts +6.5",
+          "market": "Spread",
+          "context": "Colts vs. Vikings (-6.5)",
+          "method": "Explicit publisher pick table",
+          "event": {
+            "id": "401873014",
+            "startAt": "2026-10-25T17:00Z",
+            "state": "pre",
+            "teams": [
+              "Vikings",
+              "Colts"
+            ],
+            "matchup": "Indianapolis Colts at Minnesota Vikings",
+            "week": 7,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Browns -1.5",
+          "market": "Spread",
+          "context": "Browns (-1.5) vs. Titans",
+          "method": "Explicit publisher pick table",
+          "event": {
+            "id": "401873013",
+            "startAt": "2026-10-25T17:00Z",
+            "state": "pre",
+            "teams": [
+              "Titans",
+              "Browns"
+            ],
+            "matchup": "Cleveland Browns at Tennessee Titans",
+            "week": 7,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Packers +3",
+          "market": "Spread",
+          "context": "Packers vs. Lions (-3)",
+          "method": "Explicit publisher pick table",
+          "event": {
+            "id": "401873020",
+            "startAt": "2026-10-25T20:25Z",
+            "state": "pre",
+            "teams": [
+              "Lions",
+              "Packers"
+            ],
+            "matchup": "Green Bay Packers at Detroit Lions",
+            "week": 7,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Patriots +3",
+          "market": "Spread",
+          "context": "Patriots vs. Bears (-3)",
+          "method": "Explicit publisher pick table",
+          "event": {
+            "id": "401873010",
+            "startAt": "2026-10-23T00:15Z",
+            "state": "pre",
+            "teams": [
+              "Bears",
+              "Patriots"
+            ],
+            "matchup": "New England Patriots at Chicago Bears",
+            "week": 7,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Saints +3.5",
+          "market": "Spread",
+          "context": "Steelers (-3.5) vs. Saints",
+          "method": "Explicit publisher pick table",
+          "event": {
+            "id": "401873011",
+            "startAt": "2026-10-25T13:30Z",
+            "state": "pre",
+            "teams": [
+              "Saints",
+              "Steelers"
+            ],
+            "matchup": "Pittsburgh Steelers at New Orleans Saints",
+            "week": 7,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "49ers -3",
+          "market": "Spread",
+          "context": "49ers (-3) vs. Falcons",
+          "method": "Explicit publisher pick table",
+          "event": {
+            "id": "401873017",
+            "startAt": "2026-10-25T17:00Z",
+            "state": "pre",
+            "teams": [
+              "Falcons",
+              "49ers"
+            ],
+            "matchup": "San Francisco 49ers at Atlanta Falcons",
+            "week": 7,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Bengals +2.5",
+          "market": "Spread",
+          "context": "Bengals vs. Ravens (-2.5)",
+          "method": "Explicit publisher pick table",
+          "event": {
+            "id": "401873012",
+            "startAt": "2026-10-25T17:00Z",
+            "state": "pre",
+            "teams": [
+              "Ravens",
+              "Bengals"
+            ],
+            "matchup": "Cincinnati Bengals at Baltimore Ravens",
+            "week": 7,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Dolphins +5",
+          "market": "Spread",
+          "context": "Dolphins vs. Jets (-5)",
+          "method": "Explicit publisher pick table",
+          "event": {
+            "id": "401873015",
+            "startAt": "2026-10-25T17:00Z",
+            "state": "pre",
+            "teams": [
+              "Jets",
+              "Dolphins"
+            ],
+            "matchup": "Miami Dolphins at New York Jets",
+            "week": 7,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Broncos -4",
+          "market": "Spread",
+          "context": "Broncos (-4) vs. Cardinals",
+          "method": "Explicit publisher pick table",
+          "event": {
+            "id": "401873019",
+            "startAt": "2026-10-25T20:05Z",
+            "state": "pre",
+            "teams": [
+              "Cardinals",
+              "Broncos"
+            ],
+            "matchup": "Denver Broncos at Arizona Cardinals",
+            "week": 7,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Chiefs +3",
+          "market": "Spread",
+          "context": "Chiefs vs. Seahawks (-3)",
+          "method": "Explicit publisher pick table",
+          "event": {
+            "id": "401873022",
+            "startAt": "2026-10-26T00:20Z",
+            "state": "pre",
+            "teams": [
+              "Seahawks",
+              "Chiefs"
+            ],
+            "matchup": "Kansas City Chiefs at Seattle Seahawks",
+            "week": 7,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Texans -9.5",
+          "market": "Spread",
+          "context": "Giants vs. Texans (-9.5)",
+          "method": "Explicit publisher pick table",
+          "event": {
+            "id": "401873016",
+            "startAt": "2026-10-25T17:00Z",
+            "state": "pre",
+            "teams": [
+              "Texans",
+              "Giants"
+            ],
+            "matchup": "New York Giants at Houston Texans",
+            "week": 7,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Buccaneers +3.5",
+          "market": "Spread",
+          "context": "Buccaneers vs. Panthers (-3.5)",
+          "method": "Explicit publisher pick table",
+          "event": {
+            "id": "401873018",
+            "startAt": "2026-10-25T17:00Z",
+            "state": "pre",
+            "teams": [
+              "Panthers",
+              "Buccaneers"
+            ],
+            "matchup": "Tampa Bay Buccaneers at Carolina Panthers",
+            "week": 7,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Raiders +4.5",
+          "market": "Spread",
+          "context": "Rams (-4.5) vs. Raiders",
+          "method": "Explicit publisher pick table",
+          "event": {
+            "id": "401873021",
+            "startAt": "2026-10-25T20:25Z",
+            "state": "pre",
+            "teams": [
+              "Raiders",
+              "Rams"
+            ],
+            "matchup": "Los Angeles Rams at Las Vegas Raiders",
+            "week": 7,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Eagles +4.5",
+          "market": "Spread",
+          "context": "Cowboys (-4.5) vs. Eagles",
+          "method": "Explicit publisher pick table",
+          "event": {
+            "id": "401873009",
+            "startAt": "2026-10-27T00:15Z",
+            "state": "pre",
+            "teams": [
+              "Eagles",
+              "Cowboys"
+            ],
+            "matchup": "Dallas Cowboys at Philadelphia Eagles",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": []
+    },
+    {
+      "id": "d8e0c697eea67ee8",
+      "title": "NFL Week 7 Confidence Pool Picks & Predictions (2026)",
+      "url": "https://www.bettingpros.com/articles/nfl-week-7-confidence-pool-picks-predictions-2026/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "Jason Radowitz",
+      "publishedAt": "2026-10-21T13:22:58+00:00",
+      "picks": [],
+      "parlays": [],
+      "markets": [
+        "Other"
+      ],
+      "teams": []
+    },
+    {
+      "id": "27dac0417446939a",
+      "title": "NFL Week 7 Picks & Predictions: Best Early Parlays (2026)",
+      "url": "https://www.bettingpros.com/articles/nfl-week-7-picks-predictions-best-early-parlays-2026/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "Steve Krebs",
+      "publishedAt": "2026-10-21T10:56:36+00:00",
+      "picks": [],
+      "parlays": [
+        {
+          "label": "Early NFL Week 7 Parlay #1",
+          "americanOdds": 539,
+          "legs": [
+            {
+              "selection": "Caleb Williams First-Quarter Passing Touchdown ( +170 )",
+              "market": "Props",
+              "context": "",
+              "event": null
+            },
+            {
+              "selection": "Aaron Rodgers 28+ Passing Attempts ( -542 )",
+              "market": "Props",
+              "context": "",
+              "event": null
+            },
+            {
+              "selection": "Nico Collins Anytime Touchdown Scorer ( +100 )",
+              "market": "Props",
+              "context": "",
+              "event": null
+            }
+          ]
+        },
+        {
+          "label": "Early NFL Week 7 Parlay #2",
+          "americanOdds": 294,
+          "legs": [
+            {
+              "selection": "Minnesota Vikings Moneyline ( -278 )",
+              "market": "Moneyline",
+              "context": "",
+              "event": {
+                "id": "401873014",
+                "startAt": "2026-10-25T17:00Z",
+                "state": "pre",
+                "teams": [
+                  "Vikings",
+                  "Colts"
+                ],
+                "matchup": "Indianapolis Colts at Minnesota Vikings",
+                "week": 7,
+                "season": 2026
+              }
+            },
+            {
+              "selection": "Carolina Panthers Moneyline ( -192 )",
+              "market": "Moneyline",
+              "context": "",
+              "event": {
+                "id": "401873018",
+                "startAt": "2026-10-25T17:00Z",
+                "state": "pre",
+                "teams": [
+                  "Panthers",
+                  "Buccaneers"
+                ],
+                "matchup": "Tampa Bay Buccaneers at Carolina Panthers",
+                "week": 7,
+                "season": 2026
+              }
+            },
+            {
+              "selection": "San Francisco 49ers-Atlanta Falcons Under 50.5 Points ( -110 )",
+              "market": "Totals",
+              "context": "",
+              "event": null
+            }
+          ]
+        }
+      ],
+      "markets": [
+        "Other"
+      ],
+      "teams": []
+    },
     {
       "id": "a6c40575b513c36a",
       "title": "NFL Week 7 Over/Under Picks – Game-Total Prediction for All 14 Games",
@@ -2694,94 +3063,6 @@
       ]
     },
     {
-      "id": "48c1e01e28a38546",
-      "title": "NFL Player Props for Week 6: Best O/U Prop Bets & TD Picks This Week",
-      "url": "https://www.sportsbookreview.com/picks/nfl/player-props-week-6-2026/",
-      "publisher": "Sportsbook Review",
-      "sourceId": "sbr",
-      "author": "Gary Pearson",
-      "publishedAt": "2026-10-16T15:00:00+00:00",
-      "picks": [
-        {
-          "selection": "Puka Nacua Over 92.5 receiving yards (-114)",
-          "market": "Props",
-          "context": "",
-          "method": "Explicit player prop selection in publisher pick table",
-          "player": {
-            "name": "Puka Nacua",
-            "team": "Rams",
-            "athleteId": "4426515"
-          },
-          "event": null
-        },
-        {
-          "selection": "Brock Bowers Anytime TD (-114)",
-          "market": "Props",
-          "context": "",
-          "method": "Explicit player prop selection in publisher pick table",
-          "player": {
-            "name": "Brock Bowers",
-            "team": "Raiders",
-            "athleteId": "4432665"
-          },
-          "event": null
-        },
-        {
-          "selection": "Matthew Stafford Over 279.5 passing yards (-114)",
-          "market": "Props",
-          "context": "",
-          "method": "Explicit player prop selection in publisher pick table",
-          "player": {
-            "name": "Matthew Stafford",
-            "team": "Rams",
-            "athleteId": "12483"
-          },
-          "event": null
-        },
-        {
-          "selection": "Davante Adams Anytime TD (-125)",
-          "market": "Props",
-          "context": "",
-          "method": "Explicit player prop selection in publisher pick table",
-          "player": {
-            "name": "Davante Adams",
-            "team": "Rams",
-            "athleteId": "16800"
-          },
-          "event": null
-        },
-        {
-          "selection": "Mike Evans Anytime TD (-130)",
-          "market": "Props",
-          "context": "",
-          "method": "Explicit player prop selection in publisher pick table",
-          "player": {
-            "name": "Mike Evans",
-            "team": "49ers",
-            "athleteId": "16737"
-          },
-          "event": null
-        },
-        {
-          "selection": "Patrick Mahomes Over 1.5 passing TDs (-115)",
-          "market": "Props",
-          "context": "",
-          "method": "Explicit player prop selection in publisher pick table",
-          "player": {
-            "name": "Patrick Mahomes",
-            "team": "Chiefs",
-            "athleteId": "3139477"
-          },
-          "event": null
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Props"
-      ],
-      "teams": []
-    },
-    {
       "id": "dde11d1a1d3723db",
       "title": "Ravens vs Browns Prediction 10/18/26 NFL Picks Today | Sports Chat Place",
       "url": "https://sportschatplace.com/nfl-picks/ravens-vs-browns-prediction-2/",
@@ -3267,8 +3548,8 @@
   ],
   "scheduleStatus": {
     "status": "ok",
-    "checkedAt": "2026-10-21T10:08:36.161070+00:00",
-    "lastSuccessAt": "2026-10-21T10:08:36.161070+00:00"
+    "checkedAt": "2026-10-21T15:14:30.450225+00:00",
+    "lastSuccessAt": "2026-10-21T15:14:30.450225+00:00"
   },
   "playerTeams": {
     "tylerallgeier": [
