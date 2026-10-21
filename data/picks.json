@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-20T23:52:46.799890+00:00",
-  "lastSuccessfulUpdate": "2026-10-20T23:52:46.799890+00:00",
+  "checkedAt": "2026-10-21T04:47:08.402550+00:00",
+  "lastSuccessfulUpdate": "2026-10-21T04:47:08.402550+00:00",
   "sources": [
     {
       "id": "sbd",
@@ -10,8 +10,8 @@
       "website": "https://www.sportsbettingdime.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-20T23:52:46.799890+00:00",
-      "lastSuccessAt": "2026-10-20T23:52:46.799890+00:00",
+      "checkedAt": "2026-10-21T04:47:08.402550+00:00",
+      "lastSuccessAt": "2026-10-21T04:47:08.402550+00:00",
       "count": 7,
       "message": "Feed retrieved successfully"
     },
@@ -22,8 +22,8 @@
       "website": "https://www.bettingpros.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-20T23:52:46.799890+00:00",
-      "lastSuccessAt": "2026-10-20T23:52:46.799890+00:00",
+      "checkedAt": "2026-10-21T04:47:08.402550+00:00",
+      "lastSuccessAt": "2026-10-21T04:47:08.402550+00:00",
       "count": 35,
       "message": "Feed retrieved successfully"
     },
@@ -35,7 +35,7 @@
       "website": "https://www.cbssports.com/nfl/picks/experts/",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-10-20T23:52:46.799890+00:00",
+      "checkedAt": "2026-10-21T04:47:08.402550+00:00",
       "lastSuccessAt": "2026-10-20T00:20:08.945515+00:00",
       "count": 7,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -48,7 +48,7 @@
       "website": "https://www.covers.com/nfl",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-10-20T23:52:46.799890+00:00",
+      "checkedAt": "2026-10-21T04:47:08.402550+00:00",
       "lastSuccessAt": "2026-10-20T17:08:16.263005+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -62,8 +62,8 @@
       "articlePattern": "/nfl-picks/[^/]+prediction[^/]+/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-20T23:52:46.799890+00:00",
-      "lastSuccessAt": "2026-10-20T23:52:46.799890+00:00",
+      "checkedAt": "2026-10-21T04:47:08.402550+00:00",
+      "lastSuccessAt": "2026-10-21T04:47:08.402550+00:00",
       "count": 11,
       "message": "Public expert selections retrieved"
     },
@@ -76,7 +76,7 @@
       "articlePattern": "/picks/nfl/(?:picks-against-the-spread-ats-predictions|player-props)-week-\\d+-\\d{4}/$",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-10-20T23:52:46.799890+00:00",
+      "checkedAt": "2026-10-21T04:47:08.402550+00:00",
       "lastSuccessAt": "2026-10-20T11:36:53.193169+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -90,8 +90,8 @@
       "articlePattern": "/us/nfl/news/nfl-picks-predictions-against-spread-week-\\d+/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-20T23:52:46.799890+00:00",
-      "lastSuccessAt": "2026-10-20T23:52:46.799890+00:00",
+      "checkedAt": "2026-10-21T04:47:08.402550+00:00",
+      "lastSuccessAt": "2026-10-21T04:47:08.402550+00:00",
       "count": 1,
       "message": "Public expert selections retrieved"
     },
@@ -104,13 +104,50 @@
       "articlePattern": "/football/article/(?:nfl-picks-and-props|[^/]*odds-picks-and-predictions|[^/]*betting-odds-picks-and-predictions)[^/]+$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-20T23:52:46.799890+00:00",
-      "lastSuccessAt": "2026-10-20T23:52:46.799890+00:00",
+      "checkedAt": "2026-10-21T04:47:08.402550+00:00",
+      "lastSuccessAt": "2026-10-21T04:47:08.402550+00:00",
       "count": 4,
       "message": "Public expert selections retrieved"
     }
   ],
   "articles": [
+    {
+      "id": "66d88f58bec6d67f",
+      "title": "Bears vs Patriots Prediction 10/22/26 NFL Picks Today | Sports Chat Place",
+      "url": "https://sportschatplace.com/nfl-picks/bears-vs-patriots-prediction-10-22-26-nfl-picks-today/",
+      "publisher": "Sports Chat Place",
+      "sourceId": "sportschat",
+      "author": "David Racey",
+      "publishedAt": "2026-10-21T03:50:58+00:00",
+      "picks": [
+        {
+          "selection": "Under 50.5",
+          "market": "Totals",
+          "context": "Bears vs Patriots Prediction",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873010",
+            "startAt": "2026-10-23T00:15Z",
+            "state": "pre",
+            "teams": [
+              "Bears",
+              "Patriots"
+            ],
+            "matchup": "New England Patriots at Chicago Bears",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Totals"
+      ],
+      "teams": [
+        "Bears",
+        "Patriots"
+      ]
+    },
     {
       "id": "916cf46c1afe04c0",
       "title": "NFL Survivor Pool Advice for Week 7: Odds, Picks & Predictions (2026)",
@@ -730,18 +767,7 @@
           "market": "Spread",
           "context": "Spread: 49ers -7.5 / Commanders +7.5",
           "method": "Explicit selection in publisher feed",
-          "event": {
-            "id": "401873008",
-            "startAt": "2026-10-20T00:15Z",
-            "state": "post",
-            "teams": [
-              "49ers",
-              "Commanders"
-            ],
-            "matchup": "Washington Commanders at San Francisco 49ers",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         }
       ],
       "parlays": [],
@@ -901,18 +927,7 @@
             "team": "49ers",
             "athleteId": "4361741"
           },
-          "event": {
-            "id": "401873008",
-            "startAt": "2026-10-20T00:15Z",
-            "state": "post",
-            "teams": [
-              "49ers",
-              "Commanders"
-            ],
-            "matchup": "Washington Commanders at San Francisco 49ers",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         },
         {
           "selection": "George Kittle 60+ Receiving Yards ( -150 )",
@@ -924,18 +939,7 @@
             "team": "49ers",
             "athleteId": "3040151"
           },
-          "event": {
-            "id": "401873008",
-            "startAt": "2026-10-20T00:15Z",
-            "state": "post",
-            "teams": [
-              "49ers",
-              "Commanders"
-            ],
-            "matchup": "Washington Commanders at San Francisco 49ers",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         }
       ],
       "parlays": [],
@@ -966,18 +970,7 @@
             "team": "49ers",
             "athleteId": "3117251"
           },
-          "event": {
-            "id": "401873008",
-            "startAt": "2026-10-20T00:15Z",
-            "state": "post",
-            "teams": [
-              "49ers",
-              "Commanders"
-            ],
-            "matchup": "Washington Commanders at San Francisco 49ers",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         },
         {
           "selection": "Rachaad White Under 13.5 Rushing Attempts (-117 / 54¢ at Kalshi )",
@@ -989,18 +982,7 @@
             "team": "Commanders",
             "athleteId": "4697815"
           },
-          "event": {
-            "id": "401873008",
-            "startAt": "2026-10-20T00:15Z",
-            "state": "post",
-            "teams": [
-              "49ers",
-              "Commanders"
-            ],
-            "matchup": "Washington Commanders at San Francisco 49ers",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         }
       ],
       "parlays": [],
@@ -1117,18 +1099,7 @@
           "market": "Moneyline",
           "context": "Commanders vs 49ers",
           "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873008",
-            "startAt": "2026-10-20T00:15Z",
-            "state": "post",
-            "teams": [
-              "49ers",
-              "Commanders"
-            ],
-            "matchup": "Washington Commanders at San Francisco 49ers",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         }
       ],
       "parlays": [],
@@ -1155,52 +1126,19 @@
               "selection": "George Kittle 60+ Receiving Yards ( -135 )",
               "market": "Props",
               "context": "Washington Commanders at San Francisco 49ers",
-              "event": {
-                "id": "401873008",
-                "startAt": "2026-10-20T00:15Z",
-                "state": "post",
-                "teams": [
-                  "49ers",
-                  "Commanders"
-                ],
-                "matchup": "Washington Commanders at San Francisco 49ers",
-                "week": 6,
-                "season": 2026
-              }
+              "event": null
             },
             {
               "selection": "Christian McCaffrey Under 62.5 Rushing Yards ( -111 )",
               "market": "Props",
               "context": "Washington Commanders at San Francisco 49ers",
-              "event": {
-                "id": "401873008",
-                "startAt": "2026-10-20T00:15Z",
-                "state": "post",
-                "teams": [
-                  "49ers",
-                  "Commanders"
-                ],
-                "matchup": "Washington Commanders at San Francisco 49ers",
-                "week": 6,
-                "season": 2026
-              }
+              "event": null
             },
             {
               "selection": "Rachaad White 15+ Receiving Yards ( +113 )",
               "market": "Props",
               "context": "Washington Commanders at San Francisco 49ers",
-              "event": {
-                "id": "401873008",
-                "startAt": "2026-10-20T00:15Z",
-                "state": "post",
-                "teams": [
-                  "49ers",
-                  "Commanders"
-                ],
-                "matchup": "Washington Commanders at San Francisco 49ers",
-                "week": 6,
-                "season": 2026
-              }
+              "event": null
             }
           ]
         }
@@ -1232,18 +1170,7 @@
             "team": "Commanders",
             "athleteId": "4426348"
           },
-          "event": {
-            "id": "401873008",
-            "startAt": "2026-10-20T00:15Z",
-            "state": "post",
-            "teams": [
-              "49ers",
-              "Commanders"
-            ],
-            "matchup": "Washington Commanders at San Francisco 49ers",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         },
         {
           "selection": "San Francisco 49ers First TD Scorer: Mike Evans ( +360 )",
@@ -1255,18 +1182,7 @@
             "team": "49ers",
             "athleteId": "16737"
           },
-          "event": {
-            "id": "401873008",
-            "startAt": "2026-10-20T00:15Z",
-            "state": "post",
-            "teams": [
-              "49ers",
-              "Commanders"
-            ],
-            "matchup": "Washington Commanders at San Francisco 49ers",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         }
       ],
       "parlays": [],
@@ -1292,18 +1208,7 @@
           "market": "Spread",
           "context": "NFL Monday Night Football Picks & Predictions: Commanders vs. 49ers",
           "method": "Explicit selection in publisher feed",
-          "event": {
-            "id": "401873008",
-            "startAt": "2026-10-20T00:15Z",
-            "state": "post",
-            "teams": [
-              "49ers",
-              "Commanders"
-            ],
-            "matchup": "Washington Commanders at San Francisco 49ers",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         },
         {
           "selection": "George Kittle Anytime Touchdown Scorer ( +110 )",
@@ -1315,18 +1220,7 @@
             "team": "49ers",
             "athleteId": "3040151"
           },
-          "event": {
-            "id": "401873008",
-            "startAt": "2026-10-20T00:15Z",
-            "state": "post",
-            "teams": [
-              "49ers",
-              "Commanders"
-            ],
-            "matchup": "Washington Commanders at San Francisco 49ers",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         }
       ],
       "parlays": [],
@@ -1406,18 +1300,7 @@
             "team": "Bears",
             "athleteId": "4723086"
           },
-          "event": {
-            "id": "401872999",
-            "startAt": "2026-10-18T17:00Z",
-            "state": "post",
-            "teams": [
-              "Falcons",
-              "Bears"
-            ],
-            "matchup": "Chicago Bears at Atlanta Falcons",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         },
         {
           "selection": "Derrick Henry Under 1.5 Receptions ( -150 )",
@@ -1429,18 +1312,7 @@
             "team": "Ravens",
             "athleteId": "3043078"
           },
-          "event": {
-            "id": "401872997",
-            "startAt": "2026-10-18T17:00Z",
-            "state": "post",
-            "teams": [
-              "Browns",
-              "Ravens"
-            ],
-            "matchup": "Baltimore Ravens at Cleveland Browns",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         }
       ],
       "parlays": [],
@@ -1482,69 +1354,25 @@
               "selection": "Dak Prescott 260+ Passing Yards ( -169 )",
               "market": "Props",
               "context": "Dallas Cowboys at Green Bay Packers",
-              "event": {
-                "id": "401873007",
-                "startAt": "2026-10-19T00:20Z",
-                "state": "post",
-                "teams": [
-                  "Packers",
-                  "Cowboys"
-                ],
-                "matchup": "Dallas Cowboys at Green Bay Packers",
-                "week": 6,
-                "season": 2026
-              }
+              "event": null
             },
             {
               "selection": "CeeDee Lamb 80+ Receiving Yards ( -116 )",
               "market": "Props",
               "context": "Dallas Cowboys at Green Bay Packers",
-              "event": {
-                "id": "401873007",
-                "startAt": "2026-10-19T00:20Z",
-                "state": "post",
-                "teams": [
-                  "Packers",
-                  "Cowboys"
-                ],
-                "matchup": "Dallas Cowboys at Green Bay Packers",
-                "week": 6,
-                "season": 2026
-              }
+              "event": null
             },
             {
               "selection": "Jordan Love 260+ Passing Yards ( -144 )",
               "market": "Props",
               "context": "Dallas Cowboys at Green Bay Packers",
-              "event": {
-                "id": "401873007",
-                "startAt": "2026-10-19T00:20Z",
-                "state": "post",
-                "teams": [
-                  "Packers",
-                  "Cowboys"
-                ],
-                "matchup": "Dallas Cowboys at Green Bay Packers",
-                "week": 6,
-                "season": 2026
-              }
+              "event": null
             },
             {
               "selection": "Christian Watson 75+ Receiving Yards ( -111 )",
               "market": "Props",
               "context": "Dallas Cowboys at Green Bay Packers",
-              "event": {
-                "id": "401873007",
-                "startAt": "2026-10-19T00:20Z",
-                "state": "post",
-                "teams": [
-                  "Packers",
-                  "Cowboys"
-                ],
-                "matchup": "Dallas Cowboys at Green Bay Packers",
-                "week": 6,
-                "season": 2026
-              }
+              "event": null
             }
           ]
         }
@@ -1571,18 +1399,7 @@
           "market": "Moneyline",
           "context": "Cowboys vs. Packers (Game Pick)",
           "method": "Explicit selection in publisher feed",
-          "event": {
-            "id": "401873007",
-            "startAt": "2026-10-19T00:20Z",
-            "state": "post",
-            "teams": [
-              "Packers",
-              "Cowboys"
-            ],
-            "matchup": "Dallas Cowboys at Green Bay Packers",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         },
         {
           "selection": "Jordan Love Over 269.5 Passing Yards ( -113 )",
@@ -1594,18 +1411,7 @@
             "team": "Packers",
             "athleteId": "4036378"
           },
-          "event": {
-            "id": "401873007",
-            "startAt": "2026-10-19T00:20Z",
-            "state": "post",
-            "teams": [
-              "Packers",
-              "Cowboys"
-            ],
-            "matchup": "Dallas Cowboys at Green Bay Packers",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         }
       ],
       "parlays": [],
@@ -1637,18 +1443,7 @@
             "team": "Cowboys",
             "athleteId": "4361579"
           },
-          "event": {
-            "id": "401873007",
-            "startAt": "2026-10-19T00:20Z",
-            "state": "post",
-            "teams": [
-              "Packers",
-              "Cowboys"
-            ],
-            "matchup": "Dallas Cowboys at Green Bay Packers",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         },
         {
           "selection": "Green Bay Packers First TD Scorer: Christian Watson ( +425 )",
@@ -1660,18 +1455,7 @@
             "team": "Packers",
             "athleteId": "4248528"
           },
-          "event": {
-            "id": "401873007",
-            "startAt": "2026-10-19T00:20Z",
-            "state": "post",
-            "teams": [
-              "Packers",
-              "Cowboys"
-            ],
-            "matchup": "Dallas Cowboys at Green Bay Packers",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         }
       ],
       "parlays": [],
@@ -1701,52 +1485,19 @@
               "selection": "Drake London 90+ Receiving Yards ( -123 )",
               "market": "Props",
               "context": "Chicago Bears at Atlanta Falcons",
-              "event": {
-                "id": "401872999",
-                "startAt": "2026-10-18T17:00Z",
-                "state": "post",
-                "teams": [
-                  "Falcons",
-                  "Bears"
-                ],
-                "matchup": "Chicago Bears at Atlanta Falcons",
-                "week": 6,
-                "season": 2026
-              }
+              "event": null
             },
             {
               "selection": "Luther Burden III 50+ Receiving Yards ( -117 )",
               "market": "Props",
               "context": "Chicago Bears at Atlanta Falcons",
-              "event": {
-                "id": "401872999",
-                "startAt": "2026-10-18T17:00Z",
-                "state": "post",
-                "teams": [
-                  "Falcons",
-                  "Bears"
-                ],
-                "matchup": "Chicago Bears at Atlanta Falcons",
-                "week": 6,
-                "season": 2026
-              }
+              "event": null
             },
             {
               "selection": "D’Andre Swift Under 66.5 Rushing Yards ( -114 )",
               "market": "Props",
               "context": "Chicago Bears at Atlanta Falcons",
-              "event": {
-                "id": "401872999",
-                "startAt": "2026-10-18T17:00Z",
-                "state": "post",
-                "teams": [
-                  "Falcons",
-                  "Bears"
-                ],
-                "matchup": "Chicago Bears at Atlanta Falcons",
-                "week": 6,
-                "season": 2026
-              }
+              "event": null
             }
           ]
         },
@@ -1758,52 +1509,19 @@
               "selection": "Dameon Pierce 50+ Rushing Yards ( -186 )",
               "market": "Props",
               "context": "Carolina Panthers at Philadelphia Eagles",
-              "event": {
-                "id": "401872998",
-                "startAt": "2026-10-18T17:00Z",
-                "state": "post",
-                "teams": [
-                  "Eagles",
-                  "Panthers"
-                ],
-                "matchup": "Carolina Panthers at Philadelphia Eagles",
-                "week": 6,
-                "season": 2026
-              }
+              "event": null
             },
             {
               "selection": "Dallas Goedert 40+ Receiving Yards ( +125 )",
               "market": "Props",
               "context": "Carolina Panthers at Philadelphia Eagles",
-              "event": {
-                "id": "401872998",
-                "startAt": "2026-10-18T17:00Z",
-                "state": "post",
-                "teams": [
-                  "Eagles",
-                  "Panthers"
-                ],
-                "matchup": "Carolina Panthers at Philadelphia Eagles",
-                "week": 6,
-                "season": 2026
-              }
+              "event": null
             },
             {
               "selection": "Chuba Hubbard 60+ Rushing Yards ( -206 )",
               "market": "Props",
               "context": "Carolina Panthers at Philadelphia Eagles",
-              "event": {
-                "id": "401872998",
-                "startAt": "2026-10-18T17:00Z",
-                "state": "post",
-                "teams": [
-                  "Eagles",
-                  "Panthers"
-                ],
-                "matchup": "Carolina Panthers at Philadelphia Eagles",
-                "week": 6,
-                "season": 2026
-              }
+              "event": null
             }
           ]
         },
@@ -1815,52 +1533,19 @@
               "selection": "Derrick Henry 90+ Rushing Yards ( -115 )",
               "market": "Props",
               "context": "Baltimore Ravens at Cleveland Browns",
-              "event": {
-                "id": "401872997",
-                "startAt": "2026-10-18T17:00Z",
-                "state": "post",
-                "teams": [
-                  "Browns",
-                  "Ravens"
-                ],
-                "matchup": "Baltimore Ravens at Cleveland Browns",
-                "week": 6,
-                "season": 2026
-              }
+              "event": null
             },
             {
               "selection": "Zay Flowers 50+ Receiving Yards ( -172 )",
               "market": "Props",
               "context": "Baltimore Ravens at Cleveland Browns",
-              "event": {
-                "id": "401872997",
-                "startAt": "2026-10-18T17:00Z",
-                "state": "post",
-                "teams": [
-                  "Browns",
-                  "Ravens"
-                ],
-                "matchup": "Baltimore Ravens at Cleveland Browns",
-                "week": 6,
-                "season": 2026
-              }
+              "event": null
             },
             {
               "selection": "Denzel Boston 50+ Receiving Yards ( -120 )",
               "market": "Props",
               "context": "Baltimore Ravens at Cleveland Browns",
-              "event": {
-                "id": "401872997",
-                "startAt": "2026-10-18T17:00Z",
-                "state": "post",
-                "teams": [
-                  "Browns",
-                  "Ravens"
-                ],
-                "matchup": "Baltimore Ravens at Cleveland Browns",
-                "week": 6,
-                "season": 2026
-              }
+              "event": null
             }
           ]
         },
@@ -1872,52 +1557,19 @@
               "selection": "Jonathan Taylor Under 89.5 Rushing Yards ( -112 )",
               "market": "Props",
               "context": "Tennessee Titans at Indianapolis Colts",
-              "event": {
-                "id": "401873003",
-                "startAt": "2026-10-18T17:00Z",
-                "state": "post",
-                "teams": [
-                  "Colts",
-                  "Titans"
-                ],
-                "matchup": "Tennessee Titans at Indianapolis Colts",
-                "week": 6,
-                "season": 2026
-              }
+              "event": null
             },
             {
               "selection": "Josh Downs 50+ Receiving Yards ( -108 )",
               "market": "Props",
               "context": "Tennessee Titans at Indianapolis Colts",
-              "event": {
-                "id": "401873003",
-                "startAt": "2026-10-18T17:00Z",
-                "state": "post",
-                "teams": [
-                  "Colts",
-                  "Titans"
-                ],
-                "matchup": "Tennessee Titans at Indianapolis Colts",
-                "week": 6,
-                "season": 2026
-              }
+              "event": null
             },
             {
               "selection": "Carnell Tate 50+ Receiving Yards ( -138 )",
               "market": "Props",
               "context": "Tennessee Titans at Indianapolis Colts",
-              "event": {
-                "id": "401873003",
-                "startAt": "2026-10-18T17:00Z",
-                "state": "post",
-                "teams": [
-                  "Colts",
-                  "Titans"
-                ],
-                "matchup": "Tennessee Titans at Indianapolis Colts",
-                "week": 6,
-                "season": 2026
-              }
+              "event": null
             }
           ]
         },
@@ -1929,52 +1581,19 @@
               "selection": "Garrett Wilson 70+ Receiving Yards ( -145 )",
               "market": "Props",
               "context": "New York Jets at New England Patriots",
-              "event": {
-                "id": "401873001",
-                "startAt": "2026-10-18T17:00Z",
-                "state": "post",
-                "teams": [
-                  "Patriots",
-                  "Jets"
-                ],
-                "matchup": "New York Jets at New England Patriots",
-                "week": 6,
-                "season": 2026
-              }
+              "event": null
             },
             {
               "selection": "Hunter Henry Under 30.5 Receiving Yards ( -110 )",
               "market": "Props",
               "context": "New York Jets at New England Patriots",
-              "event": {
-                "id": "401873001",
-                "startAt": "2026-10-18T17:00Z",
-                "state": "post",
-                "teams": [
-                  "Patriots",
-                  "Jets"
-                ],
-                "matchup": "New York Jets at New England Patriots",
-                "week": 6,
-                "season": 2026
-              }
+              "event": null
             },
             {
               "selection": "Drake Maye Under 28.5 Rushing Yards ( -115 )",
               "market": "Props",
               "context": "New York Jets at New England Patriots",
-              "event": {
-                "id": "401873001",
-                "startAt": "2026-10-18T17:00Z",
-                "state": "post",
-                "teams": [
-                  "Patriots",
-                  "Jets"
-                ],
-                "matchup": "New York Jets at New England Patriots",
-                "week": 6,
-                "season": 2026
-              }
+              "event": null
             }
           ]
         },
@@ -1986,52 +1605,19 @@
               "selection": "Cam Skattebo 50+ Rushing Yards ( -138 )",
               "market": "Props",
               "context": "New Orleans Saints at New York Giants",
-              "event": {
-                "id": "401873000",
-                "startAt": "2026-10-18T17:00Z",
-                "state": "post",
-                "teams": [
-                  "Giants",
-                  "Saints"
-                ],
-                "matchup": "New Orleans Saints at New York Giants",
-                "week": 6,
-                "season": 2026
-              }
+              "event": null
             },
             {
               "selection": "Isaiah Likely 50+ Receiving Yards ( -131 )",
               "market": "Props",
               "context": "New Orleans Saints at New York Giants",
-              "event": {
-                "id": "401873000",
-                "startAt": "2026-10-18T17:00Z",
-                "state": "post",
-                "teams": [
-                  "Giants",
-                  "Saints"
-                ],
-                "matchup": "New Orleans Saints at New York Giants",
-                "week": 6,
-                "season": 2026
-              }
+              "event": null
             },
             {
               "selection": "Juwan Johnson 50+ Receiving Yards ( -123 )",
               "market": "Props",
               "context": "New Orleans Saints at New York Giants",
-              "event": {
-                "id": "401873000",
-                "startAt": "2026-10-18T17:00Z",
-                "state": "post",
-                "teams": [
-                  "Giants",
-                  "Saints"
-                ],
-                "matchup": "New Orleans Saints at New York Giants",
-                "week": 6,
-                "season": 2026
-              }
+              "event": null
             }
           ]
         },
@@ -2043,52 +1629,19 @@
               "selection": "Jaylen Warren Under 60.5 Rushing Yards ( -112 )",
               "market": "Props",
               "context": "Pittsburgh Steelers at Tampa Bay Buccaneers",
-              "event": {
-                "id": "401873002",
-                "startAt": "2026-10-18T17:00Z",
-                "state": "post",
-                "teams": [
-                  "Buccaneers",
-                  "Steelers"
-                ],
-                "matchup": "Pittsburgh Steelers at Tampa Bay Buccaneers",
-                "week": 6,
-                "season": 2026
-              }
+              "event": null
             },
             {
               "selection": "Jaylen Warren 25+ Receiving Yards ( -157 )",
               "market": "Props",
               "context": "Pittsburgh Steelers at Tampa Bay Buccaneers",
-              "event": {
-                "id": "401873002",
-                "startAt": "2026-10-18T17:00Z",
-                "state": "post",
-                "teams": [
-                  "Buccaneers",
-                  "Steelers"
-                ],
-                "matchup": "Pittsburgh Steelers at Tampa Bay Buccaneers",
-                "week": 6,
-                "season": 2026
-              }
+              "event": null
             },
             {
               "selection": "Kenneth Gainwell Over 12.5 Receiving Yards ( -114 )",
               "market": "Props",
               "context": "Pittsburgh Steelers at Tampa Bay Buccaneers",
-              "event": {
-                "id": "401873002",
-                "startAt": "2026-10-18T17:00Z",
-                "state": "post",
-                "teams": [
-                  "Buccaneers",
-                  "Steelers"
-                ],
-                "matchup": "Pittsburgh Steelers at Tampa Bay Buccaneers",
-                "week": 6,
-                "season": 2026
-              }
+              "event": null
             }
           ]
         },
@@ -2100,52 +1653,19 @@
               "selection": "Trey McBride Under 64.5 Receiving Yards ( -114 )",
               "market": "Props",
               "context": "Arizona Cardinals at Los Angeles Rams",
-              "event": {
-                "id": "401873004",
-                "startAt": "2026-10-18T20:05Z",
-                "state": "post",
-                "teams": [
-                  "Rams",
-                  "Cardinals"
-                ],
-                "matchup": "Arizona Cardinals at Los Angeles Rams",
-                "week": 6,
-                "season": 2026
-              }
+              "event": null
             },
             {
               "selection": "Tyler Higbee 35+ Receiving Yards ( -112 )",
               "market": "Props",
               "context": "Arizona Cardinals at Los Angeles Rams",
-              "event": {
-                "id": "401873004",
-                "startAt": "2026-10-18T20:05Z",
-                "state": "post",
-                "teams": [
-                  "Rams",
-                  "Cardinals"
-                ],
-                "matchup": "Arizona Cardinals at Los Angeles Rams",
-                "week": 6,
-                "season": 2026
-              }
+              "event": null
             },
             {
               "selection": "Kyren Williams 60+ Rushing Yards ( -177 )",
               "market": "Props",
               "context": "Arizona Cardinals at Los Angeles Rams",
-              "event": {
-                "id": "401873004",
-                "startAt": "2026-10-18T20:05Z",
-                "state": "post",
-                "teams": [
-                  "Rams",
-                  "Cardinals"
-                ],
-                "matchup": "Arizona Cardinals at Los Angeles Rams",
-                "week": 6,
-                "season": 2026
-              }
+              "event": null
             }
           ]
         },
@@ -2157,52 +1677,19 @@
               "selection": "Xavier Worthy 50+ Receiving Yards ( -109 )",
               "market": "Props",
               "context": "Los Angeles Chargers at Kansas City Chiefs",
-              "event": {
-                "id": "401873006",
-                "startAt": "2026-10-18T20:25Z",
-                "state": "post",
-                "teams": [
-                  "Chiefs",
-                  "Chargers"
-                ],
-                "matchup": "Los Angeles Chargers at Kansas City Chiefs",
-                "week": 6,
-                "season": 2026
-              }
+              "event": null
             },
             {
               "selection": "Omarion Hampton Under 32.5 Rushing Yards ( -115 )",
               "market": "Props",
               "context": "Los Angeles Chargers at Kansas City Chiefs",
-              "event": {
-                "id": "401873006",
-                "startAt": "2026-10-18T20:25Z",
-                "state": "post",
-                "teams": [
-                  "Chiefs",
-                  "Chargers"
-                ],
-                "matchup": "Los Angeles Chargers at Kansas City Chiefs",
-                "week": 6,
-                "season": 2026
-              }
+              "event": null
             },
             {
               "selection": "Charlie Kolar 15+ Receiving Yards ( -194 )",
               "market": "Props",
               "context": "Los Angeles Chargers at Kansas City Chiefs",
-              "event": {
-                "id": "401873006",
-                "startAt": "2026-10-18T20:25Z",
-                "state": "post",
-                "teams": [
-                  "Chiefs",
-                  "Chargers"
-                ],
-                "matchup": "Los Angeles Chargers at Kansas City Chiefs",
-                "week": 6,
-                "season": 2026
-              }
+              "event": null
             }
           ]
         },
@@ -2214,52 +1701,19 @@
               "selection": "Over 53.5 Total Points ( -115 )",
               "market": "Totals",
               "context": "Buffalo Bills at Las Vegas Raiders",
-              "event": {
-                "id": "401873005",
-                "startAt": "2026-10-18T20:25Z",
-                "state": "post",
-                "teams": [
-                  "Raiders",
-                  "Bills"
-                ],
-                "matchup": "Buffalo Bills at Las Vegas Raiders",
-                "week": 6,
-                "season": 2026
-              }
+              "event": null
             },
             {
               "selection": "Brock Bowers 80+ Receiving Yards ( -116 )",
               "market": "Props",
               "context": "Buffalo Bills at Las Vegas Raiders",
-              "event": {
-                "id": "401873005",
-                "startAt": "2026-10-18T20:25Z",
-                "state": "post",
-                "teams": [
-                  "Raiders",
-                  "Bills"
-                ],
-                "matchup": "Buffalo Bills at Las Vegas Raiders",
-                "week": 6,
-                "season": 2026
-              }
+              "event": null
             },
             {
               "selection": "James Cook 100+ Rushing Yards ( +108 )",
               "market": "Props",
               "context": "Buffalo Bills at Las Vegas Raiders",
-              "event": {
-                "id": "401873005",
-                "startAt": "2026-10-18T20:25Z",
-                "state": "post",
-                "teams": [
-                  "Raiders",
-                  "Bills"
-                ],
-                "matchup": "Buffalo Bills at Las Vegas Raiders",
-                "week": 6,
-                "season": 2026
-              }
+              "event": null
             }
           ]
         }
@@ -2478,36 +1932,14 @@
           "market": "Spread",
           "context": "NFL Week 6 Picks & Predictions: Texans vs. Jaguars",
           "method": "Explicit selection in publisher feed",
-          "event": {
-            "id": "401872996",
-            "startAt": "2026-10-18T13:30Z",
-            "state": "post",
-            "teams": [
-              "Jaguars",
-              "Texans"
-            ],
-            "matchup": "Houston Texans at Jacksonville Jaguars",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         },
         {
           "selection": "Over 42.5 Points ( -108 )",
           "market": "Totals",
           "context": "NFL Week 6 Picks & Predictions: Texans vs. Jaguars",
           "method": "Explicit selection in publisher feed",
-          "event": {
-            "id": "401872996",
-            "startAt": "2026-10-18T13:30Z",
-            "state": "post",
-            "teams": [
-              "Jaguars",
-              "Texans"
-            ],
-            "matchup": "Houston Texans at Jacksonville Jaguars",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         }
       ],
       "parlays": [],
@@ -2539,18 +1971,7 @@
             "team": "Cardinals",
             "athleteId": "2578570"
           },
-          "event": {
-            "id": "401873004",
-            "startAt": "2026-10-18T20:05Z",
-            "state": "post",
-            "teams": [
-              "Rams",
-              "Cardinals"
-            ],
-            "matchup": "Arizona Cardinals at Los Angeles Rams",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         },
         {
           "selection": "Cardinals WR Michael Wilson Over 5.5 Receptions (+115 at Bet365)",
@@ -2562,18 +1983,7 @@
             "team": "Cardinals",
             "athleteId": "4360761"
           },
-          "event": {
-            "id": "401873004",
-            "startAt": "2026-10-18T20:05Z",
-            "state": "post",
-            "teams": [
-              "Rams",
-              "Cardinals"
-            ],
-            "matchup": "Arizona Cardinals at Los Angeles Rams",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         }
       ],
       "parlays": [],
@@ -2596,18 +2006,7 @@
           "market": "Moneyline",
           "context": "Bears at Falcons Best Bet: Falcons ML +104 (FanDuel)",
           "method": "Explicit selection in publisher feed",
-          "event": {
-            "id": "401872999",
-            "startAt": "2026-10-18T17:00Z",
-            "state": "post",
-            "teams": [
-              "Falcons",
-              "Bears"
-            ],
-            "matchup": "Chicago Bears at Atlanta Falcons",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         }
       ],
       "parlays": [],
@@ -2633,18 +2032,7 @@
           "market": "Other",
           "context": "Arizona Cardinals vs. Los Angeles Rams Prediction",
           "method": "Explicit selection in publisher feed",
-          "event": {
-            "id": "401873004",
-            "startAt": "2026-10-18T20:05Z",
-            "state": "post",
-            "teams": [
-              "Rams",
-              "Cardinals"
-            ],
-            "matchup": "Arizona Cardinals at Los Angeles Rams",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         }
       ],
       "parlays": [],
@@ -2670,54 +2058,21 @@
           "market": "Spread",
           "context": "Carolina Panthers at Philadelphia Eagles",
           "method": "Explicit selection in publisher feed",
-          "event": {
-            "id": "401872998",
-            "startAt": "2026-10-18T17:00Z",
-            "state": "post",
-            "teams": [
-              "Eagles",
-              "Panthers"
-            ],
-            "matchup": "Carolina Panthers at Philadelphia Eagles",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         },
         {
           "selection": "Under 41.5 Points",
           "market": "Totals",
           "context": "Los Angeles Chargers at Kansas City Chiefs",
           "method": "Explicit selection in publisher feed",
-          "event": {
-            "id": "401873006",
-            "startAt": "2026-10-18T20:25Z",
-            "state": "post",
-            "teams": [
-              "Chiefs",
-              "Chargers"
-            ],
-            "matchup": "Los Angeles Chargers at Kansas City Chiefs",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         },
         {
           "selection": "Browns +3",
           "market": "Spread",
           "context": "Los Angeles Chargers at Kansas City Chiefs",
           "method": "Explicit selection in publisher feed",
-          "event": {
-            "id": "401873006",
-            "startAt": "2026-10-18T20:25Z",
-            "state": "post",
-            "teams": [
-              "Chiefs",
-              "Chargers"
-            ],
-            "matchup": "Los Angeles Chargers at Kansas City Chiefs",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         }
       ],
       "parlays": [],
@@ -2749,18 +2104,7 @@
             "team": "Jaguars",
             "athleteId": "4882093"
           },
-          "event": {
-            "id": "401872996",
-            "startAt": "2026-10-18T13:30Z",
-            "state": "post",
-            "teams": [
-              "Jaguars",
-              "Texans"
-            ],
-            "matchup": "Houston Texans at Jacksonville Jaguars",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         },
         {
           "selection": "Nico Collins Over 74.5 Receiving Yards ( -110 )",
@@ -2772,18 +2116,7 @@
             "team": "Texans",
             "athleteId": "4258173"
           },
-          "event": {
-            "id": "401872996",
-            "startAt": "2026-10-18T13:30Z",
-            "state": "post",
-            "teams": [
-              "Jaguars",
-              "Texans"
-            ],
-            "matchup": "Houston Texans at Jacksonville Jaguars",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         }
       ],
       "parlays": [],
@@ -2813,52 +2146,19 @@
               "selection": "Under 42.5 Points ( -112 )",
               "market": "Totals",
               "context": "Houston Texans vs. Jacksonville Jaguars",
-              "event": {
-                "id": "401872996",
-                "startAt": "2026-10-18T13:30Z",
-                "state": "post",
-                "teams": [
-                  "Jaguars",
-                  "Texans"
-                ],
-                "matchup": "Houston Texans at Jacksonville Jaguars",
-                "week": 6,
-                "season": 2026
-              }
+              "event": null
             },
             {
               "selection": "Nico Collins 60+ Receiving Yards ( -210 )",
               "market": "Props",
               "context": "Houston Texans vs. Jacksonville Jaguars",
-              "event": {
-                "id": "401872996",
-                "startAt": "2026-10-18T13:30Z",
-                "state": "post",
-                "teams": [
-                  "Jaguars",
-                  "Texans"
-                ],
-                "matchup": "Houston Texans at Jacksonville Jaguars",
-                "week": 6,
-                "season": 2026
-              }
+              "event": null
             },
             {
               "selection": "Xavier Hutchinson – Longest Reception Over 10.5 Yards ( -112 )",
               "market": "Props",
               "context": "Houston Texans vs. Jacksonville Jaguars",
-              "event": {
-                "id": "401872996",
-                "startAt": "2026-10-18T13:30Z",
-                "state": "post",
-                "teams": [
-                  "Jaguars",
-                  "Texans"
-                ],
-                "matchup": "Houston Texans at Jacksonville Jaguars",
-                "week": 6,
-                "season": 2026
-              }
+              "event": null
             }
           ]
         }
@@ -2889,35 +2189,13 @@
               "selection": "Panthers Moneyline ( -166 )",
               "market": "Moneyline",
               "context": "Carolina Panthers at Philadelphia Eagles",
-              "event": {
-                "id": "401872998",
-                "startAt": "2026-10-18T17:00Z",
-                "state": "post",
-                "teams": [
-                  "Eagles",
-                  "Panthers"
-                ],
-                "matchup": "Carolina Panthers at Philadelphia Eagles",
-                "week": 6,
-                "season": 2026
-              }
+              "event": null
             },
             {
               "selection": "Dameon Pierce Anytime Touchdown ( +160 )",
               "market": "Props",
               "context": "Carolina Panthers at Philadelphia Eagles",
-              "event": {
-                "id": "401872998",
-                "startAt": "2026-10-18T17:00Z",
-                "state": "post",
-                "teams": [
-                  "Eagles",
-                  "Panthers"
-                ],
-                "matchup": "Carolina Panthers at Philadelphia Eagles",
-                "week": 6,
-                "season": 2026
-              }
+              "event": null
             }
           ]
         },
@@ -2929,35 +2207,13 @@
               "selection": "Bills Moneyline ( -230 )",
               "market": "Moneyline",
               "context": "Buffalo Bills at Las Vegas Raiders",
-              "event": {
-                "id": "401873005",
-                "startAt": "2026-10-18T20:25Z",
-                "state": "post",
-                "teams": [
-                  "Raiders",
-                  "Bills"
-                ],
-                "matchup": "Buffalo Bills at Las Vegas Raiders",
-                "week": 6,
-                "season": 2026
-              }
+              "event": null
             },
             {
               "selection": "Tre Tucker Anytime Touchdown ( +275 )",
               "market": "Props",
               "context": "Buffalo Bills at Las Vegas Raiders",
-              "event": {
-                "id": "401873005",
-                "startAt": "2026-10-18T20:25Z",
-                "state": "post",
-                "teams": [
-                  "Raiders",
-                  "Bills"
-                ],
-                "matchup": "Buffalo Bills at Las Vegas Raiders",
-                "week": 6,
-                "season": 2026
-              }
+              "event": null
             }
           ]
         }
@@ -2986,18 +2242,7 @@
             "team": "Titans",
             "athleteId": "3916148"
           },
-          "event": {
-            "id": "401873003",
-            "startAt": "2026-10-18T17:00Z",
-            "state": "post",
-            "teams": [
-              "Colts",
-              "Titans"
-            ],
-            "matchup": "Tennessee Titans at Indianapolis Colts",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         },
         {
           "selection": "Kyren Williams 110+ Rushing Yards ( +467 )",
@@ -3009,18 +2254,7 @@
             "team": "Rams",
             "athleteId": "4430737"
           },
-          "event": {
-            "id": "401873004",
-            "startAt": "2026-10-18T20:05Z",
-            "state": "post",
-            "teams": [
-              "Rams",
-              "Cardinals"
-            ],
-            "matchup": "Arizona Cardinals at Los Angeles Rams",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         }
       ],
       "parlays": [],
@@ -3066,54 +2300,21 @@
           "market": "Moneyline",
           "context": "Houston Texans vs. Jacksonville Jaguars",
           "method": "Explicit selection in publisher feed",
-          "event": {
-            "id": "401872996",
-            "startAt": "2026-10-18T13:30Z",
-            "state": "post",
-            "teams": [
-              "Jaguars",
-              "Texans"
-            ],
-            "matchup": "Houston Texans at Jacksonville Jaguars",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         },
         {
           "selection": "Falcons Moneyline ( +104 at FanDuel )",
           "market": "Moneyline",
           "context": "Chicago Bears vs. Atlanta Falcons",
           "method": "Explicit selection in publisher feed",
-          "event": {
-            "id": "401872999",
-            "startAt": "2026-10-18T17:00Z",
-            "state": "post",
-            "teams": [
-              "Falcons",
-              "Bears"
-            ],
-            "matchup": "Chicago Bears at Atlanta Falcons",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         },
         {
           "selection": "Eagles Moneyline ( -102 at Caesars )",
           "market": "Moneyline",
           "context": "Carolina Panthers vs. Philadelphia Eagles",
           "method": "Explicit selection in publisher feed",
-          "event": {
-            "id": "401872998",
-            "startAt": "2026-10-18T17:00Z",
-            "state": "post",
-            "teams": [
-              "Eagles",
-              "Panthers"
-            ],
-            "matchup": "Carolina Panthers at Philadelphia Eagles",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         }
       ],
       "parlays": [],
@@ -3155,18 +2356,7 @@
           "market": "Spread",
           "context": "Chiefs vs Chargers Prediction",
           "method": "Explicit selection in publisher feed",
-          "event": {
-            "id": "401873006",
-            "startAt": "2026-10-18T20:25Z",
-            "state": "post",
-            "teams": [
-              "Chiefs",
-              "Chargers"
-            ],
-            "matchup": "Los Angeles Chargers at Kansas City Chiefs",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         }
       ],
       "parlays": [],
@@ -3195,18 +2385,7 @@
           "context": "Commanders vs 49ers",
           "eventDate": "2026-10-19",
           "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873008",
-            "startAt": "2026-10-20T00:15Z",
-            "state": "post",
-            "teams": [
-              "49ers",
-              "Commanders"
-            ],
-            "matchup": "Washington Commanders at San Francisco 49ers",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         }
       ],
       "parlays": [],
@@ -3235,18 +2414,7 @@
           "context": "Commanders vs 49ers",
           "eventDate": "2026-10-19",
           "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873008",
-            "startAt": "2026-10-20T00:15Z",
-            "state": "post",
-            "teams": [
-              "49ers",
-              "Commanders"
-            ],
-            "matchup": "Washington Commanders at San Francisco 49ers",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         }
       ],
       "parlays": [],
@@ -3275,18 +2443,7 @@
           "context": "Commanders vs 49ers",
           "eventDate": "2026-10-19",
           "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873008",
-            "startAt": "2026-10-20T00:15Z",
-            "state": "post",
-            "teams": [
-              "49ers",
-              "Commanders"
-            ],
-            "matchup": "Washington Commanders at San Francisco 49ers",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         }
       ],
       "parlays": [],
@@ -3315,18 +2472,7 @@
           "context": "Commanders vs 49ers",
           "eventDate": "2026-10-19",
           "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873008",
-            "startAt": "2026-10-20T00:15Z",
-            "state": "post",
-            "teams": [
-              "49ers",
-              "Commanders"
-            ],
-            "matchup": "Washington Commanders at San Francisco 49ers",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         }
       ],
       "parlays": [],
@@ -3355,18 +2501,7 @@
           "context": "Commanders vs 49ers",
           "eventDate": "2026-10-19",
           "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873008",
-            "startAt": "2026-10-20T00:15Z",
-            "state": "post",
-            "teams": [
-              "49ers",
-              "Commanders"
-            ],
-            "matchup": "Washington Commanders at San Francisco 49ers",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         }
       ],
       "parlays": [],
@@ -3395,18 +2530,7 @@
           "context": "Commanders vs 49ers",
           "eventDate": "2026-10-19",
           "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873008",
-            "startAt": "2026-10-20T00:15Z",
-            "state": "post",
-            "teams": [
-              "49ers",
-              "Commanders"
-            ],
-            "matchup": "Washington Commanders at San Francisco 49ers",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         }
       ],
       "parlays": [],
@@ -3435,18 +2559,7 @@
           "context": "Commanders vs 49ers",
           "eventDate": "2026-10-19",
           "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873008",
-            "startAt": "2026-10-20T00:15Z",
-            "state": "post",
-            "teams": [
-              "49ers",
-              "Commanders"
-            ],
-            "matchup": "Washington Commanders at San Francisco 49ers",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         }
       ],
       "parlays": [],
@@ -3456,43 +2569,6 @@
       "teams": [
         "49ers",
         "Commanders"
-      ]
-    },
-    {
-      "id": "dc120339255413bd",
-      "title": "Eagles vs Panthers Prediction 10/18/26 NFL Picks Today | Sports Chat Place",
-      "url": "https://sportschatplace.com/nfl-picks/eagles-vs-panthers-prediction-10-18-26-nfl-picks-today/",
-      "publisher": "Sports Chat Place",
-      "sourceId": "sportschat",
-      "author": "David Racey",
-      "publishedAt": "2026-10-16T16:02:20+00:00",
-      "picks": [
-        {
-          "selection": "Eagles +3.5",
-          "market": "Spread",
-          "context": "Eagles vs Panthers Prediction",
-          "method": "Explicit selection in publisher feed",
-          "event": {
-            "id": "401872998",
-            "startAt": "2026-10-18T17:00Z",
-            "state": "post",
-            "teams": [
-              "Eagles",
-              "Panthers"
-            ],
-            "matchup": "Carolina Panthers at Philadelphia Eagles",
-            "week": 6,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Panthers",
-        "Eagles"
       ]
     },
     {
@@ -3509,18 +2585,7 @@
           "market": "Spread",
           "context": "Patriots vs Jets Prediction",
           "method": "Explicit selection in publisher feed",
-          "event": {
-            "id": "401873001",
-            "startAt": "2026-10-18T17:00Z",
-            "state": "post",
-            "teams": [
-              "Patriots",
-              "Jets"
-            ],
-            "matchup": "New York Jets at New England Patriots",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         }
       ],
       "parlays": [],
@@ -3546,18 +2611,7 @@
           "market": "Spread",
           "context": "Colts vs Titans Prediction",
           "method": "Explicit selection in publisher feed",
-          "event": {
-            "id": "401873003",
-            "startAt": "2026-10-18T17:00Z",
-            "state": "post",
-            "teams": [
-              "Colts",
-              "Titans"
-            ],
-            "matchup": "Tennessee Titans at Indianapolis Colts",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         }
       ],
       "parlays": [],
@@ -3588,18 +2642,7 @@
             "team": "Rams",
             "athleteId": "4426515"
           },
-          "event": {
-            "id": "401873004",
-            "startAt": "2026-10-18T20:05Z",
-            "state": "post",
-            "teams": [
-              "Rams",
-              "Cardinals"
-            ],
-            "matchup": "Arizona Cardinals at Los Angeles Rams",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         },
         {
           "selection": "Brock Bowers Anytime TD (-114)",
@@ -3611,18 +2654,7 @@
             "team": "Raiders",
             "athleteId": "4432665"
           },
-          "event": {
-            "id": "401873005",
-            "startAt": "2026-10-18T20:25Z",
-            "state": "post",
-            "teams": [
-              "Raiders",
-              "Bills"
-            ],
-            "matchup": "Buffalo Bills at Las Vegas Raiders",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         },
         {
           "selection": "Matthew Stafford Over 279.5 passing yards (-114)",
@@ -3634,18 +2666,7 @@
             "team": "Rams",
             "athleteId": "12483"
           },
-          "event": {
-            "id": "401873004",
-            "startAt": "2026-10-18T20:05Z",
-            "state": "post",
-            "teams": [
-              "Rams",
-              "Cardinals"
-            ],
-            "matchup": "Arizona Cardinals at Los Angeles Rams",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         },
         {
           "selection": "Davante Adams Anytime TD (-125)",
@@ -3657,18 +2678,7 @@
             "team": "Rams",
             "athleteId": "16800"
           },
-          "event": {
-            "id": "401873004",
-            "startAt": "2026-10-18T20:05Z",
-            "state": "post",
-            "teams": [
-              "Rams",
-              "Cardinals"
-            ],
-            "matchup": "Arizona Cardinals at Los Angeles Rams",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         },
         {
           "selection": "Mike Evans Anytime TD (-130)",
@@ -3680,18 +2690,7 @@
             "team": "49ers",
             "athleteId": "16737"
           },
-          "event": {
-            "id": "401873008",
-            "startAt": "2026-10-20T00:15Z",
-            "state": "post",
-            "teams": [
-              "49ers",
-              "Commanders"
-            ],
-            "matchup": "Washington Commanders at San Francisco 49ers",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         },
         {
           "selection": "Patrick Mahomes Over 1.5 passing TDs (-115)",
@@ -3703,18 +2702,7 @@
             "team": "Chiefs",
             "athleteId": "3139477"
           },
-          "event": {
-            "id": "401873006",
-            "startAt": "2026-10-18T20:25Z",
-            "state": "post",
-            "teams": [
-              "Chiefs",
-              "Chargers"
-            ],
-            "matchup": "Los Angeles Chargers at Kansas City Chiefs",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         }
       ],
       "parlays": [],
@@ -3737,18 +2725,7 @@
           "market": "Spread",
           "context": "Ravens vs Browns Prediction",
           "method": "Explicit selection in publisher feed",
-          "event": {
-            "id": "401872997",
-            "startAt": "2026-10-18T17:00Z",
-            "state": "post",
-            "teams": [
-              "Browns",
-              "Ravens"
-            ],
-            "matchup": "Baltimore Ravens at Cleveland Browns",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         }
       ],
       "parlays": [],
@@ -3774,18 +2751,7 @@
           "market": "Spread",
           "context": "Packers vs Cowboys Prediction",
           "method": "Explicit selection in publisher feed",
-          "event": {
-            "id": "401873007",
-            "startAt": "2026-10-19T00:20Z",
-            "state": "post",
-            "teams": [
-              "Packers",
-              "Cowboys"
-            ],
-            "matchup": "Dallas Cowboys at Green Bay Packers",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         }
       ],
       "parlays": [],
@@ -3811,18 +2777,7 @@
           "market": "Spread",
           "context": "Buccaneers vs Steelers Prediction",
           "method": "Explicit selection in publisher feed",
-          "event": {
-            "id": "401873002",
-            "startAt": "2026-10-18T17:00Z",
-            "state": "post",
-            "teams": [
-              "Buccaneers",
-              "Steelers"
-            ],
-            "matchup": "Pittsburgh Steelers at Tampa Bay Buccaneers",
-            "week": 6,
-            "season": 2026
-          }
+          "event": null
         }
       ],
       "parlays": [],
@@ -3903,174 +2858,6 @@
   ],
   "refreshMinutes": 60,
   "games": [
-    {
-      "id": "401872995",
-      "startAt": "2026-10-16T00:15Z",
-      "state": "post",
-      "teams": [
-        "Broncos",
-        "Seahawks"
-      ],
-      "matchup": "Seattle Seahawks at Denver Broncos",
-      "week": 6,
-      "season": 2026
-    },
-    {
-      "id": "401872996",
-      "startAt": "2026-10-18T13:30Z",
-      "state": "post",
-      "teams": [
-        "Jaguars",
-        "Texans"
-      ],
-      "matchup": "Houston Texans at Jacksonville Jaguars",
-      "week": 6,
-      "season": 2026
-    },
-    {
-      "id": "401872999",
-      "startAt": "2026-10-18T17:00Z",
-      "state": "post",
-      "teams": [
-        "Falcons",
-        "Bears"
-      ],
-      "matchup": "Chicago Bears at Atlanta Falcons",
-      "week": 6,
-      "season": 2026
-    },
-    {
-      "id": "401872997",
-      "startAt": "2026-10-18T17:00Z",
-      "state": "post",
-      "teams": [
-        "Browns",
-        "Ravens"
-      ],
-      "matchup": "Baltimore Ravens at Cleveland Browns",
-      "week": 6,
-      "season": 2026
-    },
-    {
-      "id": "401873003",
-      "startAt": "2026-10-18T17:00Z",
-      "state": "post",
-      "teams": [
-        "Colts",
-        "Titans"
-      ],
-      "matchup": "Tennessee Titans at Indianapolis Colts",
-      "week": 6,
-      "season": 2026
-    },
-    {
-      "id": "401873001",
-      "startAt": "2026-10-18T17:00Z",
-      "state": "post",
-      "teams": [
-        "Patriots",
-        "Jets"
-      ],
-      "matchup": "New York Jets at New England Patriots",
-      "week": 6,
-      "season": 2026
-    },
-    {
-      "id": "401873000",
-      "startAt": "2026-10-18T17:00Z",
-      "state": "post",
-      "teams": [
-        "Giants",
-        "Saints"
-      ],
-      "matchup": "New Orleans Saints at New York Giants",
-      "week": 6,
-      "season": 2026
-    },
-    {
-      "id": "401872998",
-      "startAt": "2026-10-18T17:00Z",
-      "state": "post",
-      "teams": [
-        "Eagles",
-        "Panthers"
-      ],
-      "matchup": "Carolina Panthers at Philadelphia Eagles",
-      "week": 6,
-      "season": 2026
-    },
-    {
-      "id": "401873002",
-      "startAt": "2026-10-18T17:00Z",
-      "state": "post",
-      "teams": [
-        "Buccaneers",
-        "Steelers"
-      ],
-      "matchup": "Pittsburgh Steelers at Tampa Bay Buccaneers",
-      "week": 6,
-      "season": 2026
-    },
-    {
-      "id": "401873004",
-      "startAt": "2026-10-18T20:05Z",
-      "state": "post",
-      "teams": [
-        "Rams",
-        "Cardinals"
-      ],
-      "matchup": "Arizona Cardinals at Los Angeles Rams",
-      "week": 6,
-      "season": 2026
-    },
-    {
-      "id": "401873006",
-      "startAt": "2026-10-18T20:25Z",
-      "state": "post",
-      "teams": [
-        "Chiefs",
-        "Chargers"
-      ],
-      "matchup": "Los Angeles Chargers at Kansas City Chiefs",
-      "week": 6,
-      "season": 2026
-    },
-    {
-      "id": "401873005",
-      "startAt": "2026-10-18T20:25Z",
-      "state": "post",
-      "teams": [
-        "Raiders",
-        "Bills"
-      ],
-      "matchup": "Buffalo Bills at Las Vegas Raiders",
-      "week": 6,
-      "season": 2026
-    },
-    {
-      "id": "401873007",
-      "startAt": "2026-10-19T00:20Z",
-      "state": "post",
-      "teams": [
-        "Packers",
-        "Cowboys"
-      ],
-      "matchup": "Dallas Cowboys at Green Bay Packers",
-      "week": 6,
-      "season": 2026
-    },
-    {
-      "id": "401873008",
-      "startAt": "2026-10-20T00:15Z",
-      "state": "post",
-      "teams": [
-        "49ers",
-        "Commanders"
-      ],
-      "matchup": "Washington Commanders at San Francisco 49ers",
-      "week": 6,
-      "season": 2026
-    },
     {
       "id": "401873010",
       "startAt": "2026-10-23T00:15Z",
@@ -4238,12 +3025,180 @@
       "matchup": "Dallas Cowboys at Philadelphia Eagles",
       "week": 7,
       "season": 2026
+    },
+    {
+      "id": "401873023",
+      "startAt": "2026-10-30T00:15Z",
+      "state": "pre",
+      "teams": [
+        "Packers",
+        "Panthers"
+      ],
+      "matchup": "Carolina Panthers at Green Bay Packers",
+      "week": 8,
+      "season": 2026
+    },
+    {
+      "id": "401873026",
+      "startAt": "2026-11-01T18:00Z",
+      "state": "pre",
+      "teams": [
+        "Bills",
+        "Ravens"
+      ],
+      "matchup": "Baltimore Ravens at Buffalo Bills",
+      "week": 8,
+      "season": 2026
+    },
+    {
+      "id": "401873031",
+      "startAt": "2026-11-01T18:00Z",
+      "state": "pre",
+      "teams": [
+        "Bengals",
+        "Titans"
+      ],
+      "matchup": "Tennessee Titans at Cincinnati Bengals",
+      "week": 8,
+      "season": 2026
+    },
+    {
+      "id": "401873024",
+      "startAt": "2026-11-01T18:00Z",
+      "state": "pre",
+      "teams": [
+        "Cowboys",
+        "Cardinals"
+      ],
+      "matchup": "Arizona Cardinals at Dallas Cowboys",
+      "week": 8,
+      "season": 2026
+    },
+    {
+      "id": "401873030",
+      "startAt": "2026-11-01T18:00Z",
+      "state": "pre",
+      "teams": [
+        "Lions",
+        "Vikings"
+      ],
+      "matchup": "Minnesota Vikings at Detroit Lions",
+      "week": 8,
+      "season": 2026
+    },
+    {
+      "id": "401873029",
+      "startAt": "2026-11-01T18:00Z",
+      "state": "pre",
+      "teams": [
+        "Jets",
+        "Raiders"
+      ],
+      "matchup": "Las Vegas Raiders at New York Jets",
+      "week": 8,
+      "season": 2026
+    },
+    {
+      "id": "401873027",
+      "startAt": "2026-11-01T18:00Z",
+      "state": "pre",
+      "teams": [
+        "Steelers",
+        "Browns"
+      ],
+      "matchup": "Cleveland Browns at Pittsburgh Steelers",
+      "week": 8,
+      "season": 2026
+    },
+    {
+      "id": "401873025",
+      "startAt": "2026-11-01T18:00Z",
+      "state": "pre",
+      "teams": [
+        "Buccaneers",
+        "Falcons"
+      ],
+      "matchup": "Atlanta Falcons at Tampa Bay Buccaneers",
+      "week": 8,
+      "season": 2026
+    },
+    {
+      "id": "401873028",
+      "startAt": "2026-11-01T18:00Z",
+      "state": "pre",
+      "teams": [
+        "Jaguars",
+        "Colts"
+      ],
+      "matchup": "Indianapolis Colts at Jacksonville Jaguars",
+      "week": 8,
+      "season": 2026
+    },
+    {
+      "id": "401873032",
+      "startAt": "2026-11-01T21:05Z",
+      "state": "pre",
+      "teams": [
+        "Rams",
+        "Chargers"
+      ],
+      "matchup": "Los Angeles Chargers at Los Angeles Rams",
+      "week": 8,
+      "season": 2026
+    },
+    {
+      "id": "401873033",
+      "startAt": "2026-11-01T21:25Z",
+      "state": "pre",
+      "teams": [
+        "Broncos",
+        "Chiefs"
+      ],
+      "matchup": "Kansas City Chiefs at Denver Broncos",
+      "week": 8,
+      "season": 2026
+    },
+    {
+      "id": "401873034",
+      "startAt": "2026-11-01T21:25Z",
+      "state": "pre",
+      "teams": [
+        "Dolphins",
+        "Patriots"
+      ],
+      "matchup": "New England Patriots at Miami Dolphins",
+      "week": 8,
+      "season": 2026
+    },
+    {
+      "id": "401873035",
+      "startAt": "2026-11-02T01:20Z",
+      "state": "pre",
+      "teams": [
+        "Commanders",
+        "Eagles"
+      ],
+      "matchup": "Philadelphia Eagles at Washington Commanders",
+      "week": 8,
+      "season": 2026
+    },
+    {
+      "id": "401873036",
+      "startAt": "2026-11-03T01:15Z",
+      "state": "pre",
+      "teams": [
+        "Seahawks",
+        "Bears"
+      ],
+      "matchup": "Chicago Bears at Seattle Seahawks",
+      "week": 8,
+      "season": 2026
     }
   ],
   "scheduleStatus": {
     "status": "ok",
-    "checkedAt": "2026-10-20T23:52:46.799890+00:00",
-    "lastSuccessAt": "2026-10-20T23:52:46.799890+00:00"
+    "checkedAt": "2026-10-21T04:47:08.402550+00:00",
+    "lastSuccessAt": "2026-10-21T04:47:08.402550+00:00"
   },
   "playerTeams": {
     "tylerallgeier": [
