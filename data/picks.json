@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-21T19:19:25.523570+00:00",
-  "lastSuccessfulUpdate": "2026-10-21T19:19:25.523570+00:00",
+  "checkedAt": "2026-10-21T23:19:20.180070+00:00",
+  "lastSuccessfulUpdate": "2026-10-21T23:19:20.180070+00:00",
   "sources": [
     {
       "id": "sbd",
@@ -10,8 +10,8 @@
       "website": "https://www.sportsbettingdime.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-21T19:19:25.523570+00:00",
-      "lastSuccessAt": "2026-10-21T19:19:25.523570+00:00",
+      "checkedAt": "2026-10-21T23:19:20.180070+00:00",
+      "lastSuccessAt": "2026-10-21T23:19:20.180070+00:00",
       "count": 9,
       "message": "Feed retrieved successfully"
     },
@@ -22,8 +22,8 @@
       "website": "https://www.bettingpros.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-21T19:19:25.523570+00:00",
-      "lastSuccessAt": "2026-10-21T19:19:25.523570+00:00",
+      "checkedAt": "2026-10-21T23:19:20.180070+00:00",
+      "lastSuccessAt": "2026-10-21T23:19:20.180070+00:00",
       "count": 37,
       "message": "Feed retrieved successfully"
     },
@@ -34,11 +34,11 @@
       "feed": "https://www.cbssports.com/nfl/picks/experts/",
       "website": "https://www.cbssports.com/nfl/picks/experts/",
       "enabled": true,
-      "status": "unavailable",
-      "checkedAt": "2026-10-21T19:19:25.523570+00:00",
-      "lastSuccessAt": "2026-10-20T00:20:08.945515+00:00",
-      "count": 7,
-      "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
+      "status": "ok",
+      "checkedAt": "2026-10-21T23:19:20.180070+00:00",
+      "lastSuccessAt": "2026-10-21T23:19:20.180070+00:00",
+      "count": 70,
+      "message": "Public expert selections retrieved"
     },
     {
       "id": "covers",
@@ -48,8 +48,8 @@
       "website": "https://www.covers.com/nfl",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-21T19:19:25.523570+00:00",
-      "lastSuccessAt": "2026-10-21T19:19:25.523570+00:00",
+      "checkedAt": "2026-10-21T23:19:20.180070+00:00",
+      "lastSuccessAt": "2026-10-21T23:19:20.180070+00:00",
       "count": 1,
       "message": "Public expert selections retrieved"
     },
@@ -62,8 +62,8 @@
       "articlePattern": "/nfl-picks/[^/]+prediction[^/]+/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-21T19:19:25.523570+00:00",
-      "lastSuccessAt": "2026-10-21T19:19:25.523570+00:00",
+      "checkedAt": "2026-10-21T23:19:20.180070+00:00",
+      "lastSuccessAt": "2026-10-21T23:19:20.180070+00:00",
       "count": 11,
       "message": "Public expert selections retrieved"
     },
@@ -76,8 +76,8 @@
       "articlePattern": "/picks/nfl/(?:picks-against-the-spread-ats-predictions|player-props)-week-\\d+-\\d{4}/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-21T19:19:25.523570+00:00",
-      "lastSuccessAt": "2026-10-21T19:19:25.523570+00:00",
+      "checkedAt": "2026-10-21T23:19:20.180070+00:00",
+      "lastSuccessAt": "2026-10-21T23:19:20.180070+00:00",
       "count": 1,
       "message": "Public expert selections retrieved"
     },
@@ -90,8 +90,8 @@
       "articlePattern": "/us/nfl/news/nfl-picks-predictions-against-spread-week-\\d+/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-21T19:19:25.523570+00:00",
-      "lastSuccessAt": "2026-10-21T19:19:25.523570+00:00",
+      "checkedAt": "2026-10-21T23:19:20.180070+00:00",
+      "lastSuccessAt": "2026-10-21T23:19:20.180070+00:00",
       "count": 1,
       "message": "Public expert selections retrieved"
     },
@@ -104,13 +104,2813 @@
       "articlePattern": "/football/article/(?:nfl-picks-and-props|[^/]*odds-picks-and-predictions|[^/]*betting-odds-picks-and-predictions)[^/]+$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-21T19:19:25.523570+00:00",
-      "lastSuccessAt": "2026-10-21T19:19:25.523570+00:00",
+      "checkedAt": "2026-10-21T23:19:20.180070+00:00",
+      "lastSuccessAt": "2026-10-21T23:19:20.180070+00:00",
       "count": 4,
       "message": "Public expert selections retrieved"
     }
   ],
   "articles": [
+    {
+      "id": "c5417b7ddf1e7dfe",
+      "title": "NFL Patriots vs Bears expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Pete Prisco",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Patriots +3",
+          "market": "Spread",
+          "context": "Patriots vs Bears",
+          "eventDate": "2026-10-22",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873010",
+            "startAt": "2026-10-23T00:15Z",
+            "state": "pre",
+            "teams": [
+              "Bears",
+              "Patriots"
+            ],
+            "matchup": "New England Patriots at Chicago Bears",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Bears",
+        "Patriots"
+      ]
+    },
+    {
+      "id": "7d6cfa32abca0545",
+      "title": "NFL Patriots vs Bears expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Jared Dubin",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Bears -3",
+          "market": "Spread",
+          "context": "Patriots vs Bears",
+          "eventDate": "2026-10-22",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873010",
+            "startAt": "2026-10-23T00:15Z",
+            "state": "pre",
+            "teams": [
+              "Bears",
+              "Patriots"
+            ],
+            "matchup": "New England Patriots at Chicago Bears",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Bears",
+        "Patriots"
+      ]
+    },
+    {
+      "id": "8344f39e9ea3596b",
+      "title": "NFL Patriots vs Bears expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Ryan Wilson",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Patriots +3",
+          "market": "Spread",
+          "context": "Patriots vs Bears",
+          "eventDate": "2026-10-22",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873010",
+            "startAt": "2026-10-23T00:15Z",
+            "state": "pre",
+            "teams": [
+              "Bears",
+              "Patriots"
+            ],
+            "matchup": "New England Patriots at Chicago Bears",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Bears",
+        "Patriots"
+      ]
+    },
+    {
+      "id": "0fed028fc77cd492",
+      "title": "NFL Patriots vs Bears expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "John Breech",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Bears -3",
+          "market": "Spread",
+          "context": "Patriots vs Bears",
+          "eventDate": "2026-10-22",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873010",
+            "startAt": "2026-10-23T00:15Z",
+            "state": "pre",
+            "teams": [
+              "Bears",
+              "Patriots"
+            ],
+            "matchup": "New England Patriots at Chicago Bears",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Bears",
+        "Patriots"
+      ]
+    },
+    {
+      "id": "85fe231f08fb6454",
+      "title": "NFL Patriots vs Bears expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Tyler Sullivan",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Bears -3",
+          "market": "Spread",
+          "context": "Patriots vs Bears",
+          "eventDate": "2026-10-22",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873010",
+            "startAt": "2026-10-23T00:15Z",
+            "state": "pre",
+            "teams": [
+              "Bears",
+              "Patriots"
+            ],
+            "matchup": "New England Patriots at Chicago Bears",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Bears",
+        "Patriots"
+      ]
+    },
+    {
+      "id": "734ea395a7958435",
+      "title": "NFL Steelers vs Saints expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Pete Prisco",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Saints +3.5",
+          "market": "Spread",
+          "context": "Steelers vs Saints",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873011",
+            "startAt": "2026-10-25T13:30Z",
+            "state": "pre",
+            "teams": [
+              "Saints",
+              "Steelers"
+            ],
+            "matchup": "Pittsburgh Steelers at New Orleans Saints",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Saints",
+        "Steelers"
+      ]
+    },
+    {
+      "id": "c69b8e05e28260f5",
+      "title": "NFL Steelers vs Saints expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Jared Dubin",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Steelers -3.5",
+          "market": "Spread",
+          "context": "Steelers vs Saints",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873011",
+            "startAt": "2026-10-25T13:30Z",
+            "state": "pre",
+            "teams": [
+              "Saints",
+              "Steelers"
+            ],
+            "matchup": "Pittsburgh Steelers at New Orleans Saints",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Saints",
+        "Steelers"
+      ]
+    },
+    {
+      "id": "0abe3075826d96f5",
+      "title": "NFL Steelers vs Saints expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Ryan Wilson",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Steelers -3.5",
+          "market": "Spread",
+          "context": "Steelers vs Saints",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873011",
+            "startAt": "2026-10-25T13:30Z",
+            "state": "pre",
+            "teams": [
+              "Saints",
+              "Steelers"
+            ],
+            "matchup": "Pittsburgh Steelers at New Orleans Saints",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Saints",
+        "Steelers"
+      ]
+    },
+    {
+      "id": "24cdc8bf02a00cfd",
+      "title": "NFL Steelers vs Saints expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "John Breech",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Steelers -3.5",
+          "market": "Spread",
+          "context": "Steelers vs Saints",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873011",
+            "startAt": "2026-10-25T13:30Z",
+            "state": "pre",
+            "teams": [
+              "Saints",
+              "Steelers"
+            ],
+            "matchup": "Pittsburgh Steelers at New Orleans Saints",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Saints",
+        "Steelers"
+      ]
+    },
+    {
+      "id": "6e495c8bcd3755bf",
+      "title": "NFL Steelers vs Saints expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Tyler Sullivan",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Steelers -3.5",
+          "market": "Spread",
+          "context": "Steelers vs Saints",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873011",
+            "startAt": "2026-10-25T13:30Z",
+            "state": "pre",
+            "teams": [
+              "Saints",
+              "Steelers"
+            ],
+            "matchup": "Pittsburgh Steelers at New Orleans Saints",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Saints",
+        "Steelers"
+      ]
+    },
+    {
+      "id": "e881c3d55a8f80ea",
+      "title": "NFL Bengals vs Ravens expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Pete Prisco",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Bengals +3",
+          "market": "Spread",
+          "context": "Bengals vs Ravens",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873012",
+            "startAt": "2026-10-25T17:00Z",
+            "state": "pre",
+            "teams": [
+              "Ravens",
+              "Bengals"
+            ],
+            "matchup": "Cincinnati Bengals at Baltimore Ravens",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Ravens",
+        "Bengals"
+      ]
+    },
+    {
+      "id": "4c3bb5d3d08ceccc",
+      "title": "NFL Bengals vs Ravens expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Jared Dubin",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Ravens -3",
+          "market": "Spread",
+          "context": "Bengals vs Ravens",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873012",
+            "startAt": "2026-10-25T17:00Z",
+            "state": "pre",
+            "teams": [
+              "Ravens",
+              "Bengals"
+            ],
+            "matchup": "Cincinnati Bengals at Baltimore Ravens",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Ravens",
+        "Bengals"
+      ]
+    },
+    {
+      "id": "67c8cd6c9e0bcd67",
+      "title": "NFL Bengals vs Ravens expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Ryan Wilson",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Bengals +3",
+          "market": "Spread",
+          "context": "Bengals vs Ravens",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873012",
+            "startAt": "2026-10-25T17:00Z",
+            "state": "pre",
+            "teams": [
+              "Ravens",
+              "Bengals"
+            ],
+            "matchup": "Cincinnati Bengals at Baltimore Ravens",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Ravens",
+        "Bengals"
+      ]
+    },
+    {
+      "id": "7c686bcf0b06ce0b",
+      "title": "NFL Bengals vs Ravens expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "John Breech",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Bengals +3",
+          "market": "Spread",
+          "context": "Bengals vs Ravens",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873012",
+            "startAt": "2026-10-25T17:00Z",
+            "state": "pre",
+            "teams": [
+              "Ravens",
+              "Bengals"
+            ],
+            "matchup": "Cincinnati Bengals at Baltimore Ravens",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Ravens",
+        "Bengals"
+      ]
+    },
+    {
+      "id": "d6d53670bcdc7020",
+      "title": "NFL Bengals vs Ravens expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Tyler Sullivan",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Bengals +3",
+          "market": "Spread",
+          "context": "Bengals vs Ravens",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873012",
+            "startAt": "2026-10-25T17:00Z",
+            "state": "pre",
+            "teams": [
+              "Ravens",
+              "Bengals"
+            ],
+            "matchup": "Cincinnati Bengals at Baltimore Ravens",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Ravens",
+        "Bengals"
+      ]
+    },
+    {
+      "id": "e2ab397e93b2fe28",
+      "title": "NFL Browns vs Titans expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Pete Prisco",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Titans +1.5",
+          "market": "Spread",
+          "context": "Browns vs Titans",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873013",
+            "startAt": "2026-10-25T17:00Z",
+            "state": "pre",
+            "teams": [
+              "Titans",
+              "Browns"
+            ],
+            "matchup": "Cleveland Browns at Tennessee Titans",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Browns",
+        "Titans"
+      ]
+    },
+    {
+      "id": "12cd3cf97b02e1e0",
+      "title": "NFL Browns vs Titans expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Jared Dubin",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Browns -1.5",
+          "market": "Spread",
+          "context": "Browns vs Titans",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873013",
+            "startAt": "2026-10-25T17:00Z",
+            "state": "pre",
+            "teams": [
+              "Titans",
+              "Browns"
+            ],
+            "matchup": "Cleveland Browns at Tennessee Titans",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Browns",
+        "Titans"
+      ]
+    },
+    {
+      "id": "90f851c91b7a274b",
+      "title": "NFL Browns vs Titans expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Ryan Wilson",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Titans +1.5",
+          "market": "Spread",
+          "context": "Browns vs Titans",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873013",
+            "startAt": "2026-10-25T17:00Z",
+            "state": "pre",
+            "teams": [
+              "Titans",
+              "Browns"
+            ],
+            "matchup": "Cleveland Browns at Tennessee Titans",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Browns",
+        "Titans"
+      ]
+    },
+    {
+      "id": "29308d65050466bc",
+      "title": "NFL Browns vs Titans expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "John Breech",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Browns -1.5",
+          "market": "Spread",
+          "context": "Browns vs Titans",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873013",
+            "startAt": "2026-10-25T17:00Z",
+            "state": "pre",
+            "teams": [
+              "Titans",
+              "Browns"
+            ],
+            "matchup": "Cleveland Browns at Tennessee Titans",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Browns",
+        "Titans"
+      ]
+    },
+    {
+      "id": "7d363e452c07ef21",
+      "title": "NFL Browns vs Titans expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Tyler Sullivan",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Browns -1.5",
+          "market": "Spread",
+          "context": "Browns vs Titans",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873013",
+            "startAt": "2026-10-25T17:00Z",
+            "state": "pre",
+            "teams": [
+              "Titans",
+              "Browns"
+            ],
+            "matchup": "Cleveland Browns at Tennessee Titans",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Browns",
+        "Titans"
+      ]
+    },
+    {
+      "id": "5cf611f9de6af359",
+      "title": "NFL Colts vs Vikings expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Pete Prisco",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Colts +6.5",
+          "market": "Spread",
+          "context": "Colts vs Vikings",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873014",
+            "startAt": "2026-10-25T17:00Z",
+            "state": "pre",
+            "teams": [
+              "Vikings",
+              "Colts"
+            ],
+            "matchup": "Indianapolis Colts at Minnesota Vikings",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Colts",
+        "Vikings"
+      ]
+    },
+    {
+      "id": "427812c941dfb9be",
+      "title": "NFL Colts vs Vikings expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Jared Dubin",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Vikings -6.5",
+          "market": "Spread",
+          "context": "Colts vs Vikings",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873014",
+            "startAt": "2026-10-25T17:00Z",
+            "state": "pre",
+            "teams": [
+              "Vikings",
+              "Colts"
+            ],
+            "matchup": "Indianapolis Colts at Minnesota Vikings",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Colts",
+        "Vikings"
+      ]
+    },
+    {
+      "id": "19fb1c1f2725dd5c",
+      "title": "NFL Colts vs Vikings expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Ryan Wilson",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Vikings -6.5",
+          "market": "Spread",
+          "context": "Colts vs Vikings",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873014",
+            "startAt": "2026-10-25T17:00Z",
+            "state": "pre",
+            "teams": [
+              "Vikings",
+              "Colts"
+            ],
+            "matchup": "Indianapolis Colts at Minnesota Vikings",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Colts",
+        "Vikings"
+      ]
+    },
+    {
+      "id": "5e033fc6d1c6fcc2",
+      "title": "NFL Colts vs Vikings expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "John Breech",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Colts +6.5",
+          "market": "Spread",
+          "context": "Colts vs Vikings",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873014",
+            "startAt": "2026-10-25T17:00Z",
+            "state": "pre",
+            "teams": [
+              "Vikings",
+              "Colts"
+            ],
+            "matchup": "Indianapolis Colts at Minnesota Vikings",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Colts",
+        "Vikings"
+      ]
+    },
+    {
+      "id": "b57606f28d42a276",
+      "title": "NFL Colts vs Vikings expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Tyler Sullivan",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Vikings -6.5",
+          "market": "Spread",
+          "context": "Colts vs Vikings",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873014",
+            "startAt": "2026-10-25T17:00Z",
+            "state": "pre",
+            "teams": [
+              "Vikings",
+              "Colts"
+            ],
+            "matchup": "Indianapolis Colts at Minnesota Vikings",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Colts",
+        "Vikings"
+      ]
+    },
+    {
+      "id": "859e17109586f983",
+      "title": "NFL Dolphins vs Jets expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Pete Prisco",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Dolphins +4.5",
+          "market": "Spread",
+          "context": "Dolphins vs Jets",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873015",
+            "startAt": "2026-10-25T17:00Z",
+            "state": "pre",
+            "teams": [
+              "Jets",
+              "Dolphins"
+            ],
+            "matchup": "Miami Dolphins at New York Jets",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Dolphins",
+        "Jets"
+      ]
+    },
+    {
+      "id": "a51a36a3cd45a9eb",
+      "title": "NFL Dolphins vs Jets expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Jared Dubin",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Dolphins +4.5",
+          "market": "Spread",
+          "context": "Dolphins vs Jets",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873015",
+            "startAt": "2026-10-25T17:00Z",
+            "state": "pre",
+            "teams": [
+              "Jets",
+              "Dolphins"
+            ],
+            "matchup": "Miami Dolphins at New York Jets",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Dolphins",
+        "Jets"
+      ]
+    },
+    {
+      "id": "c31567100b9b816d",
+      "title": "NFL Dolphins vs Jets expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Ryan Wilson",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Jets -4.5",
+          "market": "Spread",
+          "context": "Dolphins vs Jets",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873015",
+            "startAt": "2026-10-25T17:00Z",
+            "state": "pre",
+            "teams": [
+              "Jets",
+              "Dolphins"
+            ],
+            "matchup": "Miami Dolphins at New York Jets",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Dolphins",
+        "Jets"
+      ]
+    },
+    {
+      "id": "1bde47a5f9a6d7e4",
+      "title": "NFL Dolphins vs Jets expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "John Breech",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Jets -4.5",
+          "market": "Spread",
+          "context": "Dolphins vs Jets",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873015",
+            "startAt": "2026-10-25T17:00Z",
+            "state": "pre",
+            "teams": [
+              "Jets",
+              "Dolphins"
+            ],
+            "matchup": "Miami Dolphins at New York Jets",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Dolphins",
+        "Jets"
+      ]
+    },
+    {
+      "id": "52282e41bd35a243",
+      "title": "NFL Dolphins vs Jets expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Tyler Sullivan",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Jets -4.5",
+          "market": "Spread",
+          "context": "Dolphins vs Jets",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873015",
+            "startAt": "2026-10-25T17:00Z",
+            "state": "pre",
+            "teams": [
+              "Jets",
+              "Dolphins"
+            ],
+            "matchup": "Miami Dolphins at New York Jets",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Dolphins",
+        "Jets"
+      ]
+    },
+    {
+      "id": "d57f6c42c63a12ec",
+      "title": "NFL Giants vs Texans expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Pete Prisco",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Giants +9.5",
+          "market": "Spread",
+          "context": "Giants vs Texans",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873016",
+            "startAt": "2026-10-25T17:00Z",
+            "state": "pre",
+            "teams": [
+              "Texans",
+              "Giants"
+            ],
+            "matchup": "New York Giants at Houston Texans",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Texans",
+        "Giants"
+      ]
+    },
+    {
+      "id": "490d63b3b710d466",
+      "title": "NFL Giants vs Texans expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Jared Dubin",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Giants +9.5",
+          "market": "Spread",
+          "context": "Giants vs Texans",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873016",
+            "startAt": "2026-10-25T17:00Z",
+            "state": "pre",
+            "teams": [
+              "Texans",
+              "Giants"
+            ],
+            "matchup": "New York Giants at Houston Texans",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Texans",
+        "Giants"
+      ]
+    },
+    {
+      "id": "1666730877c34234",
+      "title": "NFL Giants vs Texans expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Ryan Wilson",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Giants +9.5",
+          "market": "Spread",
+          "context": "Giants vs Texans",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873016",
+            "startAt": "2026-10-25T17:00Z",
+            "state": "pre",
+            "teams": [
+              "Texans",
+              "Giants"
+            ],
+            "matchup": "New York Giants at Houston Texans",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Texans",
+        "Giants"
+      ]
+    },
+    {
+      "id": "b8a165c15ce7c4e6",
+      "title": "NFL Giants vs Texans expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "John Breech",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Giants +9.5",
+          "market": "Spread",
+          "context": "Giants vs Texans",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873016",
+            "startAt": "2026-10-25T17:00Z",
+            "state": "pre",
+            "teams": [
+              "Texans",
+              "Giants"
+            ],
+            "matchup": "New York Giants at Houston Texans",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Texans",
+        "Giants"
+      ]
+    },
+    {
+      "id": "26c76417eee6528b",
+      "title": "NFL Giants vs Texans expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Tyler Sullivan",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Giants +9.5",
+          "market": "Spread",
+          "context": "Giants vs Texans",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873016",
+            "startAt": "2026-10-25T17:00Z",
+            "state": "pre",
+            "teams": [
+              "Texans",
+              "Giants"
+            ],
+            "matchup": "New York Giants at Houston Texans",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Texans",
+        "Giants"
+      ]
+    },
+    {
+      "id": "558ebfeda9c7ee7a",
+      "title": "NFL 49ers vs Falcons expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Pete Prisco",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Falcons +3.5",
+          "market": "Spread",
+          "context": "49ers vs Falcons",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873017",
+            "startAt": "2026-10-25T17:00Z",
+            "state": "pre",
+            "teams": [
+              "Falcons",
+              "49ers"
+            ],
+            "matchup": "San Francisco 49ers at Atlanta Falcons",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Falcons",
+        "49ers"
+      ]
+    },
+    {
+      "id": "a72792f9b335a1c2",
+      "title": "NFL 49ers vs Falcons expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Jared Dubin",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "49ers -3.5",
+          "market": "Spread",
+          "context": "49ers vs Falcons",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873017",
+            "startAt": "2026-10-25T17:00Z",
+            "state": "pre",
+            "teams": [
+              "Falcons",
+              "49ers"
+            ],
+            "matchup": "San Francisco 49ers at Atlanta Falcons",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Falcons",
+        "49ers"
+      ]
+    },
+    {
+      "id": "4519fe9b8a9eb7d9",
+      "title": "NFL 49ers vs Falcons expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Ryan Wilson",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "49ers -3.5",
+          "market": "Spread",
+          "context": "49ers vs Falcons",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873017",
+            "startAt": "2026-10-25T17:00Z",
+            "state": "pre",
+            "teams": [
+              "Falcons",
+              "49ers"
+            ],
+            "matchup": "San Francisco 49ers at Atlanta Falcons",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Falcons",
+        "49ers"
+      ]
+    },
+    {
+      "id": "4d620a8256789620",
+      "title": "NFL 49ers vs Falcons expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "John Breech",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "49ers -3.5",
+          "market": "Spread",
+          "context": "49ers vs Falcons",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873017",
+            "startAt": "2026-10-25T17:00Z",
+            "state": "pre",
+            "teams": [
+              "Falcons",
+              "49ers"
+            ],
+            "matchup": "San Francisco 49ers at Atlanta Falcons",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Falcons",
+        "49ers"
+      ]
+    },
+    {
+      "id": "45fad63f6c0218f7",
+      "title": "NFL 49ers vs Falcons expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Tyler Sullivan",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Falcons +3.5",
+          "market": "Spread",
+          "context": "49ers vs Falcons",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873017",
+            "startAt": "2026-10-25T17:00Z",
+            "state": "pre",
+            "teams": [
+              "Falcons",
+              "49ers"
+            ],
+            "matchup": "San Francisco 49ers at Atlanta Falcons",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Falcons",
+        "49ers"
+      ]
+    },
+    {
+      "id": "94f9be39aadbe412",
+      "title": "NFL Buccaneers vs Panthers expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Pete Prisco",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Buccaneers +3.5",
+          "market": "Spread",
+          "context": "Buccaneers vs Panthers",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873018",
+            "startAt": "2026-10-25T17:00Z",
+            "state": "pre",
+            "teams": [
+              "Panthers",
+              "Buccaneers"
+            ],
+            "matchup": "Tampa Bay Buccaneers at Carolina Panthers",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Panthers",
+        "Buccaneers"
+      ]
+    },
+    {
+      "id": "0c47af33bb98eb05",
+      "title": "NFL Buccaneers vs Panthers expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Jared Dubin",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Buccaneers +3.5",
+          "market": "Spread",
+          "context": "Buccaneers vs Panthers",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873018",
+            "startAt": "2026-10-25T17:00Z",
+            "state": "pre",
+            "teams": [
+              "Panthers",
+              "Buccaneers"
+            ],
+            "matchup": "Tampa Bay Buccaneers at Carolina Panthers",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Panthers",
+        "Buccaneers"
+      ]
+    },
+    {
+      "id": "3f006dea6422bbe3",
+      "title": "NFL Buccaneers vs Panthers expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Ryan Wilson",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Panthers -3.5",
+          "market": "Spread",
+          "context": "Buccaneers vs Panthers",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873018",
+            "startAt": "2026-10-25T17:00Z",
+            "state": "pre",
+            "teams": [
+              "Panthers",
+              "Buccaneers"
+            ],
+            "matchup": "Tampa Bay Buccaneers at Carolina Panthers",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Panthers",
+        "Buccaneers"
+      ]
+    },
+    {
+      "id": "6077826b88e7a0fd",
+      "title": "NFL Buccaneers vs Panthers expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "John Breech",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Panthers -3.5",
+          "market": "Spread",
+          "context": "Buccaneers vs Panthers",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873018",
+            "startAt": "2026-10-25T17:00Z",
+            "state": "pre",
+            "teams": [
+              "Panthers",
+              "Buccaneers"
+            ],
+            "matchup": "Tampa Bay Buccaneers at Carolina Panthers",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Panthers",
+        "Buccaneers"
+      ]
+    },
+    {
+      "id": "a5642ff351bbb8c8",
+      "title": "NFL Buccaneers vs Panthers expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Tyler Sullivan",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Panthers -3.5",
+          "market": "Spread",
+          "context": "Buccaneers vs Panthers",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873018",
+            "startAt": "2026-10-25T17:00Z",
+            "state": "pre",
+            "teams": [
+              "Panthers",
+              "Buccaneers"
+            ],
+            "matchup": "Tampa Bay Buccaneers at Carolina Panthers",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Panthers",
+        "Buccaneers"
+      ]
+    },
+    {
+      "id": "f5d750d0d53646a9",
+      "title": "NFL Broncos vs Cardinals expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Pete Prisco",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Cardinals +4.5",
+          "market": "Spread",
+          "context": "Broncos vs Cardinals",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873019",
+            "startAt": "2026-10-25T20:05Z",
+            "state": "pre",
+            "teams": [
+              "Cardinals",
+              "Broncos"
+            ],
+            "matchup": "Denver Broncos at Arizona Cardinals",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Cardinals",
+        "Broncos"
+      ]
+    },
+    {
+      "id": "376f459f335ec7fb",
+      "title": "NFL Broncos vs Cardinals expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Jared Dubin",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Broncos -4.5",
+          "market": "Spread",
+          "context": "Broncos vs Cardinals",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873019",
+            "startAt": "2026-10-25T20:05Z",
+            "state": "pre",
+            "teams": [
+              "Cardinals",
+              "Broncos"
+            ],
+            "matchup": "Denver Broncos at Arizona Cardinals",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Cardinals",
+        "Broncos"
+      ]
+    },
+    {
+      "id": "aca22c270b0cc5f4",
+      "title": "NFL Broncos vs Cardinals expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Ryan Wilson",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Cardinals +4.5",
+          "market": "Spread",
+          "context": "Broncos vs Cardinals",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873019",
+            "startAt": "2026-10-25T20:05Z",
+            "state": "pre",
+            "teams": [
+              "Cardinals",
+              "Broncos"
+            ],
+            "matchup": "Denver Broncos at Arizona Cardinals",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Cardinals",
+        "Broncos"
+      ]
+    },
+    {
+      "id": "88b9bc80af8ef3d6",
+      "title": "NFL Broncos vs Cardinals expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "John Breech",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Cardinals +4.5",
+          "market": "Spread",
+          "context": "Broncos vs Cardinals",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873019",
+            "startAt": "2026-10-25T20:05Z",
+            "state": "pre",
+            "teams": [
+              "Cardinals",
+              "Broncos"
+            ],
+            "matchup": "Denver Broncos at Arizona Cardinals",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Cardinals",
+        "Broncos"
+      ]
+    },
+    {
+      "id": "9e8fef3ea284821d",
+      "title": "NFL Broncos vs Cardinals expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Tyler Sullivan",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Cardinals +4.5",
+          "market": "Spread",
+          "context": "Broncos vs Cardinals",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873019",
+            "startAt": "2026-10-25T20:05Z",
+            "state": "pre",
+            "teams": [
+              "Cardinals",
+              "Broncos"
+            ],
+            "matchup": "Denver Broncos at Arizona Cardinals",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Cardinals",
+        "Broncos"
+      ]
+    },
+    {
+      "id": "25d0bea14372b508",
+      "title": "NFL Packers vs Lions expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Pete Prisco",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Lions -3",
+          "market": "Spread",
+          "context": "Packers vs Lions",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873020",
+            "startAt": "2026-10-25T20:25Z",
+            "state": "pre",
+            "teams": [
+              "Lions",
+              "Packers"
+            ],
+            "matchup": "Green Bay Packers at Detroit Lions",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Lions",
+        "Packers"
+      ]
+    },
+    {
+      "id": "cb8b8b209580fc8a",
+      "title": "NFL Packers vs Lions expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Jared Dubin",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Lions -3",
+          "market": "Spread",
+          "context": "Packers vs Lions",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873020",
+            "startAt": "2026-10-25T20:25Z",
+            "state": "pre",
+            "teams": [
+              "Lions",
+              "Packers"
+            ],
+            "matchup": "Green Bay Packers at Detroit Lions",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Lions",
+        "Packers"
+      ]
+    },
+    {
+      "id": "e41a6f10e148c9ce",
+      "title": "NFL Packers vs Lions expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Ryan Wilson",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Lions -3",
+          "market": "Spread",
+          "context": "Packers vs Lions",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873020",
+            "startAt": "2026-10-25T20:25Z",
+            "state": "pre",
+            "teams": [
+              "Lions",
+              "Packers"
+            ],
+            "matchup": "Green Bay Packers at Detroit Lions",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Lions",
+        "Packers"
+      ]
+    },
+    {
+      "id": "41526c062b4d2d54",
+      "title": "NFL Packers vs Lions expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "John Breech",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Packers +3",
+          "market": "Spread",
+          "context": "Packers vs Lions",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873020",
+            "startAt": "2026-10-25T20:25Z",
+            "state": "pre",
+            "teams": [
+              "Lions",
+              "Packers"
+            ],
+            "matchup": "Green Bay Packers at Detroit Lions",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Lions",
+        "Packers"
+      ]
+    },
+    {
+      "id": "375931770bf46e6b",
+      "title": "NFL Packers vs Lions expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Tyler Sullivan",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Lions -3",
+          "market": "Spread",
+          "context": "Packers vs Lions",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873020",
+            "startAt": "2026-10-25T20:25Z",
+            "state": "pre",
+            "teams": [
+              "Lions",
+              "Packers"
+            ],
+            "matchup": "Green Bay Packers at Detroit Lions",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Lions",
+        "Packers"
+      ]
+    },
+    {
+      "id": "80c606e72313a290",
+      "title": "NFL Rams vs Raiders expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Pete Prisco",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Raiders +4.5",
+          "market": "Spread",
+          "context": "Rams vs Raiders",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873021",
+            "startAt": "2026-10-25T20:25Z",
+            "state": "pre",
+            "teams": [
+              "Raiders",
+              "Rams"
+            ],
+            "matchup": "Los Angeles Rams at Las Vegas Raiders",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Raiders",
+        "Rams"
+      ]
+    },
+    {
+      "id": "b14e53d8f163bd45",
+      "title": "NFL Rams vs Raiders expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Jared Dubin",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Rams -4.5",
+          "market": "Spread",
+          "context": "Rams vs Raiders",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873021",
+            "startAt": "2026-10-25T20:25Z",
+            "state": "pre",
+            "teams": [
+              "Raiders",
+              "Rams"
+            ],
+            "matchup": "Los Angeles Rams at Las Vegas Raiders",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Raiders",
+        "Rams"
+      ]
+    },
+    {
+      "id": "40dd0204573ae210",
+      "title": "NFL Rams vs Raiders expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Ryan Wilson",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Rams -4.5",
+          "market": "Spread",
+          "context": "Rams vs Raiders",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873021",
+            "startAt": "2026-10-25T20:25Z",
+            "state": "pre",
+            "teams": [
+              "Raiders",
+              "Rams"
+            ],
+            "matchup": "Los Angeles Rams at Las Vegas Raiders",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Raiders",
+        "Rams"
+      ]
+    },
+    {
+      "id": "01285f6f76e3a8b4",
+      "title": "NFL Rams vs Raiders expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "John Breech",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Rams -4.5",
+          "market": "Spread",
+          "context": "Rams vs Raiders",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873021",
+            "startAt": "2026-10-25T20:25Z",
+            "state": "pre",
+            "teams": [
+              "Raiders",
+              "Rams"
+            ],
+            "matchup": "Los Angeles Rams at Las Vegas Raiders",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Raiders",
+        "Rams"
+      ]
+    },
+    {
+      "id": "3ca75a734c983f21",
+      "title": "NFL Rams vs Raiders expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Tyler Sullivan",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Raiders +4.5",
+          "market": "Spread",
+          "context": "Rams vs Raiders",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873021",
+            "startAt": "2026-10-25T20:25Z",
+            "state": "pre",
+            "teams": [
+              "Raiders",
+              "Rams"
+            ],
+            "matchup": "Los Angeles Rams at Las Vegas Raiders",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Raiders",
+        "Rams"
+      ]
+    },
+    {
+      "id": "dd65f4a3311aafa0",
+      "title": "NFL Chiefs vs Seahawks expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Pete Prisco",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Chiefs +2.5",
+          "market": "Spread",
+          "context": "Chiefs vs Seahawks",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873022",
+            "startAt": "2026-10-26T00:20Z",
+            "state": "pre",
+            "teams": [
+              "Seahawks",
+              "Chiefs"
+            ],
+            "matchup": "Kansas City Chiefs at Seattle Seahawks",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Chiefs",
+        "Seahawks"
+      ]
+    },
+    {
+      "id": "ef73930d72480c6e",
+      "title": "NFL Chiefs vs Seahawks expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Jared Dubin",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Seahawks -2.5",
+          "market": "Spread",
+          "context": "Chiefs vs Seahawks",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873022",
+            "startAt": "2026-10-26T00:20Z",
+            "state": "pre",
+            "teams": [
+              "Seahawks",
+              "Chiefs"
+            ],
+            "matchup": "Kansas City Chiefs at Seattle Seahawks",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Chiefs",
+        "Seahawks"
+      ]
+    },
+    {
+      "id": "c91cdc418fb3511c",
+      "title": "NFL Chiefs vs Seahawks expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Ryan Wilson",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Chiefs +2.5",
+          "market": "Spread",
+          "context": "Chiefs vs Seahawks",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873022",
+            "startAt": "2026-10-26T00:20Z",
+            "state": "pre",
+            "teams": [
+              "Seahawks",
+              "Chiefs"
+            ],
+            "matchup": "Kansas City Chiefs at Seattle Seahawks",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Chiefs",
+        "Seahawks"
+      ]
+    },
+    {
+      "id": "bf7101822de7af56",
+      "title": "NFL Chiefs vs Seahawks expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "John Breech",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Chiefs +2.5",
+          "market": "Spread",
+          "context": "Chiefs vs Seahawks",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873022",
+            "startAt": "2026-10-26T00:20Z",
+            "state": "pre",
+            "teams": [
+              "Seahawks",
+              "Chiefs"
+            ],
+            "matchup": "Kansas City Chiefs at Seattle Seahawks",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Chiefs",
+        "Seahawks"
+      ]
+    },
+    {
+      "id": "eacd96fe99a8c005",
+      "title": "NFL Chiefs vs Seahawks expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Tyler Sullivan",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Chiefs +2.5",
+          "market": "Spread",
+          "context": "Chiefs vs Seahawks",
+          "eventDate": "2026-10-25",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873022",
+            "startAt": "2026-10-26T00:20Z",
+            "state": "pre",
+            "teams": [
+              "Seahawks",
+              "Chiefs"
+            ],
+            "matchup": "Kansas City Chiefs at Seattle Seahawks",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Chiefs",
+        "Seahawks"
+      ]
+    },
+    {
+      "id": "432f9d33ac4e526a",
+      "title": "NFL Cowboys vs Eagles expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Pete Prisco",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Eagles +4.5",
+          "market": "Spread",
+          "context": "Cowboys vs Eagles",
+          "eventDate": "2026-10-26",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873009",
+            "startAt": "2026-10-27T00:15Z",
+            "state": "pre",
+            "teams": [
+              "Eagles",
+              "Cowboys"
+            ],
+            "matchup": "Dallas Cowboys at Philadelphia Eagles",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Cowboys",
+        "Eagles"
+      ]
+    },
+    {
+      "id": "da142c2f604dbb67",
+      "title": "NFL Cowboys vs Eagles expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Jared Dubin",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Eagles +4.5",
+          "market": "Spread",
+          "context": "Cowboys vs Eagles",
+          "eventDate": "2026-10-26",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873009",
+            "startAt": "2026-10-27T00:15Z",
+            "state": "pre",
+            "teams": [
+              "Eagles",
+              "Cowboys"
+            ],
+            "matchup": "Dallas Cowboys at Philadelphia Eagles",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Cowboys",
+        "Eagles"
+      ]
+    },
+    {
+      "id": "2ab80dd26fe42cdf",
+      "title": "NFL Cowboys vs Eagles expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Ryan Wilson",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Cowboys -4.5",
+          "market": "Spread",
+          "context": "Cowboys vs Eagles",
+          "eventDate": "2026-10-26",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873009",
+            "startAt": "2026-10-27T00:15Z",
+            "state": "pre",
+            "teams": [
+              "Eagles",
+              "Cowboys"
+            ],
+            "matchup": "Dallas Cowboys at Philadelphia Eagles",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Cowboys",
+        "Eagles"
+      ]
+    },
+    {
+      "id": "60d33588a47efad1",
+      "title": "NFL Cowboys vs Eagles expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "John Breech",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Cowboys -4.5",
+          "market": "Spread",
+          "context": "Cowboys vs Eagles",
+          "eventDate": "2026-10-26",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873009",
+            "startAt": "2026-10-27T00:15Z",
+            "state": "pre",
+            "teams": [
+              "Eagles",
+              "Cowboys"
+            ],
+            "matchup": "Dallas Cowboys at Philadelphia Eagles",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Cowboys",
+        "Eagles"
+      ]
+    },
+    {
+      "id": "72291cb9010c799b",
+      "title": "NFL Cowboys vs Eagles expert spread pick",
+      "url": "https://www.cbssports.com/nfl/picks/experts/",
+      "publisher": "CBS Sports",
+      "sourceId": "cbs",
+      "author": "Tyler Sullivan",
+      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
+      "observedAt": "2026-10-21T23:19:20.180070+00:00",
+      "timestampType": "observed",
+      "picks": [
+        {
+          "selection": "Cowboys -4.5",
+          "market": "Spread",
+          "context": "Cowboys vs Eagles",
+          "eventDate": "2026-10-26",
+          "method": "Named analyst selection on public CBS board",
+          "event": {
+            "id": "401873009",
+            "startAt": "2026-10-27T00:15Z",
+            "state": "pre",
+            "teams": [
+              "Eagles",
+              "Cowboys"
+            ],
+            "matchup": "Dallas Cowboys at Philadelphia Eagles",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Cowboys",
+        "Eagles"
+      ]
+    },
     {
       "id": "22e677c98b1e36fb",
       "title": "NFL Moneyline Picks for Every Week 7 Game",
@@ -2977,209 +5777,6 @@
       ]
     },
     {
-      "id": "8a5e8449de4d8b28",
-      "title": "NFL Commanders vs 49ers expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Pete Prisco",
-      "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-20T00:20:08.945515+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "49ers -7.5",
-          "market": "Spread",
-          "context": "Commanders vs 49ers",
-          "eventDate": "2026-10-19",
-          "method": "Named analyst selection on public CBS board",
-          "event": null
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "49ers",
-        "Commanders"
-      ]
-    },
-    {
-      "id": "ef9bacb097ab21ec",
-      "title": "NFL Commanders vs 49ers expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Jared Dubin",
-      "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-20T00:20:08.945515+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "49ers -7.5",
-          "market": "Spread",
-          "context": "Commanders vs 49ers",
-          "eventDate": "2026-10-19",
-          "method": "Named analyst selection on public CBS board",
-          "event": null
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "49ers",
-        "Commanders"
-      ]
-    },
-    {
-      "id": "dd9923484042d522",
-      "title": "NFL Commanders vs 49ers expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Ryan Wilson",
-      "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-20T00:20:08.945515+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Commanders +7.5",
-          "market": "Spread",
-          "context": "Commanders vs 49ers",
-          "eventDate": "2026-10-19",
-          "method": "Named analyst selection on public CBS board",
-          "event": null
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "49ers",
-        "Commanders"
-      ]
-    },
-    {
-      "id": "bdf8e97769550292",
-      "title": "NFL Commanders vs 49ers expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "John Breech",
-      "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-20T00:20:08.945515+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "49ers -7.5",
-          "market": "Spread",
-          "context": "Commanders vs 49ers",
-          "eventDate": "2026-10-19",
-          "method": "Named analyst selection on public CBS board",
-          "event": null
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "49ers",
-        "Commanders"
-      ]
-    },
-    {
-      "id": "777bff315173534e",
-      "title": "NFL Commanders vs 49ers expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Tyler Sullivan",
-      "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-20T00:20:08.945515+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "49ers -7.5",
-          "market": "Spread",
-          "context": "Commanders vs 49ers",
-          "eventDate": "2026-10-19",
-          "method": "Named analyst selection on public CBS board",
-          "event": null
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "49ers",
-        "Commanders"
-      ]
-    },
-    {
-      "id": "cfd659272c7858eb",
-      "title": "NFL Commanders vs 49ers expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Dave Richard",
-      "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-20T00:20:08.945515+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "49ers -7.5",
-          "market": "Spread",
-          "context": "Commanders vs 49ers",
-          "eventDate": "2026-10-19",
-          "method": "Named analyst selection on public CBS board",
-          "event": null
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "49ers",
-        "Commanders"
-      ]
-    },
-    {
-      "id": "94fb122b0bfc52ec",
-      "title": "NFL Commanders vs 49ers expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Jamey Eisenberg",
-      "publishedAt": "2026-10-16T17:27:54.831841+00:00",
-      "observedAt": "2026-10-20T00:20:08.945515+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "49ers -7.5",
-          "market": "Spread",
-          "context": "Commanders vs 49ers",
-          "eventDate": "2026-10-19",
-          "method": "Named analyst selection on public CBS board",
-          "event": null
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "49ers",
-        "Commanders"
-      ]
-    },
-    {
       "id": "a35a7c9973812d2c",
       "title": "Patriots vs Jets Prediction 10/18/26 NFL Picks Today | Sports Chat Place",
       "url": "https://sportschatplace.com/nfl-picks/patriots-vs-jets-prediction-10-18-26-nfl-picks-today/",
@@ -3717,8 +6314,8 @@
   ],
   "scheduleStatus": {
     "status": "ok",
-    "checkedAt": "2026-10-21T19:19:25.523570+00:00",
-    "lastSuccessAt": "2026-10-21T19:19:25.523570+00:00"
+    "checkedAt": "2026-10-21T23:19:20.180070+00:00",
+    "lastSuccessAt": "2026-10-21T23:19:20.180070+00:00"
   },
   "playerTeams": {
     "tylerallgeier": [
