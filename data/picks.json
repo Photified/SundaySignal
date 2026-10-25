@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-25T06:09:50.266408+00:00",
-  "lastSuccessfulUpdate": "2026-10-25T06:09:50.266408+00:00",
+  "checkedAt": "2026-10-25T11:29:29.510300+00:00",
+  "lastSuccessfulUpdate": "2026-10-25T11:29:29.510300+00:00",
   "sources": [
     {
       "id": "sbd",
@@ -10,9 +10,9 @@
       "website": "https://www.sportsbettingdime.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-25T06:09:50.266408+00:00",
-      "lastSuccessAt": "2026-10-25T06:09:50.266408+00:00",
-      "count": 9,
+      "checkedAt": "2026-10-25T11:29:29.510300+00:00",
+      "lastSuccessAt": "2026-10-25T11:29:29.510300+00:00",
+      "count": 8,
       "message": "Feed retrieved successfully"
     },
     {
@@ -22,9 +22,9 @@
       "website": "https://www.bettingpros.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-25T06:09:50.266408+00:00",
-      "lastSuccessAt": "2026-10-25T06:09:50.266408+00:00",
-      "count": 21,
+      "checkedAt": "2026-10-25T11:29:29.510300+00:00",
+      "lastSuccessAt": "2026-10-25T11:29:29.510300+00:00",
+      "count": 33,
       "message": "Feed retrieved successfully"
     },
     {
@@ -35,8 +35,8 @@
       "website": "https://www.cbssports.com/nfl/picks/experts/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-25T06:09:50.266408+00:00",
-      "lastSuccessAt": "2026-10-25T06:09:50.266408+00:00",
+      "checkedAt": "2026-10-25T11:29:29.510300+00:00",
+      "lastSuccessAt": "2026-10-25T11:29:29.510300+00:00",
       "count": 91,
       "message": "Public expert selections retrieved"
     },
@@ -48,8 +48,8 @@
       "website": "https://www.covers.com/nfl",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-25T06:09:50.266408+00:00",
-      "lastSuccessAt": "2026-10-25T06:09:50.266408+00:00",
+      "checkedAt": "2026-10-25T11:29:29.510300+00:00",
+      "lastSuccessAt": "2026-10-25T11:29:29.510300+00:00",
       "count": 1,
       "message": "Public expert selections retrieved"
     },
@@ -62,8 +62,8 @@
       "articlePattern": "/nfl-picks/[^/]+prediction[^/]+/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-25T06:09:50.266408+00:00",
-      "lastSuccessAt": "2026-10-25T06:09:50.266408+00:00",
+      "checkedAt": "2026-10-25T11:29:29.510300+00:00",
+      "lastSuccessAt": "2026-10-25T11:29:29.510300+00:00",
       "count": 8,
       "message": "Public expert selections retrieved"
     },
@@ -76,8 +76,8 @@
       "articlePattern": "/picks/nfl/(?:picks-against-the-spread-ats-predictions|player-props)-week-\\d+-\\d{4}/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-25T06:09:50.266408+00:00",
-      "lastSuccessAt": "2026-10-25T06:09:50.266408+00:00",
+      "checkedAt": "2026-10-25T11:29:29.510300+00:00",
+      "lastSuccessAt": "2026-10-25T11:29:29.510300+00:00",
       "count": 2,
       "message": "Public expert selections retrieved"
     },
@@ -90,8 +90,8 @@
       "articlePattern": "/us/nfl/news/nfl-picks-predictions-against-spread-week-\\d+/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-25T06:09:50.266408+00:00",
-      "lastSuccessAt": "2026-10-25T06:09:50.266408+00:00",
+      "checkedAt": "2026-10-25T11:29:29.510300+00:00",
+      "lastSuccessAt": "2026-10-25T11:29:29.510300+00:00",
       "count": 1,
       "message": "Public expert selections retrieved"
     },
@@ -104,13 +104,549 @@
       "articlePattern": "/football/article/(?:nfl-picks-and-props|[^/]*odds-picks-and-predictions|[^/]*betting-odds-picks-and-predictions)[^/]+$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-25T06:09:50.266408+00:00",
-      "lastSuccessAt": "2026-10-25T06:09:50.266408+00:00",
+      "checkedAt": "2026-10-25T11:29:29.510300+00:00",
+      "lastSuccessAt": "2026-10-25T11:29:29.510300+00:00",
       "count": 4,
       "message": "Public expert selections retrieved"
     }
   ],
   "articles": [
+    {
+      "id": "317bfb5951ac42b8",
+      "title": "Best NFL Bets & Trends for Week 7 (2026)",
+      "url": "https://www.bettingpros.com/articles/best-nfl-bets-trends-for-week-7-2026/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "Jason Radowitz",
+      "publishedAt": "2026-10-25T11:06:27+00:00",
+      "picks": [
+        {
+          "selection": "Kyler Murray Under 1.5 Passing Touchdowns ( -145 )",
+          "market": "Props",
+          "context": "",
+          "method": "Explicit selection in publisher feed",
+          "player": {
+            "name": "Kyler Murray",
+            "team": "Vikings",
+            "athleteId": "3917315"
+          },
+          "event": {
+            "id": "401873014",
+            "startAt": "2026-10-25T17:00Z",
+            "state": "pre",
+            "teams": [
+              "Vikings",
+              "Colts"
+            ],
+            "matchup": "Indianapolis Colts at Minnesota Vikings",
+            "week": 7,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Brian Robinson Jr. Under 26.5 Rushing Yards ( -122 )",
+          "market": "Props",
+          "context": "",
+          "method": "Explicit selection in publisher feed",
+          "player": {
+            "name": "Brian Robinson Jr.",
+            "team": "Falcons",
+            "athleteId": "4241474"
+          },
+          "event": {
+            "id": "401873017",
+            "startAt": "2026-10-25T17:00Z",
+            "state": "pre",
+            "teams": [
+              "Falcons",
+              "49ers"
+            ],
+            "matchup": "San Francisco 49ers at Atlanta Falcons",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Props"
+      ],
+      "teams": []
+    },
+    {
+      "id": "c653b57ad22af015",
+      "title": "NFL Week 7 Picks & Predictions: Underdog Bets (2026)",
+      "url": "https://www.bettingpros.com/articles/nfl-week-7-picks-predictions-underdog-bets-2026/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "Travis Pulver",
+      "publishedAt": "2026-10-25T11:06:25+00:00",
+      "picks": [
+        {
+          "selection": "Ravens Moneyline ( +102 )",
+          "market": "Moneyline",
+          "context": "Cincinnati Bengals vs. Baltimore Ravens",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873012",
+            "startAt": "2026-10-25T17:00Z",
+            "state": "pre",
+            "teams": [
+              "Ravens",
+              "Bengals"
+            ],
+            "matchup": "Cincinnati Bengals at Baltimore Ravens",
+            "week": 7,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Packers Moneyline ( +140 )",
+          "market": "Moneyline",
+          "context": "Green Bay Packers vs. Detroit Lions",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873020",
+            "startAt": "2026-10-25T20:25Z",
+            "state": "pre",
+            "teams": [
+              "Lions",
+              "Packers"
+            ],
+            "matchup": "Green Bay Packers at Detroit Lions",
+            "week": 7,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Chiefs Moneyline ( +130 )",
+          "market": "Moneyline",
+          "context": "Kansas City Chiefs vs. Seattle Seahawks",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873022",
+            "startAt": "2026-10-26T00:20Z",
+            "state": "pre",
+            "teams": [
+              "Seahawks",
+              "Chiefs"
+            ],
+            "matchup": "Kansas City Chiefs at Seattle Seahawks",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Moneyline"
+      ],
+      "teams": [
+        "Chiefs",
+        "Packers",
+        "Ravens"
+      ]
+    },
+    {
+      "id": "0f0e820fb9d610dc",
+      "title": "NFL Sunday Night Football Same Game Parlay: Chiefs vs. Seahawks",
+      "url": "https://www.bettingpros.com/articles/nfl-sunday-night-football-same-game-parlay-chiefs-vs-seahawks/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "Josh Shepardson",
+      "publishedAt": "2026-10-25T09:20:49+00:00",
+      "picks": [],
+      "parlays": [
+        {
+          "label": "Expert parlay",
+          "americanOdds": 440,
+          "legs": [
+            {
+              "selection": "Sam Darnold 1+ Interceptions ( -131 )",
+              "market": "Props",
+              "context": "Kansas City Chiefs at Seattle Seahawks",
+              "event": {
+                "id": "401873022",
+                "startAt": "2026-10-26T00:20Z",
+                "state": "pre",
+                "teams": [
+                  "Seahawks",
+                  "Chiefs"
+                ],
+                "matchup": "Kansas City Chiefs at Seattle Seahawks",
+                "week": 7,
+                "season": 2026
+              }
+            },
+            {
+              "selection": "Kenneth Walker III 100+ Rushing + Receiving Yards ( -148 )",
+              "market": "Props",
+              "context": "Kansas City Chiefs at Seattle Seahawks",
+              "event": {
+                "id": "401873022",
+                "startAt": "2026-10-26T00:20Z",
+                "state": "pre",
+                "teams": [
+                  "Seahawks",
+                  "Chiefs"
+                ],
+                "matchup": "Kansas City Chiefs at Seattle Seahawks",
+                "week": 7,
+                "season": 2026
+              }
+            },
+            {
+              "selection": "Travis Kelce Under 44.5 Receiving Yards ( -113 )",
+              "market": "Props",
+              "context": "Kansas City Chiefs at Seattle Seahawks",
+              "event": {
+                "id": "401873022",
+                "startAt": "2026-10-26T00:20Z",
+                "state": "pre",
+                "teams": [
+                  "Seahawks",
+                  "Chiefs"
+                ],
+                "matchup": "Kansas City Chiefs at Seattle Seahawks",
+                "week": 7,
+                "season": 2026
+              }
+            },
+            {
+              "selection": "Jaxon Smith-Njigba 60+ Receiving Yards ( -452 )",
+              "market": "Props",
+              "context": "Kansas City Chiefs at Seattle Seahawks",
+              "event": {
+                "id": "401873022",
+                "startAt": "2026-10-26T00:20Z",
+                "state": "pre",
+                "teams": [
+                  "Seahawks",
+                  "Chiefs"
+                ],
+                "matchup": "Kansas City Chiefs at Seattle Seahawks",
+                "week": 7,
+                "season": 2026
+              }
+            }
+          ]
+        }
+      ],
+      "markets": [
+        "Other"
+      ],
+      "teams": [
+        "Chiefs",
+        "Seahawks"
+      ]
+    },
+    {
+      "id": "78abd002f0aa40f7",
+      "title": "NFL Sunday Night Football Anytime & First TD Scorers: Chiefs vs. Seahawks",
+      "url": "https://www.bettingpros.com/articles/nfl-sunday-night-football-anytime-first-td-scorers-chiefs-vs-seahawks/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "Mike Fanelli",
+      "publishedAt": "2026-10-25T08:48:36+00:00",
+      "picks": [
+        {
+          "selection": "Kansas City Chiefs First TD Scorer: Kenneth Walker III ( +200 )",
+          "market": "Props",
+          "context": "NFL Sunday Night Football Anytime & First TD Scorers: Chiefs vs. Seahawks",
+          "method": "Explicit selection in publisher feed",
+          "player": {
+            "name": "Kenneth Walker III",
+            "team": "Chiefs",
+            "athleteId": "4567048"
+          },
+          "event": {
+            "id": "401873022",
+            "startAt": "2026-10-26T00:20Z",
+            "state": "pre",
+            "teams": [
+              "Seahawks",
+              "Chiefs"
+            ],
+            "matchup": "Kansas City Chiefs at Seattle Seahawks",
+            "week": 7,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Seattle Seahawks First TD Scorer: AJ Barner ( +650 )",
+          "market": "Props",
+          "context": "NFL Sunday Night Football Anytime & First TD Scorers: Chiefs vs. Seahawks",
+          "method": "Explicit selection in publisher feed",
+          "player": {
+            "name": "AJ Barner",
+            "team": "Seahawks",
+            "athleteId": "4576297"
+          },
+          "event": {
+            "id": "401873022",
+            "startAt": "2026-10-26T00:20Z",
+            "state": "pre",
+            "teams": [
+              "Seahawks",
+              "Chiefs"
+            ],
+            "matchup": "Kansas City Chiefs at Seattle Seahawks",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Props"
+      ],
+      "teams": [
+        "Chiefs",
+        "Seahawks"
+      ]
+    },
+    {
+      "id": "c118e74ffb038f86",
+      "title": "Best NFL Player Props & Picks: 49ers vs. Falcons (Week 7)",
+      "url": "https://www.bettingpros.com/articles/best-nfl-player-props-picks-49ers-vs-falcons-week-7-2026/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "BettingPros Staff",
+      "publishedAt": "2026-10-25T07:06:26+00:00",
+      "picks": [],
+      "parlays": [],
+      "markets": [
+        "Props"
+      ],
+      "teams": [
+        "49ers",
+        "Falcons"
+      ]
+    },
+    {
+      "id": "c5d15a0b1c7b12b5",
+      "title": "Best NFL Player Props & Picks: Browns vs. Titans (Week 7)",
+      "url": "https://www.bettingpros.com/articles/best-nfl-player-props-picks-browns-vs-titans-week-7-2026/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "BettingPros Staff",
+      "publishedAt": "2026-10-25T07:06:23+00:00",
+      "picks": [],
+      "parlays": [],
+      "markets": [
+        "Props"
+      ],
+      "teams": [
+        "Browns",
+        "Titans"
+      ]
+    },
+    {
+      "id": "7b90679436fa58ce",
+      "title": "Best NFL Player Props & Picks: Colts vs. Vikings (Week 7)",
+      "url": "https://www.bettingpros.com/articles/best-nfl-player-props-picks-colts-vs-vikings-week-7-2026/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "BettingPros Staff",
+      "publishedAt": "2026-10-25T07:06:22+00:00",
+      "picks": [],
+      "parlays": [],
+      "markets": [
+        "Props"
+      ],
+      "teams": [
+        "Colts",
+        "Vikings"
+      ]
+    },
+    {
+      "id": "47c7635bf308c856",
+      "title": "Best NFL Player Props & Picks: Dolphins vs. Jets (Week 7)",
+      "url": "https://www.bettingpros.com/articles/best-nfl-player-props-picks-dolphins-vs-jets-week-7-2026/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "BettingPros Staff",
+      "publishedAt": "2026-10-25T07:06:20+00:00",
+      "picks": [],
+      "parlays": [],
+      "markets": [
+        "Props"
+      ],
+      "teams": [
+        "Dolphins",
+        "Jets"
+      ]
+    },
+    {
+      "id": "26204c1cbbe53953",
+      "title": "Best NFL Player Props & Picks: Buccaneers vs. Panthers (Week 7)",
+      "url": "https://www.bettingpros.com/articles/best-nfl-player-props-picks-buccaneers-vs-panthers-week-7-2026/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "BettingPros Staff",
+      "publishedAt": "2026-10-25T07:06:19+00:00",
+      "picks": [],
+      "parlays": [],
+      "markets": [
+        "Props"
+      ],
+      "teams": [
+        "Buccaneers",
+        "Panthers"
+      ]
+    },
+    {
+      "id": "0b1bb85f3fd7c9da",
+      "title": "Best NFL Player Props & Picks: Bengals vs. Ravens (Week 7)",
+      "url": "https://www.bettingpros.com/articles/best-nfl-player-props-picks-bengals-vs-ravens-week-7-2026/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "BettingPros Staff",
+      "publishedAt": "2026-10-25T07:06:17+00:00",
+      "picks": [],
+      "parlays": [],
+      "markets": [
+        "Props"
+      ],
+      "teams": [
+        "Bengals",
+        "Ravens"
+      ]
+    },
+    {
+      "id": "855cacf800559581",
+      "title": "Best NFL Player Props & Picks: Giants vs. Texans (Week 7)",
+      "url": "https://www.bettingpros.com/articles/best-nfl-player-props-picks-giants-vs-texans-week-7-2026/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "BettingPros Staff",
+      "publishedAt": "2026-10-25T07:06:16+00:00",
+      "picks": [],
+      "parlays": [],
+      "markets": [
+        "Props"
+      ],
+      "teams": [
+        "Giants",
+        "Texans"
+      ]
+    },
+    {
+      "id": "4c5fa53132e6d77a",
+      "title": "Best NFL Player Props & Picks: Broncos vs. Cardinals (Week 7)",
+      "url": "https://www.bettingpros.com/articles/best-nfl-player-props-picks-broncos-vs-cardinals-week-7-2026/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "BettingPros Staff",
+      "publishedAt": "2026-10-25T07:06:15+00:00",
+      "picks": [],
+      "parlays": [],
+      "markets": [
+        "Props"
+      ],
+      "teams": [
+        "Broncos",
+        "Cardinals"
+      ]
+    },
+    {
+      "id": "ac1582feebf0930a",
+      "title": "Best NFL Player Props & Picks: Packers vs. Lions (Week 7)",
+      "url": "https://www.bettingpros.com/articles/best-nfl-player-props-picks-packers-vs-lions-week-7-2026/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "BettingPros Staff",
+      "publishedAt": "2026-10-25T07:06:13+00:00",
+      "picks": [],
+      "parlays": [],
+      "markets": [
+        "Props"
+      ],
+      "teams": [
+        "Lions",
+        "Packers"
+      ]
+    },
+    {
+      "id": "58ecf882773fa130",
+      "title": "Best NFL Player Props & Picks: Rams vs. Raiders (Week 7)",
+      "url": "https://www.bettingpros.com/articles/best-nfl-player-props-picks-rams-vs-raiders-week-7-2026/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "BettingPros Staff",
+      "publishedAt": "2026-10-25T07:06:11+00:00",
+      "picks": [],
+      "parlays": [],
+      "markets": [
+        "Props"
+      ],
+      "teams": [
+        "Raiders",
+        "Rams"
+      ]
+    },
+    {
+      "id": "d2ed0bd63507fce5",
+      "title": "NFL Picks and Props for Week 7 Sunday Slate",
+      "url": "https://www.rotowire.com/football/article/nfl-picks-and-props-for-week-7-sunday-slate-143600",
+      "publisher": "RotoWire",
+      "sourceId": "rotowire",
+      "author": "Daniel Dobish",
+      "publishedAt": "2026-10-25T06:52:00+00:00",
+      "picks": [
+        {
+          "selection": "Rams QB Matthew Stafford Over 250.5 Passing Yards (-115 Fanatics)",
+          "market": "Props",
+          "context": "Los Angeles Rams at Las Vegas Raiders Prop Plays",
+          "method": "Explicit selection in publisher feed",
+          "player": {
+            "name": "Matthew Stafford",
+            "team": "Rams",
+            "athleteId": "12483"
+          },
+          "event": {
+            "id": "401873021",
+            "startAt": "2026-10-25T20:25Z",
+            "state": "pre",
+            "teams": [
+              "Raiders",
+              "Rams"
+            ],
+            "matchup": "Los Angeles Rams at Las Vegas Raiders",
+            "week": 7,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Rams RB Kyren Williams Anytime TD Scorer (-155 FanDuel)",
+          "market": "Props",
+          "context": "Los Angeles Rams at Las Vegas Raiders Prop Plays",
+          "method": "Explicit selection in publisher feed",
+          "player": {
+            "name": "Kyren Williams",
+            "team": "Rams",
+            "athleteId": "4430737"
+          },
+          "event": {
+            "id": "401873021",
+            "startAt": "2026-10-25T20:25Z",
+            "state": "pre",
+            "teams": [
+              "Raiders",
+              "Rams"
+            ],
+            "matchup": "Los Angeles Rams at Las Vegas Raiders",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Props"
+      ],
+      "teams": []
+    },
     {
       "id": "42f574ebcd848b0e",
       "title": "Packers at Lions: Betting Odds, Picks, and Predictions for Week 7",
@@ -1748,7 +2284,7 @@
       "sourceId": "cbs",
       "author": "Dave Richard",
       "publishedAt": "2026-10-22T19:16:10.233433+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -1788,7 +2324,7 @@
       "sourceId": "cbs",
       "author": "Dave Richard",
       "publishedAt": "2026-10-22T19:16:10.233433+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -1828,7 +2364,7 @@
       "sourceId": "cbs",
       "author": "Dave Richard",
       "publishedAt": "2026-10-22T19:16:10.233433+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -1868,7 +2404,7 @@
       "sourceId": "cbs",
       "author": "Dave Richard",
       "publishedAt": "2026-10-22T19:16:10.233433+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -1908,7 +2444,7 @@
       "sourceId": "cbs",
       "author": "Dave Richard",
       "publishedAt": "2026-10-22T19:16:10.233433+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -1948,7 +2484,7 @@
       "sourceId": "cbs",
       "author": "Dave Richard",
       "publishedAt": "2026-10-22T19:16:10.233433+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -1988,7 +2524,7 @@
       "sourceId": "cbs",
       "author": "Dave Richard",
       "publishedAt": "2026-10-22T19:16:10.233433+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2028,7 +2564,7 @@
       "sourceId": "cbs",
       "author": "Dave Richard",
       "publishedAt": "2026-10-22T19:16:10.233433+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2068,7 +2604,7 @@
       "sourceId": "cbs",
       "author": "Dave Richard",
       "publishedAt": "2026-10-22T19:16:10.233433+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2108,7 +2644,7 @@
       "sourceId": "cbs",
       "author": "Dave Richard",
       "publishedAt": "2026-10-22T19:16:10.233433+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2148,7 +2684,7 @@
       "sourceId": "cbs",
       "author": "Dave Richard",
       "publishedAt": "2026-10-22T19:16:10.233433+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2188,7 +2724,7 @@
       "sourceId": "cbs",
       "author": "Dave Richard",
       "publishedAt": "2026-10-22T19:16:10.233433+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2228,7 +2764,7 @@
       "sourceId": "cbs",
       "author": "Dave Richard",
       "publishedAt": "2026-10-22T19:16:10.233433+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2283,7 +2819,7 @@
       "sourceId": "cbs",
       "author": "Jamey Eisenberg",
       "publishedAt": "2026-10-22T15:17:03.254672+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2323,7 +2859,7 @@
       "sourceId": "cbs",
       "author": "Jamey Eisenberg",
       "publishedAt": "2026-10-22T15:17:03.254672+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2363,7 +2899,7 @@
       "sourceId": "cbs",
       "author": "Jamey Eisenberg",
       "publishedAt": "2026-10-22T15:17:03.254672+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2403,7 +2939,7 @@
       "sourceId": "cbs",
       "author": "Jamey Eisenberg",
       "publishedAt": "2026-10-22T15:17:03.254672+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2443,7 +2979,7 @@
       "sourceId": "cbs",
       "author": "Jamey Eisenberg",
       "publishedAt": "2026-10-22T15:17:03.254672+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2483,7 +3019,7 @@
       "sourceId": "cbs",
       "author": "Jamey Eisenberg",
       "publishedAt": "2026-10-22T15:17:03.254672+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2523,7 +3059,7 @@
       "sourceId": "cbs",
       "author": "Jamey Eisenberg",
       "publishedAt": "2026-10-22T15:17:03.254672+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2563,7 +3099,7 @@
       "sourceId": "cbs",
       "author": "Jamey Eisenberg",
       "publishedAt": "2026-10-22T15:17:03.254672+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2603,7 +3139,7 @@
       "sourceId": "cbs",
       "author": "Jamey Eisenberg",
       "publishedAt": "2026-10-22T15:17:03.254672+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2643,7 +3179,7 @@
       "sourceId": "cbs",
       "author": "Jamey Eisenberg",
       "publishedAt": "2026-10-22T15:17:03.254672+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2683,7 +3219,7 @@
       "sourceId": "cbs",
       "author": "Jamey Eisenberg",
       "publishedAt": "2026-10-22T15:17:03.254672+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2723,7 +3259,7 @@
       "sourceId": "cbs",
       "author": "Jamey Eisenberg",
       "publishedAt": "2026-10-22T15:17:03.254672+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2763,7 +3299,7 @@
       "sourceId": "cbs",
       "author": "Jamey Eisenberg",
       "publishedAt": "2026-10-22T15:17:03.254672+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3294,7 +3830,7 @@
       "sourceId": "cbs",
       "author": "Pete Prisco",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3334,7 +3870,7 @@
       "sourceId": "cbs",
       "author": "Jared Dubin",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3374,7 +3910,7 @@
       "sourceId": "cbs",
       "author": "Ryan Wilson",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3414,7 +3950,7 @@
       "sourceId": "cbs",
       "author": "John Breech",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3454,7 +3990,7 @@
       "sourceId": "cbs",
       "author": "Tyler Sullivan",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3494,7 +4030,7 @@
       "sourceId": "cbs",
       "author": "Pete Prisco",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3534,7 +4070,7 @@
       "sourceId": "cbs",
       "author": "Jared Dubin",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3574,7 +4110,7 @@
       "sourceId": "cbs",
       "author": "Ryan Wilson",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3614,7 +4150,7 @@
       "sourceId": "cbs",
       "author": "John Breech",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3654,7 +4190,7 @@
       "sourceId": "cbs",
       "author": "Tyler Sullivan",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3694,7 +4230,7 @@
       "sourceId": "cbs",
       "author": "Pete Prisco",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3734,7 +4270,7 @@
       "sourceId": "cbs",
       "author": "Jared Dubin",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3774,7 +4310,7 @@
       "sourceId": "cbs",
       "author": "Ryan Wilson",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3814,7 +4350,7 @@
       "sourceId": "cbs",
       "author": "John Breech",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3854,7 +4390,7 @@
       "sourceId": "cbs",
       "author": "Tyler Sullivan",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3894,7 +4430,7 @@
       "sourceId": "cbs",
       "author": "Pete Prisco",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3934,7 +4470,7 @@
       "sourceId": "cbs",
       "author": "Jared Dubin",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3974,7 +4510,7 @@
       "sourceId": "cbs",
       "author": "Ryan Wilson",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4014,7 +4550,7 @@
       "sourceId": "cbs",
       "author": "John Breech",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4054,7 +4590,7 @@
       "sourceId": "cbs",
       "author": "Tyler Sullivan",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4094,7 +4630,7 @@
       "sourceId": "cbs",
       "author": "Pete Prisco",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4134,7 +4670,7 @@
       "sourceId": "cbs",
       "author": "Jared Dubin",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4174,7 +4710,7 @@
       "sourceId": "cbs",
       "author": "Ryan Wilson",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4214,7 +4750,7 @@
       "sourceId": "cbs",
       "author": "John Breech",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4254,7 +4790,7 @@
       "sourceId": "cbs",
       "author": "Tyler Sullivan",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4294,7 +4830,7 @@
       "sourceId": "cbs",
       "author": "Pete Prisco",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4334,7 +4870,7 @@
       "sourceId": "cbs",
       "author": "Jared Dubin",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4374,7 +4910,7 @@
       "sourceId": "cbs",
       "author": "Ryan Wilson",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4414,7 +4950,7 @@
       "sourceId": "cbs",
       "author": "John Breech",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4454,7 +4990,7 @@
       "sourceId": "cbs",
       "author": "Tyler Sullivan",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4494,7 +5030,7 @@
       "sourceId": "cbs",
       "author": "Pete Prisco",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4534,7 +5070,7 @@
       "sourceId": "cbs",
       "author": "Jared Dubin",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4574,7 +5110,7 @@
       "sourceId": "cbs",
       "author": "Ryan Wilson",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4614,7 +5150,7 @@
       "sourceId": "cbs",
       "author": "John Breech",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4654,7 +5190,7 @@
       "sourceId": "cbs",
       "author": "Tyler Sullivan",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4694,7 +5230,7 @@
       "sourceId": "cbs",
       "author": "Pete Prisco",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4734,7 +5270,7 @@
       "sourceId": "cbs",
       "author": "Jared Dubin",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4774,7 +5310,7 @@
       "sourceId": "cbs",
       "author": "Ryan Wilson",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4814,7 +5350,7 @@
       "sourceId": "cbs",
       "author": "John Breech",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4854,7 +5390,7 @@
       "sourceId": "cbs",
       "author": "Tyler Sullivan",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4894,7 +5430,7 @@
       "sourceId": "cbs",
       "author": "Pete Prisco",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4934,7 +5470,7 @@
       "sourceId": "cbs",
       "author": "Jared Dubin",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4974,7 +5510,7 @@
       "sourceId": "cbs",
       "author": "Ryan Wilson",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -5014,7 +5550,7 @@
       "sourceId": "cbs",
       "author": "John Breech",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -5054,7 +5590,7 @@
       "sourceId": "cbs",
       "author": "Tyler Sullivan",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -5094,7 +5630,7 @@
       "sourceId": "cbs",
       "author": "Pete Prisco",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -5134,7 +5670,7 @@
       "sourceId": "cbs",
       "author": "Jared Dubin",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -5174,7 +5710,7 @@
       "sourceId": "cbs",
       "author": "Ryan Wilson",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -5214,7 +5750,7 @@
       "sourceId": "cbs",
       "author": "John Breech",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -5254,7 +5790,7 @@
       "sourceId": "cbs",
       "author": "Tyler Sullivan",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -5294,7 +5830,7 @@
       "sourceId": "cbs",
       "author": "Pete Prisco",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -5334,7 +5870,7 @@
       "sourceId": "cbs",
       "author": "Jared Dubin",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -5374,7 +5910,7 @@
       "sourceId": "cbs",
       "author": "Ryan Wilson",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -5414,7 +5950,7 @@
       "sourceId": "cbs",
       "author": "John Breech",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -5454,7 +5990,7 @@
       "sourceId": "cbs",
       "author": "Tyler Sullivan",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -5494,7 +6030,7 @@
       "sourceId": "cbs",
       "author": "Pete Prisco",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -5534,7 +6070,7 @@
       "sourceId": "cbs",
       "author": "Jared Dubin",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -5574,7 +6110,7 @@
       "sourceId": "cbs",
       "author": "Ryan Wilson",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -5614,7 +6150,7 @@
       "sourceId": "cbs",
       "author": "John Breech",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -5654,7 +6190,7 @@
       "sourceId": "cbs",
       "author": "Tyler Sullivan",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -5694,7 +6230,7 @@
       "sourceId": "cbs",
       "author": "Pete Prisco",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -5734,7 +6270,7 @@
       "sourceId": "cbs",
       "author": "Jared Dubin",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -5774,7 +6310,7 @@
       "sourceId": "cbs",
       "author": "Ryan Wilson",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -5814,7 +6350,7 @@
       "sourceId": "cbs",
       "author": "John Breech",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -5854,7 +6390,7 @@
       "sourceId": "cbs",
       "author": "Tyler Sullivan",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T06:09:50.266408+00:00",
+      "observedAt": "2026-10-25T11:29:29.510300+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -6378,76 +6914,6 @@
       ]
     },
     {
-      "id": "916cf46c1afe04c0",
-      "title": "NFL Survivor Pool Advice for Week 7: Odds, Picks & Predictions (2026)",
-      "url": "https://www.bettingpros.com/articles/nfl-survivor-pool-advice-for-week-7-odds-picks-predictions-2026/",
-      "publisher": "BettingPros",
-      "sourceId": "bettingpros",
-      "author": "Mike Spector",
-      "publishedAt": "2026-10-20T18:25:21+00:00",
-      "picks": [],
-      "parlays": [],
-      "markets": [
-        "Other"
-      ],
-      "teams": []
-    },
-    {
-      "id": "8f3b171f12ca92c9",
-      "title": "NFL Week 7 Picks & Predictions: Best Early Bets (2026)",
-      "url": "https://www.bettingpros.com/articles/nfl-week-7-picks-predictions-best-early-bets-2026/",
-      "publisher": "BettingPros",
-      "sourceId": "bettingpros",
-      "author": "Jason Radowitz",
-      "publishedAt": "2026-10-20T18:25:18+00:00",
-      "picks": [
-        {
-          "selection": "Panthers -3.5 ( -115 )",
-          "market": "Spread",
-          "context": "Tampa Bay Buccaneers vs. Carolina Panthers",
-          "method": "Explicit selection in publisher feed",
-          "event": {
-            "id": "401873018",
-            "startAt": "2026-10-25T17:00Z",
-            "state": "pre",
-            "teams": [
-              "Panthers",
-              "Buccaneers"
-            ],
-            "matchup": "Tampa Bay Buccaneers at Carolina Panthers",
-            "week": 7,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Cardinals +4.5 ( -110 )",
-          "market": "Spread",
-          "context": "Denver Broncos vs. Arizona Cardinals",
-          "method": "Explicit selection in publisher feed",
-          "event": {
-            "id": "401873019",
-            "startAt": "2026-10-25T20:05Z",
-            "state": "pre",
-            "teams": [
-              "Cardinals",
-              "Broncos"
-            ],
-            "matchup": "Denver Broncos at Arizona Cardinals",
-            "week": 7,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Cardinals",
-        "Panthers"
-      ]
-    },
-    {
       "id": "c2f857d19c39cca5",
       "title": "Detroit Lions vs Green Bay Packers Prediction 10/25/26 NFL Picks Today | Sports Chat Place",
       "url": "https://sportschatplace.com/nfl-picks/detroit-lions-vs-green-bay-packers-prediction-10-25-26-nfl-picks-today/",
@@ -6556,80 +7022,6 @@
       "teams": [
         "Colts",
         "Vikings"
-      ]
-    },
-    {
-      "id": "6f0e51bf721f17f1",
-      "title": "NFL Week 7 Upset Predictions – Top 3 Underdogs to Bet from Model That’s +2.52 Units",
-      "url": "https://www.sportsbettingdime.com/news/nfl/week-7-upset-predictions-top-underdogs-target/",
-      "publisher": "Sports Betting Dime",
-      "sourceId": "sbd",
-      "author": "Sascha Paruk",
-      "publishedAt": "2026-10-20T17:22:52+00:00",
-      "picks": [
-        {
-          "selection": "Packers (+156 at Novig ) @ DET",
-          "market": "Other",
-          "context": "",
-          "method": "Explicit selection in publisher feed",
-          "event": {
-            "id": "401873020",
-            "startAt": "2026-10-25T20:25Z",
-            "state": "pre",
-            "teams": [
-              "Lions",
-              "Packers"
-            ],
-            "matchup": "Green Bay Packers at Detroit Lions",
-            "week": 7,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Eagles (+186 at Novig ) vs DAL",
-          "market": "Other",
-          "context": "",
-          "method": "Explicit selection in publisher feed",
-          "event": {
-            "id": "401873009",
-            "startAt": "2026-10-27T00:15Z",
-            "state": "pre",
-            "teams": [
-              "Eagles",
-              "Cowboys"
-            ],
-            "matchup": "Dallas Cowboys at Philadelphia Eagles",
-            "week": 7,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Chiefs (+122 at Kalshi ) @ SEA",
-          "market": "Other",
-          "context": "",
-          "method": "Explicit selection in publisher feed",
-          "event": {
-            "id": "401873022",
-            "startAt": "2026-10-26T00:20Z",
-            "state": "pre",
-            "teams": [
-              "Seahawks",
-              "Chiefs"
-            ],
-            "matchup": "Kansas City Chiefs at Seattle Seahawks",
-            "week": 7,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Other"
-      ],
-      "teams": [
-        "Chiefs",
-        "Eagles",
-        "Packers"
       ]
     },
     {
@@ -6970,46 +7362,6 @@
         "Falcons",
         "Bears"
       ]
-    },
-    {
-      "id": "23e4ca4bd4f1f244",
-      "title": "NFL Picks and Props for Week 5 Sunday Slate",
-      "url": "https://www.rotowire.com/football/article/nfl-picks-and-props-for-week-5-sunday-slate-140265",
-      "publisher": "RotoWire",
-      "sourceId": "rotowire",
-      "author": "Daniel Dobish",
-      "publishedAt": "2026-10-11T07:44:00+00:00",
-      "picks": [
-        {
-          "selection": "Browns QB Deshaun Watson Under 31.5 Pass Attempts (-120 DraftKings)",
-          "market": "Props",
-          "context": "Cleveland Browns at New York Jets Prop Plays",
-          "method": "Explicit selection in publisher feed",
-          "player": {
-            "name": "Deshaun Watson",
-            "team": "Browns",
-            "athleteId": "3122840"
-          },
-          "event": null
-        },
-        {
-          "selection": "Jets QB Geno Smith Under 31.5 Pass Attempts (-124 DraftKings)",
-          "market": "Props",
-          "context": "Cleveland Browns at New York Jets Prop Plays",
-          "method": "Explicit selection in publisher feed",
-          "player": {
-            "name": "Geno Smith",
-            "team": "Jets",
-            "athleteId": "15864"
-          },
-          "event": null
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Props"
-      ],
-      "teams": []
     }
   ],
   "refreshMinutes": 60,
@@ -7353,8 +7705,8 @@
   ],
   "scheduleStatus": {
     "status": "ok",
-    "checkedAt": "2026-10-25T06:09:50.266408+00:00",
-    "lastSuccessAt": "2026-10-25T06:09:50.266408+00:00"
+    "checkedAt": "2026-10-25T11:29:29.510300+00:00",
+    "lastSuccessAt": "2026-10-25T11:29:29.510300+00:00"
   },
   "playerTeams": {
     "tylerallgeier": [
@@ -7404,6 +7756,13 @@
         "name": "Devin Duvernay",
         "team": "Cardinals",
         "athleteId": "4039050"
+      }
+    ],
+    "kingsleyeguakun": [
+      {
+        "name": "Kingsley Eguakun",
+        "team": "Cardinals",
+        "athleteId": "4567410"
       }
     ],
     "simifehoko": [
@@ -7609,6 +7968,13 @@
         "athleteId": "4689674"
       }
     ],
+    "jaredharrisonhunte": [
+      {
+        "name": "Jared Harrison-Hunte",
+        "team": "Cardinals",
+        "athleteId": "4427401"
+      }
+    ],
     "kalenking": [
       {
         "name": "Kalen King",
@@ -7712,13 +8078,6 @@
         "name": "Garrett Williams",
         "team": "Cardinals",
         "athleteId": "4568506"
-      }
-    ],
-    "wydettwilliamsjr": [
-      {
-        "name": "Wydett Williams Jr.",
-        "team": "Cardinals",
-        "athleteId": "5099542"
       }
     ],
     "mackwilsonsr": [
@@ -7861,25 +8220,11 @@
         "athleteId": "4366910"
       }
     ],
-    "kingsleyeguakun": [
-      {
-        "name": "Kingsley Eguakun",
-        "team": "Cardinals",
-        "athleteId": "4567410"
-      }
-    ],
     "jeromeford": [
       {
         "name": "Jerome Ford",
         "team": "Cardinals",
         "athleteId": "4372019"
-      }
-    ],
-    "jaredharrisonhunte": [
-      {
-        "name": "Jared Harrison-Hunte",
-        "team": "Cardinals",
-        "athleteId": "4427401"
       }
     ],
     "camhorsley": [
@@ -7980,6 +8325,13 @@
         "athleteId": "4361409"
       }
     ],
+    "khalilherbert": [
+      {
+        "name": "Khalil Herbert",
+        "team": "Falcons",
+        "athleteId": "4035886"
+      }
+    ],
     "kylehinton": [
       {
         "name": "Kyle Hinton",
@@ -7992,13 +8344,6 @@
         "name": "Austin Hooper",
         "team": "Falcons",
         "athleteId": "3043275"
-      }
-    ],
-    "michaeljerrell": [
-      {
-        "name": "Michael Jerrell",
-        "team": "Falcons",
-        "athleteId": "5209093"
       }
     ],
     "coreylevin": [
@@ -8118,6 +8463,13 @@
         "name": "Yasir Abdullah",
         "team": "Falcons",
         "athleteId": "4360807"
+      }
+    ],
+    "brianasamoahii": [
+      {
+        "name": "Brian Asamoah II",
+        "team": "Falcons",
+        "athleteId": "4360255"
       }
     ],
     "jessiebatesiii": [
@@ -8295,6 +8647,13 @@
         "athleteId": "4870988"
       }
     ],
+    "ajterrelljr": [
+      {
+        "name": "A.J. Terrell Jr.",
+        "team": "Falcons",
+        "athleteId": "4239995"
+      }
+    ],
     "cameronthomas": [
       {
         "name": "Cameron Thomas",
@@ -8358,6 +8717,13 @@
         "athleteId": "3126352"
       }
     ],
+    "michaeljerrell": [
+      {
+        "name": "Michael Jerrell",
+        "team": "Falcons",
+        "athleteId": "5209093"
+      }
+    ],
     "deangelomalone": [
       {
         "name": "DeAngelo Malone",
@@ -8377,13 +8743,6 @@
         "name": "Trey Sermon",
         "team": "Falcons",
         "athleteId": "4241401"
-      }
-    ],
-    "ajterrelljr": [
-      {
-        "name": "A.J. Terrell Jr.",
-        "team": "Falcons",
-        "athleteId": "4239995"
       }
     ],
     "anteriothompson": [
@@ -8407,13 +8766,6 @@
         "athleteId": "4869816"
       }
     ],
-    "brianasamoahii": [
-      {
-        "name": "Brian Asamoah II",
-        "team": "Falcons",
-        "athleteId": "4360255"
-      }
-    ],
     "kamdewberry": [
       {
         "name": "Kam Dewberry",
@@ -8426,13 +8778,6 @@
         "name": "Dylan Drummond",
         "team": "Falcons",
         "athleteId": "4363551"
-      }
-    ],
-    "khalilherbert": [
-      {
-        "name": "Khalil Herbert",
-        "team": "Falcons",
-        "athleteId": "4035886"
       }
     ],
     "darnayholmes": [
@@ -8771,6 +9116,13 @@
         "athleteId": "3126356"
       }
     ],
+    "adisaisaac": [
+      {
+        "name": "Adisa Isaac",
+        "team": "Ravens",
+        "athleteId": "4426372"
+      }
+    ],
     "keondrejackson": [
       {
         "name": "Keondre Jackson",
@@ -8818,13 +9170,6 @@
         "name": "Chandler Rivers",
         "team": "Ravens",
         "athleteId": "4702918"
-      }
-    ],
-    "taviusrobinson": [
-      {
-        "name": "Tavius Robinson",
-        "team": "Ravens",
-        "athleteId": "4690179"
       }
     ],
     "trentonsimpson": [
@@ -8925,6 +9270,13 @@
         "athleteId": "4433887"
       }
     ],
+    "taviusrobinson": [
+      {
+        "name": "Tavius Robinson",
+        "team": "Ravens",
+        "athleteId": "4690179"
+      }
+    ],
     "durhamsmythe": [
       {
         "name": "Durham Smythe",
@@ -8958,13 +9310,6 @@
         "name": "Rayshaun Benny",
         "team": "Ravens",
         "athleteId": "4432661"
-      }
-    ],
-    "adisaisaac": [
-      {
-        "name": "Adisa Isaac",
-        "team": "Ravens",
-        "athleteId": "4426372"
       }
     ],
     "carljones": [
@@ -9807,18 +10152,18 @@
         "athleteId": "4602967"
       }
     ],
+    "nickhampton": [
+      {
+        "name": "Nick Hampton",
+        "team": "Panthers",
+        "athleteId": "4360773"
+      }
+    ],
     "leehunter": [
       {
         "name": "Lee Hunter",
         "team": "Panthers",
         "athleteId": "4431551"
-      }
-    ],
-    "thomasincoom": [
-      {
-        "name": "Thomas Incoom",
-        "team": "Panthers",
-        "athleteId": "4714157"
       }
     ],
     "patrickjonesii": [
@@ -9989,6 +10334,13 @@
         "athleteId": "4362847"
       }
     ],
+    "thomasincoom": [
+      {
+        "name": "Thomas Incoom",
+        "team": "Panthers",
+        "athleteId": "4714157"
+      }
+    ],
     "camjackson": [
       {
         "name": "Cam Jackson",
@@ -10050,6 +10402,13 @@
         "name": "Jake Curhan",
         "team": "Panthers",
         "athleteId": "4035870"
+      }
+    ],
+    "malcolmdewaltiv": [
+      {
+        "name": "Malcolm DeWalt IV",
+        "team": "Panthers",
+        "athleteId": "5225251"
       }
     ],
     "ahmanimarshall": [
@@ -11303,13 +11662,6 @@
         "athleteId": "3115485"
       }
     ],
-    "tevenjenkins": [
-      {
-        "name": "Teven Jenkins",
-        "team": "Browns",
-        "athleteId": "4038457"
-      }
-    ],
     "jerryjeudy": [
       {
         "name": "Jerry Jeudy",
@@ -11350,6 +11702,13 @@
         "name": "Carsen Ryan",
         "team": "Browns",
         "athleteId": "4685540"
+      }
+    ],
+    "dylansampson": [
+      {
+        "name": "Dylan Sampson",
+        "team": "Browns",
+        "athleteId": "5081397"
       }
     ],
     "shedeursanders": [
@@ -11623,6 +11982,13 @@
         "athleteId": "4427238"
       }
     ],
+    "tevenjenkins": [
+      {
+        "name": "Teven Jenkins",
+        "team": "Browns",
+        "athleteId": "4038457"
+      }
+    ],
     "damarrimathis": [
       {
         "name": "Damarri Mathis",
@@ -11642,13 +12008,6 @@
         "name": "Joe Royer",
         "team": "Browns",
         "athleteId": "4565859"
-      }
-    ],
-    "dylansampson": [
-      {
-        "name": "Dylan Sampson",
-        "team": "Browns",
-        "athleteId": "5081397"
       }
     ],
     "raheimsanders": [
@@ -12351,13 +12710,6 @@
         "athleteId": "4383440"
       }
     ],
-    "tylerbadie": [
-      {
-        "name": "Tyler Badie",
-        "team": "Broncos",
-        "athleteId": "4362748"
-      }
-    ],
     "dallenbentley": [
       {
         "name": "Dallen Bentley",
@@ -12377,6 +12729,13 @@
         "name": "Kage Casey",
         "team": "Broncos",
         "athleteId": "4868598"
+      }
+    ],
+    "jonahcoleman": [
+      {
+        "name": "Jonah Coleman",
+        "team": "Broncos",
+        "athleteId": "4702555"
       }
     ],
     "jkdobbins": [
@@ -12575,13 +12934,6 @@
         "athleteId": "4040608"
       }
     ],
-    "jonahelliss": [
-      {
-        "name": "Jonah Elliss",
-        "team": "Broncos",
-        "athleteId": "4687592"
-      }
-    ],
     "seanfresch": [
       {
         "name": "Sean Fresch",
@@ -12750,6 +13102,13 @@
         "athleteId": "2985659"
       }
     ],
+    "tylerbadie": [
+      {
+        "name": "Tyler Badie",
+        "team": "Broncos",
+        "athleteId": "4362748"
+      }
+    ],
     "levellebailey": [
       {
         "name": "Levelle Bailey",
@@ -12764,13 +13123,6 @@
         "athleteId": "4600981"
       }
     ],
-    "jonahcoleman": [
-      {
-        "name": "Jonah Coleman",
-        "team": "Broncos",
-        "athleteId": "4702555"
-      }
-    ],
     "frankcrum": [
       {
         "name": "Frank Crum",
@@ -12783,6 +13135,13 @@
         "name": "Michael Deiter",
         "team": "Broncos",
         "athleteId": "3121541"
+      }
+    ],
+    "jonahelliss": [
+      {
+        "name": "Jonah Elliss",
+        "team": "Broncos",
+        "athleteId": "4687592"
       }
     ],
     "nickgargiulo": [
@@ -13072,6 +13431,13 @@
         "athleteId": "4260409"
       }
     ],
+    "brianbranch": [
+      {
+        "name": "Brian Branch",
+        "team": "Lions",
+        "athleteId": "4692025"
+      }
+    ],
     "jackcampbell": [
       {
         "name": "Jack Campbell",
@@ -13273,13 +13639,6 @@
         "name": "Ben Bartch",
         "team": "Lions",
         "athleteId": "4611506"
-      }
-    ],
-    "brianbranch": [
-      {
-        "name": "Brian Branch",
-        "team": "Lions",
-        "athleteId": "4692025"
       }
     ],
     "damoneclark": [
@@ -13786,6 +14145,13 @@
         "athleteId": "4374037"
       }
     ],
+    "jordonriley": [
+      {
+        "name": "Jordon Riley",
+        "team": "Packers",
+        "athleteId": "4240677"
+      }
+    ],
     "barrynsorrell": [
       {
         "name": "Barryn Sorrell",
@@ -13938,13 +14304,6 @@
         "name": "Jayden Reed",
         "team": "Packers",
         "athleteId": "4362249"
-      }
-    ],
-    "jordonriley": [
-      {
-        "name": "Jordon Riley",
-        "team": "Packers",
-        "athleteId": "4240677"
       }
     ],
     "thomasyassmin": [
@@ -14339,6 +14698,13 @@
         "athleteId": "4870893"
       }
     ],
+    "kennethmurrayjr": [
+      {
+        "name": "Kenneth Murray Jr.",
+        "team": "Texans",
+        "athleteId": "4241394"
+      }
+    ],
     "georgeodum": [
       {
         "name": "George Odum",
@@ -14575,13 +14941,6 @@
         "name": "Chad Muma",
         "team": "Texans",
         "athleteId": "4361707"
-      }
-    ],
-    "kennethmurrayjr": [
-      {
-        "name": "Kenneth Murray Jr.",
-        "team": "Texans",
-        "athleteId": "4241394"
       }
     ],
     "jamesnealiii": [
@@ -14948,6 +15307,13 @@
         "athleteId": "4331768"
       }
     ],
+    "germainepratt": [
+      {
+        "name": "Germaine Pratt",
+        "team": "Colts",
+        "athleteId": "3116724"
+      }
+    ],
     "timsmith": [
       {
         "name": "Tim Smith",
@@ -15128,20 +15494,6 @@
         "name": "Mitchell Melton",
         "team": "Colts",
         "athleteId": "4693205"
-      }
-    ],
-    "thomasmorstead": [
-      {
-        "name": "Thomas Morstead",
-        "team": "Colts",
-        "athleteId": "12701"
-      }
-    ],
-    "germainepratt": [
-      {
-        "name": "Germaine Pratt",
-        "team": "Colts",
-        "athleteId": "3116724"
       }
     ],
     "nolanrucci": [
@@ -15856,6 +16208,13 @@
         "athleteId": "4567747"
       }
     ],
+    "jaydnott": [
+      {
+        "name": "Jaydn Ott",
+        "team": "Chiefs",
+        "athleteId": "4685489"
+      }
+    ],
     "diegopounds": [
       {
         "name": "Diego Pounds",
@@ -15882,13 +16241,6 @@
         "name": "Jalen Royals",
         "team": "Chiefs",
         "athleteId": "5082630"
-      }
-    ],
-    "brashardsmith": [
-      {
-        "name": "Brashard Smith",
-        "team": "Chiefs",
-        "athleteId": "4596602"
       }
     ],
     "treysmith": [
@@ -16197,6 +16549,13 @@
         "athleteId": "4569659"
       }
     ],
+    "brashardsmith": [
+      {
+        "name": "Brashard Smith",
+        "team": "Chiefs",
+        "athleteId": "4596602"
+      }
+    ],
     "tyquanthornton": [
       {
         "name": "Tyquan Thornton",
@@ -16265,13 +16624,6 @@
         "name": "Emmanuel Ogbah",
         "team": "Chiefs",
         "athleteId": "2977740"
-      }
-    ],
-    "jaydnott": [
-      {
-        "name": "Jaydn Ott",
-        "team": "Chiefs",
-        "athleteId": "4685489"
       }
     ],
     "darcoperkinsmcallister": [
@@ -16561,6 +16913,13 @@
         "athleteId": "3121003"
       }
     ],
+    "timkeenaniii": [
+      {
+        "name": "Tim Keenan III",
+        "team": "Raiders",
+        "athleteId": "4431414"
+      }
+    ],
     "malcolmkoonce": [
       {
         "name": "Malcolm Koonce",
@@ -16776,13 +17135,6 @@
         "name": "Niklas Henning",
         "team": "Raiders",
         "athleteId": "5348412"
-      }
-    ],
-    "timkeenaniii": [
-      {
-        "name": "Tim Keenan III",
-        "team": "Raiders",
-        "athleteId": "4431414"
       }
     ],
     "kanseimatsuzawa": [
@@ -17639,6 +17991,13 @@
         "athleteId": "4362294"
       }
     ],
+    "erickendricks": [
+      {
+        "name": "Eric Kendricks",
+        "team": "Rams",
+        "athleteId": "2510863"
+      }
+    ],
     "kamrenkinchens": [
       {
         "name": "Kamren Kinchens",
@@ -17915,13 +18274,6 @@
         "name": "Tanner Ingle",
         "team": "Rams",
         "athleteId": "4361651"
-      }
-    ],
-    "erickendricks": [
-      {
-        "name": "Eric Kendricks",
-        "team": "Rams",
-        "athleteId": "2510863"
       }
     ],
     "jaxsonmoi": [
@@ -18351,6 +18703,13 @@
         "athleteId": "4034729"
       }
     ],
+    "zanegonzalez": [
+      {
+        "name": "Zane Gonzalez",
+        "team": "Dolphins",
+        "athleteId": "3043234"
+      }
+    ],
     "bradleypinion": [
       {
         "name": "Bradley Pinion",
@@ -18447,13 +18806,6 @@
         "name": "Amari Gainer",
         "team": "Dolphins",
         "athleteId": "4360469"
-      }
-    ],
-    "zanegonzalez": [
-      {
-        "name": "Zane Gonzalez",
-        "team": "Dolphins",
-        "athleteId": "3043234"
       }
     ],
     "ajhenning": [
@@ -18960,18 +19312,18 @@
         "athleteId": "4688418"
       }
     ],
-    "natronebrooks": [
-      {
-        "name": "Natrone Brooks",
-        "team": "Vikings",
-        "athleteId": "4689989"
-      }
-    ],
     "henrybyrd": [
       {
         "name": "Henry Byrd",
         "team": "Vikings",
         "athleteId": "4367995"
+      }
+    ],
+    "deejaydallas": [
+      {
+        "name": "DeeJay Dallas",
+        "team": "Vikings",
+        "athleteId": "4240631"
       }
     ],
     "kennydysonjr": [
@@ -20220,6 +20572,13 @@
         "athleteId": "4426489"
       }
     ],
+    "jalinhyatt": [
+      {
+        "name": "Jalin Hyatt",
+        "team": "Giants",
+        "athleteId": "4692590"
+      }
+    ],
     "theojohnson": [
       {
         "name": "Theo Johnson",
@@ -20246,13 +20605,6 @@
         "name": "Chris Manhertz",
         "team": "Giants",
         "athleteId": "2531358"
-      }
-    ],
-    "francismauigoa": [
-      {
-        "name": "Francis Mauigoa",
-        "team": "Giants",
-        "athleteId": "4870914"
       }
     ],
     "marcusmbow": [
@@ -20388,13 +20740,6 @@
         "athleteId": "4725996"
       }
     ],
-    "tremaineedmunds": [
-      {
-        "name": "Tremaine Edmunds",
-        "team": "Giants",
-        "athleteId": "3929950"
-      }
-    ],
     "traceford": [
       {
         "name": "Trace Ford",
@@ -20449,6 +20794,13 @@
         "name": "Jack Kelly",
         "team": "Giants",
         "athleteId": "4876380"
+      }
+    ],
+    "raheemlayne": [
+      {
+        "name": "Raheem Layne",
+        "team": "Giants",
+        "athleteId": "4258237"
       }
     ],
     "micahmcfadden": [
@@ -20605,6 +20957,13 @@
         "athleteId": "5151880"
       }
     ],
+    "tremaineedmunds": [
+      {
+        "name": "Tremaine Edmunds",
+        "team": "Giants",
+        "athleteId": "3929950"
+      }
+    ],
     "chaunceygolston": [
       {
         "name": "Chauncey Golston",
@@ -20617,6 +20976,13 @@
         "name": "DJ James",
         "team": "Giants",
         "athleteId": "4429891"
+      }
+    ],
+    "francismauigoa": [
+      {
+        "name": "Francis Mauigoa",
+        "team": "Giants",
+        "athleteId": "4870914"
       }
     ],
     "gunnerolszewski": [
@@ -20682,20 +21048,6 @@
         "athleteId": "4240548"
       }
     ],
-    "jalinhyatt": [
-      {
-        "name": "Jalin Hyatt",
-        "team": "Giants",
-        "athleteId": "4692590"
-      }
-    ],
-    "raheemlayne": [
-      {
-        "name": "Raheem Layne",
-        "team": "Giants",
-        "athleteId": "4258237"
-      }
-    ],
     "philmafah": [
       {
         "name": "Phil Mafah",
@@ -20757,6 +21109,13 @@
         "name": "Braelon Allen",
         "team": "Jets",
         "athleteId": "4685247"
+      }
+    ],
+    "brantbanks": [
+      {
+        "name": "Brant Banks",
+        "team": "Jets",
+        "athleteId": "4426623"
       }
     ],
     "andrewbeck": [
@@ -21067,6 +21426,13 @@
         "athleteId": "5118340"
       }
     ],
+    "troyreeder": [
+      {
+        "name": "Troy Reeder",
+        "team": "Jets",
+        "athleteId": "3116177"
+      }
+    ],
     "jamiensherwood": [
       {
         "name": "Jamien Sherwood",
@@ -21228,13 +21594,6 @@
         "athleteId": "5092196"
       }
     ],
-    "brantbanks": [
-      {
-        "name": "Brant Banks",
-        "team": "Jets",
-        "athleteId": "4426623"
-      }
-    ],
     "quintonbell": [
       {
         "name": "Quinton Bell",
@@ -21303,13 +21662,6 @@
         "name": "Jamaal Pritchett",
         "team": "Jets",
         "athleteId": "4892576"
-      }
-    ],
-    "troyreeder": [
-      {
-        "name": "Troy Reeder",
-        "team": "Jets",
-        "athleteId": "3116177"
       }
     ],
     "nathanvoorhis": [
@@ -22675,13 +23027,6 @@
         "athleteId": "3116097"
       }
     ],
-    "kevingivens": [
-      {
-        "name": "Kevin Givens",
-        "team": "49ers",
-        "athleteId": "3929641"
-      }
-    ],
     "jalengraham": [
       {
         "name": "Jalen Graham",
@@ -22757,6 +23102,13 @@
         "name": "Osa Odighizuwa",
         "team": "49ers",
         "athleteId": "4035840"
+      }
+    ],
+    "ogbookoronkwo": [
+      {
+        "name": "Ogbo Okoronkwo",
+        "team": "49ers",
+        "athleteId": "3052667"
       }
     ],
     "ephesiansprysock": [
@@ -23254,6 +23606,13 @@
         "name": "Jimmy Ciarlo",
         "team": "Seahawks",
         "athleteId": "4689804"
+      }
+    ],
+    "trevondiggs": [
+      {
+        "name": "Trevon Diggs",
+        "team": "Seahawks",
+        "athleteId": "4040966"
       }
     ],
     "nickemmanwori": [
@@ -24250,6 +24609,13 @@
         "athleteId": "4429121"
       }
     ],
+    "kjosborn": [
+      {
+        "name": "K.J. Osborn",
+        "team": "Titans",
+        "athleteId": "3916566"
+      }
+    ],
     "tonypollard": [
       {
         "name": "Tony Pollard",
@@ -24640,13 +25006,6 @@
         "name": "Drew Moss",
         "team": "Titans",
         "athleteId": "4879480"
-      }
-    ],
-    "kjosborn": [
-      {
-        "name": "K.J. Osborn",
-        "team": "Titans",
-        "athleteId": "3916566"
       }
     ],
     "owenpappoe": [
@@ -25231,6 +25590,6 @@
       }
     ]
   },
-  "rostersCheckedAt": "2026-10-24T11:00:08.006456+00:00",
+  "rostersCheckedAt": "2026-10-25T11:29:29.510300+00:00",
   "rosterStatus": "ok"
 }
