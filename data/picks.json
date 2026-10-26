@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-26T01:10:16.468357+00:00",
-  "lastSuccessfulUpdate": "2026-10-26T01:10:16.468357+00:00",
+  "checkedAt": "2026-10-26T06:13:25.679066+00:00",
+  "lastSuccessfulUpdate": "2026-10-26T06:13:25.679066+00:00",
   "sources": [
     {
       "id": "sbd",
@@ -10,9 +10,9 @@
       "website": "https://www.sportsbettingdime.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-26T01:10:16.468357+00:00",
-      "lastSuccessAt": "2026-10-26T01:10:16.468357+00:00",
-      "count": 5,
+      "checkedAt": "2026-10-26T06:13:25.679066+00:00",
+      "lastSuccessAt": "2026-10-26T06:13:25.679066+00:00",
+      "count": 6,
       "message": "Feed retrieved successfully"
     },
     {
@@ -22,8 +22,8 @@
       "website": "https://www.bettingpros.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-26T01:10:16.468357+00:00",
-      "lastSuccessAt": "2026-10-26T01:10:16.468357+00:00",
+      "checkedAt": "2026-10-26T06:13:25.679066+00:00",
+      "lastSuccessAt": "2026-10-26T06:13:25.679066+00:00",
       "count": 34,
       "message": "Feed retrieved successfully"
     },
@@ -35,9 +35,9 @@
       "website": "https://www.cbssports.com/nfl/picks/experts/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-26T01:10:16.468357+00:00",
-      "lastSuccessAt": "2026-10-26T01:10:16.468357+00:00",
-      "count": 14,
+      "checkedAt": "2026-10-26T06:13:25.679066+00:00",
+      "lastSuccessAt": "2026-10-26T06:13:25.679066+00:00",
+      "count": 7,
       "message": "Public expert selections retrieved"
     },
     {
@@ -48,8 +48,8 @@
       "website": "https://www.covers.com/nfl",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-26T01:10:16.468357+00:00",
-      "lastSuccessAt": "2026-10-26T01:10:16.468357+00:00",
+      "checkedAt": "2026-10-26T06:13:25.679066+00:00",
+      "lastSuccessAt": "2026-10-26T06:13:25.679066+00:00",
       "count": 1,
       "message": "Public expert selections retrieved"
     },
@@ -62,8 +62,8 @@
       "articlePattern": "/nfl-picks/[^/]+prediction[^/]+/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-26T01:10:16.468357+00:00",
-      "lastSuccessAt": "2026-10-26T01:10:16.468357+00:00",
+      "checkedAt": "2026-10-26T06:13:25.679066+00:00",
+      "lastSuccessAt": "2026-10-26T06:13:25.679066+00:00",
       "count": 8,
       "message": "Public expert selections retrieved"
     },
@@ -76,8 +76,8 @@
       "articlePattern": "/picks/nfl/(?:picks-against-the-spread-ats-predictions|player-props)-week-\\d+-\\d{4}/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-26T01:10:16.468357+00:00",
-      "lastSuccessAt": "2026-10-26T01:10:16.468357+00:00",
+      "checkedAt": "2026-10-26T06:13:25.679066+00:00",
+      "lastSuccessAt": "2026-10-26T06:13:25.679066+00:00",
       "count": 1,
       "message": "Public expert selections retrieved"
     },
@@ -90,7 +90,7 @@
       "articlePattern": "/us/nfl/news/nfl-picks-predictions-against-spread-week-\\d+/",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-10-26T01:10:16.468357+00:00",
+      "checkedAt": "2026-10-26T06:13:25.679066+00:00",
       "lastSuccessAt": "2026-10-25T19:37:07.051997+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -104,13 +104,28 @@
       "articlePattern": "/football/article/(?:nfl-picks-and-props|[^/]*odds-picks-and-predictions|[^/]*betting-odds-picks-and-predictions)[^/]+$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-26T01:10:16.468357+00:00",
-      "lastSuccessAt": "2026-10-26T01:10:16.468357+00:00",
+      "checkedAt": "2026-10-26T06:13:25.679066+00:00",
+      "lastSuccessAt": "2026-10-26T06:13:25.679066+00:00",
       "count": 4,
       "message": "Public expert selections retrieved"
     }
   ],
   "articles": [
+    {
+      "id": "49a688ce0d2e319a",
+      "title": "NFL Picks Against the Spread for Week 8 – ATS Predictions for All 14 Games",
+      "url": "https://www.sportsbettingdime.com/news/nfl/picks-against-the-spread-week-8-2026/",
+      "publisher": "Sports Betting Dime",
+      "sourceId": "sbd",
+      "author": "Sascha Paruk",
+      "publishedAt": "2026-10-26T05:24:15+00:00",
+      "picks": [],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": []
+    },
     {
       "id": "5cf10456d03f80e7",
       "title": "Cowboys vs Eagles Predictions & Best Picks for Monday Night Football (Oct 26)",
@@ -321,7 +336,7 @@
           "event": {
             "id": "401873022",
             "startAt": "2026-10-26T00:20Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Seahawks",
               "Chiefs"
@@ -468,7 +483,7 @@
           "event": {
             "id": "401873022",
             "startAt": "2026-10-26T00:20Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Seahawks",
               "Chiefs"
@@ -491,7 +506,7 @@
           "event": {
             "id": "401873022",
             "startAt": "2026-10-26T00:20Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Seahawks",
               "Chiefs"
@@ -1262,7 +1277,7 @@
           "event": {
             "id": "401873022",
             "startAt": "2026-10-26T00:20Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Seahawks",
               "Chiefs"
@@ -1304,7 +1319,7 @@
               "event": {
                 "id": "401873022",
                 "startAt": "2026-10-26T00:20Z",
-                "state": "in",
+                "state": "post",
                 "teams": [
                   "Seahawks",
                   "Chiefs"
@@ -1321,7 +1336,7 @@
               "event": {
                 "id": "401873022",
                 "startAt": "2026-10-26T00:20Z",
-                "state": "in",
+                "state": "post",
                 "teams": [
                   "Seahawks",
                   "Chiefs"
@@ -1338,7 +1353,7 @@
               "event": {
                 "id": "401873022",
                 "startAt": "2026-10-26T00:20Z",
-                "state": "in",
+                "state": "post",
                 "teams": [
                   "Seahawks",
                   "Chiefs"
@@ -1355,7 +1370,7 @@
               "event": {
                 "id": "401873022",
                 "startAt": "2026-10-26T00:20Z",
-                "state": "in",
+                "state": "post",
                 "teams": [
                   "Seahawks",
                   "Chiefs"
@@ -1398,7 +1413,7 @@
           "event": {
             "id": "401873022",
             "startAt": "2026-10-26T00:20Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Seahawks",
               "Chiefs"
@@ -1421,7 +1436,7 @@
           "event": {
             "id": "401873022",
             "startAt": "2026-10-26T00:20Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Seahawks",
               "Chiefs"
@@ -1884,7 +1899,7 @@
           "event": {
             "id": "401873022",
             "startAt": "2026-10-26T00:20Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Seahawks",
               "Chiefs"
@@ -2297,46 +2312,6 @@
       ]
     },
     {
-      "id": "11e22f5efe78493c",
-      "title": "NFL Chiefs vs Seahawks expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Dave Richard",
-      "publishedAt": "2026-10-22T19:16:10.233433+00:00",
-      "observedAt": "2026-10-26T01:10:16.468357+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Seahawks -2.5",
-          "market": "Spread",
-          "context": "Chiefs vs Seahawks",
-          "eventDate": "2026-10-25",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873022",
-            "startAt": "2026-10-26T00:20Z",
-            "state": "in",
-            "teams": [
-              "Seahawks",
-              "Chiefs"
-            ],
-            "matchup": "Kansas City Chiefs at Seattle Seahawks",
-            "week": 7,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Chiefs",
-        "Seahawks"
-      ]
-    },
-    {
       "id": "5eb5545b858297e8",
       "title": "NFL Cowboys vs Eagles expert spread pick",
       "url": "https://www.cbssports.com/nfl/picks/experts/",
@@ -2344,7 +2319,7 @@
       "sourceId": "cbs",
       "author": "Dave Richard",
       "publishedAt": "2026-10-22T19:16:10.233433+00:00",
-      "observedAt": "2026-10-26T01:10:16.468357+00:00",
+      "observedAt": "2026-10-26T06:13:25.679066+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2377,46 +2352,6 @@
       ]
     },
     {
-      "id": "d97de610e29f70d8",
-      "title": "NFL Chiefs vs Seahawks expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Jamey Eisenberg",
-      "publishedAt": "2026-10-22T15:17:03.254672+00:00",
-      "observedAt": "2026-10-26T01:10:16.468357+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Seahawks -2.5",
-          "market": "Spread",
-          "context": "Chiefs vs Seahawks",
-          "eventDate": "2026-10-25",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873022",
-            "startAt": "2026-10-26T00:20Z",
-            "state": "in",
-            "teams": [
-              "Seahawks",
-              "Chiefs"
-            ],
-            "matchup": "Kansas City Chiefs at Seattle Seahawks",
-            "week": 7,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Chiefs",
-        "Seahawks"
-      ]
-    },
-    {
       "id": "c09fe99cdf02adca",
       "title": "NFL Cowboys vs Eagles expert spread pick",
       "url": "https://www.cbssports.com/nfl/picks/experts/",
@@ -2424,7 +2359,7 @@
       "sourceId": "cbs",
       "author": "Jamey Eisenberg",
       "publishedAt": "2026-10-22T15:17:03.254672+00:00",
-      "observedAt": "2026-10-26T01:10:16.468357+00:00",
+      "observedAt": "2026-10-26T06:13:25.679066+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2948,206 +2883,6 @@
       ]
     },
     {
-      "id": "dd65f4a3311aafa0",
-      "title": "NFL Chiefs vs Seahawks expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Pete Prisco",
-      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-26T01:10:16.468357+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Chiefs +2.5",
-          "market": "Spread",
-          "context": "Chiefs vs Seahawks",
-          "eventDate": "2026-10-25",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873022",
-            "startAt": "2026-10-26T00:20Z",
-            "state": "in",
-            "teams": [
-              "Seahawks",
-              "Chiefs"
-            ],
-            "matchup": "Kansas City Chiefs at Seattle Seahawks",
-            "week": 7,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Chiefs",
-        "Seahawks"
-      ]
-    },
-    {
-      "id": "ef73930d72480c6e",
-      "title": "NFL Chiefs vs Seahawks expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Jared Dubin",
-      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-26T01:10:16.468357+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Seahawks -2.5",
-          "market": "Spread",
-          "context": "Chiefs vs Seahawks",
-          "eventDate": "2026-10-25",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873022",
-            "startAt": "2026-10-26T00:20Z",
-            "state": "in",
-            "teams": [
-              "Seahawks",
-              "Chiefs"
-            ],
-            "matchup": "Kansas City Chiefs at Seattle Seahawks",
-            "week": 7,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Chiefs",
-        "Seahawks"
-      ]
-    },
-    {
-      "id": "c91cdc418fb3511c",
-      "title": "NFL Chiefs vs Seahawks expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Ryan Wilson",
-      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-26T01:10:16.468357+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Chiefs +2.5",
-          "market": "Spread",
-          "context": "Chiefs vs Seahawks",
-          "eventDate": "2026-10-25",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873022",
-            "startAt": "2026-10-26T00:20Z",
-            "state": "in",
-            "teams": [
-              "Seahawks",
-              "Chiefs"
-            ],
-            "matchup": "Kansas City Chiefs at Seattle Seahawks",
-            "week": 7,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Chiefs",
-        "Seahawks"
-      ]
-    },
-    {
-      "id": "bf7101822de7af56",
-      "title": "NFL Chiefs vs Seahawks expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "John Breech",
-      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-26T01:10:16.468357+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Chiefs +2.5",
-          "market": "Spread",
-          "context": "Chiefs vs Seahawks",
-          "eventDate": "2026-10-25",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873022",
-            "startAt": "2026-10-26T00:20Z",
-            "state": "in",
-            "teams": [
-              "Seahawks",
-              "Chiefs"
-            ],
-            "matchup": "Kansas City Chiefs at Seattle Seahawks",
-            "week": 7,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Chiefs",
-        "Seahawks"
-      ]
-    },
-    {
-      "id": "eacd96fe99a8c005",
-      "title": "NFL Chiefs vs Seahawks expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Tyler Sullivan",
-      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-26T01:10:16.468357+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Chiefs +2.5",
-          "market": "Spread",
-          "context": "Chiefs vs Seahawks",
-          "eventDate": "2026-10-25",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873022",
-            "startAt": "2026-10-26T00:20Z",
-            "state": "in",
-            "teams": [
-              "Seahawks",
-              "Chiefs"
-            ],
-            "matchup": "Kansas City Chiefs at Seattle Seahawks",
-            "week": 7,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Chiefs",
-        "Seahawks"
-      ]
-    },
-    {
       "id": "432f9d33ac4e526a",
       "title": "NFL Cowboys vs Eagles expert spread pick",
       "url": "https://www.cbssports.com/nfl/picks/experts/",
@@ -3155,7 +2890,7 @@
       "sourceId": "cbs",
       "author": "Pete Prisco",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-26T01:10:16.468357+00:00",
+      "observedAt": "2026-10-26T06:13:25.679066+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3195,7 +2930,7 @@
       "sourceId": "cbs",
       "author": "Jared Dubin",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-26T01:10:16.468357+00:00",
+      "observedAt": "2026-10-26T06:13:25.679066+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3235,7 +2970,7 @@
       "sourceId": "cbs",
       "author": "Ryan Wilson",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-26T01:10:16.468357+00:00",
+      "observedAt": "2026-10-26T06:13:25.679066+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3275,7 +3010,7 @@
       "sourceId": "cbs",
       "author": "John Breech",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-26T01:10:16.468357+00:00",
+      "observedAt": "2026-10-26T06:13:25.679066+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3315,7 +3050,7 @@
       "sourceId": "cbs",
       "author": "Tyler Sullivan",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-26T01:10:16.468357+00:00",
+      "observedAt": "2026-10-26T06:13:25.679066+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3545,7 +3280,7 @@
           "event": {
             "id": "401873022",
             "startAt": "2026-10-26T00:20Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Seahawks",
               "Chiefs"
@@ -3853,14 +3588,26 @@
   "refreshMinutes": 60,
   "games": [
     {
-      "id": "401873022",
-      "startAt": "2026-10-26T00:20Z",
-      "state": "in",
+      "id": "401873009",
+      "startAt": "2026-10-27T00:15Z",
+      "state": "pre",
       "teams": [
-        "Seahawks",
-        "Chiefs"
+        "Eagles",
+        "Cowboys"
       ],
-      "matchup": "Kansas City Chiefs at Seattle Seahawks",
+      "matchup": "Dallas Cowboys at Philadelphia Eagles",
+      "week": 7,
+      "season": 2026
+    },
+    {
+      "id": "401873010",
+      "startAt": "2026-10-23T00:15Z",
+      "state": "post",
+      "teams": [
+        "Bears",
+        "Patriots"
+      ],
+      "matchup": "New England Patriots at Chicago Bears",
       "week": 7,
       "season": 2026
     },
@@ -3997,26 +3744,14 @@
       "season": 2026
     },
     {
-      "id": "401873010",
-      "startAt": "2026-10-23T00:15Z",
+      "id": "401873022",
+      "startAt": "2026-10-26T00:20Z",
       "state": "post",
       "teams": [
-        "Bears",
-        "Patriots"
+        "Seahawks",
+        "Chiefs"
       ],
-      "matchup": "New England Patriots at Chicago Bears",
-      "week": 7,
-      "season": 2026
-    },
-    {
-      "id": "401873009",
-      "startAt": "2026-10-27T00:15Z",
-      "state": "pre",
-      "teams": [
-        "Eagles",
-        "Cowboys"
-      ],
-      "matchup": "Dallas Cowboys at Philadelphia Eagles",
+      "matchup": "Kansas City Chiefs at Seattle Seahawks",
       "week": 7,
       "season": 2026
     },
@@ -4191,8 +3926,8 @@
   ],
   "scheduleStatus": {
     "status": "ok",
-    "checkedAt": "2026-10-26T01:10:16.468357+00:00",
-    "lastSuccessAt": "2026-10-26T01:10:16.468357+00:00"
+    "checkedAt": "2026-10-26T06:13:25.679066+00:00",
+    "lastSuccessAt": "2026-10-26T06:13:25.679066+00:00"
   },
   "playerTeams": {
     "tylerallgeier": [
