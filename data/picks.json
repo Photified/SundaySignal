@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-26T19:19:35.838248+00:00",
-  "lastSuccessfulUpdate": "2026-10-26T19:19:35.838248+00:00",
+  "checkedAt": "2026-10-26T23:53:29.742962+00:00",
+  "lastSuccessfulUpdate": "2026-10-26T23:53:29.742962+00:00",
   "sources": [
     {
       "id": "sbd",
@@ -10,9 +10,9 @@
       "website": "https://www.sportsbettingdime.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-26T19:19:35.838248+00:00",
-      "lastSuccessAt": "2026-10-26T19:19:35.838248+00:00",
-      "count": 7,
+      "checkedAt": "2026-10-26T23:53:29.742962+00:00",
+      "lastSuccessAt": "2026-10-26T23:53:29.742962+00:00",
+      "count": 6,
       "message": "Feed retrieved successfully"
     },
     {
@@ -22,8 +22,8 @@
       "website": "https://www.bettingpros.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-26T19:19:35.838248+00:00",
-      "lastSuccessAt": "2026-10-26T19:19:35.838248+00:00",
+      "checkedAt": "2026-10-26T23:53:29.742962+00:00",
+      "lastSuccessAt": "2026-10-26T23:53:29.742962+00:00",
       "count": 32,
       "message": "Feed retrieved successfully"
     },
@@ -35,8 +35,8 @@
       "website": "https://www.cbssports.com/nfl/picks/experts/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-26T19:19:35.838248+00:00",
-      "lastSuccessAt": "2026-10-26T19:19:35.838248+00:00",
+      "checkedAt": "2026-10-26T23:53:29.742962+00:00",
+      "lastSuccessAt": "2026-10-26T23:53:29.742962+00:00",
       "count": 7,
       "message": "Public expert selections retrieved"
     },
@@ -48,7 +48,7 @@
       "website": "https://www.covers.com/nfl",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-10-26T19:19:35.838248+00:00",
+      "checkedAt": "2026-10-26T23:53:29.742962+00:00",
       "lastSuccessAt": "2026-10-26T13:12:09.081455+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -62,8 +62,8 @@
       "articlePattern": "/nfl-picks/[^/]+prediction[^/]+/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-26T19:19:35.838248+00:00",
-      "lastSuccessAt": "2026-10-26T19:19:35.838248+00:00",
+      "checkedAt": "2026-10-26T23:53:29.742962+00:00",
+      "lastSuccessAt": "2026-10-26T23:53:29.742962+00:00",
       "count": 8,
       "message": "Public expert selections retrieved"
     },
@@ -76,7 +76,7 @@
       "articlePattern": "/picks/nfl/(?:picks-against-the-spread-ats-predictions|player-props)-week-\\d+-\\d{4}/$",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-10-26T19:19:35.838248+00:00",
+      "checkedAt": "2026-10-26T23:53:29.742962+00:00",
       "lastSuccessAt": "2026-10-26T13:12:09.081455+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -90,7 +90,7 @@
       "articlePattern": "/us/nfl/news/nfl-picks-predictions-against-spread-week-\\d+/",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-10-26T19:19:35.838248+00:00",
+      "checkedAt": "2026-10-26T23:53:29.742962+00:00",
       "lastSuccessAt": "2026-10-25T19:37:07.051997+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -104,13 +104,55 @@
       "articlePattern": "/football/article/(?:nfl-picks-and-props|[^/]*odds-picks-and-predictions|[^/]*betting-odds-picks-and-predictions)[^/]+$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-26T19:19:35.838248+00:00",
-      "lastSuccessAt": "2026-10-26T19:19:35.838248+00:00",
+      "checkedAt": "2026-10-26T23:53:29.742962+00:00",
+      "lastSuccessAt": "2026-10-26T23:53:29.742962+00:00",
       "count": 4,
       "message": "Public expert selections retrieved"
     }
   ],
   "articles": [
+    {
+      "id": "a9e41901b899726a",
+      "title": "Cowboys vs Eagles Final Picks & Closing Odds for Monday Night Football",
+      "url": "https://www.sportsbettingdime.com/news/nfl/cowboys-vs-philadelphia-final-picks-closing-odds-for-monday-night-football/",
+      "publisher": "Sports Betting Dime",
+      "sourceId": "sbd",
+      "author": "Jordan Tomiyama",
+      "publishedAt": "2026-10-26T21:15:00+00:00",
+      "picks": [
+        {
+          "selection": "Player Prop: CeeDee Lamb Over 6.5 Receptions (-200 at bet365 )",
+          "market": "Props",
+          "context": "Dallas Cowboys vs Philadelphia Eagles Predictions",
+          "method": "Explicit selection in publisher feed",
+          "player": {
+            "name": "CeeDee Lamb",
+            "team": "Cowboys",
+            "athleteId": "4241389"
+          },
+          "event": {
+            "id": "401873009",
+            "startAt": "2026-10-27T00:15Z",
+            "state": "pre",
+            "teams": [
+              "Eagles",
+              "Cowboys"
+            ],
+            "matchup": "Dallas Cowboys at Philadelphia Eagles",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Props"
+      ],
+      "teams": [
+        "Cowboys",
+        "Eagles"
+      ]
+    },
     {
       "id": "378dbecb0f5d42cc",
       "title": "NFL Monday Night Football Player Props & Picks: Cowboys vs. Eagles",
@@ -765,83 +807,6 @@
         "Chiefs",
         "Seahawks"
       ]
-    },
-    {
-      "id": "74cb90bef3790719",
-      "title": "Parlay These 3 Week 7 NFL Player Props for a Big Potential Payout with Near 18-1 Odds",
-      "url": "https://www.sportsbettingdime.com/news/nfl/parlay-week-7-player-props-big-potential-payout/",
-      "publisher": "Sports Betting Dime",
-      "sourceId": "sbd",
-      "author": "Matt McEwan",
-      "publishedAt": "2026-10-25T15:30:00+00:00",
-      "picks": [],
-      "parlays": [],
-      "markets": [
-        "Props"
-      ],
-      "teams": []
-    },
-    {
-      "id": "9b229cf643cf634d",
-      "title": "Week 7 NFL Player Props Picks: Best Bets for Every Team",
-      "url": "https://www.sportsbettingdime.com/news/nfl/week-7-nfl-player-props-picks-best-bets-for-every-team/",
-      "publisher": "Sports Betting Dime",
-      "sourceId": "sbd",
-      "author": "Juan Pablo Aravena",
-      "publishedAt": "2026-10-25T14:07:49+00:00",
-      "picks": [
-        {
-          "selection": "Jaylen Warren — Rushing Yards (Over 63.5, -115)",
-          "market": "Props",
-          "context": "Pittsburgh Steelers vs New Orleans Saints",
-          "method": "Explicit selection in publisher feed",
-          "player": {
-            "name": "Jaylen Warren",
-            "team": "Steelers",
-            "athleteId": "4569987"
-          },
-          "event": {
-            "id": "401873011",
-            "startAt": "2026-10-25T13:30Z",
-            "state": "post",
-            "teams": [
-              "Saints",
-              "Steelers"
-            ],
-            "matchup": "Pittsburgh Steelers at New Orleans Saints",
-            "week": 7,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Alvin Kamara — Rushing Yards (Over 14.5, -120)",
-          "market": "Props",
-          "context": "Pittsburgh Steelers vs New Orleans Saints",
-          "method": "Explicit selection in publisher feed",
-          "player": {
-            "name": "Alvin Kamara",
-            "team": "Saints",
-            "athleteId": "3054850"
-          },
-          "event": {
-            "id": "401873011",
-            "startAt": "2026-10-25T13:30Z",
-            "state": "post",
-            "teams": [
-              "Saints",
-              "Steelers"
-            ],
-            "matchup": "Pittsburgh Steelers at New Orleans Saints",
-            "week": 7,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Props"
-      ],
-      "teams": []
     },
     {
       "id": "1c5dafb27228f87c",
@@ -2696,7 +2661,7 @@
       "sourceId": "cbs",
       "author": "Dave Richard",
       "publishedAt": "2026-10-22T19:16:10.233433+00:00",
-      "observedAt": "2026-10-26T19:19:35.838248+00:00",
+      "observedAt": "2026-10-26T23:53:29.742962+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2736,7 +2701,7 @@
       "sourceId": "cbs",
       "author": "Jamey Eisenberg",
       "publishedAt": "2026-10-22T15:17:03.254672+00:00",
-      "observedAt": "2026-10-26T19:19:35.838248+00:00",
+      "observedAt": "2026-10-26T23:53:29.742962+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2891,7 +2856,7 @@
       "sourceId": "cbs",
       "author": "Pete Prisco",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-26T19:19:35.838248+00:00",
+      "observedAt": "2026-10-26T23:53:29.742962+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2931,7 +2896,7 @@
       "sourceId": "cbs",
       "author": "Jared Dubin",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-26T19:19:35.838248+00:00",
+      "observedAt": "2026-10-26T23:53:29.742962+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2971,7 +2936,7 @@
       "sourceId": "cbs",
       "author": "Ryan Wilson",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-26T19:19:35.838248+00:00",
+      "observedAt": "2026-10-26T23:53:29.742962+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3011,7 +2976,7 @@
       "sourceId": "cbs",
       "author": "John Breech",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-26T19:19:35.838248+00:00",
+      "observedAt": "2026-10-26T23:53:29.742962+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3051,7 +3016,7 @@
       "sourceId": "cbs",
       "author": "Tyler Sullivan",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-26T19:19:35.838248+00:00",
+      "observedAt": "2026-10-26T23:53:29.742962+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3912,8 +3877,8 @@
   ],
   "scheduleStatus": {
     "status": "ok",
-    "checkedAt": "2026-10-26T19:19:35.838248+00:00",
-    "lastSuccessAt": "2026-10-26T19:19:35.838248+00:00"
+    "checkedAt": "2026-10-26T23:53:29.742962+00:00",
+    "lastSuccessAt": "2026-10-26T23:53:29.742962+00:00"
   },
   "playerTeams": {
     "tylerallgeier": [
