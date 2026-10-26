@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-25T22:33:20.575486+00:00",
-  "lastSuccessfulUpdate": "2026-10-25T22:33:20.575486+00:00",
+  "checkedAt": "2026-10-26T01:10:16.468357+00:00",
+  "lastSuccessfulUpdate": "2026-10-26T01:10:16.468357+00:00",
   "sources": [
     {
       "id": "sbd",
@@ -10,9 +10,9 @@
       "website": "https://www.sportsbettingdime.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-25T22:33:20.575486+00:00",
-      "lastSuccessAt": "2026-10-25T22:33:20.575486+00:00",
-      "count": 4,
+      "checkedAt": "2026-10-26T01:10:16.468357+00:00",
+      "lastSuccessAt": "2026-10-26T01:10:16.468357+00:00",
+      "count": 5,
       "message": "Feed retrieved successfully"
     },
     {
@@ -22,8 +22,8 @@
       "website": "https://www.bettingpros.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-25T22:33:20.575486+00:00",
-      "lastSuccessAt": "2026-10-25T22:33:20.575486+00:00",
+      "checkedAt": "2026-10-26T01:10:16.468357+00:00",
+      "lastSuccessAt": "2026-10-26T01:10:16.468357+00:00",
       "count": 34,
       "message": "Feed retrieved successfully"
     },
@@ -35,9 +35,9 @@
       "website": "https://www.cbssports.com/nfl/picks/experts/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-25T22:33:20.575486+00:00",
-      "lastSuccessAt": "2026-10-25T22:33:20.575486+00:00",
-      "count": 35,
+      "checkedAt": "2026-10-26T01:10:16.468357+00:00",
+      "lastSuccessAt": "2026-10-26T01:10:16.468357+00:00",
+      "count": 14,
       "message": "Public expert selections retrieved"
     },
     {
@@ -48,8 +48,8 @@
       "website": "https://www.covers.com/nfl",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-25T22:33:20.575486+00:00",
-      "lastSuccessAt": "2026-10-25T22:33:20.575486+00:00",
+      "checkedAt": "2026-10-26T01:10:16.468357+00:00",
+      "lastSuccessAt": "2026-10-26T01:10:16.468357+00:00",
       "count": 1,
       "message": "Public expert selections retrieved"
     },
@@ -62,8 +62,8 @@
       "articlePattern": "/nfl-picks/[^/]+prediction[^/]+/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-25T22:33:20.575486+00:00",
-      "lastSuccessAt": "2026-10-25T22:33:20.575486+00:00",
+      "checkedAt": "2026-10-26T01:10:16.468357+00:00",
+      "lastSuccessAt": "2026-10-26T01:10:16.468357+00:00",
       "count": 8,
       "message": "Public expert selections retrieved"
     },
@@ -76,8 +76,8 @@
       "articlePattern": "/picks/nfl/(?:picks-against-the-spread-ats-predictions|player-props)-week-\\d+-\\d{4}/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-25T22:33:20.575486+00:00",
-      "lastSuccessAt": "2026-10-25T22:33:20.575486+00:00",
+      "checkedAt": "2026-10-26T01:10:16.468357+00:00",
+      "lastSuccessAt": "2026-10-26T01:10:16.468357+00:00",
       "count": 1,
       "message": "Public expert selections retrieved"
     },
@@ -90,7 +90,7 @@
       "articlePattern": "/us/nfl/news/nfl-picks-predictions-against-spread-week-\\d+/",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-10-25T22:33:20.575486+00:00",
+      "checkedAt": "2026-10-26T01:10:16.468357+00:00",
       "lastSuccessAt": "2026-10-25T19:37:07.051997+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -104,13 +104,74 @@
       "articlePattern": "/football/article/(?:nfl-picks-and-props|[^/]*odds-picks-and-predictions|[^/]*betting-odds-picks-and-predictions)[^/]+$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-25T22:33:20.575486+00:00",
-      "lastSuccessAt": "2026-10-25T22:33:20.575486+00:00",
+      "checkedAt": "2026-10-26T01:10:16.468357+00:00",
+      "lastSuccessAt": "2026-10-26T01:10:16.468357+00:00",
       "count": 4,
       "message": "Public expert selections retrieved"
     }
   ],
   "articles": [
+    {
+      "id": "5cf10456d03f80e7",
+      "title": "Cowboys vs Eagles Predictions & Best Picks for Monday Night Football (Oct 26)",
+      "url": "https://www.sportsbettingdime.com/news/nfl/cowboys-eagles-predictions-best-picks-monday-night-football-oct-26/",
+      "publisher": "Sports Betting Dime",
+      "sourceId": "sbd",
+      "author": "Chris Amberley",
+      "publishedAt": "2026-10-25T23:30:00+00:00",
+      "picks": [
+        {
+          "selection": "Under 44.5 Points (-113) at NOVIG",
+          "market": "Totals",
+          "context": "Cowboys vs Eagles Predictions for Monday Night Football",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873009",
+            "startAt": "2026-10-27T00:15Z",
+            "state": "pre",
+            "teams": [
+              "Eagles",
+              "Cowboys"
+            ],
+            "matchup": "Dallas Cowboys at Philadelphia Eagles",
+            "week": 7,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Top Player Prop: Dallas Goedert Over 48.5 Receiving Yards (-108) at NOVIG",
+          "market": "Props",
+          "context": "Cowboys vs Eagles Predictions for Monday Night Football",
+          "method": "Explicit selection in publisher feed",
+          "player": {
+            "name": "Dallas Goedert",
+            "team": "Eagles",
+            "athleteId": "3121023"
+          },
+          "event": {
+            "id": "401873009",
+            "startAt": "2026-10-27T00:15Z",
+            "state": "pre",
+            "teams": [
+              "Eagles",
+              "Cowboys"
+            ],
+            "matchup": "Dallas Cowboys at Philadelphia Eagles",
+            "week": 7,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Props",
+        "Totals"
+      ],
+      "teams": [
+        "Cowboys",
+        "Eagles"
+      ]
+    },
     {
       "id": "085e501b359bf8c0",
       "title": "Opening NFL Week 8 Odds – Point Spread, Moneyline, Total for All 14 Games",
@@ -206,7 +267,7 @@
           "event": {
             "id": "401873019",
             "startAt": "2026-10-25T20:05Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Cardinals",
               "Broncos"
@@ -224,7 +285,7 @@
           "event": {
             "id": "401873021",
             "startAt": "2026-10-25T20:25Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Raiders",
               "Rams"
@@ -242,7 +303,7 @@
           "event": {
             "id": "401873020",
             "startAt": "2026-10-25T20:25Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Lions",
               "Packers"
@@ -260,7 +321,7 @@
           "event": {
             "id": "401873022",
             "startAt": "2026-10-26T00:20Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "Seahawks",
               "Chiefs"
@@ -407,7 +468,7 @@
           "event": {
             "id": "401873022",
             "startAt": "2026-10-26T00:20Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "Seahawks",
               "Chiefs"
@@ -430,7 +491,7 @@
           "event": {
             "id": "401873022",
             "startAt": "2026-10-26T00:20Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "Seahawks",
               "Chiefs"
@@ -888,7 +949,7 @@
               "event": {
                 "id": "401873019",
                 "startAt": "2026-10-25T20:05Z",
-                "state": "in",
+                "state": "post",
                 "teams": [
                   "Cardinals",
                   "Broncos"
@@ -905,7 +966,7 @@
               "event": {
                 "id": "401873019",
                 "startAt": "2026-10-25T20:05Z",
-                "state": "in",
+                "state": "post",
                 "teams": [
                   "Cardinals",
                   "Broncos"
@@ -922,7 +983,7 @@
               "event": {
                 "id": "401873019",
                 "startAt": "2026-10-25T20:05Z",
-                "state": "in",
+                "state": "post",
                 "teams": [
                   "Cardinals",
                   "Broncos"
@@ -945,7 +1006,7 @@
               "event": {
                 "id": "401873020",
                 "startAt": "2026-10-25T20:25Z",
-                "state": "in",
+                "state": "post",
                 "teams": [
                   "Lions",
                   "Packers"
@@ -962,7 +1023,7 @@
               "event": {
                 "id": "401873020",
                 "startAt": "2026-10-25T20:25Z",
-                "state": "in",
+                "state": "post",
                 "teams": [
                   "Lions",
                   "Packers"
@@ -979,7 +1040,7 @@
               "event": {
                 "id": "401873020",
                 "startAt": "2026-10-25T20:25Z",
-                "state": "in",
+                "state": "post",
                 "teams": [
                   "Lions",
                   "Packers"
@@ -996,7 +1057,7 @@
               "event": {
                 "id": "401873020",
                 "startAt": "2026-10-25T20:25Z",
-                "state": "in",
+                "state": "post",
                 "teams": [
                   "Lions",
                   "Packers"
@@ -1019,7 +1080,7 @@
               "event": {
                 "id": "401873021",
                 "startAt": "2026-10-25T20:25Z",
-                "state": "in",
+                "state": "post",
                 "teams": [
                   "Raiders",
                   "Rams"
@@ -1036,7 +1097,7 @@
               "event": {
                 "id": "401873021",
                 "startAt": "2026-10-25T20:25Z",
-                "state": "in",
+                "state": "post",
                 "teams": [
                   "Raiders",
                   "Rams"
@@ -1053,7 +1114,7 @@
               "event": {
                 "id": "401873021",
                 "startAt": "2026-10-25T20:25Z",
-                "state": "in",
+                "state": "post",
                 "teams": [
                   "Raiders",
                   "Rams"
@@ -1183,7 +1244,7 @@
           "event": {
             "id": "401873020",
             "startAt": "2026-10-25T20:25Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Lions",
               "Packers"
@@ -1201,7 +1262,7 @@
           "event": {
             "id": "401873022",
             "startAt": "2026-10-26T00:20Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "Seahawks",
               "Chiefs"
@@ -1243,7 +1304,7 @@
               "event": {
                 "id": "401873022",
                 "startAt": "2026-10-26T00:20Z",
-                "state": "pre",
+                "state": "in",
                 "teams": [
                   "Seahawks",
                   "Chiefs"
@@ -1260,7 +1321,7 @@
               "event": {
                 "id": "401873022",
                 "startAt": "2026-10-26T00:20Z",
-                "state": "pre",
+                "state": "in",
                 "teams": [
                   "Seahawks",
                   "Chiefs"
@@ -1277,7 +1338,7 @@
               "event": {
                 "id": "401873022",
                 "startAt": "2026-10-26T00:20Z",
-                "state": "pre",
+                "state": "in",
                 "teams": [
                   "Seahawks",
                   "Chiefs"
@@ -1294,7 +1355,7 @@
               "event": {
                 "id": "401873022",
                 "startAt": "2026-10-26T00:20Z",
-                "state": "pre",
+                "state": "in",
                 "teams": [
                   "Seahawks",
                   "Chiefs"
@@ -1337,7 +1398,7 @@
           "event": {
             "id": "401873022",
             "startAt": "2026-10-26T00:20Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "Seahawks",
               "Chiefs"
@@ -1360,7 +1421,7 @@
           "event": {
             "id": "401873022",
             "startAt": "2026-10-26T00:20Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "Seahawks",
               "Chiefs"
@@ -1582,7 +1643,7 @@
           "event": {
             "id": "401873021",
             "startAt": "2026-10-25T20:25Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Raiders",
               "Rams"
@@ -1605,7 +1666,7 @@
           "event": {
             "id": "401873021",
             "startAt": "2026-10-25T20:25Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Raiders",
               "Rams"
@@ -1639,7 +1700,7 @@
           "event": {
             "id": "401873020",
             "startAt": "2026-10-25T20:25Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Lions",
               "Packers"
@@ -1695,7 +1756,7 @@
               "event": {
                 "id": "401873021",
                 "startAt": "2026-10-25T20:25Z",
-                "state": "in",
+                "state": "post",
                 "teams": [
                   "Raiders",
                   "Rams"
@@ -1712,7 +1773,7 @@
               "event": {
                 "id": "401873021",
                 "startAt": "2026-10-25T20:25Z",
-                "state": "in",
+                "state": "post",
                 "teams": [
                   "Raiders",
                   "Rams"
@@ -1805,7 +1866,7 @@
           "event": {
             "id": "401873020",
             "startAt": "2026-10-25T20:25Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Lions",
               "Packers"
@@ -1823,7 +1884,7 @@
           "event": {
             "id": "401873022",
             "startAt": "2026-10-26T00:20Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "Seahawks",
               "Chiefs"
@@ -2104,7 +2165,7 @@
           "event": {
             "id": "401873021",
             "startAt": "2026-10-25T20:25Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Raiders",
               "Rams"
@@ -2236,126 +2297,6 @@
       ]
     },
     {
-      "id": "02e9586763e13672",
-      "title": "NFL Broncos vs Cardinals expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Dave Richard",
-      "publishedAt": "2026-10-22T19:16:10.233433+00:00",
-      "observedAt": "2026-10-25T22:33:20.575486+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Broncos -4.5",
-          "market": "Spread",
-          "context": "Broncos vs Cardinals",
-          "eventDate": "2026-10-25",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873019",
-            "startAt": "2026-10-25T20:05Z",
-            "state": "in",
-            "teams": [
-              "Cardinals",
-              "Broncos"
-            ],
-            "matchup": "Denver Broncos at Arizona Cardinals",
-            "week": 7,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Cardinals",
-        "Broncos"
-      ]
-    },
-    {
-      "id": "9ffbbd2d559714b3",
-      "title": "NFL Packers vs Lions expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Dave Richard",
-      "publishedAt": "2026-10-22T19:16:10.233433+00:00",
-      "observedAt": "2026-10-25T22:33:20.575486+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Lions -3",
-          "market": "Spread",
-          "context": "Packers vs Lions",
-          "eventDate": "2026-10-25",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873020",
-            "startAt": "2026-10-25T20:25Z",
-            "state": "in",
-            "teams": [
-              "Lions",
-              "Packers"
-            ],
-            "matchup": "Green Bay Packers at Detroit Lions",
-            "week": 7,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Lions",
-        "Packers"
-      ]
-    },
-    {
-      "id": "8b1fabc77fd8232e",
-      "title": "NFL Rams vs Raiders expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Dave Richard",
-      "publishedAt": "2026-10-22T19:16:10.233433+00:00",
-      "observedAt": "2026-10-25T22:33:20.575486+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Rams -4.5",
-          "market": "Spread",
-          "context": "Rams vs Raiders",
-          "eventDate": "2026-10-25",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873021",
-            "startAt": "2026-10-25T20:25Z",
-            "state": "in",
-            "teams": [
-              "Raiders",
-              "Rams"
-            ],
-            "matchup": "Los Angeles Rams at Las Vegas Raiders",
-            "week": 7,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Raiders",
-        "Rams"
-      ]
-    },
-    {
       "id": "11e22f5efe78493c",
       "title": "NFL Chiefs vs Seahawks expert spread pick",
       "url": "https://www.cbssports.com/nfl/picks/experts/",
@@ -2363,7 +2304,7 @@
       "sourceId": "cbs",
       "author": "Dave Richard",
       "publishedAt": "2026-10-22T19:16:10.233433+00:00",
-      "observedAt": "2026-10-25T22:33:20.575486+00:00",
+      "observedAt": "2026-10-26T01:10:16.468357+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2375,7 +2316,7 @@
           "event": {
             "id": "401873022",
             "startAt": "2026-10-26T00:20Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "Seahawks",
               "Chiefs"
@@ -2403,7 +2344,7 @@
       "sourceId": "cbs",
       "author": "Dave Richard",
       "publishedAt": "2026-10-22T19:16:10.233433+00:00",
-      "observedAt": "2026-10-25T22:33:20.575486+00:00",
+      "observedAt": "2026-10-26T01:10:16.468357+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2436,126 +2377,6 @@
       ]
     },
     {
-      "id": "f4abcb0dd3097778",
-      "title": "NFL Broncos vs Cardinals expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Jamey Eisenberg",
-      "publishedAt": "2026-10-22T15:17:03.254672+00:00",
-      "observedAt": "2026-10-25T22:33:20.575486+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Broncos -4.5",
-          "market": "Spread",
-          "context": "Broncos vs Cardinals",
-          "eventDate": "2026-10-25",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873019",
-            "startAt": "2026-10-25T20:05Z",
-            "state": "in",
-            "teams": [
-              "Cardinals",
-              "Broncos"
-            ],
-            "matchup": "Denver Broncos at Arizona Cardinals",
-            "week": 7,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Cardinals",
-        "Broncos"
-      ]
-    },
-    {
-      "id": "a2d013a4ec598e90",
-      "title": "NFL Packers vs Lions expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Jamey Eisenberg",
-      "publishedAt": "2026-10-22T15:17:03.254672+00:00",
-      "observedAt": "2026-10-25T22:33:20.575486+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Lions -3",
-          "market": "Spread",
-          "context": "Packers vs Lions",
-          "eventDate": "2026-10-25",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873020",
-            "startAt": "2026-10-25T20:25Z",
-            "state": "in",
-            "teams": [
-              "Lions",
-              "Packers"
-            ],
-            "matchup": "Green Bay Packers at Detroit Lions",
-            "week": 7,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Lions",
-        "Packers"
-      ]
-    },
-    {
-      "id": "8e668f1af9ca6719",
-      "title": "NFL Rams vs Raiders expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Jamey Eisenberg",
-      "publishedAt": "2026-10-22T15:17:03.254672+00:00",
-      "observedAt": "2026-10-25T22:33:20.575486+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Raiders +4.5",
-          "market": "Spread",
-          "context": "Rams vs Raiders",
-          "eventDate": "2026-10-25",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873021",
-            "startAt": "2026-10-25T20:25Z",
-            "state": "in",
-            "teams": [
-              "Raiders",
-              "Rams"
-            ],
-            "matchup": "Los Angeles Rams at Las Vegas Raiders",
-            "week": 7,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Raiders",
-        "Rams"
-      ]
-    },
-    {
       "id": "d97de610e29f70d8",
       "title": "NFL Chiefs vs Seahawks expert spread pick",
       "url": "https://www.cbssports.com/nfl/picks/experts/",
@@ -2563,7 +2384,7 @@
       "sourceId": "cbs",
       "author": "Jamey Eisenberg",
       "publishedAt": "2026-10-22T15:17:03.254672+00:00",
-      "observedAt": "2026-10-25T22:33:20.575486+00:00",
+      "observedAt": "2026-10-26T01:10:16.468357+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2575,7 +2396,7 @@
           "event": {
             "id": "401873022",
             "startAt": "2026-10-26T00:20Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "Seahawks",
               "Chiefs"
@@ -2603,7 +2424,7 @@
       "sourceId": "cbs",
       "author": "Jamey Eisenberg",
       "publishedAt": "2026-10-22T15:17:03.254672+00:00",
-      "observedAt": "2026-10-25T22:33:20.575486+00:00",
+      "observedAt": "2026-10-26T01:10:16.468357+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2680,7 +2501,7 @@
           "event": {
             "id": "401873020",
             "startAt": "2026-10-25T20:25Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Lions",
               "Packers"
@@ -2703,7 +2524,7 @@
           "event": {
             "id": "401873020",
             "startAt": "2026-10-25T20:25Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Lions",
               "Packers"
@@ -2733,7 +2554,7 @@
           "event": {
             "id": "401873020",
             "startAt": "2026-10-25T20:25Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Lions",
               "Packers"
@@ -3127,606 +2948,6 @@
       ]
     },
     {
-      "id": "f5d750d0d53646a9",
-      "title": "NFL Broncos vs Cardinals expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Pete Prisco",
-      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T22:33:20.575486+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Cardinals +4.5",
-          "market": "Spread",
-          "context": "Broncos vs Cardinals",
-          "eventDate": "2026-10-25",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873019",
-            "startAt": "2026-10-25T20:05Z",
-            "state": "in",
-            "teams": [
-              "Cardinals",
-              "Broncos"
-            ],
-            "matchup": "Denver Broncos at Arizona Cardinals",
-            "week": 7,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Cardinals",
-        "Broncos"
-      ]
-    },
-    {
-      "id": "376f459f335ec7fb",
-      "title": "NFL Broncos vs Cardinals expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Jared Dubin",
-      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T22:33:20.575486+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Broncos -4.5",
-          "market": "Spread",
-          "context": "Broncos vs Cardinals",
-          "eventDate": "2026-10-25",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873019",
-            "startAt": "2026-10-25T20:05Z",
-            "state": "in",
-            "teams": [
-              "Cardinals",
-              "Broncos"
-            ],
-            "matchup": "Denver Broncos at Arizona Cardinals",
-            "week": 7,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Cardinals",
-        "Broncos"
-      ]
-    },
-    {
-      "id": "aca22c270b0cc5f4",
-      "title": "NFL Broncos vs Cardinals expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Ryan Wilson",
-      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T22:33:20.575486+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Cardinals +4.5",
-          "market": "Spread",
-          "context": "Broncos vs Cardinals",
-          "eventDate": "2026-10-25",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873019",
-            "startAt": "2026-10-25T20:05Z",
-            "state": "in",
-            "teams": [
-              "Cardinals",
-              "Broncos"
-            ],
-            "matchup": "Denver Broncos at Arizona Cardinals",
-            "week": 7,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Cardinals",
-        "Broncos"
-      ]
-    },
-    {
-      "id": "88b9bc80af8ef3d6",
-      "title": "NFL Broncos vs Cardinals expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "John Breech",
-      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T22:33:20.575486+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Cardinals +4.5",
-          "market": "Spread",
-          "context": "Broncos vs Cardinals",
-          "eventDate": "2026-10-25",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873019",
-            "startAt": "2026-10-25T20:05Z",
-            "state": "in",
-            "teams": [
-              "Cardinals",
-              "Broncos"
-            ],
-            "matchup": "Denver Broncos at Arizona Cardinals",
-            "week": 7,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Cardinals",
-        "Broncos"
-      ]
-    },
-    {
-      "id": "9e8fef3ea284821d",
-      "title": "NFL Broncos vs Cardinals expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Tyler Sullivan",
-      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T22:33:20.575486+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Cardinals +4.5",
-          "market": "Spread",
-          "context": "Broncos vs Cardinals",
-          "eventDate": "2026-10-25",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873019",
-            "startAt": "2026-10-25T20:05Z",
-            "state": "in",
-            "teams": [
-              "Cardinals",
-              "Broncos"
-            ],
-            "matchup": "Denver Broncos at Arizona Cardinals",
-            "week": 7,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Cardinals",
-        "Broncos"
-      ]
-    },
-    {
-      "id": "25d0bea14372b508",
-      "title": "NFL Packers vs Lions expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Pete Prisco",
-      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T22:33:20.575486+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Packers +3",
-          "market": "Spread",
-          "context": "Packers vs Lions",
-          "eventDate": "2026-10-25",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873020",
-            "startAt": "2026-10-25T20:25Z",
-            "state": "in",
-            "teams": [
-              "Lions",
-              "Packers"
-            ],
-            "matchup": "Green Bay Packers at Detroit Lions",
-            "week": 7,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Lions",
-        "Packers"
-      ]
-    },
-    {
-      "id": "cb8b8b209580fc8a",
-      "title": "NFL Packers vs Lions expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Jared Dubin",
-      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T22:33:20.575486+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Lions -3",
-          "market": "Spread",
-          "context": "Packers vs Lions",
-          "eventDate": "2026-10-25",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873020",
-            "startAt": "2026-10-25T20:25Z",
-            "state": "in",
-            "teams": [
-              "Lions",
-              "Packers"
-            ],
-            "matchup": "Green Bay Packers at Detroit Lions",
-            "week": 7,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Lions",
-        "Packers"
-      ]
-    },
-    {
-      "id": "e41a6f10e148c9ce",
-      "title": "NFL Packers vs Lions expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Ryan Wilson",
-      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T22:33:20.575486+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Lions -3",
-          "market": "Spread",
-          "context": "Packers vs Lions",
-          "eventDate": "2026-10-25",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873020",
-            "startAt": "2026-10-25T20:25Z",
-            "state": "in",
-            "teams": [
-              "Lions",
-              "Packers"
-            ],
-            "matchup": "Green Bay Packers at Detroit Lions",
-            "week": 7,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Lions",
-        "Packers"
-      ]
-    },
-    {
-      "id": "41526c062b4d2d54",
-      "title": "NFL Packers vs Lions expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "John Breech",
-      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T22:33:20.575486+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Packers +3",
-          "market": "Spread",
-          "context": "Packers vs Lions",
-          "eventDate": "2026-10-25",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873020",
-            "startAt": "2026-10-25T20:25Z",
-            "state": "in",
-            "teams": [
-              "Lions",
-              "Packers"
-            ],
-            "matchup": "Green Bay Packers at Detroit Lions",
-            "week": 7,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Lions",
-        "Packers"
-      ]
-    },
-    {
-      "id": "375931770bf46e6b",
-      "title": "NFL Packers vs Lions expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Tyler Sullivan",
-      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T22:33:20.575486+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Lions -3",
-          "market": "Spread",
-          "context": "Packers vs Lions",
-          "eventDate": "2026-10-25",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873020",
-            "startAt": "2026-10-25T20:25Z",
-            "state": "in",
-            "teams": [
-              "Lions",
-              "Packers"
-            ],
-            "matchup": "Green Bay Packers at Detroit Lions",
-            "week": 7,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Lions",
-        "Packers"
-      ]
-    },
-    {
-      "id": "80c606e72313a290",
-      "title": "NFL Rams vs Raiders expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Pete Prisco",
-      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T22:33:20.575486+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Raiders +4.5",
-          "market": "Spread",
-          "context": "Rams vs Raiders",
-          "eventDate": "2026-10-25",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873021",
-            "startAt": "2026-10-25T20:25Z",
-            "state": "in",
-            "teams": [
-              "Raiders",
-              "Rams"
-            ],
-            "matchup": "Los Angeles Rams at Las Vegas Raiders",
-            "week": 7,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Raiders",
-        "Rams"
-      ]
-    },
-    {
-      "id": "b14e53d8f163bd45",
-      "title": "NFL Rams vs Raiders expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Jared Dubin",
-      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T22:33:20.575486+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Rams -4.5",
-          "market": "Spread",
-          "context": "Rams vs Raiders",
-          "eventDate": "2026-10-25",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873021",
-            "startAt": "2026-10-25T20:25Z",
-            "state": "in",
-            "teams": [
-              "Raiders",
-              "Rams"
-            ],
-            "matchup": "Los Angeles Rams at Las Vegas Raiders",
-            "week": 7,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Raiders",
-        "Rams"
-      ]
-    },
-    {
-      "id": "40dd0204573ae210",
-      "title": "NFL Rams vs Raiders expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Ryan Wilson",
-      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T22:33:20.575486+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Rams -4.5",
-          "market": "Spread",
-          "context": "Rams vs Raiders",
-          "eventDate": "2026-10-25",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873021",
-            "startAt": "2026-10-25T20:25Z",
-            "state": "in",
-            "teams": [
-              "Raiders",
-              "Rams"
-            ],
-            "matchup": "Los Angeles Rams at Las Vegas Raiders",
-            "week": 7,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Raiders",
-        "Rams"
-      ]
-    },
-    {
-      "id": "01285f6f76e3a8b4",
-      "title": "NFL Rams vs Raiders expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "John Breech",
-      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T22:33:20.575486+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Rams -4.5",
-          "market": "Spread",
-          "context": "Rams vs Raiders",
-          "eventDate": "2026-10-25",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873021",
-            "startAt": "2026-10-25T20:25Z",
-            "state": "in",
-            "teams": [
-              "Raiders",
-              "Rams"
-            ],
-            "matchup": "Los Angeles Rams at Las Vegas Raiders",
-            "week": 7,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Raiders",
-        "Rams"
-      ]
-    },
-    {
-      "id": "3ca75a734c983f21",
-      "title": "NFL Rams vs Raiders expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Tyler Sullivan",
-      "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T22:33:20.575486+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Raiders +4.5",
-          "market": "Spread",
-          "context": "Rams vs Raiders",
-          "eventDate": "2026-10-25",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873021",
-            "startAt": "2026-10-25T20:25Z",
-            "state": "in",
-            "teams": [
-              "Raiders",
-              "Rams"
-            ],
-            "matchup": "Los Angeles Rams at Las Vegas Raiders",
-            "week": 7,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Raiders",
-        "Rams"
-      ]
-    },
-    {
       "id": "dd65f4a3311aafa0",
       "title": "NFL Chiefs vs Seahawks expert spread pick",
       "url": "https://www.cbssports.com/nfl/picks/experts/",
@@ -3734,7 +2955,7 @@
       "sourceId": "cbs",
       "author": "Pete Prisco",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T22:33:20.575486+00:00",
+      "observedAt": "2026-10-26T01:10:16.468357+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3746,7 +2967,7 @@
           "event": {
             "id": "401873022",
             "startAt": "2026-10-26T00:20Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "Seahawks",
               "Chiefs"
@@ -3774,7 +2995,7 @@
       "sourceId": "cbs",
       "author": "Jared Dubin",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T22:33:20.575486+00:00",
+      "observedAt": "2026-10-26T01:10:16.468357+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3786,7 +3007,7 @@
           "event": {
             "id": "401873022",
             "startAt": "2026-10-26T00:20Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "Seahawks",
               "Chiefs"
@@ -3814,7 +3035,7 @@
       "sourceId": "cbs",
       "author": "Ryan Wilson",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T22:33:20.575486+00:00",
+      "observedAt": "2026-10-26T01:10:16.468357+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3826,7 +3047,7 @@
           "event": {
             "id": "401873022",
             "startAt": "2026-10-26T00:20Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "Seahawks",
               "Chiefs"
@@ -3854,7 +3075,7 @@
       "sourceId": "cbs",
       "author": "John Breech",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T22:33:20.575486+00:00",
+      "observedAt": "2026-10-26T01:10:16.468357+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3866,7 +3087,7 @@
           "event": {
             "id": "401873022",
             "startAt": "2026-10-26T00:20Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "Seahawks",
               "Chiefs"
@@ -3894,7 +3115,7 @@
       "sourceId": "cbs",
       "author": "Tyler Sullivan",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T22:33:20.575486+00:00",
+      "observedAt": "2026-10-26T01:10:16.468357+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3906,7 +3127,7 @@
           "event": {
             "id": "401873022",
             "startAt": "2026-10-26T00:20Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "Seahawks",
               "Chiefs"
@@ -3934,7 +3155,7 @@
       "sourceId": "cbs",
       "author": "Pete Prisco",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T22:33:20.575486+00:00",
+      "observedAt": "2026-10-26T01:10:16.468357+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3974,7 +3195,7 @@
       "sourceId": "cbs",
       "author": "Jared Dubin",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T22:33:20.575486+00:00",
+      "observedAt": "2026-10-26T01:10:16.468357+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4014,7 +3235,7 @@
       "sourceId": "cbs",
       "author": "Ryan Wilson",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T22:33:20.575486+00:00",
+      "observedAt": "2026-10-26T01:10:16.468357+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4054,7 +3275,7 @@
       "sourceId": "cbs",
       "author": "John Breech",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T22:33:20.575486+00:00",
+      "observedAt": "2026-10-26T01:10:16.468357+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4094,7 +3315,7 @@
       "sourceId": "cbs",
       "author": "Tyler Sullivan",
       "publishedAt": "2026-10-21T23:19:20.180070+00:00",
-      "observedAt": "2026-10-25T22:33:20.575486+00:00",
+      "observedAt": "2026-10-26T01:10:16.468357+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4195,7 +3416,7 @@
           "event": {
             "id": "401873020",
             "startAt": "2026-10-25T20:25Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Lions",
               "Packers"
@@ -4324,7 +3545,7 @@
           "event": {
             "id": "401873022",
             "startAt": "2026-10-26T00:20Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "Seahawks",
               "Chiefs"
@@ -4342,7 +3563,7 @@
           "event": {
             "id": "401873020",
             "startAt": "2026-10-25T20:25Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Lions",
               "Packers"
@@ -4504,7 +3725,7 @@
           "event": {
             "id": "401873019",
             "startAt": "2026-10-25T20:05Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Cardinals",
               "Broncos"
@@ -4522,7 +3743,7 @@
           "event": {
             "id": "401873021",
             "startAt": "2026-10-25T20:25Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Raiders",
               "Rams"
@@ -4632,38 +3853,14 @@
   "refreshMinutes": 60,
   "games": [
     {
-      "id": "401873019",
-      "startAt": "2026-10-25T20:05Z",
+      "id": "401873022",
+      "startAt": "2026-10-26T00:20Z",
       "state": "in",
       "teams": [
-        "Cardinals",
-        "Broncos"
+        "Seahawks",
+        "Chiefs"
       ],
-      "matchup": "Denver Broncos at Arizona Cardinals",
-      "week": 7,
-      "season": 2026
-    },
-    {
-      "id": "401873020",
-      "startAt": "2026-10-25T20:25Z",
-      "state": "in",
-      "teams": [
-        "Lions",
-        "Packers"
-      ],
-      "matchup": "Green Bay Packers at Detroit Lions",
-      "week": 7,
-      "season": 2026
-    },
-    {
-      "id": "401873021",
-      "startAt": "2026-10-25T20:25Z",
-      "state": "in",
-      "teams": [
-        "Raiders",
-        "Rams"
-      ],
-      "matchup": "Los Angeles Rams at Las Vegas Raiders",
+      "matchup": "Kansas City Chiefs at Seattle Seahawks",
       "week": 7,
       "season": 2026
     },
@@ -4764,14 +3961,38 @@
       "season": 2026
     },
     {
-      "id": "401873022",
-      "startAt": "2026-10-26T00:20Z",
-      "state": "pre",
+      "id": "401873019",
+      "startAt": "2026-10-25T20:05Z",
+      "state": "post",
       "teams": [
-        "Seahawks",
-        "Chiefs"
+        "Cardinals",
+        "Broncos"
       ],
-      "matchup": "Kansas City Chiefs at Seattle Seahawks",
+      "matchup": "Denver Broncos at Arizona Cardinals",
+      "week": 7,
+      "season": 2026
+    },
+    {
+      "id": "401873020",
+      "startAt": "2026-10-25T20:25Z",
+      "state": "post",
+      "teams": [
+        "Lions",
+        "Packers"
+      ],
+      "matchup": "Green Bay Packers at Detroit Lions",
+      "week": 7,
+      "season": 2026
+    },
+    {
+      "id": "401873021",
+      "startAt": "2026-10-25T20:25Z",
+      "state": "post",
+      "teams": [
+        "Raiders",
+        "Rams"
+      ],
+      "matchup": "Los Angeles Rams at Las Vegas Raiders",
       "week": 7,
       "season": 2026
     },
@@ -4970,8 +4191,8 @@
   ],
   "scheduleStatus": {
     "status": "ok",
-    "checkedAt": "2026-10-25T22:33:20.575486+00:00",
-    "lastSuccessAt": "2026-10-25T22:33:20.575486+00:00"
+    "checkedAt": "2026-10-26T01:10:16.468357+00:00",
+    "lastSuccessAt": "2026-10-26T01:10:16.468357+00:00"
   },
   "playerTeams": {
     "tylerallgeier": [
