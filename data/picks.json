@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-27T16:39:25.801833+00:00",
-  "lastSuccessfulUpdate": "2026-10-27T16:39:25.801833+00:00",
+  "checkedAt": "2026-10-27T21:19:53.671891+00:00",
+  "lastSuccessfulUpdate": "2026-10-27T21:19:53.671891+00:00",
   "sources": [
     {
       "id": "sbd",
@@ -10,9 +10,9 @@
       "website": "https://www.sportsbettingdime.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-27T16:39:25.801833+00:00",
-      "lastSuccessAt": "2026-10-27T16:39:25.801833+00:00",
-      "count": 8,
+      "checkedAt": "2026-10-27T21:19:53.671891+00:00",
+      "lastSuccessAt": "2026-10-27T21:19:53.671891+00:00",
+      "count": 9,
       "message": "Feed retrieved successfully"
     },
     {
@@ -22,8 +22,8 @@
       "website": "https://www.bettingpros.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-27T16:39:25.801833+00:00",
-      "lastSuccessAt": "2026-10-27T16:39:25.801833+00:00",
+      "checkedAt": "2026-10-27T21:19:53.671891+00:00",
+      "lastSuccessAt": "2026-10-27T21:19:53.671891+00:00",
       "count": 34,
       "message": "Feed retrieved successfully"
     },
@@ -35,7 +35,7 @@
       "website": "https://www.cbssports.com/nfl/picks/experts/",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-10-27T16:39:25.801833+00:00",
+      "checkedAt": "2026-10-27T21:19:53.671891+00:00",
       "lastSuccessAt": "2026-10-26T23:53:29.742962+00:00",
       "count": 7,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -48,7 +48,7 @@
       "website": "https://www.covers.com/nfl",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-10-27T16:39:25.801833+00:00",
+      "checkedAt": "2026-10-27T21:19:53.671891+00:00",
       "lastSuccessAt": "2026-10-26T13:12:09.081455+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -62,9 +62,9 @@
       "articlePattern": "/nfl-picks/[^/]+prediction[^/]+/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-27T16:39:25.801833+00:00",
-      "lastSuccessAt": "2026-10-27T16:39:25.801833+00:00",
-      "count": 8,
+      "checkedAt": "2026-10-27T21:19:53.671891+00:00",
+      "lastSuccessAt": "2026-10-27T21:19:53.671891+00:00",
+      "count": 9,
       "message": "Public expert selections retrieved"
     },
     {
@@ -76,7 +76,7 @@
       "articlePattern": "/picks/nfl/(?:picks-against-the-spread-ats-predictions|player-props)-week-\\d+-\\d{4}/$",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-10-27T16:39:25.801833+00:00",
+      "checkedAt": "2026-10-27T21:19:53.671891+00:00",
       "lastSuccessAt": "2026-10-26T13:12:09.081455+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -89,11 +89,11 @@
       "kind": "articles",
       "articlePattern": "/us/nfl/news/nfl-picks-predictions-against-spread-week-\\d+/",
       "enabled": true,
-      "status": "ok",
-      "checkedAt": "2026-10-27T16:39:25.801833+00:00",
+      "status": "unavailable",
+      "checkedAt": "2026-10-27T21:19:53.671891+00:00",
       "lastSuccessAt": "2026-10-27T16:39:25.801833+00:00",
       "count": 1,
-      "message": "Public expert selections retrieved"
+      "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
     },
     {
       "id": "rotowire",
@@ -104,13 +104,176 @@
       "articlePattern": "/football/article/(?:nfl-picks-and-props|[^/]*odds-picks-and-predictions|[^/]*betting-odds-picks-and-predictions)[^/]+$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-27T16:39:25.801833+00:00",
-      "lastSuccessAt": "2026-10-27T16:39:25.801833+00:00",
+      "checkedAt": "2026-10-27T21:19:53.671891+00:00",
+      "lastSuccessAt": "2026-10-27T21:19:53.671891+00:00",
       "count": 4,
       "message": "Public expert selections retrieved"
     }
   ],
   "articles": [
+    {
+      "id": "87e9854d92e7d77b",
+      "title": "Packers vs Panthers Prediction 10/29/26 NFL Picks Today | Sports Chat Place",
+      "url": "https://sportschatplace.com/nfl-picks/packers-vs-panthers-prediction-10-29-26-nfl-picks-today/",
+      "publisher": "Sports Chat Place",
+      "sourceId": "sportschat",
+      "author": "Randy Chambers",
+      "publishedAt": "2026-10-27T18:37:22+00:00",
+      "picks": [
+        {
+          "selection": "Green Bay Packers -3.5",
+          "market": "Spread",
+          "context": "Packers vs Panthers Prediction",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873023",
+            "startAt": "2026-10-30T00:15Z",
+            "state": "pre",
+            "teams": [
+              "Packers",
+              "Panthers"
+            ],
+            "matchup": "Carolina Panthers at Green Bay Packers",
+            "week": 8,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Panthers",
+        "Packers"
+      ]
+    },
+    {
+      "id": "71b6c47d8b829e94",
+      "title": "Commanders vs Eagles Prediction 11/1/26 NFL Picks Today | Sports Chat Place",
+      "url": "https://sportschatplace.com/nfl-picks/washington-commanders-vs-philadelphia-eagles-prediction-11-1-26-nfl-picks-today/",
+      "publisher": "Sports Chat Place",
+      "sourceId": "sportschat",
+      "author": "Andrew",
+      "publishedAt": "2026-10-27T17:49:27+00:00",
+      "picks": [
+        {
+          "selection": "Washington Commanders -5.5",
+          "market": "Spread",
+          "context": "Commanders vs Eagles Prediction",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873035",
+            "startAt": "2026-11-02T01:20Z",
+            "state": "pre",
+            "teams": [
+              "Commanders",
+              "Eagles"
+            ],
+            "matchup": "Philadelphia Eagles at Washington Commanders",
+            "week": 8,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Eagles",
+        "Commanders"
+      ]
+    },
+    {
+      "id": "878bcbd6a8385b6f",
+      "title": "Jaguars vs Colts Prediction 11/1/26 NFL Picks Today | Sports Chat Place",
+      "url": "https://sportschatplace.com/nfl-picks/jacksonville-jaguars-vs-indianapolis-colts-prediction-11-1-26-nfl-picks-today/",
+      "publisher": "Sports Chat Place",
+      "sourceId": "sportschat",
+      "author": "Andrew",
+      "publishedAt": "2026-10-27T17:47:08+00:00",
+      "picks": [
+        {
+          "selection": "Jacksonville Jaguars -8.5",
+          "market": "Spread",
+          "context": "Jaguars vs Colts Prediction",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873028",
+            "startAt": "2026-11-01T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Jaguars",
+              "Colts"
+            ],
+            "matchup": "Indianapolis Colts at Jacksonville Jaguars",
+            "week": 8,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Colts",
+        "Jaguars"
+      ]
+    },
+    {
+      "id": "2313cad57edfc951",
+      "title": "Bengals vs Titans Prediction 11/1/26 NFL Picks Today | Sports Chat Place",
+      "url": "https://sportschatplace.com/nfl-picks/cincinnati-bengals-vs-tennessee-titans-prediction-11-1-26-nfl-picks-today/",
+      "publisher": "Sports Chat Place",
+      "sourceId": "sportschat",
+      "author": "Andrew",
+      "publishedAt": "2026-10-27T17:44:52+00:00",
+      "picks": [
+        {
+          "selection": "Cincinnati Bengals -10",
+          "market": "Other",
+          "context": "Bengals vs Titans Prediction",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873031",
+            "startAt": "2026-11-01T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Bengals",
+              "Titans"
+            ],
+            "matchup": "Tennessee Titans at Cincinnati Bengals",
+            "week": 8,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Other"
+      ],
+      "teams": [
+        "Bengals",
+        "Titans"
+      ]
+    },
+    {
+      "id": "9d215020788a250c",
+      "title": "NFL Defensive Player of the Year Odds: Midseason Movers and Value Picks",
+      "url": "https://www.sportsbettingdime.com/news/nfl/dpoy-odds-midseason-movers/",
+      "publisher": "Sports Betting Dime",
+      "sourceId": "sbd",
+      "author": "Sascha Paruk",
+      "publishedAt": "2026-10-27T17:07:54+00:00",
+      "picks": [],
+      "parlays": [],
+      "markets": [
+        "Other"
+      ],
+      "teams": []
+    },
     {
       "id": "7f3a26c632bf29fd",
       "title": "NFL Week 8 Upset Predictions: 3 Best Underdogs to Bet Straight-Up",
@@ -3029,80 +3192,6 @@
       ]
     },
     {
-      "id": "9868be9c7a8d0a0e",
-      "title": "Panthers vs Buccaneers Prediction 10/25/26 NFL Picks Today | Sports Chat Place",
-      "url": "https://sportschatplace.com/nfl-picks/panthers-vs-buccaneers-prediction-10-25-26-nfl-picks-today/",
-      "publisher": "Sports Chat Place",
-      "sourceId": "sportschat",
-      "author": "Randy Chambers",
-      "publishedAt": "2026-10-24T10:08:09+00:00",
-      "picks": [
-        {
-          "selection": "Carolina Panthers -3",
-          "market": "Spread",
-          "context": "Panthers vs Buccaneers Prediction",
-          "method": "Explicit selection in publisher feed",
-          "event": {
-            "id": "401873018",
-            "startAt": "2026-10-25T17:00Z",
-            "state": "post",
-            "teams": [
-              "Panthers",
-              "Buccaneers"
-            ],
-            "matchup": "Tampa Bay Buccaneers at Carolina Panthers",
-            "week": 7,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Panthers",
-        "Buccaneers"
-      ]
-    },
-    {
-      "id": "f4d731379ac2cf41",
-      "title": "Saints vs Steelers Prediction 10/25/26 NFL Picks Today | Sports Chat Place",
-      "url": "https://sportschatplace.com/nfl-picks/saints-vs-steelers-prediction-10-25-26-nfl-picks-today/",
-      "publisher": "Sports Chat Place",
-      "sourceId": "sportschat",
-      "author": "Randy Chambers",
-      "publishedAt": "2026-10-24T09:55:07+00:00",
-      "picks": [
-        {
-          "selection": "New Orleans Saints +3",
-          "market": "Spread",
-          "context": "Saints vs Steelers Prediction",
-          "method": "Explicit selection in publisher feed",
-          "event": {
-            "id": "401873011",
-            "startAt": "2026-10-25T13:30Z",
-            "state": "post",
-            "teams": [
-              "Saints",
-              "Steelers"
-            ],
-            "matchup": "Pittsburgh Steelers at New Orleans Saints",
-            "week": 7,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Saints",
-        "Steelers"
-      ]
-    },
-    {
       "id": "da9dd6567bdf74a8",
       "title": "Texans vs Giants Prediction 10/25/26 NFL Picks Today | Sports Chat Place",
       "url": "https://sportschatplace.com/nfl-picks/texans-vs-giants-prediction-10-25-26-nfl-picks-today/",
@@ -3532,43 +3621,6 @@
       "teams": [
         "Cowboys",
         "Eagles"
-      ]
-    },
-    {
-      "id": "66d88f58bec6d67f",
-      "title": "Bears vs Patriots Prediction 10/22/26 NFL Picks Today | Sports Chat Place",
-      "url": "https://sportschatplace.com/nfl-picks/bears-vs-patriots-prediction-10-22-26-nfl-picks-today/",
-      "publisher": "Sports Chat Place",
-      "sourceId": "sportschat",
-      "author": "David Racey",
-      "publishedAt": "2026-10-21T03:50:58+00:00",
-      "picks": [
-        {
-          "selection": "Under 50.5",
-          "market": "Totals",
-          "context": "Bears vs Patriots Prediction",
-          "method": "Explicit selection in publisher feed",
-          "event": {
-            "id": "401873010",
-            "startAt": "2026-10-23T00:15Z",
-            "state": "post",
-            "teams": [
-              "Bears",
-              "Patriots"
-            ],
-            "matchup": "New England Patriots at Chicago Bears",
-            "week": 7,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Totals"
-      ],
-      "teams": [
-        "Bears",
-        "Patriots"
       ]
     },
     {
@@ -4090,8 +4142,8 @@
   ],
   "scheduleStatus": {
     "status": "ok",
-    "checkedAt": "2026-10-27T16:39:25.801833+00:00",
-    "lastSuccessAt": "2026-10-27T16:39:25.801833+00:00"
+    "checkedAt": "2026-10-27T21:19:53.671891+00:00",
+    "lastSuccessAt": "2026-10-27T21:19:53.671891+00:00"
   },
   "playerTeams": {
     "tylerallgeier": [
