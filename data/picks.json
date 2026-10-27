@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-27T10:34:26.257754+00:00",
-  "lastSuccessfulUpdate": "2026-10-27T10:34:26.257754+00:00",
+  "checkedAt": "2026-10-27T16:39:25.801833+00:00",
+  "lastSuccessfulUpdate": "2026-10-27T16:39:25.801833+00:00",
   "sources": [
     {
       "id": "sbd",
@@ -10,9 +10,9 @@
       "website": "https://www.sportsbettingdime.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-27T10:34:26.257754+00:00",
-      "lastSuccessAt": "2026-10-27T10:34:26.257754+00:00",
-      "count": 6,
+      "checkedAt": "2026-10-27T16:39:25.801833+00:00",
+      "lastSuccessAt": "2026-10-27T16:39:25.801833+00:00",
+      "count": 8,
       "message": "Feed retrieved successfully"
     },
     {
@@ -22,9 +22,9 @@
       "website": "https://www.bettingpros.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-27T10:34:26.257754+00:00",
-      "lastSuccessAt": "2026-10-27T10:34:26.257754+00:00",
-      "count": 32,
+      "checkedAt": "2026-10-27T16:39:25.801833+00:00",
+      "lastSuccessAt": "2026-10-27T16:39:25.801833+00:00",
+      "count": 34,
       "message": "Feed retrieved successfully"
     },
     {
@@ -35,7 +35,7 @@
       "website": "https://www.cbssports.com/nfl/picks/experts/",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-10-27T10:34:26.257754+00:00",
+      "checkedAt": "2026-10-27T16:39:25.801833+00:00",
       "lastSuccessAt": "2026-10-26T23:53:29.742962+00:00",
       "count": 7,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -48,7 +48,7 @@
       "website": "https://www.covers.com/nfl",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-10-27T10:34:26.257754+00:00",
+      "checkedAt": "2026-10-27T16:39:25.801833+00:00",
       "lastSuccessAt": "2026-10-26T13:12:09.081455+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -62,8 +62,8 @@
       "articlePattern": "/nfl-picks/[^/]+prediction[^/]+/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-27T10:34:26.257754+00:00",
-      "lastSuccessAt": "2026-10-27T10:34:26.257754+00:00",
+      "checkedAt": "2026-10-27T16:39:25.801833+00:00",
+      "lastSuccessAt": "2026-10-27T16:39:25.801833+00:00",
       "count": 8,
       "message": "Public expert selections retrieved"
     },
@@ -76,7 +76,7 @@
       "articlePattern": "/picks/nfl/(?:picks-against-the-spread-ats-predictions|player-props)-week-\\d+-\\d{4}/$",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-10-27T10:34:26.257754+00:00",
+      "checkedAt": "2026-10-27T16:39:25.801833+00:00",
       "lastSuccessAt": "2026-10-26T13:12:09.081455+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -90,8 +90,8 @@
       "articlePattern": "/us/nfl/news/nfl-picks-predictions-against-spread-week-\\d+/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-27T10:34:26.257754+00:00",
-      "lastSuccessAt": "2026-10-27T10:34:26.257754+00:00",
+      "checkedAt": "2026-10-27T16:39:25.801833+00:00",
+      "lastSuccessAt": "2026-10-27T16:39:25.801833+00:00",
       "count": 1,
       "message": "Public expert selections retrieved"
     },
@@ -104,13 +104,225 @@
       "articlePattern": "/football/article/(?:nfl-picks-and-props|[^/]*odds-picks-and-predictions|[^/]*betting-odds-picks-and-predictions)[^/]+$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-27T10:34:26.257754+00:00",
-      "lastSuccessAt": "2026-10-27T10:34:26.257754+00:00",
+      "checkedAt": "2026-10-27T16:39:25.801833+00:00",
+      "lastSuccessAt": "2026-10-27T16:39:25.801833+00:00",
       "count": 4,
       "message": "Public expert selections retrieved"
     }
   ],
   "articles": [
+    {
+      "id": "7f3a26c632bf29fd",
+      "title": "NFL Week 8 Upset Predictions: 3 Best Underdogs to Bet Straight-Up",
+      "url": "https://www.sportsbettingdime.com/news/nfl/week-8-upset-predictions-3-best-underdogs-2026/",
+      "publisher": "Sports Betting Dime",
+      "sourceId": "sbd",
+      "author": "Sascha Paruk",
+      "publishedAt": "2026-10-27T16:39:04+00:00",
+      "picks": [
+        {
+          "selection": "Atlanta Falcons (+117 at NOVIG ) at Tampa Bay Buccaneers",
+          "market": "Other",
+          "context": "Atlanta Falcons (+117 at NOVIG ) at Tampa Bay Buccaneers",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873025",
+            "startAt": "2026-11-01T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Buccaneers",
+              "Falcons"
+            ],
+            "matchup": "Atlanta Falcons at Tampa Bay Buccaneers",
+            "week": 8,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Minnesota Vikings (+163 at NOVIG ) at Detroit Lions",
+          "market": "Other",
+          "context": "Minnesota Vikings (+163 at NOVIG ) at Detroit Lions",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873030",
+            "startAt": "2026-11-01T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Lions",
+              "Vikings"
+            ],
+            "matchup": "Minnesota Vikings at Detroit Lions",
+            "week": 8,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Other"
+      ],
+      "teams": [
+        "Buccaneers",
+        "Falcons",
+        "Lions",
+        "Vikings"
+      ]
+    },
+    {
+      "id": "df905bc6f225d3b6",
+      "title": "NFL Survivor Pool Advice for Week 8: Odds, Picks & Predictions (2026)",
+      "url": "https://www.bettingpros.com/articles/nfl-survivor-pool-advice-for-week-8-odds-picks-predictions-2026/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "Mike Spector",
+      "publishedAt": "2026-10-27T13:21:13+00:00",
+      "picks": [],
+      "parlays": [],
+      "markets": [
+        "Other"
+      ],
+      "teams": []
+    },
+    {
+      "id": "8f6ae447438b8e7a",
+      "title": "NFL Week 8 Picks & Predictions: Best Early Bets (2026)",
+      "url": "https://www.bettingpros.com/articles/nfl-week-8-picks-predictions-best-early-bets-2026/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "Jason Radowitz",
+      "publishedAt": "2026-10-27T13:21:11+00:00",
+      "picks": [
+        {
+          "selection": "Lions -3 ( -112 )",
+          "market": "Spread",
+          "context": "Minnesota Vikings vs. Detroit Lions",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873030",
+            "startAt": "2026-11-01T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Lions",
+              "Vikings"
+            ],
+            "matchup": "Minnesota Vikings at Detroit Lions",
+            "week": 8,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Rams -6.5 ( -112 )",
+          "market": "Spread",
+          "context": "Los Angeles Chargers vs. Los Angeles Rams",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873032",
+            "startAt": "2026-11-01T21:05Z",
+            "state": "pre",
+            "teams": [
+              "Rams",
+              "Chargers"
+            ],
+            "matchup": "Los Angeles Chargers at Los Angeles Rams",
+            "week": 8,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Lions",
+        "Rams"
+      ]
+    },
+    {
+      "id": "2c94038a5b7509ea",
+      "title": "Early NFL Props to Target Week 8: Concepcion, Okonkwo & Sutton",
+      "url": "https://www.sportsbettingdime.com/news/nfl/early-props-target-week-8-2026/",
+      "publisher": "Sports Betting Dime",
+      "sourceId": "sbd",
+      "author": "Brady Trettenero",
+      "publishedAt": "2026-10-27T13:00:00+00:00",
+      "picks": [
+        {
+          "selection": "KC Concepcion over 4.5 receptions (estimated target)",
+          "market": "Props",
+          "context": "",
+          "method": "Explicit selection in publisher feed",
+          "player": {
+            "name": "KC Concepcion",
+            "team": "Browns",
+            "athleteId": "4870653"
+          },
+          "event": {
+            "id": "401873027",
+            "startAt": "2026-11-01T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Steelers",
+              "Browns"
+            ],
+            "matchup": "Cleveland Browns at Pittsburgh Steelers",
+            "week": 8,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Chig Okonkwo over 3.5 receptions (estimated target)",
+          "market": "Props",
+          "context": "",
+          "method": "Explicit selection in publisher feed",
+          "player": {
+            "name": "Chig Okonkwo",
+            "team": "Commanders",
+            "athleteId": "4360635"
+          },
+          "event": {
+            "id": "401873035",
+            "startAt": "2026-11-02T01:20Z",
+            "state": "pre",
+            "teams": [
+              "Commanders",
+              "Eagles"
+            ],
+            "matchup": "Philadelphia Eagles at Washington Commanders",
+            "week": 8,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Courtland Sutton under 35.5 receiving yards (estimated target)",
+          "market": "Props",
+          "context": "",
+          "method": "Explicit selection in publisher feed",
+          "player": {
+            "name": "Courtland Sutton",
+            "team": "Broncos",
+            "athleteId": "3128429"
+          },
+          "event": {
+            "id": "401873033",
+            "startAt": "2026-11-01T21:25Z",
+            "state": "pre",
+            "teams": [
+              "Broncos",
+              "Chiefs"
+            ],
+            "matchup": "Kansas City Chiefs at Denver Broncos",
+            "week": 8,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Props"
+      ],
+      "teams": []
+    },
     {
       "id": "f361da0eac4fefd9",
       "title": "NFL picks, predictions against the spread Week 8: Bills clip Ravens, Steelers stop Browns, Bengals roll",
@@ -3878,8 +4090,8 @@
   ],
   "scheduleStatus": {
     "status": "ok",
-    "checkedAt": "2026-10-27T10:34:26.257754+00:00",
-    "lastSuccessAt": "2026-10-27T10:34:26.257754+00:00"
+    "checkedAt": "2026-10-27T16:39:25.801833+00:00",
+    "lastSuccessAt": "2026-10-27T16:39:25.801833+00:00"
   },
   "playerTeams": {
     "tylerallgeier": [
@@ -4967,6 +5179,13 @@
         "athleteId": "4242973"
       }
     ],
+    "ejjenkins": [
+      {
+        "name": "E.J. Jenkins",
+        "team": "Falcons",
+        "athleteId": "4248557"
+      }
+    ],
     "rileymahlman": [
       {
         "name": "Riley Mahlman",
@@ -5007,13 +5226,6 @@
         "name": "Josh Thompson",
         "team": "Falcons",
         "athleteId": "4682692"
-      }
-    ],
-    "jackvelling": [
-      {
-        "name": "Jack Velling",
-        "team": "Falcons",
-        "athleteId": "4832827"
       }
     ],
     "antwanewellsjr": [
@@ -5490,6 +5702,13 @@
         "name": "Rayshaun Benny",
         "team": "Ravens",
         "athleteId": "4432661"
+      }
+    ],
+    "rayshawnjenkins": [
+      {
+        "name": "Rayshawn Jenkins",
+        "team": "Ravens",
+        "athleteId": "2969961"
       }
     ],
     "carljones": [
@@ -6206,13 +6425,6 @@
         "athleteId": "4212909"
       }
     ],
-    "taylormoton": [
-      {
-        "name": "Taylor Moton",
-        "team": "Panthers",
-        "athleteId": "2973051"
-      }
-    ],
     "kennypickett": [
       {
         "name": "Kenny Pickett",
@@ -6549,6 +6761,13 @@
         "athleteId": "4880613"
       }
     ],
+    "taylormoton": [
+      {
+        "name": "Taylor Moton",
+        "team": "Panthers",
+        "athleteId": "2973051"
+      }
+    ],
     "nicscourton": [
       {
         "name": "Nic Scourton",
@@ -6650,6 +6869,13 @@
         "name": "Casey Washington",
         "team": "Panthers",
         "athleteId": "4428796"
+      }
+    ],
+    "jamarkisweston": [
+      {
+        "name": "Ja'Markis Weston",
+        "team": "Panthers",
+        "athleteId": "4567416"
       }
     ],
     "tysonbagent": [
@@ -7821,6 +8047,13 @@
         "athleteId": "4870723"
       }
     ],
+    "dillongabriel": [
+      {
+        "name": "Dillon Gabriel",
+        "team": "Browns",
+        "athleteId": "4427238"
+      }
+    ],
     "taylengreen": [
       {
         "name": "Taylen Green",
@@ -7875,13 +8108,6 @@
         "name": "Jaleel McLaughlin",
         "team": "Browns",
         "athleteId": "4722893"
-      }
-    ],
-    "carsenryan": [
-      {
-        "name": "Carsen Ryan",
-        "team": "Browns",
-        "athleteId": "4685540"
       }
     ],
     "dylansampson": [
@@ -8153,13 +8379,6 @@
         "name": "Kalia Davis",
         "team": "Browns",
         "athleteId": "4243541"
-      }
-    ],
-    "dillongabriel": [
-      {
-        "name": "Dillon Gabriel",
-        "team": "Browns",
-        "athleteId": "4427238"
       }
     ],
     "tevenjenkins": [
@@ -10108,13 +10327,6 @@
         "athleteId": "4259305"
       }
     ],
-    "jacobmonk": [
-      {
-        "name": "Jacob Monk",
-        "team": "Packers",
-        "athleteId": "4428037"
-      }
-    ],
     "jordanmorgan": [
       {
         "name": "Jordan Morgan",
@@ -10449,6 +10661,13 @@
         "name": "Javon Hargrave",
         "team": "Packers",
         "athleteId": "2983055"
+      }
+    ],
+    "jacobmonk": [
+      {
+        "name": "Jacob Monk",
+        "team": "Packers",
+        "athleteId": "4428037"
       }
     ],
     "skyymoore": [
@@ -15926,13 +16145,6 @@
         "athleteId": "4035685"
       }
     ],
-    "brycebaringer": [
-      {
-        "name": "Bryce Baringer",
-        "team": "Patriots",
-        "athleteId": "4240545"
-      }
-    ],
     "marcusbryant": [
       {
         "name": "Marcus Bryant",
@@ -16108,11 +16320,11 @@
         "athleteId": "5081728"
       }
     ],
-    "jacobrizy": [
+    "joseramirez": [
       {
-        "name": "Jacob Rizy",
+        "name": "Jose Ramirez",
         "team": "Patriots",
-        "athleteId": "4695758"
+        "athleteId": "4569068"
       }
     ],
     "andrewrupcich": [
@@ -17886,6 +18098,13 @@
         "athleteId": "4241372"
       }
     ],
+    "grantcalcaterra": [
+      {
+        "name": "Grant Calcaterra",
+        "team": "Eagles",
+        "athleteId": "4241374"
+      }
+    ],
     "dariuscooper": [
       {
         "name": "Darius Cooper",
@@ -17898,6 +18117,13 @@
         "name": "Britain Covey",
         "team": "Eagles",
         "athleteId": "3926231"
+      }
+    ],
+    "landondickerson": [
+      {
+        "name": "Landon Dickerson",
+        "team": "Eagles",
+        "athleteId": "4035624"
       }
     ],
     "zachertz": [
@@ -17977,6 +18203,13 @@
         "athleteId": "4360698"
       }
     ],
+    "elijahmitchell": [
+      {
+        "name": "Elijah Mitchell",
+        "team": "Eagles",
+        "athleteId": "4241555"
+      }
+    ],
     "elijahmoore": [
       {
         "name": "Elijah Moore",
@@ -18024,6 +18257,13 @@
         "name": "Tyler Steen",
         "team": "Eagles",
         "athleteId": "4362805"
+      }
+    ],
+    "elistowers": [
+      {
+        "name": "Eli Stowers",
+        "team": "Eagles",
+        "athleteId": "4431574"
       }
     ],
     "dontayvionwicks": [
@@ -18243,25 +18483,11 @@
         "athleteId": "4686911"
       }
     ],
-    "grantcalcaterra": [
-      {
-        "name": "Grant Calcaterra",
-        "team": "Eagles",
-        "athleteId": "4241374"
-      }
-    ],
     "tariqcastrofields": [
       {
         "name": "Tariq Castro-Fields",
         "team": "Eagles",
         "athleteId": "4259590"
-      }
-    ],
-    "landondickerson": [
-      {
-        "name": "Landon Dickerson",
-        "team": "Eagles",
-        "athleteId": "4035624"
       }
     ],
     "jalenhurts": [
@@ -18290,13 +18516,6 @@
         "name": "Will Shipley",
         "team": "Eagles",
         "athleteId": "4431545"
-      }
-    ],
-    "elistowers": [
-      {
-        "name": "Eli Stowers",
-        "team": "Eagles",
-        "athleteId": "4431574"
       }
     ],
     "johnnywilson": [
@@ -18353,13 +18572,6 @@
         "name": "Gabe Hall",
         "team": "Eagles",
         "athleteId": "4429731"
-      }
-    ],
-    "elijahmitchell": [
-      {
-        "name": "Elijah Mitchell",
-        "team": "Eagles",
-        "athleteId": "4241555"
       }
     ],
     "evanneal": [
@@ -21770,6 +21982,6 @@
       }
     ]
   },
-  "rostersCheckedAt": "2026-10-26T13:12:09.081455+00:00",
+  "rostersCheckedAt": "2026-10-27T16:39:25.801833+00:00",
   "rosterStatus": "ok"
 }
