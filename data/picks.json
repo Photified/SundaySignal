@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-26T23:53:29.742962+00:00",
-  "lastSuccessfulUpdate": "2026-10-26T23:53:29.742962+00:00",
+  "checkedAt": "2026-10-27T05:04:52.419657+00:00",
+  "lastSuccessfulUpdate": "2026-10-27T05:04:52.419657+00:00",
   "sources": [
     {
       "id": "sbd",
@@ -10,8 +10,8 @@
       "website": "https://www.sportsbettingdime.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-26T23:53:29.742962+00:00",
-      "lastSuccessAt": "2026-10-26T23:53:29.742962+00:00",
+      "checkedAt": "2026-10-27T05:04:52.419657+00:00",
+      "lastSuccessAt": "2026-10-27T05:04:52.419657+00:00",
       "count": 6,
       "message": "Feed retrieved successfully"
     },
@@ -22,8 +22,8 @@
       "website": "https://www.bettingpros.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-26T23:53:29.742962+00:00",
-      "lastSuccessAt": "2026-10-26T23:53:29.742962+00:00",
+      "checkedAt": "2026-10-27T05:04:52.419657+00:00",
+      "lastSuccessAt": "2026-10-27T05:04:52.419657+00:00",
       "count": 32,
       "message": "Feed retrieved successfully"
     },
@@ -34,11 +34,11 @@
       "feed": "https://www.cbssports.com/nfl/picks/experts/",
       "website": "https://www.cbssports.com/nfl/picks/experts/",
       "enabled": true,
-      "status": "ok",
-      "checkedAt": "2026-10-26T23:53:29.742962+00:00",
+      "status": "unavailable",
+      "checkedAt": "2026-10-27T05:04:52.419657+00:00",
       "lastSuccessAt": "2026-10-26T23:53:29.742962+00:00",
       "count": 7,
-      "message": "Public expert selections retrieved"
+      "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
     },
     {
       "id": "covers",
@@ -48,7 +48,7 @@
       "website": "https://www.covers.com/nfl",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-10-26T23:53:29.742962+00:00",
+      "checkedAt": "2026-10-27T05:04:52.419657+00:00",
       "lastSuccessAt": "2026-10-26T13:12:09.081455+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -62,8 +62,8 @@
       "articlePattern": "/nfl-picks/[^/]+prediction[^/]+/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-26T23:53:29.742962+00:00",
-      "lastSuccessAt": "2026-10-26T23:53:29.742962+00:00",
+      "checkedAt": "2026-10-27T05:04:52.419657+00:00",
+      "lastSuccessAt": "2026-10-27T05:04:52.419657+00:00",
       "count": 8,
       "message": "Public expert selections retrieved"
     },
@@ -76,7 +76,7 @@
       "articlePattern": "/picks/nfl/(?:picks-against-the-spread-ats-predictions|player-props)-week-\\d+-\\d{4}/$",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-10-26T23:53:29.742962+00:00",
+      "checkedAt": "2026-10-27T05:04:52.419657+00:00",
       "lastSuccessAt": "2026-10-26T13:12:09.081455+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -90,7 +90,7 @@
       "articlePattern": "/us/nfl/news/nfl-picks-predictions-against-spread-week-\\d+/",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-10-26T23:53:29.742962+00:00",
+      "checkedAt": "2026-10-27T05:04:52.419657+00:00",
       "lastSuccessAt": "2026-10-25T19:37:07.051997+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -104,8 +104,8 @@
       "articlePattern": "/football/article/(?:nfl-picks-and-props|[^/]*odds-picks-and-predictions|[^/]*betting-odds-picks-and-predictions)[^/]+$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-10-26T23:53:29.742962+00:00",
-      "lastSuccessAt": "2026-10-26T23:53:29.742962+00:00",
+      "checkedAt": "2026-10-27T05:04:52.419657+00:00",
+      "lastSuccessAt": "2026-10-27T05:04:52.419657+00:00",
       "count": 4,
       "message": "Public expert selections retrieved"
     }
@@ -133,7 +133,7 @@
           "event": {
             "id": "401873009",
             "startAt": "2026-10-27T00:15Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "Eagles",
               "Cowboys"
@@ -170,7 +170,7 @@
           "event": {
             "id": "401873009",
             "startAt": "2026-10-27T00:15Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "Eagles",
               "Cowboys"
@@ -193,7 +193,7 @@
           "event": {
             "id": "401873009",
             "startAt": "2026-10-27T00:15Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "Eagles",
               "Cowboys"
@@ -308,7 +308,7 @@
               "event": {
                 "id": "401873009",
                 "startAt": "2026-10-27T00:15Z",
-                "state": "pre",
+                "state": "post",
                 "teams": [
                   "Eagles",
                   "Cowboys"
@@ -325,7 +325,7 @@
               "event": {
                 "id": "401873009",
                 "startAt": "2026-10-27T00:15Z",
-                "state": "pre",
+                "state": "post",
                 "teams": [
                   "Eagles",
                   "Cowboys"
@@ -342,7 +342,7 @@
               "event": {
                 "id": "401873009",
                 "startAt": "2026-10-27T00:15Z",
-                "state": "pre",
+                "state": "post",
                 "teams": [
                   "Eagles",
                   "Cowboys"
@@ -385,7 +385,7 @@
           "event": {
             "id": "401873009",
             "startAt": "2026-10-27T00:15Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "Eagles",
               "Cowboys"
@@ -408,7 +408,7 @@
           "event": {
             "id": "401873009",
             "startAt": "2026-10-27T00:15Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "Eagles",
               "Cowboys"
@@ -445,7 +445,7 @@
           "event": {
             "id": "401873009",
             "startAt": "2026-10-27T00:15Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "Eagles",
               "Cowboys"
@@ -468,7 +468,7 @@
           "event": {
             "id": "401873009",
             "startAt": "2026-10-27T00:15Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "Eagles",
               "Cowboys"
@@ -491,7 +491,7 @@
           "event": {
             "id": "401873009",
             "startAt": "2026-10-27T00:15Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "Eagles",
               "Cowboys"
@@ -562,7 +562,7 @@
           "event": {
             "id": "401873009",
             "startAt": "2026-10-27T00:15Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "Eagles",
               "Cowboys"
@@ -585,7 +585,7 @@
           "event": {
             "id": "401873009",
             "startAt": "2026-10-27T00:15Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "Eagles",
               "Cowboys"
@@ -773,7 +773,7 @@
           "event": {
             "id": "401873009",
             "startAt": "2026-10-27T00:15Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "Eagles",
               "Cowboys"
@@ -2673,7 +2673,7 @@
           "event": {
             "id": "401873009",
             "startAt": "2026-10-27T00:15Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "Eagles",
               "Cowboys"
@@ -2713,7 +2713,7 @@
           "event": {
             "id": "401873009",
             "startAt": "2026-10-27T00:15Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "Eagles",
               "Cowboys"
@@ -2868,7 +2868,7 @@
           "event": {
             "id": "401873009",
             "startAt": "2026-10-27T00:15Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "Eagles",
               "Cowboys"
@@ -2908,7 +2908,7 @@
           "event": {
             "id": "401873009",
             "startAt": "2026-10-27T00:15Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "Eagles",
               "Cowboys"
@@ -2948,7 +2948,7 @@
           "event": {
             "id": "401873009",
             "startAt": "2026-10-27T00:15Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "Eagles",
               "Cowboys"
@@ -2988,7 +2988,7 @@
           "event": {
             "id": "401873009",
             "startAt": "2026-10-27T00:15Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "Eagles",
               "Cowboys"
@@ -3028,7 +3028,7 @@
           "event": {
             "id": "401873009",
             "startAt": "2026-10-27T00:15Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "Eagles",
               "Cowboys"
@@ -3447,7 +3447,7 @@
           "event": {
             "id": "401873009",
             "startAt": "2026-10-27T00:15Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "Eagles",
               "Cowboys"
@@ -3538,18 +3538,6 @@
   ],
   "refreshMinutes": 60,
   "games": [
-    {
-      "id": "401873009",
-      "startAt": "2026-10-27T00:15Z",
-      "state": "pre",
-      "teams": [
-        "Eagles",
-        "Cowboys"
-      ],
-      "matchup": "Dallas Cowboys at Philadelphia Eagles",
-      "week": 7,
-      "season": 2026
-    },
     {
       "id": "401873010",
       "startAt": "2026-10-23T00:15Z",
@@ -3703,6 +3691,18 @@
         "Chiefs"
       ],
       "matchup": "Kansas City Chiefs at Seattle Seahawks",
+      "week": 7,
+      "season": 2026
+    },
+    {
+      "id": "401873009",
+      "startAt": "2026-10-27T00:15Z",
+      "state": "post",
+      "teams": [
+        "Eagles",
+        "Cowboys"
+      ],
+      "matchup": "Dallas Cowboys at Philadelphia Eagles",
       "week": 7,
       "season": 2026
     },
@@ -3877,8 +3877,8 @@
   ],
   "scheduleStatus": {
     "status": "ok",
-    "checkedAt": "2026-10-26T23:53:29.742962+00:00",
-    "lastSuccessAt": "2026-10-26T23:53:29.742962+00:00"
+    "checkedAt": "2026-10-27T05:04:52.419657+00:00",
+    "lastSuccessAt": "2026-10-27T05:04:52.419657+00:00"
   },
   "playerTeams": {
     "tylerallgeier": [
