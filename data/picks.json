@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-02T15:51:59.289611+00:00",
-  "lastSuccessfulUpdate": "2026-11-02T15:51:59.289611+00:00",
+  "checkedAt": "2026-11-02T23:30:07.017023+00:00",
+  "lastSuccessfulUpdate": "2026-11-02T23:30:07.017023+00:00",
   "sources": [
     {
       "id": "sbd",
@@ -10,9 +10,9 @@
       "website": "https://www.sportsbettingdime.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-02T15:51:59.289611+00:00",
-      "lastSuccessAt": "2026-11-02T15:51:59.289611+00:00",
-      "count": 4,
+      "checkedAt": "2026-11-02T23:30:07.017023+00:00",
+      "lastSuccessAt": "2026-11-02T23:30:07.017023+00:00",
+      "count": 5,
       "message": "Feed retrieved successfully"
     },
     {
@@ -22,9 +22,9 @@
       "website": "https://www.bettingpros.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-02T15:51:59.289611+00:00",
-      "lastSuccessAt": "2026-11-02T15:51:59.289611+00:00",
-      "count": 37,
+      "checkedAt": "2026-11-02T23:30:07.017023+00:00",
+      "lastSuccessAt": "2026-11-02T23:30:07.017023+00:00",
+      "count": 38,
       "message": "Feed retrieved successfully"
     },
     {
@@ -35,8 +35,8 @@
       "website": "https://www.cbssports.com/nfl/picks/experts/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-02T15:51:59.289611+00:00",
-      "lastSuccessAt": "2026-11-02T15:51:59.289611+00:00",
+      "checkedAt": "2026-11-02T23:30:07.017023+00:00",
+      "lastSuccessAt": "2026-11-02T23:30:07.017023+00:00",
       "count": 7,
       "message": "Public expert selections retrieved"
     },
@@ -48,8 +48,8 @@
       "website": "https://www.covers.com/nfl",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-02T15:51:59.289611+00:00",
-      "lastSuccessAt": "2026-11-02T15:51:59.289611+00:00",
+      "checkedAt": "2026-11-02T23:30:07.017023+00:00",
+      "lastSuccessAt": "2026-11-02T23:30:07.017023+00:00",
       "count": 1,
       "message": "Public expert selections retrieved"
     },
@@ -62,8 +62,8 @@
       "articlePattern": "/nfl-picks/[^/]+prediction[^/]+/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-02T15:51:59.289611+00:00",
-      "lastSuccessAt": "2026-11-02T15:51:59.289611+00:00",
+      "checkedAt": "2026-11-02T23:30:07.017023+00:00",
+      "lastSuccessAt": "2026-11-02T23:30:07.017023+00:00",
       "count": 11,
       "message": "Public expert selections retrieved"
     },
@@ -76,7 +76,7 @@
       "articlePattern": "/picks/nfl/(?:picks-against-the-spread-ats-predictions|player-props)-week-\\d+-\\d{4}/$",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-11-02T15:51:59.289611+00:00",
+      "checkedAt": "2026-11-02T23:30:07.017023+00:00",
       "lastSuccessAt": "2026-11-01T19:40:17.548807+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -90,7 +90,7 @@
       "articlePattern": "/us/nfl/news/nfl-picks-predictions-against-spread-week-\\d+/",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-11-02T15:51:59.289611+00:00",
+      "checkedAt": "2026-11-02T23:30:07.017023+00:00",
       "lastSuccessAt": "2026-10-30T07:06:36.547720+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -104,13 +104,28 @@
       "articlePattern": "/football/article/(?:nfl-picks-and-props|[^/]*odds-picks-and-predictions|[^/]*betting-odds-picks-and-predictions)[^/]+$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-02T15:51:59.289611+00:00",
-      "lastSuccessAt": "2026-11-02T15:51:59.289611+00:00",
+      "checkedAt": "2026-11-02T23:30:07.017023+00:00",
+      "lastSuccessAt": "2026-11-02T23:30:07.017023+00:00",
       "count": 4,
       "message": "Public expert selections retrieved"
     }
   ],
   "articles": [
+    {
+      "id": "919285b2eadd7cde",
+      "title": "NFL Week 9 Picks: Moneyline Best Bets from Model That’s +11.4 Units",
+      "url": "https://www.sportsbettingdime.com/news/nfl/week-9-picks-moneyline-best-bets-straightup-predictions-2026/",
+      "publisher": "Sports Betting Dime",
+      "sourceId": "sbd",
+      "author": "Sascha Paruk",
+      "publishedAt": "2026-11-02T19:03:21+00:00",
+      "picks": [],
+      "parlays": [],
+      "markets": [
+        "Moneyline"
+      ],
+      "teams": []
+    },
     {
       "id": "bfbb5ec4559e6c1a",
       "title": "NFL Moneyline Picks for Every Week 8 Game",
@@ -118,7 +133,7 @@
       "publisher": "Covers",
       "sourceId": "covers",
       "author": "Trevor Knapp",
-      "publishedAt": "2026-11-02T12:50:00+00:00",
+      "publishedAt": "2026-11-02T18:47:00+00:00",
       "picks": [
         {
           "selection": "Packers Moneyline",
@@ -235,6 +250,144 @@
         "Moneyline"
       ],
       "teams": []
+    },
+    {
+      "id": "5a92845e8ee7b4d4",
+      "title": "Bears vs Seahawks Public-Betting Splits & Sharp Signals for Monday Night Football (Nov 2)",
+      "url": "https://www.sportsbettingdime.com/news/nfl/bears-vs-seahawks-public-betting-splits-sharp-signals-monday-night-football-nov-2/",
+      "publisher": "Sports Betting Dime",
+      "sourceId": "sbd",
+      "author": "Juan Pablo Aravena",
+      "publishedAt": "2026-11-02T18:30:00+00:00",
+      "picks": [],
+      "parlays": [],
+      "markets": [
+        "Other"
+      ],
+      "teams": [
+        "Bears",
+        "Seahawks"
+      ]
+    },
+    {
+      "id": "aa4c40784fe6af8b",
+      "title": "NFL Monday Night Football Player Props & Picks: Bears vs. Seahawks",
+      "url": "https://www.bettingpros.com/articles/nfl-monday-night-football-player-props-picks-bears-vs-seahawks/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "Matt MacKay",
+      "publishedAt": "2026-11-02T17:47:51+00:00",
+      "picks": [
+        {
+          "selection": "Sam Darnold 230+ Passing Yards ( -135 )",
+          "market": "Props",
+          "context": "Best NFL Monday Night Football Player Prop Bets – Week 8: Bears vs. Seahawks",
+          "method": "Explicit selection in publisher feed",
+          "player": {
+            "name": "Sam Darnold",
+            "team": "Seahawks",
+            "athleteId": "3912547"
+          },
+          "event": {
+            "id": "401873036",
+            "startAt": "2026-11-03T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Seahawks",
+              "Bears"
+            ],
+            "matchup": "Chicago Bears at Seattle Seahawks",
+            "week": 8,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "D’Andre Swift Under 59.5 Rushing Yards ( -115 )",
+          "market": "Props",
+          "context": "Best NFL Monday Night Football Player Prop Bets – Week 8: Bears vs. Seahawks",
+          "method": "Explicit selection in publisher feed",
+          "player": {
+            "name": "D'Andre Swift",
+            "team": "Bears",
+            "athleteId": "4259545"
+          },
+          "event": {
+            "id": "401873036",
+            "startAt": "2026-11-03T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Seahawks",
+              "Bears"
+            ],
+            "matchup": "Chicago Bears at Seattle Seahawks",
+            "week": 8,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Props"
+      ],
+      "teams": [
+        "Bears",
+        "Seahawks"
+      ]
+    },
+    {
+      "id": "66e438ae12ca361b",
+      "title": "Early NFL Best Bets & Trends for Week 9 (2026)",
+      "url": "https://www.bettingpros.com/articles/early-nfl-best-bets-trends-for-week-9-2026/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "Jason Radowitz",
+      "publishedAt": "2026-11-02T16:36:20+00:00",
+      "picks": [
+        {
+          "selection": "Giants -3 ( -105 )",
+          "market": "Spread",
+          "context": "New York Giants vs. Philadelphia Eagles",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873044",
+            "startAt": "2026-11-08T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Eagles",
+              "Giants"
+            ],
+            "matchup": "New York Giants at Philadelphia Eagles",
+            "week": 9,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Texans -5.5 ( -105 )",
+          "market": "Spread",
+          "context": "Houston Texans vs. Los Angeles Chargers",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873046",
+            "startAt": "2026-11-08T21:05Z",
+            "state": "pre",
+            "teams": [
+              "Chargers",
+              "Texans"
+            ],
+            "matchup": "Houston Texans at Los Angeles Chargers",
+            "week": 9,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Giants",
+        "Texans"
+      ]
     },
     {
       "id": "c8965c5b6418b343",
@@ -503,21 +656,6 @@
         "Commanders",
         "Eagles"
       ]
-    },
-    {
-      "id": "ff76185b354e25ab",
-      "title": "Parlay These 3 NFL Player Props in Week 8 for a Potential 14-1 Payout",
-      "url": "https://www.sportsbettingdime.com/news/nfl/parlay-these-player-props-week-8/",
-      "publisher": "Sports Betting Dime",
-      "sourceId": "sbd",
-      "author": "Matt McEwan",
-      "publishedAt": "2026-11-01T15:30:00+00:00",
-      "picks": [],
-      "parlays": [],
-      "markets": [
-        "Props"
-      ],
-      "teams": []
     },
     {
       "id": "f14fbba9141ab431",
@@ -2360,7 +2498,7 @@
       "sourceId": "cbs",
       "author": "Dave Richard",
       "publishedAt": "2026-10-30T00:59:31.215196+00:00",
-      "observedAt": "2026-11-02T15:51:59.289611+00:00",
+      "observedAt": "2026-11-02T23:30:07.017023+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2400,7 +2538,7 @@
       "sourceId": "cbs",
       "author": "Jamey Eisenberg",
       "publishedAt": "2026-10-29T20:17:53.448706+00:00",
-      "observedAt": "2026-11-02T15:51:59.289611+00:00",
+      "observedAt": "2026-11-02T23:30:07.017023+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2532,7 +2670,7 @@
       "sourceId": "cbs",
       "author": "Pete Prisco",
       "publishedAt": "2026-10-29T14:19:44.145184+00:00",
-      "observedAt": "2026-11-02T15:51:59.289611+00:00",
+      "observedAt": "2026-11-02T23:30:07.017023+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2572,7 +2710,7 @@
       "sourceId": "cbs",
       "author": "Jared Dubin",
       "publishedAt": "2026-10-29T14:19:44.145184+00:00",
-      "observedAt": "2026-11-02T15:51:59.289611+00:00",
+      "observedAt": "2026-11-02T23:30:07.017023+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2612,7 +2750,7 @@
       "sourceId": "cbs",
       "author": "Ryan Wilson",
       "publishedAt": "2026-10-29T14:19:44.145184+00:00",
-      "observedAt": "2026-11-02T15:51:59.289611+00:00",
+      "observedAt": "2026-11-02T23:30:07.017023+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2652,7 +2790,7 @@
       "sourceId": "cbs",
       "author": "John Breech",
       "publishedAt": "2026-10-29T14:19:44.145184+00:00",
-      "observedAt": "2026-11-02T15:51:59.289611+00:00",
+      "observedAt": "2026-11-02T23:30:07.017023+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2692,7 +2830,7 @@
       "sourceId": "cbs",
       "author": "Tyler Sullivan",
       "publishedAt": "2026-10-29T14:19:44.145184+00:00",
-      "observedAt": "2026-11-02T15:51:59.289611+00:00",
+      "observedAt": "2026-11-02T23:30:07.017023+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3049,21 +3187,6 @@
         "Packers",
         "Panthers"
       ]
-    },
-    {
-      "id": "31c0c0b57f4aa34a",
-      "title": "NFL Week 8 Confidence Pool Picks & Predictions (2026)",
-      "url": "https://www.bettingpros.com/articles/nfl-week-8-confidence-pool-picks-predictions-2026/",
-      "publisher": "BettingPros",
-      "sourceId": "bettingpros",
-      "author": "Jason Radowitz",
-      "publishedAt": "2026-10-28T16:15:56+00:00",
-      "picks": [],
-      "parlays": [],
-      "markets": [
-        "Other"
-      ],
-      "teams": []
     },
     {
       "id": "49ad1526cce5e3bd",
@@ -4138,8 +4261,8 @@
   ],
   "scheduleStatus": {
     "status": "ok",
-    "checkedAt": "2026-11-02T15:51:59.289611+00:00",
-    "lastSuccessAt": "2026-11-02T15:51:59.289611+00:00"
+    "checkedAt": "2026-11-02T23:30:07.017023+00:00",
+    "lastSuccessAt": "2026-11-02T23:30:07.017023+00:00"
   },
   "playerTeams": {
     "tylerallgeier": [
