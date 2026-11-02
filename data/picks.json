@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-02T06:02:09.850640+00:00",
-  "lastSuccessfulUpdate": "2026-11-02T06:02:09.850640+00:00",
+  "checkedAt": "2026-11-02T15:51:59.289611+00:00",
+  "lastSuccessfulUpdate": "2026-11-02T15:51:59.289611+00:00",
   "sources": [
     {
       "id": "sbd",
@@ -10,8 +10,8 @@
       "website": "https://www.sportsbettingdime.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-02T06:02:09.850640+00:00",
-      "lastSuccessAt": "2026-11-02T06:02:09.850640+00:00",
+      "checkedAt": "2026-11-02T15:51:59.289611+00:00",
+      "lastSuccessAt": "2026-11-02T15:51:59.289611+00:00",
       "count": 4,
       "message": "Feed retrieved successfully"
     },
@@ -22,9 +22,9 @@
       "website": "https://www.bettingpros.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-02T06:02:09.850640+00:00",
-      "lastSuccessAt": "2026-11-02T06:02:09.850640+00:00",
-      "count": 34,
+      "checkedAt": "2026-11-02T15:51:59.289611+00:00",
+      "lastSuccessAt": "2026-11-02T15:51:59.289611+00:00",
+      "count": 37,
       "message": "Feed retrieved successfully"
     },
     {
@@ -35,8 +35,8 @@
       "website": "https://www.cbssports.com/nfl/picks/experts/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-02T06:02:09.850640+00:00",
-      "lastSuccessAt": "2026-11-02T06:02:09.850640+00:00",
+      "checkedAt": "2026-11-02T15:51:59.289611+00:00",
+      "lastSuccessAt": "2026-11-02T15:51:59.289611+00:00",
       "count": 7,
       "message": "Public expert selections retrieved"
     },
@@ -48,8 +48,8 @@
       "website": "https://www.covers.com/nfl",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-02T06:02:09.850640+00:00",
-      "lastSuccessAt": "2026-11-02T06:02:09.850640+00:00",
+      "checkedAt": "2026-11-02T15:51:59.289611+00:00",
+      "lastSuccessAt": "2026-11-02T15:51:59.289611+00:00",
       "count": 1,
       "message": "Public expert selections retrieved"
     },
@@ -62,8 +62,8 @@
       "articlePattern": "/nfl-picks/[^/]+prediction[^/]+/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-02T06:02:09.850640+00:00",
-      "lastSuccessAt": "2026-11-02T06:02:09.850640+00:00",
+      "checkedAt": "2026-11-02T15:51:59.289611+00:00",
+      "lastSuccessAt": "2026-11-02T15:51:59.289611+00:00",
       "count": 11,
       "message": "Public expert selections retrieved"
     },
@@ -76,7 +76,7 @@
       "articlePattern": "/picks/nfl/(?:picks-against-the-spread-ats-predictions|player-props)-week-\\d+-\\d{4}/$",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-11-02T06:02:09.850640+00:00",
+      "checkedAt": "2026-11-02T15:51:59.289611+00:00",
       "lastSuccessAt": "2026-11-01T19:40:17.548807+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -90,7 +90,7 @@
       "articlePattern": "/us/nfl/news/nfl-picks-predictions-against-spread-week-\\d+/",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-11-02T06:02:09.850640+00:00",
+      "checkedAt": "2026-11-02T15:51:59.289611+00:00",
       "lastSuccessAt": "2026-10-30T07:06:36.547720+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -104,13 +104,358 @@
       "articlePattern": "/football/article/(?:nfl-picks-and-props|[^/]*odds-picks-and-predictions|[^/]*betting-odds-picks-and-predictions)[^/]+$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-02T06:02:09.850640+00:00",
-      "lastSuccessAt": "2026-11-02T06:02:09.850640+00:00",
+      "checkedAt": "2026-11-02T15:51:59.289611+00:00",
+      "lastSuccessAt": "2026-11-02T15:51:59.289611+00:00",
       "count": 4,
       "message": "Public expert selections retrieved"
     }
   ],
   "articles": [
+    {
+      "id": "bfbb5ec4559e6c1a",
+      "title": "NFL Moneyline Picks for Every Week 8 Game",
+      "url": "https://www.covers.com/nfl/moneyline-picks-week-8-2026",
+      "publisher": "Covers",
+      "sourceId": "covers",
+      "author": "Trevor Knapp",
+      "publishedAt": "2026-11-02T12:50:00+00:00",
+      "picks": [
+        {
+          "selection": "Packers Moneyline",
+          "market": "Moneyline",
+          "context": "Panthers Packers",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": null
+        },
+        {
+          "selection": "Bills Moneyline",
+          "market": "Moneyline",
+          "context": "Ravens Bills",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": null
+        },
+        {
+          "selection": "Bengals Moneyline",
+          "market": "Moneyline",
+          "context": "Titans Bengals",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": null
+        },
+        {
+          "selection": "Steelers Moneyline",
+          "market": "Moneyline",
+          "context": "Browns Steelers",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": null
+        },
+        {
+          "selection": "Jaguars Moneyline",
+          "market": "Moneyline",
+          "context": "Colts Jaguars",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": null
+        },
+        {
+          "selection": "Cowboys Moneyline",
+          "market": "Moneyline",
+          "context": "Cardinals Cowboys",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": null
+        },
+        {
+          "selection": "Lions Moneyline",
+          "market": "Moneyline",
+          "context": "Vikings Lions",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": null
+        },
+        {
+          "selection": "Jets Moneyline",
+          "market": "Moneyline",
+          "context": "Raiders Jets",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": null
+        },
+        {
+          "selection": "Falcons Moneyline",
+          "market": "Moneyline",
+          "context": "Falcons Buccaneers",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": null
+        },
+        {
+          "selection": "Rams Moneyline",
+          "market": "Moneyline",
+          "context": "Chargers Rams",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": null
+        },
+        {
+          "selection": "Chiefs Moneyline",
+          "market": "Moneyline",
+          "context": "Chiefs Broncos",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": null
+        },
+        {
+          "selection": "Patriots Moneyline",
+          "market": "Moneyline",
+          "context": "Patriots Dolphins",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": null
+        },
+        {
+          "selection": "Commanders Moneyline",
+          "market": "Moneyline",
+          "context": "Eagles Commanders",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": null
+        },
+        {
+          "selection": "Bears Moneyline",
+          "market": "Moneyline",
+          "context": "Bears Seahawks",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873036",
+            "startAt": "2026-11-03T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Seahawks",
+              "Bears"
+            ],
+            "matchup": "Chicago Bears at Seattle Seahawks",
+            "week": 8,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Moneyline"
+      ],
+      "teams": []
+    },
+    {
+      "id": "c8965c5b6418b343",
+      "title": "NFL Monday Night Football Same Game Parlay: Bears vs. Seahawks",
+      "url": "https://www.bettingpros.com/articles/nfl-monday-night-football-same-game-parlay-bears-vs-seahawks/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "Dan Servodidio",
+      "publishedAt": "2026-11-02T10:31:16+00:00",
+      "picks": [],
+      "parlays": [
+        {
+          "label": "Expert parlay",
+          "americanOdds": 575,
+          "legs": [
+            {
+              "selection": "Colston Loveland Under 41.5 Receiving Yards ( -110 )",
+              "market": "Props",
+              "context": "Chicago Bears at Seattle Seahawks",
+              "event": {
+                "id": "401873036",
+                "startAt": "2026-11-03T01:15Z",
+                "state": "pre",
+                "teams": [
+                  "Seahawks",
+                  "Bears"
+                ],
+                "matchup": "Chicago Bears at Seattle Seahawks",
+                "week": 8,
+                "season": 2026
+              }
+            },
+            {
+              "selection": "D’Andre Swift Under 59.5 Rushing Yards ( -114 )",
+              "market": "Props",
+              "context": "Chicago Bears at Seattle Seahawks",
+              "event": {
+                "id": "401873036",
+                "startAt": "2026-11-03T01:15Z",
+                "state": "pre",
+                "teams": [
+                  "Seahawks",
+                  "Bears"
+                ],
+                "matchup": "Chicago Bears at Seattle Seahawks",
+                "week": 8,
+                "season": 2026
+              }
+            },
+            {
+              "selection": "Jaxon Smith-Njigba 100+ Receiving Yards ( -106 )",
+              "market": "Props",
+              "context": "Chicago Bears at Seattle Seahawks",
+              "event": {
+                "id": "401873036",
+                "startAt": "2026-11-03T01:15Z",
+                "state": "pre",
+                "teams": [
+                  "Seahawks",
+                  "Bears"
+                ],
+                "matchup": "Chicago Bears at Seattle Seahawks",
+                "week": 8,
+                "season": 2026
+              }
+            }
+          ]
+        }
+      ],
+      "markets": [
+        "Other"
+      ],
+      "teams": [
+        "Bears",
+        "Seahawks"
+      ]
+    },
+    {
+      "id": "6f9c7c3d540f664c",
+      "title": "NFL Monday Night Football Anytime & First TD Scorers: Bears vs. Seahawks",
+      "url": "https://www.bettingpros.com/articles/nfl-monday-night-football-anytime-first-td-scorers-bears-vs-seahawks/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "Mike Fanelli",
+      "publishedAt": "2026-11-02T10:31:08+00:00",
+      "picks": [
+        {
+          "selection": "Chicago Bears First TD Scorer: D’Andre Swift ( +245 )",
+          "market": "Props",
+          "context": "NFL Monday Night Football Anytime & First TD Scorers: Bears vs. Seahawks",
+          "method": "Explicit selection in publisher feed",
+          "player": {
+            "name": "D'Andre Swift",
+            "team": "Bears",
+            "athleteId": "4259545"
+          },
+          "event": {
+            "id": "401873036",
+            "startAt": "2026-11-03T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Seahawks",
+              "Bears"
+            ],
+            "matchup": "Chicago Bears at Seattle Seahawks",
+            "week": 8,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Seattle Seahawks First TD Scorer: Jaxon Smith-Njigba ( +310 )",
+          "market": "Props",
+          "context": "NFL Monday Night Football Anytime & First TD Scorers: Bears vs. Seahawks",
+          "method": "Explicit selection in publisher feed",
+          "player": {
+            "name": "Jaxon Smith-Njigba",
+            "team": "Seahawks",
+            "athleteId": "4430878"
+          },
+          "event": {
+            "id": "401873036",
+            "startAt": "2026-11-03T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Seahawks",
+              "Bears"
+            ],
+            "matchup": "Chicago Bears at Seattle Seahawks",
+            "week": 8,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Props"
+      ],
+      "teams": [
+        "Bears",
+        "Seahawks"
+      ]
+    },
+    {
+      "id": "0fe5554482ba350f",
+      "title": "NFL Monday Night Football Picks & Predictions: Bears vs. Seahawks",
+      "url": "https://www.bettingpros.com/articles/nfl-monday-night-football-picks-predictions-bears-vs-seahawks/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "Richard Janvrin",
+      "publishedAt": "2026-11-02T10:31:05+00:00",
+      "picks": [
+        {
+          "selection": "Seahawks -3 ( -115 )",
+          "market": "Spread",
+          "context": "NFL Monday Night Football Picks & Predictions: Bears vs. Seahawks",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873036",
+            "startAt": "2026-11-03T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Seahawks",
+              "Bears"
+            ],
+            "matchup": "Chicago Bears at Seattle Seahawks",
+            "week": 8,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Caleb Williams Under 228.5 Passing Yards ( -113 )",
+          "market": "Props",
+          "context": "NFL Monday Night Football Picks & Predictions: Bears vs. Seahawks",
+          "method": "Explicit selection in publisher feed",
+          "player": {
+            "name": "Caleb Williams",
+            "team": "Bears",
+            "athleteId": "4431611"
+          },
+          "event": {
+            "id": "401873036",
+            "startAt": "2026-11-03T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Seahawks",
+              "Bears"
+            ],
+            "matchup": "Chicago Bears at Seattle Seahawks",
+            "week": 8,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Props",
+        "Spread"
+      ],
+      "teams": [
+        "Bears",
+        "Seahawks"
+      ]
+    },
+    {
+      "id": "a0c48566a1ed949b",
+      "title": "Best NFL Player Props: Monday Night Football (Bears vs. Seahawks)",
+      "url": "https://www.bettingpros.com/articles/best-nfl-player-props-monday-night-football-bears-vs-seahawks-week-8-2026/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "BettingPros Staff",
+      "publishedAt": "2026-11-02T09:56:02+00:00",
+      "picks": [],
+      "parlays": [],
+      "markets": [
+        "Props"
+      ],
+      "teams": [
+        "Bears",
+        "Seahawks"
+      ]
+    },
     {
       "id": "d7489dc99f2821f0",
       "title": "Week 9 NFL Picks Against the Spread",
@@ -158,263 +503,6 @@
         "Commanders",
         "Eagles"
       ]
-    },
-    {
-      "id": "bfbb5ec4559e6c1a",
-      "title": "NFL Moneyline Picks for Every Week 8 Game",
-      "url": "https://www.covers.com/nfl/moneyline-picks-week-8-2026",
-      "publisher": "Covers",
-      "sourceId": "covers",
-      "author": "Trevor Knapp",
-      "publishedAt": "2026-11-01T16:36:00+00:00",
-      "picks": [
-        {
-          "selection": "Packers Moneyline",
-          "market": "Moneyline",
-          "context": "Panthers Packers",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": null
-        },
-        {
-          "selection": "Bills Moneyline",
-          "market": "Moneyline",
-          "context": "Ravens Bills",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873026",
-            "startAt": "2026-11-01T18:00Z",
-            "state": "post",
-            "teams": [
-              "Bills",
-              "Ravens"
-            ],
-            "matchup": "Baltimore Ravens at Buffalo Bills",
-            "week": 8,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Bengals Moneyline",
-          "market": "Moneyline",
-          "context": "Titans Bengals",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873031",
-            "startAt": "2026-11-01T18:00Z",
-            "state": "post",
-            "teams": [
-              "Bengals",
-              "Titans"
-            ],
-            "matchup": "Tennessee Titans at Cincinnati Bengals",
-            "week": 8,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Steelers Moneyline",
-          "market": "Moneyline",
-          "context": "Browns Steelers",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873027",
-            "startAt": "2026-11-01T18:00Z",
-            "state": "post",
-            "teams": [
-              "Steelers",
-              "Browns"
-            ],
-            "matchup": "Cleveland Browns at Pittsburgh Steelers",
-            "week": 8,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Jaguars Moneyline",
-          "market": "Moneyline",
-          "context": "Colts Jaguars",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873028",
-            "startAt": "2026-11-01T18:00Z",
-            "state": "post",
-            "teams": [
-              "Jaguars",
-              "Colts"
-            ],
-            "matchup": "Indianapolis Colts at Jacksonville Jaguars",
-            "week": 8,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Cowboys Moneyline",
-          "market": "Moneyline",
-          "context": "Cardinals Cowboys",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873024",
-            "startAt": "2026-11-01T18:00Z",
-            "state": "post",
-            "teams": [
-              "Cowboys",
-              "Cardinals"
-            ],
-            "matchup": "Arizona Cardinals at Dallas Cowboys",
-            "week": 8,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Lions Moneyline",
-          "market": "Moneyline",
-          "context": "Vikings Lions",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873030",
-            "startAt": "2026-11-01T18:00Z",
-            "state": "post",
-            "teams": [
-              "Lions",
-              "Vikings"
-            ],
-            "matchup": "Minnesota Vikings at Detroit Lions",
-            "week": 8,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Jets Moneyline",
-          "market": "Moneyline",
-          "context": "Raiders Jets",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873029",
-            "startAt": "2026-11-01T18:00Z",
-            "state": "post",
-            "teams": [
-              "Jets",
-              "Raiders"
-            ],
-            "matchup": "Las Vegas Raiders at New York Jets",
-            "week": 8,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Falcons Moneyline",
-          "market": "Moneyline",
-          "context": "Falcons Buccaneers",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873025",
-            "startAt": "2026-11-01T18:00Z",
-            "state": "post",
-            "teams": [
-              "Buccaneers",
-              "Falcons"
-            ],
-            "matchup": "Atlanta Falcons at Tampa Bay Buccaneers",
-            "week": 8,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Rams Moneyline",
-          "market": "Moneyline",
-          "context": "Chargers Rams",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873032",
-            "startAt": "2026-11-01T21:05Z",
-            "state": "post",
-            "teams": [
-              "Rams",
-              "Chargers"
-            ],
-            "matchup": "Los Angeles Chargers at Los Angeles Rams",
-            "week": 8,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Chiefs Moneyline",
-          "market": "Moneyline",
-          "context": "Chiefs Broncos",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873033",
-            "startAt": "2026-11-01T21:25Z",
-            "state": "post",
-            "teams": [
-              "Broncos",
-              "Chiefs"
-            ],
-            "matchup": "Kansas City Chiefs at Denver Broncos",
-            "week": 8,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Patriots Moneyline",
-          "market": "Moneyline",
-          "context": "Patriots Dolphins",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873034",
-            "startAt": "2026-11-01T21:25Z",
-            "state": "post",
-            "teams": [
-              "Dolphins",
-              "Patriots"
-            ],
-            "matchup": "New England Patriots at Miami Dolphins",
-            "week": 8,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Commanders Moneyline",
-          "market": "Moneyline",
-          "context": "Eagles Commanders",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873035",
-            "startAt": "2026-11-02T01:20Z",
-            "state": "post",
-            "teams": [
-              "Commanders",
-              "Eagles"
-            ],
-            "matchup": "Philadelphia Eagles at Washington Commanders",
-            "week": 8,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Bears Moneyline",
-          "market": "Moneyline",
-          "context": "Bears Seahawks",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873036",
-            "startAt": "2026-11-03T01:15Z",
-            "state": "pre",
-            "teams": [
-              "Seahawks",
-              "Bears"
-            ],
-            "matchup": "Chicago Bears at Seattle Seahawks",
-            "week": 8,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Moneyline"
-      ],
-      "teams": []
     },
     {
       "id": "ff76185b354e25ab",
@@ -2272,7 +2360,7 @@
       "sourceId": "cbs",
       "author": "Dave Richard",
       "publishedAt": "2026-10-30T00:59:31.215196+00:00",
-      "observedAt": "2026-11-02T06:02:09.850640+00:00",
+      "observedAt": "2026-11-02T15:51:59.289611+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2312,7 +2400,7 @@
       "sourceId": "cbs",
       "author": "Jamey Eisenberg",
       "publishedAt": "2026-10-29T20:17:53.448706+00:00",
-      "observedAt": "2026-11-02T06:02:09.850640+00:00",
+      "observedAt": "2026-11-02T15:51:59.289611+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2444,7 +2532,7 @@
       "sourceId": "cbs",
       "author": "Pete Prisco",
       "publishedAt": "2026-10-29T14:19:44.145184+00:00",
-      "observedAt": "2026-11-02T06:02:09.850640+00:00",
+      "observedAt": "2026-11-02T15:51:59.289611+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2484,7 +2572,7 @@
       "sourceId": "cbs",
       "author": "Jared Dubin",
       "publishedAt": "2026-10-29T14:19:44.145184+00:00",
-      "observedAt": "2026-11-02T06:02:09.850640+00:00",
+      "observedAt": "2026-11-02T15:51:59.289611+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2524,7 +2612,7 @@
       "sourceId": "cbs",
       "author": "Ryan Wilson",
       "publishedAt": "2026-10-29T14:19:44.145184+00:00",
-      "observedAt": "2026-11-02T06:02:09.850640+00:00",
+      "observedAt": "2026-11-02T15:51:59.289611+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2564,7 +2652,7 @@
       "sourceId": "cbs",
       "author": "John Breech",
       "publishedAt": "2026-10-29T14:19:44.145184+00:00",
-      "observedAt": "2026-11-02T06:02:09.850640+00:00",
+      "observedAt": "2026-11-02T15:51:59.289611+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2604,7 +2692,7 @@
       "sourceId": "cbs",
       "author": "Tyler Sullivan",
       "publishedAt": "2026-10-29T14:19:44.145184+00:00",
-      "observedAt": "2026-11-02T06:02:09.850640+00:00",
+      "observedAt": "2026-11-02T15:51:59.289611+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3520,103 +3608,6 @@
       ]
     },
     {
-      "id": "ef03c6d7dbe7a3eb",
-      "title": "NFL Week 8 Picks & Predictions: Best Early Parlays (2026)",
-      "url": "https://www.bettingpros.com/articles/nfl-week-8-picks-predictions-best-early-parlays-2026/",
-      "publisher": "BettingPros",
-      "sourceId": "bettingpros",
-      "author": "Steve Krebs",
-      "publishedAt": "2026-10-28T10:58:28+00:00",
-      "picks": [],
-      "parlays": [
-        {
-          "label": "Early NFL Week 8 Parlay #1",
-          "americanOdds": 140,
-          "legs": [
-            {
-              "selection": "Jordan Love 2+ Passing Touchdowns ( -166 )",
-              "market": "Props",
-              "context": "",
-              "event": null
-            },
-            {
-              "selection": "Carolina Panthers-Green Bay Packers Over 39.5 Points ( -350 )",
-              "market": "Totals",
-              "context": "",
-              "event": null
-            },
-            {
-              "selection": "Los Angeles Rams Moneyline ( -290 )",
-              "market": "Moneyline",
-              "context": "",
-              "event": {
-                "id": "401873032",
-                "startAt": "2026-11-01T21:05Z",
-                "state": "post",
-                "teams": [
-                  "Rams",
-                  "Chargers"
-                ],
-                "matchup": "Los Angeles Chargers at Los Angeles Rams",
-                "week": 8,
-                "season": 2026
-              }
-            }
-          ]
-        },
-        {
-          "label": "Early NFL Week 8 Parlay #2",
-          "americanOdds": 213,
-          "legs": [
-            {
-              "selection": "Detroit Lions Team Total Under 31 Points ( -340 )",
-              "market": "Totals",
-              "context": "",
-              "event": {
-                "id": "401873030",
-                "startAt": "2026-11-01T18:00Z",
-                "state": "post",
-                "teams": [
-                  "Lions",
-                  "Vikings"
-                ],
-                "matchup": "Minnesota Vikings at Detroit Lions",
-                "week": 8,
-                "season": 2026
-              }
-            },
-            {
-              "selection": "New England Patriots Moneyline ( -370 )",
-              "market": "Moneyline",
-              "context": "",
-              "event": {
-                "id": "401873034",
-                "startAt": "2026-11-01T21:25Z",
-                "state": "post",
-                "teams": [
-                  "Dolphins",
-                  "Patriots"
-                ],
-                "matchup": "New England Patriots at Miami Dolphins",
-                "week": 8,
-                "season": 2026
-              }
-            },
-            {
-              "selection": "Tennessee Titans-Cincinnati Bengals Under 47 Points ( -110 )",
-              "market": "Totals",
-              "context": "",
-              "event": null
-            }
-          ]
-        }
-      ],
-      "markets": [
-        "Other"
-      ],
-      "teams": []
-    },
-    {
       "id": "71b6c47d8b829e94",
       "title": "Commanders vs Eagles Prediction 11/1/26 NFL Picks Today | Sports Chat Place",
       "url": "https://sportschatplace.com/nfl-picks/washington-commanders-vs-philadelphia-eagles-prediction-11-1-26-nfl-picks-today/",
@@ -4147,8 +4138,8 @@
   ],
   "scheduleStatus": {
     "status": "ok",
-    "checkedAt": "2026-11-02T06:02:09.850640+00:00",
-    "lastSuccessAt": "2026-11-02T06:02:09.850640+00:00"
+    "checkedAt": "2026-11-02T15:51:59.289611+00:00",
+    "lastSuccessAt": "2026-11-02T15:51:59.289611+00:00"
   },
   "playerTeams": {
     "tylerallgeier": [
@@ -5353,13 +5344,6 @@
         "name": "Jovaughn Gwyn",
         "team": "Ravens",
         "athleteId": "4362845"
-      }
-    ],
-    "christianhaynes": [
-      {
-        "name": "Christian Haynes",
-        "team": "Ravens",
-        "athleteId": "4362135"
       }
     ],
     "derrickhenry": [
@@ -14851,6 +14835,13 @@
         "athleteId": "4711533"
       }
     ],
+    "christianhaynes": [
+      {
+        "name": "Christian Haynes",
+        "team": "Dolphins",
+        "athleteId": "4362135"
+      }
+    ],
     "djherman": [
       {
         "name": "DJ Herman",
@@ -18176,6 +18167,13 @@
         "athleteId": "4429013"
       }
     ],
+    "jaydonblue": [
+      {
+        "name": "Jaydon Blue",
+        "team": "Eagles",
+        "athleteId": "4685279"
+      }
+    ],
     "hollywoodbrown": [
       {
         "name": "Hollywood Brown",
@@ -18629,13 +18627,6 @@
         "name": "Uar Bernard",
         "team": "Eagles",
         "athleteId": "5344966"
-      }
-    ],
-    "jaydonblue": [
-      {
-        "name": "Jaydon Blue",
-        "team": "Eagles",
-        "athleteId": "4685279"
       }
     ],
     "erikezukanma": [
@@ -22053,6 +22044,6 @@
       }
     ]
   },
-  "rostersCheckedAt": "2026-11-01T07:32:23.906796+00:00",
+  "rostersCheckedAt": "2026-11-02T15:51:59.289611+00:00",
   "rosterStatus": "ok"
 }
