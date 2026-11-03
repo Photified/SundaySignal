@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-02T23:30:07.017023+00:00",
-  "lastSuccessfulUpdate": "2026-11-02T23:30:07.017023+00:00",
+  "checkedAt": "2026-11-03T06:47:50.102476+00:00",
+  "lastSuccessfulUpdate": "2026-11-03T06:47:50.102476+00:00",
   "sources": [
     {
       "id": "sbd",
@@ -10,8 +10,8 @@
       "website": "https://www.sportsbettingdime.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-02T23:30:07.017023+00:00",
-      "lastSuccessAt": "2026-11-02T23:30:07.017023+00:00",
+      "checkedAt": "2026-11-03T06:47:50.102476+00:00",
+      "lastSuccessAt": "2026-11-03T06:47:50.102476+00:00",
       "count": 5,
       "message": "Feed retrieved successfully"
     },
@@ -22,8 +22,8 @@
       "website": "https://www.bettingpros.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-02T23:30:07.017023+00:00",
-      "lastSuccessAt": "2026-11-02T23:30:07.017023+00:00",
+      "checkedAt": "2026-11-03T06:47:50.102476+00:00",
+      "lastSuccessAt": "2026-11-03T06:47:50.102476+00:00",
       "count": 38,
       "message": "Feed retrieved successfully"
     },
@@ -34,11 +34,11 @@
       "feed": "https://www.cbssports.com/nfl/picks/experts/",
       "website": "https://www.cbssports.com/nfl/picks/experts/",
       "enabled": true,
-      "status": "ok",
-      "checkedAt": "2026-11-02T23:30:07.017023+00:00",
+      "status": "unavailable",
+      "checkedAt": "2026-11-03T06:47:50.102476+00:00",
       "lastSuccessAt": "2026-11-02T23:30:07.017023+00:00",
       "count": 7,
-      "message": "Public expert selections retrieved"
+      "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
     },
     {
       "id": "covers",
@@ -48,8 +48,8 @@
       "website": "https://www.covers.com/nfl",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-02T23:30:07.017023+00:00",
-      "lastSuccessAt": "2026-11-02T23:30:07.017023+00:00",
+      "checkedAt": "2026-11-03T06:47:50.102476+00:00",
+      "lastSuccessAt": "2026-11-03T06:47:50.102476+00:00",
       "count": 1,
       "message": "Public expert selections retrieved"
     },
@@ -62,8 +62,8 @@
       "articlePattern": "/nfl-picks/[^/]+prediction[^/]+/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-02T23:30:07.017023+00:00",
-      "lastSuccessAt": "2026-11-02T23:30:07.017023+00:00",
+      "checkedAt": "2026-11-03T06:47:50.102476+00:00",
+      "lastSuccessAt": "2026-11-03T06:47:50.102476+00:00",
       "count": 11,
       "message": "Public expert selections retrieved"
     },
@@ -76,7 +76,7 @@
       "articlePattern": "/picks/nfl/(?:picks-against-the-spread-ats-predictions|player-props)-week-\\d+-\\d{4}/$",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-11-02T23:30:07.017023+00:00",
+      "checkedAt": "2026-11-03T06:47:50.102476+00:00",
       "lastSuccessAt": "2026-11-01T19:40:17.548807+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -90,7 +90,7 @@
       "articlePattern": "/us/nfl/news/nfl-picks-predictions-against-spread-week-\\d+/",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-11-02T23:30:07.017023+00:00",
+      "checkedAt": "2026-11-03T06:47:50.102476+00:00",
       "lastSuccessAt": "2026-10-30T07:06:36.547720+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -104,8 +104,8 @@
       "articlePattern": "/football/article/(?:nfl-picks-and-props|[^/]*odds-picks-and-predictions|[^/]*betting-odds-picks-and-predictions)[^/]+$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-02T23:30:07.017023+00:00",
-      "lastSuccessAt": "2026-11-02T23:30:07.017023+00:00",
+      "checkedAt": "2026-11-03T06:47:50.102476+00:00",
+      "lastSuccessAt": "2026-11-03T06:47:50.102476+00:00",
       "count": 4,
       "message": "Public expert selections retrieved"
     }
@@ -234,7 +234,7 @@
           "event": {
             "id": "401873036",
             "startAt": "2026-11-03T01:15Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "Seahawks",
               "Bears"
@@ -291,7 +291,7 @@
           "event": {
             "id": "401873036",
             "startAt": "2026-11-03T01:15Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "Seahawks",
               "Bears"
@@ -314,7 +314,7 @@
           "event": {
             "id": "401873036",
             "startAt": "2026-11-03T01:15Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "Seahawks",
               "Bears"
@@ -410,7 +410,7 @@
               "event": {
                 "id": "401873036",
                 "startAt": "2026-11-03T01:15Z",
-                "state": "pre",
+                "state": "post",
                 "teams": [
                   "Seahawks",
                   "Bears"
@@ -427,7 +427,7 @@
               "event": {
                 "id": "401873036",
                 "startAt": "2026-11-03T01:15Z",
-                "state": "pre",
+                "state": "post",
                 "teams": [
                   "Seahawks",
                   "Bears"
@@ -444,7 +444,7 @@
               "event": {
                 "id": "401873036",
                 "startAt": "2026-11-03T01:15Z",
-                "state": "pre",
+                "state": "post",
                 "teams": [
                   "Seahawks",
                   "Bears"
@@ -487,7 +487,7 @@
           "event": {
             "id": "401873036",
             "startAt": "2026-11-03T01:15Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "Seahawks",
               "Bears"
@@ -510,7 +510,7 @@
           "event": {
             "id": "401873036",
             "startAt": "2026-11-03T01:15Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "Seahawks",
               "Bears"
@@ -547,7 +547,7 @@
           "event": {
             "id": "401873036",
             "startAt": "2026-11-03T01:15Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "Seahawks",
               "Bears"
@@ -570,7 +570,7 @@
           "event": {
             "id": "401873036",
             "startAt": "2026-11-03T01:15Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "Seahawks",
               "Bears"
@@ -2322,7 +2322,7 @@
           "event": {
             "id": "401873036",
             "startAt": "2026-11-03T01:15Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "Seahawks",
               "Bears"
@@ -2510,7 +2510,7 @@
           "event": {
             "id": "401873036",
             "startAt": "2026-11-03T01:15Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "Seahawks",
               "Bears"
@@ -2550,7 +2550,7 @@
           "event": {
             "id": "401873036",
             "startAt": "2026-11-03T01:15Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "Seahawks",
               "Bears"
@@ -2682,7 +2682,7 @@
           "event": {
             "id": "401873036",
             "startAt": "2026-11-03T01:15Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "Seahawks",
               "Bears"
@@ -2722,7 +2722,7 @@
           "event": {
             "id": "401873036",
             "startAt": "2026-11-03T01:15Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "Seahawks",
               "Bears"
@@ -2762,7 +2762,7 @@
           "event": {
             "id": "401873036",
             "startAt": "2026-11-03T01:15Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "Seahawks",
               "Bears"
@@ -2802,7 +2802,7 @@
           "event": {
             "id": "401873036",
             "startAt": "2026-11-03T01:15Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "Seahawks",
               "Bears"
@@ -2842,7 +2842,7 @@
           "event": {
             "id": "401873036",
             "startAt": "2026-11-03T01:15Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "Seahawks",
               "Bears"
@@ -3403,7 +3403,7 @@
           "event": {
             "id": "401873036",
             "startAt": "2026-11-03T01:15Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "Seahawks",
               "Bears"
@@ -3491,7 +3491,7 @@
           "event": {
             "id": "401873036",
             "startAt": "2026-11-03T01:15Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "Seahawks",
               "Bears"
@@ -3911,18 +3911,6 @@
   "refreshMinutes": 60,
   "games": [
     {
-      "id": "401873036",
-      "startAt": "2026-11-03T01:15Z",
-      "state": "pre",
-      "teams": [
-        "Seahawks",
-        "Bears"
-      ],
-      "matchup": "Chicago Bears at Seattle Seahawks",
-      "week": 8,
-      "season": 2026
-    },
-    {
       "id": "401873023",
       "startAt": "2026-10-30T00:15Z",
       "state": "post",
@@ -4075,6 +4063,18 @@
         "Eagles"
       ],
       "matchup": "Philadelphia Eagles at Washington Commanders",
+      "week": 8,
+      "season": 2026
+    },
+    {
+      "id": "401873036",
+      "startAt": "2026-11-03T01:15Z",
+      "state": "post",
+      "teams": [
+        "Seahawks",
+        "Bears"
+      ],
+      "matchup": "Chicago Bears at Seattle Seahawks",
       "week": 8,
       "season": 2026
     },
@@ -4261,8 +4261,8 @@
   ],
   "scheduleStatus": {
     "status": "ok",
-    "checkedAt": "2026-11-02T23:30:07.017023+00:00",
-    "lastSuccessAt": "2026-11-02T23:30:07.017023+00:00"
+    "checkedAt": "2026-11-03T06:47:50.102476+00:00",
+    "lastSuccessAt": "2026-11-03T06:47:50.102476+00:00"
   },
   "playerTeams": {
     "tylerallgeier": [
