@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-03T15:07:38.848473+00:00",
-  "lastSuccessfulUpdate": "2026-11-03T15:07:38.848473+00:00",
+  "checkedAt": "2026-11-03T20:58:54.817141+00:00",
+  "lastSuccessfulUpdate": "2026-11-03T20:58:54.817141+00:00",
   "sources": [
     {
       "id": "sbd",
@@ -10,9 +10,9 @@
       "website": "https://www.sportsbettingdime.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-03T15:07:38.848473+00:00",
-      "lastSuccessAt": "2026-11-03T15:07:38.848473+00:00",
-      "count": 6,
+      "checkedAt": "2026-11-03T20:58:54.817141+00:00",
+      "lastSuccessAt": "2026-11-03T20:58:54.817141+00:00",
+      "count": 9,
       "message": "Feed retrieved successfully"
     },
     {
@@ -22,8 +22,8 @@
       "website": "https://www.bettingpros.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-03T15:07:38.848473+00:00",
-      "lastSuccessAt": "2026-11-03T15:07:38.848473+00:00",
+      "checkedAt": "2026-11-03T20:58:54.817141+00:00",
+      "lastSuccessAt": "2026-11-03T20:58:54.817141+00:00",
       "count": 37,
       "message": "Feed retrieved successfully"
     },
@@ -35,7 +35,7 @@
       "website": "https://www.cbssports.com/nfl/picks/experts/",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-11-03T15:07:38.848473+00:00",
+      "checkedAt": "2026-11-03T20:58:54.817141+00:00",
       "lastSuccessAt": "2026-11-02T23:30:07.017023+00:00",
       "count": 7,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -48,8 +48,8 @@
       "website": "https://www.covers.com/nfl",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-03T15:07:38.848473+00:00",
-      "lastSuccessAt": "2026-11-03T15:07:38.848473+00:00",
+      "checkedAt": "2026-11-03T20:58:54.817141+00:00",
+      "lastSuccessAt": "2026-11-03T20:58:54.817141+00:00",
       "count": 1,
       "message": "Public expert selections retrieved"
     },
@@ -62,8 +62,8 @@
       "articlePattern": "/nfl-picks/[^/]+prediction[^/]+/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-03T15:07:38.848473+00:00",
-      "lastSuccessAt": "2026-11-03T15:07:38.848473+00:00",
+      "checkedAt": "2026-11-03T20:58:54.817141+00:00",
+      "lastSuccessAt": "2026-11-03T20:58:54.817141+00:00",
       "count": 11,
       "message": "Public expert selections retrieved"
     },
@@ -76,7 +76,7 @@
       "articlePattern": "/picks/nfl/(?:picks-against-the-spread-ats-predictions|player-props)-week-\\d+-\\d{4}/$",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-11-03T15:07:38.848473+00:00",
+      "checkedAt": "2026-11-03T20:58:54.817141+00:00",
       "lastSuccessAt": "2026-11-01T19:40:17.548807+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -90,8 +90,8 @@
       "articlePattern": "/us/nfl/news/nfl-picks-predictions-against-spread-week-\\d+/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-03T15:07:38.848473+00:00",
-      "lastSuccessAt": "2026-11-03T15:07:38.848473+00:00",
+      "checkedAt": "2026-11-03T20:58:54.817141+00:00",
+      "lastSuccessAt": "2026-11-03T20:58:54.817141+00:00",
       "count": 1,
       "message": "Public expert selections retrieved"
     },
@@ -104,13 +104,115 @@
       "articlePattern": "/football/article/(?:nfl-picks-and-props|[^/]*odds-picks-and-predictions|[^/]*betting-odds-picks-and-predictions)[^/]+$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-03T15:07:38.848473+00:00",
-      "lastSuccessAt": "2026-11-03T15:07:38.848473+00:00",
+      "checkedAt": "2026-11-03T20:58:54.817141+00:00",
+      "lastSuccessAt": "2026-11-03T20:58:54.817141+00:00",
       "count": 4,
       "message": "Public expert selections retrieved"
     }
   ],
   "articles": [
+    {
+      "id": "847cb11d3d9a0a67",
+      "title": "NFL Week 9 AI Picks – Over/Under Predictions for All 15 Games",
+      "url": "https://www.sportsbettingdime.com/news/nfl/ai-picks-over-under-predictions-week9-2026/",
+      "publisher": "Sports Betting Dime",
+      "sourceId": "sbd",
+      "author": "Sascha Paruk",
+      "publishedAt": "2026-11-03T20:27:52+00:00",
+      "picks": [
+        {
+          "selection": "Over 40.5",
+          "market": "Totals",
+          "context": "Jaguars vs Ravens",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873037",
+            "startAt": "2026-11-06T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Ravens",
+              "Jaguars"
+            ],
+            "matchup": "Jacksonville Jaguars at Baltimore Ravens",
+            "week": 9,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Under 52.5",
+          "market": "Totals",
+          "context": "Bengals vs Falcons",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873038",
+            "startAt": "2026-11-08T14:30Z",
+            "state": "pre",
+            "teams": [
+              "Falcons",
+              "Bengals"
+            ],
+            "matchup": "Cincinnati Bengals at Atlanta Falcons",
+            "week": 9,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Under 51.5",
+          "market": "Totals",
+          "context": "Cowboys vs Colts",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873040",
+            "startAt": "2026-11-08T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Colts",
+              "Cowboys"
+            ],
+            "matchup": "Dallas Cowboys at Indianapolis Colts",
+            "week": 9,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Totals"
+      ],
+      "teams": []
+    },
+    {
+      "id": "c708dbd1ab54338f",
+      "title": "Updated NFL DPOY Odds After Week 8 – Simmons Makes HUGE Leap After First Game With Bears",
+      "url": "https://www.sportsbettingdime.com/news/nfl/updated-nfl-dpoy-odds-week-8-simmons-anderson-warner-favorites/",
+      "publisher": "Sports Betting Dime",
+      "sourceId": "sbd",
+      "author": "Sascha Paruk",
+      "publishedAt": "2026-11-03T19:05:05+00:00",
+      "picks": [],
+      "parlays": [],
+      "markets": [
+        "Other"
+      ],
+      "teams": [
+        "Bears"
+      ]
+    },
+    {
+      "id": "4399d1919b563af1",
+      "title": "Updated NFL MVP Odds After Week 8 – Burrow, Caleb Williams Soar Into Top 4",
+      "url": "https://www.sportsbettingdime.com/news/nfl/updated-nfl-mvp-odds-after-week-8-burrow-caleb-williams-soar-into-top-4/",
+      "publisher": "Sports Betting Dime",
+      "sourceId": "sbd",
+      "author": "Sascha Paruk",
+      "publishedAt": "2026-11-03T18:32:45+00:00",
+      "picks": [],
+      "parlays": [],
+      "markets": [
+        "Other"
+      ],
+      "teams": []
+    },
     {
       "id": "2ae212e83b40825a",
       "title": "NFL Week 9 Picks & Predictions: Best Early Bets (2026)",
@@ -4229,8 +4331,8 @@
   ],
   "scheduleStatus": {
     "status": "ok",
-    "checkedAt": "2026-11-03T15:07:38.848473+00:00",
-    "lastSuccessAt": "2026-11-03T15:07:38.848473+00:00"
+    "checkedAt": "2026-11-03T20:58:54.817141+00:00",
+    "lastSuccessAt": "2026-11-03T20:58:54.817141+00:00"
   },
   "playerTeams": {
     "tylerallgeier": [
@@ -5913,18 +6015,18 @@
         "athleteId": "5084402"
       }
     ],
+    "austinreed": [
+      {
+        "name": "Austin Reed",
+        "team": "Ravens",
+        "athleteId": "4368343"
+      }
+    ],
     "kaimonrucker": [
       {
         "name": "Kaimon Rucker",
         "team": "Ravens",
         "athleteId": "4433904"
-      }
-    ],
-    "lucasscott": [
-      {
-        "name": "Lucas Scott",
-        "team": "Ravens",
-        "athleteId": "4879972"
       }
     ],
     "lardariuswebbjr": [
@@ -6452,6 +6554,13 @@
         "athleteId": "4576075"
       }
     ],
+    "bradychristensen": [
+      {
+        "name": "Brady Christensen",
+        "team": "Panthers",
+        "athleteId": "4256062"
+      }
+    ],
     "jalencoker": [
       {
         "name": "Jalen Coker",
@@ -6851,13 +6960,6 @@
         "athleteId": "4678008"
       }
     ],
-    "bradychristensen": [
-      {
-        "name": "Brady Christensen",
-        "team": "Panthers",
-        "athleteId": "4256062"
-      }
-    ],
     "ikemekwonu": [
       {
         "name": "Ikem Ekwonu",
@@ -6956,6 +7058,13 @@
         "athleteId": "4035870"
       }
     ],
+    "mohamouddiabate": [
+      {
+        "name": "Mohamoud Diabate",
+        "team": "Panthers",
+        "athleteId": "4567403"
+      }
+    ],
     "ahmanimarshall": [
       {
         "name": "Ahmani Marshall",
@@ -6968,13 +7077,6 @@
         "name": "Mapalo Mwansa",
         "team": "Panthers",
         "athleteId": "5279357"
-      }
-    ],
-    "maemanjongmeta": [
-      {
-        "name": "Maema Njongmeta",
-        "team": "Panthers",
-        "athleteId": "4428125"
       }
     ],
     "parkerpetersen": [
@@ -7057,6 +7159,13 @@
         "name": "Luther Burden III",
         "team": "Bears",
         "athleteId": "4685278"
+      }
+    ],
+    "stephencarlson": [
+      {
+        "name": "Stephen Carlson",
+        "team": "Bears",
+        "athleteId": "3948283"
       }
     ],
     "kadendavis": [
@@ -7521,13 +7630,6 @@
         "athleteId": "3929814"
       }
     ],
-    "stephencarlson": [
-      {
-        "name": "Stephen Carlson",
-        "team": "Bears",
-        "athleteId": "3948283"
-      }
-    ],
     "beaugardner": [
       {
         "name": "Beau Gardner",
@@ -7843,13 +7945,6 @@
         "athleteId": "4426422"
       }
     ],
-    "cashiushowell": [
-      {
-        "name": "Cashius Howell",
-        "team": "Bengals",
-        "athleteId": "4710752"
-      }
-    ],
     "djivey": [
       {
         "name": "DJ Ivey",
@@ -8002,6 +8097,13 @@
         "name": "Jalen Davis",
         "team": "Bengals",
         "athleteId": "3125356"
+      }
+    ],
+    "cashiushowell": [
+      {
+        "name": "Cashius Howell",
+        "team": "Bengals",
+        "athleteId": "4710752"
       }
     ],
     "tannerhudson": [
@@ -11173,13 +11275,6 @@
         "athleteId": "16734"
       }
     ],
-    "jadencrumedy": [
-      {
-        "name": "Jaden Crumedy",
-        "team": "Texans",
-        "athleteId": "4362910"
-      }
-    ],
     "brycehall": [
       {
         "name": "Bryce Hall",
@@ -11220,6 +11315,13 @@
         "name": "Ja'Marcus Ingram",
         "team": "Texans",
         "athleteId": "4240059"
+      }
+    ],
+    "naquanjones": [
+      {
+        "name": "Naquan Jones",
+        "team": "Texans",
+        "athleteId": "4046716"
       }
     ],
     "kamarilassiter": [
@@ -11502,6 +11604,13 @@
         "athleteId": "4844640"
       }
     ],
+    "joshpitsenberger": [
+      {
+        "name": "Josh Pitsenberger",
+        "team": "Texans",
+        "athleteId": "5094042"
+      }
+    ],
     "treyvhonsaunders": [
       {
         "name": "Treyvhon Saunders",
@@ -11514,13 +11623,6 @@
         "name": "Junior Tafuna",
         "team": "Texans",
         "athleteId": "4695607"
-      }
-    ],
-    "deucevaughn": [
-      {
-        "name": "Deuce Vaughn",
-        "team": "Texans",
-        "athleteId": "4431453"
       }
     ],
     "noahwhittington": [
@@ -12590,6 +12692,13 @@
         "name": "Eli Cox",
         "team": "Jaguars",
         "athleteId": "4426981"
+      }
+    ],
+    "austinjohnson": [
+      {
+        "name": "Austin Johnson",
+        "team": "Jaguars",
+        "athleteId": "2979591"
       }
     ],
     "timjones": [
@@ -16459,6 +16568,13 @@
         "athleteId": "4877877"
       }
     ],
+    "terrelljennings": [
+      {
+        "name": "Terrell Jennings",
+        "team": "Patriots",
+        "athleteId": "4427600"
+      }
+    ],
     "jakekubas": [
       {
         "name": "Jake Kubas",
@@ -17584,6 +17700,13 @@
         "name": "Josh Gesky",
         "team": "Giants",
         "athleteId": "4687706"
+      }
+    ],
+    "ericgray": [
+      {
+        "name": "Eric Gray",
+        "team": "Giants",
+        "athleteId": "4570561"
       }
     ],
     "jarrodgray": [
@@ -19887,18 +20010,18 @@
         "athleteId": "4888723"
       }
     ],
+    "khadarelhodge": [
+      {
+        "name": "KhaDarel Hodge",
+        "team": "49ers",
+        "athleteId": "3047876"
+      }
+    ],
     "mckinnleyjackson": [
       {
         "name": "McKinnley Jackson",
         "team": "49ers",
         "athleteId": "4692680"
-      }
-    ],
-    "naquanjones": [
-      {
-        "name": "Naquan Jones",
-        "team": "49ers",
-        "athleteId": "4046716"
       }
     ],
     "sinceremccormick": [
@@ -19985,6 +20108,20 @@
         "athleteId": "3912547"
       }
     ],
+    "montoriefosterjr": [
+      {
+        "name": "Montorie Foster Jr.",
+        "team": "Seahawks",
+        "athleteId": "4600597"
+      }
+    ],
+    "bobbyhart": [
+      {
+        "name": "Bobby Hart",
+        "team": "Seahawks",
+        "athleteId": "2576789"
+      }
+    ],
     "roberthenryjr": [
       {
         "name": "Robert Henry Jr.",
@@ -20067,6 +20204,13 @@
         "name": "Olu Oluwatimi",
         "team": "Seahawks",
         "athleteId": "4370807"
+      }
+    ],
+    "jadarianprice": [
+      {
+        "name": "Jadarian Price",
+        "team": "Seahawks",
+        "athleteId": "4685512"
       }
     ],
     "bradyrussell": [
@@ -20377,13 +20521,6 @@
         "athleteId": "4691688"
       }
     ],
-    "jadarianprice": [
-      {
-        "name": "Jadarian Price",
-        "team": "Seahawks",
-        "athleteId": "4685512"
-      }
-    ],
     "masonrichman": [
       {
         "name": "Mason Richman",
@@ -20426,25 +20563,11 @@
         "athleteId": "4427190"
       }
     ],
-    "montoriefosterjr": [
-      {
-        "name": "Montorie Foster Jr.",
-        "team": "Seahawks",
-        "athleteId": "4600597"
-      }
-    ],
     "andrefuller": [
       {
         "name": "Andre Fuller",
         "team": "Seahawks",
         "athleteId": "4693934"
-      }
-    ],
-    "bobbyhart": [
-      {
-        "name": "Bobby Hart",
-        "team": "Seahawks",
-        "athleteId": "2576789"
       }
     ],
     "emmanuelhendersonjr": [
@@ -22135,6 +22258,6 @@
       }
     ]
   },
-  "rostersCheckedAt": "2026-11-02T15:51:59.289611+00:00",
+  "rostersCheckedAt": "2026-11-03T20:58:54.817141+00:00",
   "rosterStatus": "ok"
 }
