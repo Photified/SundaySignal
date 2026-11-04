@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-03T20:58:54.817141+00:00",
-  "lastSuccessfulUpdate": "2026-11-03T20:58:54.817141+00:00",
+  "checkedAt": "2026-11-04T01:21:21.693021+00:00",
+  "lastSuccessfulUpdate": "2026-11-04T01:21:21.693021+00:00",
   "sources": [
     {
       "id": "sbd",
@@ -10,9 +10,9 @@
       "website": "https://www.sportsbettingdime.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-03T20:58:54.817141+00:00",
-      "lastSuccessAt": "2026-11-03T20:58:54.817141+00:00",
-      "count": 9,
+      "checkedAt": "2026-11-04T01:21:21.693021+00:00",
+      "lastSuccessAt": "2026-11-04T01:21:21.693021+00:00",
+      "count": 10,
       "message": "Feed retrieved successfully"
     },
     {
@@ -22,8 +22,8 @@
       "website": "https://www.bettingpros.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-03T20:58:54.817141+00:00",
-      "lastSuccessAt": "2026-11-03T20:58:54.817141+00:00",
+      "checkedAt": "2026-11-04T01:21:21.693021+00:00",
+      "lastSuccessAt": "2026-11-04T01:21:21.693021+00:00",
       "count": 37,
       "message": "Feed retrieved successfully"
     },
@@ -35,7 +35,7 @@
       "website": "https://www.cbssports.com/nfl/picks/experts/",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-11-03T20:58:54.817141+00:00",
+      "checkedAt": "2026-11-04T01:21:21.693021+00:00",
       "lastSuccessAt": "2026-11-02T23:30:07.017023+00:00",
       "count": 7,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -48,8 +48,8 @@
       "website": "https://www.covers.com/nfl",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-03T20:58:54.817141+00:00",
-      "lastSuccessAt": "2026-11-03T20:58:54.817141+00:00",
+      "checkedAt": "2026-11-04T01:21:21.693021+00:00",
+      "lastSuccessAt": "2026-11-04T01:21:21.693021+00:00",
       "count": 1,
       "message": "Public expert selections retrieved"
     },
@@ -62,8 +62,8 @@
       "articlePattern": "/nfl-picks/[^/]+prediction[^/]+/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-03T20:58:54.817141+00:00",
-      "lastSuccessAt": "2026-11-03T20:58:54.817141+00:00",
+      "checkedAt": "2026-11-04T01:21:21.693021+00:00",
+      "lastSuccessAt": "2026-11-04T01:21:21.693021+00:00",
       "count": 11,
       "message": "Public expert selections retrieved"
     },
@@ -76,7 +76,7 @@
       "articlePattern": "/picks/nfl/(?:picks-against-the-spread-ats-predictions|player-props)-week-\\d+-\\d{4}/$",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-11-03T20:58:54.817141+00:00",
+      "checkedAt": "2026-11-04T01:21:21.693021+00:00",
       "lastSuccessAt": "2026-11-01T19:40:17.548807+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -90,8 +90,8 @@
       "articlePattern": "/us/nfl/news/nfl-picks-predictions-against-spread-week-\\d+/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-03T20:58:54.817141+00:00",
-      "lastSuccessAt": "2026-11-03T20:58:54.817141+00:00",
+      "checkedAt": "2026-11-04T01:21:21.693021+00:00",
+      "lastSuccessAt": "2026-11-04T01:21:21.693021+00:00",
       "count": 1,
       "message": "Public expert selections retrieved"
     },
@@ -104,13 +104,90 @@
       "articlePattern": "/football/article/(?:nfl-picks-and-props|[^/]*odds-picks-and-predictions|[^/]*betting-odds-picks-and-predictions)[^/]+$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-03T20:58:54.817141+00:00",
-      "lastSuccessAt": "2026-11-03T20:58:54.817141+00:00",
+      "checkedAt": "2026-11-04T01:21:21.693021+00:00",
+      "lastSuccessAt": "2026-11-04T01:21:21.693021+00:00",
       "count": 4,
       "message": "Public expert selections retrieved"
     }
   ],
   "articles": [
+    {
+      "id": "d8ad48aeeb42dbfc",
+      "title": "NFL Underdog Picks: 3 Best Upset Predictions for Week 9",
+      "url": "https://www.sportsbettingdime.com/news/nfl/underdog-picks-best-upset-predictions-week-9/",
+      "publisher": "Sports Betting Dime",
+      "sourceId": "sbd",
+      "author": "Sascha Paruk",
+      "publishedAt": "2026-11-03T21:22:52+00:00",
+      "picks": [
+        {
+          "selection": "Commanders (+223) vs Rams",
+          "market": "Other",
+          "context": "Upset Pick #1: Commanders (+223) vs Rams",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873043",
+            "startAt": "2026-11-08T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Commanders",
+              "Rams"
+            ],
+            "matchup": "Los Angeles Rams at Washington Commanders",
+            "week": 9,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Browns (+113) at Saints",
+          "market": "Other",
+          "context": "Upset Pick #2: Browns (+113) at Saints",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873039",
+            "startAt": "2026-11-08T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Saints",
+              "Browns"
+            ],
+            "matchup": "Cleveland Browns at New Orleans Saints",
+            "week": 9,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Eagles (+163) vs Giants",
+          "market": "Other",
+          "context": "Upset Pick #3: Eagles (+163) vs Giants",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873044",
+            "startAt": "2026-11-08T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Eagles",
+              "Giants"
+            ],
+            "matchup": "New York Giants at Philadelphia Eagles",
+            "week": 9,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Other"
+      ],
+      "teams": [
+        "Browns",
+        "Commanders",
+        "Eagles",
+        "Giants",
+        "Rams",
+        "Saints"
+      ]
+    },
     {
       "id": "847cb11d3d9a0a67",
       "title": "NFL Week 9 AI Picks – Over/Under Predictions for All 15 Games",
@@ -355,7 +432,7 @@
     },
     {
       "id": "8125b5712f77651c",
-      "title": "Chicago Bears vs Tampa Bay Buccaneers Prediction 11/8/26 NFL Picks Today | Sports Chat Place",
+      "title": "Bears vs Buccaneers Prediction 11/8/26 NFL Picks Today | Sports Chat Place",
       "url": "https://sportschatplace.com/nfl-picks/chicago-bears-vs-tampa-bay-buccaneers-prediction-11-8-26-nfl-picks-today/",
       "publisher": "Sports Chat Place",
       "sourceId": "sportschat",
@@ -365,7 +442,7 @@
         {
           "selection": "Chicago Bears -5.5",
           "market": "Spread",
-          "context": "Tampa Bay Buccaneers @ Chicago Bears Betting Trends: Week 9",
+          "context": "Bears vs Buccaneers Prediction",
           "method": "Explicit selection in publisher feed",
           "event": {
             "id": "401873050",
@@ -392,7 +469,7 @@
     },
     {
       "id": "7c9340d2ca411243",
-      "title": "Washington Commanders vs LA Rams Prediction 11/8/26 NFL Picks Today | Sports Chat Place",
+      "title": "Commanders vs Rams Prediction 11/8/26 NFL Picks Today | Sports Chat Place",
       "url": "https://sportschatplace.com/nfl-picks/washington-commanders-vs-la-rams-prediction-11-8-26-nfl-picks-today/",
       "publisher": "Sports Chat Place",
       "sourceId": "sportschat",
@@ -402,7 +479,7 @@
         {
           "selection": "Washington Commanders +5.5",
           "market": "Spread",
-          "context": "Los Angeles Rams @ Washington Commanders Betting Trends: Week 9",
+          "context": "Commanders vs Rams Prediction",
           "method": "Explicit selection in publisher feed",
           "event": {
             "id": "401873043",
@@ -429,7 +506,7 @@
     },
     {
       "id": "928bbbffb86301d4",
-      "title": "Kansas City Chiefs vs NY Jets Prediction 11/8/26 NFL Picks Today | Sports Chat Place",
+      "title": "Chiefs vs Jets Prediction 11/8/26 NFL Picks Today | Sports Chat Place",
       "url": "https://sportschatplace.com/nfl-picks/kansas-city-chiefs-vs-ny-jets-prediction-11-8-26-nfl-picks-today/",
       "publisher": "Sports Chat Place",
       "sourceId": "sportschat",
@@ -439,7 +516,7 @@
         {
           "selection": "Kansas City Chiefs -10",
           "market": "Other",
-          "context": "New York Jets @ Kansas City Chiefs Betting Trends: Week 9",
+          "context": "Chiefs vs Jets Prediction",
           "method": "Explicit selection in publisher feed",
           "event": {
             "id": "401873045",
@@ -4331,8 +4408,8 @@
   ],
   "scheduleStatus": {
     "status": "ok",
-    "checkedAt": "2026-11-03T20:58:54.817141+00:00",
-    "lastSuccessAt": "2026-11-03T20:58:54.817141+00:00"
+    "checkedAt": "2026-11-04T01:21:21.693021+00:00",
+    "lastSuccessAt": "2026-11-04T01:21:21.693021+00:00"
   },
   "playerTeams": {
     "tylerallgeier": [
