@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-04T17:15:17.737123+00:00",
-  "lastSuccessfulUpdate": "2026-11-04T17:15:17.737123+00:00",
+  "checkedAt": "2026-11-04T22:39:31.996441+00:00",
+  "lastSuccessfulUpdate": "2026-11-04T22:39:31.996441+00:00",
   "sources": [
     {
       "id": "sbd",
@@ -10,8 +10,8 @@
       "website": "https://www.sportsbettingdime.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-04T17:15:17.737123+00:00",
-      "lastSuccessAt": "2026-11-04T17:15:17.737123+00:00",
+      "checkedAt": "2026-11-04T22:39:31.996441+00:00",
+      "lastSuccessAt": "2026-11-04T22:39:31.996441+00:00",
       "count": 11,
       "message": "Feed retrieved successfully"
     },
@@ -22,8 +22,8 @@
       "website": "https://www.bettingpros.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-04T17:15:17.737123+00:00",
-      "lastSuccessAt": "2026-11-04T17:15:17.737123+00:00",
+      "checkedAt": "2026-11-04T22:39:31.996441+00:00",
+      "lastSuccessAt": "2026-11-04T22:39:31.996441+00:00",
       "count": 35,
       "message": "Feed retrieved successfully"
     },
@@ -35,7 +35,7 @@
       "website": "https://www.cbssports.com/nfl/picks/experts/",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-11-04T17:15:17.737123+00:00",
+      "checkedAt": "2026-11-04T22:39:31.996441+00:00",
       "lastSuccessAt": "2026-11-02T23:30:07.017023+00:00",
       "count": 7,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -47,11 +47,11 @@
       "feed": "https://www.covers.com/nfl",
       "website": "https://www.covers.com/nfl",
       "enabled": true,
-      "status": "unavailable",
-      "checkedAt": "2026-11-04T17:15:17.737123+00:00",
-      "lastSuccessAt": "2026-11-04T09:12:36.915534+00:00",
+      "status": "ok",
+      "checkedAt": "2026-11-04T22:39:31.996441+00:00",
+      "lastSuccessAt": "2026-11-04T22:39:31.996441+00:00",
       "count": 1,
-      "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
+      "message": "Public expert selections retrieved"
     },
     {
       "id": "sportschat",
@@ -62,8 +62,8 @@
       "articlePattern": "/nfl-picks/[^/]+prediction[^/]+/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-04T17:15:17.737123+00:00",
-      "lastSuccessAt": "2026-11-04T17:15:17.737123+00:00",
+      "checkedAt": "2026-11-04T22:39:31.996441+00:00",
+      "lastSuccessAt": "2026-11-04T22:39:31.996441+00:00",
       "count": 11,
       "message": "Public expert selections retrieved"
     },
@@ -76,7 +76,7 @@
       "articlePattern": "/picks/nfl/(?:picks-against-the-spread-ats-predictions|player-props)-week-\\d+-\\d{4}/$",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-11-04T17:15:17.737123+00:00",
+      "checkedAt": "2026-11-04T22:39:31.996441+00:00",
       "lastSuccessAt": "2026-11-01T19:40:17.548807+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -90,7 +90,7 @@
       "articlePattern": "/us/nfl/news/nfl-picks-predictions-against-spread-week-\\d+/",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-11-04T17:15:17.737123+00:00",
+      "checkedAt": "2026-11-04T22:39:31.996441+00:00",
       "lastSuccessAt": "2026-11-04T09:12:36.915534+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -104,13 +104,299 @@
       "articlePattern": "/football/article/(?:nfl-picks-and-props|[^/]*odds-picks-and-predictions|[^/]*betting-odds-picks-and-predictions)[^/]+$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-04T17:15:17.737123+00:00",
-      "lastSuccessAt": "2026-11-04T17:15:17.737123+00:00",
+      "checkedAt": "2026-11-04T22:39:31.996441+00:00",
+      "lastSuccessAt": "2026-11-04T22:39:31.996441+00:00",
       "count": 4,
       "message": "Public expert selections retrieved"
     }
   ],
   "articles": [
+    {
+      "id": "2302f7531fc8df09",
+      "title": "NFL Moneyline Picks for Every Week 9 Game",
+      "url": "https://www.covers.com/nfl/moneyline-picks-week-9-2026",
+      "publisher": "Covers",
+      "sourceId": "covers",
+      "author": "Trevor Knapp",
+      "publishedAt": "2026-11-04T19:06:00+00:00",
+      "picks": [
+        {
+          "selection": "Jaguars Moneyline",
+          "market": "Moneyline",
+          "context": "Jaguars vs Ravens",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873037",
+            "startAt": "2026-11-06T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Ravens",
+              "Jaguars"
+            ],
+            "matchup": "Jacksonville Jaguars at Baltimore Ravens",
+            "week": 9,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Bengals Moneyline",
+          "market": "Moneyline",
+          "context": "Bengals vs Falcons",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873038",
+            "startAt": "2026-11-08T14:30Z",
+            "state": "pre",
+            "teams": [
+              "Falcons",
+              "Bengals"
+            ],
+            "matchup": "Cincinnati Bengals at Atlanta Falcons",
+            "week": 9,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Browns Moneyline",
+          "market": "Moneyline",
+          "context": "Browns vs Saints",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873039",
+            "startAt": "2026-11-08T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Saints",
+              "Browns"
+            ],
+            "matchup": "Cleveland Browns at New Orleans Saints",
+            "week": 9,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Cowboys Moneyline",
+          "market": "Moneyline",
+          "context": "Cowboys vs Colts",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873040",
+            "startAt": "2026-11-08T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Colts",
+              "Cowboys"
+            ],
+            "matchup": "Dallas Cowboys at Indianapolis Colts",
+            "week": 9,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Broncos Moneyline",
+          "market": "Moneyline",
+          "context": "Broncos vs Panthers",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873041",
+            "startAt": "2026-11-08T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Panthers",
+              "Broncos"
+            ],
+            "matchup": "Denver Broncos at Carolina Panthers",
+            "week": 9,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Lions Moneyline",
+          "market": "Moneyline",
+          "context": "Lions vs Dolphins",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873042",
+            "startAt": "2026-11-08T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Dolphins",
+              "Lions"
+            ],
+            "matchup": "Detroit Lions at Miami Dolphins",
+            "week": 9,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Rams Moneyline",
+          "market": "Moneyline",
+          "context": "Rams vs Commanders",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873043",
+            "startAt": "2026-11-08T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Commanders",
+              "Rams"
+            ],
+            "matchup": "Los Angeles Rams at Washington Commanders",
+            "week": 9,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Giants Moneyline",
+          "market": "Moneyline",
+          "context": "Giants vs Eagles",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873044",
+            "startAt": "2026-11-08T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Eagles",
+              "Giants"
+            ],
+            "matchup": "New York Giants at Philadelphia Eagles",
+            "week": 9,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Chiefs Moneyline",
+          "market": "Moneyline",
+          "context": "Jets vs Chiefs",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873045",
+            "startAt": "2026-11-08T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Chiefs",
+              "Jets"
+            ],
+            "matchup": "New York Jets at Kansas City Chiefs",
+            "week": 9,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Texans Moneyline",
+          "market": "Moneyline",
+          "context": "Texans vs Chargers",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873046",
+            "startAt": "2026-11-08T21:05Z",
+            "state": "pre",
+            "teams": [
+              "Chargers",
+              "Texans"
+            ],
+            "matchup": "Houston Texans at Los Angeles Chargers",
+            "week": 9,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Seahawks Moneyline",
+          "market": "Moneyline",
+          "context": "Cardinals vs Seahawks",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873048",
+            "startAt": "2026-11-08T21:25Z",
+            "state": "pre",
+            "teams": [
+              "Seahawks",
+              "Cardinals"
+            ],
+            "matchup": "Arizona Cardinals at Seattle Seahawks",
+            "week": 9,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Packers Moneyline",
+          "market": "Moneyline",
+          "context": "Packers vs Patriots",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873049",
+            "startAt": "2026-11-08T21:25Z",
+            "state": "pre",
+            "teams": [
+              "Patriots",
+              "Packers"
+            ],
+            "matchup": "Green Bay Packers at New England Patriots",
+            "week": 9,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "49ers Moneyline",
+          "market": "Moneyline",
+          "context": "Raiders vs 49ers",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873047",
+            "startAt": "2026-11-08T21:25Z",
+            "state": "pre",
+            "teams": [
+              "49ers",
+              "Raiders"
+            ],
+            "matchup": "Las Vegas Raiders at San Francisco 49ers",
+            "week": 9,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Bears Moneyline",
+          "market": "Moneyline",
+          "context": "Buccaneers vs Bears",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873050",
+            "startAt": "2026-11-09T01:20Z",
+            "state": "pre",
+            "teams": [
+              "Bears",
+              "Buccaneers"
+            ],
+            "matchup": "Tampa Bay Buccaneers at Chicago Bears",
+            "week": 9,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Bills Moneyline",
+          "market": "Moneyline",
+          "context": "Bills vs Vikings",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873051",
+            "startAt": "2026-11-10T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Vikings",
+              "Bills"
+            ],
+            "matchup": "Buffalo Bills at Minnesota Vikings",
+            "week": 9,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Moneyline"
+      ],
+      "teams": []
+    },
     {
       "id": "d915c707b44cf9cb",
       "title": "NFL Week 9 Anytime Touchdown Scorer Picks & Best Bets",
@@ -1073,120 +1359,6 @@
       "author": "Sascha Paruk",
       "publishedAt": "2026-11-02T19:03:21+00:00",
       "picks": [],
-      "parlays": [],
-      "markets": [
-        "Moneyline"
-      ],
-      "teams": []
-    },
-    {
-      "id": "bfbb5ec4559e6c1a",
-      "title": "NFL Moneyline Picks for Every Week 8 Game",
-      "url": "https://www.covers.com/nfl/moneyline-picks-week-8-2026",
-      "publisher": "Covers",
-      "sourceId": "covers",
-      "author": "Trevor Knapp",
-      "publishedAt": "2026-11-02T18:47:00+00:00",
-      "picks": [
-        {
-          "selection": "Packers Moneyline",
-          "market": "Moneyline",
-          "context": "Panthers Packers",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": null
-        },
-        {
-          "selection": "Bills Moneyline",
-          "market": "Moneyline",
-          "context": "Ravens Bills",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": null
-        },
-        {
-          "selection": "Bengals Moneyline",
-          "market": "Moneyline",
-          "context": "Titans Bengals",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": null
-        },
-        {
-          "selection": "Steelers Moneyline",
-          "market": "Moneyline",
-          "context": "Browns Steelers",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": null
-        },
-        {
-          "selection": "Jaguars Moneyline",
-          "market": "Moneyline",
-          "context": "Colts Jaguars",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": null
-        },
-        {
-          "selection": "Cowboys Moneyline",
-          "market": "Moneyline",
-          "context": "Cardinals Cowboys",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": null
-        },
-        {
-          "selection": "Lions Moneyline",
-          "market": "Moneyline",
-          "context": "Vikings Lions",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": null
-        },
-        {
-          "selection": "Jets Moneyline",
-          "market": "Moneyline",
-          "context": "Raiders Jets",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": null
-        },
-        {
-          "selection": "Falcons Moneyline",
-          "market": "Moneyline",
-          "context": "Falcons Buccaneers",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": null
-        },
-        {
-          "selection": "Rams Moneyline",
-          "market": "Moneyline",
-          "context": "Chargers Rams",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": null
-        },
-        {
-          "selection": "Chiefs Moneyline",
-          "market": "Moneyline",
-          "context": "Chiefs Broncos",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": null
-        },
-        {
-          "selection": "Patriots Moneyline",
-          "market": "Moneyline",
-          "context": "Patriots Dolphins",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": null
-        },
-        {
-          "selection": "Commanders Moneyline",
-          "market": "Moneyline",
-          "context": "Eagles Commanders",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": null
-        },
-        {
-          "selection": "Bears Moneyline",
-          "market": "Moneyline",
-          "context": "Bears Seahawks",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": null
-        }
-      ],
       "parlays": [],
       "markets": [
         "Moneyline"
@@ -3377,8 +3549,8 @@
   ],
   "scheduleStatus": {
     "status": "ok",
-    "checkedAt": "2026-11-04T17:15:17.737123+00:00",
-    "lastSuccessAt": "2026-11-04T17:15:17.737123+00:00"
+    "checkedAt": "2026-11-04T22:39:31.996441+00:00",
+    "lastSuccessAt": "2026-11-04T22:39:31.996441+00:00"
   },
   "playerTeams": {
     "tylerallgeier": [
@@ -3393,13 +3565,6 @@
         "name": "Carson Beck",
         "team": "Cardinals",
         "athleteId": "4430841"
-      }
-    ],
-    "kendrickbourne": [
-      {
-        "name": "Kendrick Bourne",
-        "team": "Cardinals",
-        "athleteId": "3045523"
       }
     ],
     "jacobybrissett": [
@@ -3486,13 +3651,6 @@
         "athleteId": "4427728"
       }
     ],
-    "jeremiyahlove": [
-      {
-        "name": "Jeremiyah Love",
-        "team": "Cardinals",
-        "athleteId": "4870808"
-      }
-    ],
     "treymcbride": [
       {
         "name": "Trey McBride",
@@ -3535,6 +3693,13 @@
         "athleteId": "4869132"
       }
     ],
+    "harrisonwallaceiii": [
+      {
+        "name": "Harrison Wallace III",
+        "team": "Cardinals",
+        "athleteId": "4699354"
+      }
+    ],
     "elijahwilkinson": [
       {
         "name": "Elijah Wilkinson",
@@ -3561,13 +3726,6 @@
         "name": "Michael Wilson",
         "team": "Cardinals",
         "athleteId": "4360761"
-      }
-    ],
-    "kennyyeboah": [
-      {
-        "name": "Kenny Yeboah",
-        "team": "Cardinals",
-        "athleteId": "4044144"
       }
     ],
     "buddabaker": [
@@ -3645,13 +3803,6 @@
         "name": "Art Green",
         "team": "Cardinals",
         "athleteId": "4689674"
-      }
-    ],
-    "jaredharrisonhunte": [
-      {
-        "name": "Jared Harrison-Hunte",
-        "team": "Cardinals",
-        "athleteId": "4427401"
       }
     ],
     "kalenking": [
@@ -3815,6 +3966,13 @@
         "athleteId": "4240824"
       }
     ],
+    "kendrickbourne": [
+      {
+        "name": "Kendrick Bourne",
+        "team": "Cardinals",
+        "athleteId": "3045523"
+      }
+    ],
     "zacharycarter": [
       {
         "name": "Zachary Carter",
@@ -3848,6 +4006,13 @@
         "name": "Hunter Long",
         "team": "Cardinals",
         "athleteId": "4239944"
+      }
+    ],
+    "jeremiyahlove": [
+      {
+        "name": "Jeremiyah Love",
+        "team": "Cardinals",
+        "athleteId": "4870808"
       }
     ],
     "joshminkins": [
@@ -3892,6 +4057,13 @@
         "athleteId": "4242229"
       }
     ],
+    "rivaldofairweather": [
+      {
+        "name": "Rivaldo Fairweather",
+        "team": "Cardinals",
+        "athleteId": "4605858"
+      }
+    ],
     "jeromeford": [
       {
         "name": "Jerome Ford",
@@ -3899,11 +4071,11 @@
         "athleteId": "4372019"
       }
     ],
-    "camhorsley": [
+    "jaredharrisonhunte": [
       {
-        "name": "Cam Horsley",
+        "name": "Jared Harrison-Hunte",
         "team": "Cardinals",
-        "athleteId": "4431147"
+        "athleteId": "4427401"
       }
     ],
     "shedrickjackson": [
@@ -3941,13 +4113,6 @@
         "athleteId": "4431424"
       }
     ],
-    "harrisonwallaceiii": [
-      {
-        "name": "Harrison Wallace III",
-        "team": "Cardinals",
-        "athleteId": "4699354"
-      }
-    ],
     "damonicwilliams": [
       {
         "name": "Damonic Williams",
@@ -3967,6 +4132,13 @@
         "name": "Riley Wilson",
         "team": "Cardinals",
         "athleteId": "4613029"
+      }
+    ],
+    "kennyyeboah": [
+      {
+        "name": "Kenny Yeboah",
+        "team": "Cardinals",
+        "athleteId": "4044144"
       }
     ],
     "matthewbergeron": [
@@ -4002,13 +4174,6 @@
         "name": "Jahan Dotson",
         "team": "Falcons",
         "athleteId": "4361409"
-      }
-    ],
-    "khalilherbert": [
-      {
-        "name": "Khalil Herbert",
-        "team": "Falcons",
-        "athleteId": "4035886"
       }
     ],
     "kylehinton": [
@@ -4144,13 +4309,6 @@
         "athleteId": "4360807"
       }
     ],
-    "brianasamoahii": [
-      {
-        "name": "Brian Asamoah II",
-        "team": "Falcons",
-        "athleteId": "4360255"
-      }
-    ],
     "jessiebatesiii": [
       {
         "name": "Jessie Bates III",
@@ -4200,13 +4358,6 @@
         "athleteId": "4427090"
       }
     ],
-    "samsonebukam": [
-      {
-        "name": "Samson Ebukam",
-        "team": "Falcons",
-        "athleteId": "3045527"
-      }
-    ],
     "mikefordjr": [
       {
         "name": "Mike Ford Jr.",
@@ -4247,20 +4398,6 @@
         "name": "Mike Hughes",
         "team": "Falcons",
         "athleteId": "3895841"
-      }
-    ],
-    "jaredivey": [
-      {
-        "name": "Jared Ivey",
-        "team": "Falcons",
-        "athleteId": "4605478"
-      }
-    ],
-    "drakejackson": [
-      {
-        "name": "Drake Jackson",
-        "team": "Falcons",
-        "athleteId": "4569511"
       }
     ],
     "lacalelondon": [
@@ -4396,6 +4533,13 @@
         "athleteId": "4431210"
       }
     ],
+    "samsonebukam": [
+      {
+        "name": "Samson Ebukam",
+        "team": "Falcons",
+        "athleteId": "3045527"
+      }
+    ],
     "dashawnhand": [
       {
         "name": "Da'Shawn Hand",
@@ -4452,6 +4596,13 @@
         "athleteId": "4869816"
       }
     ],
+    "brianasamoahii": [
+      {
+        "name": "Brian Asamoah II",
+        "team": "Falcons",
+        "athleteId": "4360255"
+      }
+    ],
     "kamdewberry": [
       {
         "name": "Kam Dewberry",
@@ -4466,11 +4617,25 @@
         "athleteId": "4363551"
       }
     ],
+    "khalilherbert": [
+      {
+        "name": "Khalil Herbert",
+        "team": "Falcons",
+        "athleteId": "4035886"
+      }
+    ],
     "darnayholmes": [
       {
         "name": "Darnay Holmes",
         "team": "Falcons",
         "athleteId": "4242973"
+      }
+    ],
+    "drakejackson": [
+      {
+        "name": "Drake Jackson",
+        "team": "Falcons",
+        "athleteId": "4569511"
       }
     ],
     "ejjenkins": [
@@ -4506,13 +4671,6 @@
         "name": "TJ Quinn",
         "team": "Falcons",
         "athleteId": "4684030"
-      }
-    ],
-    "colbysorsdal": [
-      {
-        "name": "Colby Sorsdal",
-        "team": "Falcons",
-        "athleteId": "4367775"
       }
     ],
     "joshthompson": [
@@ -4555,13 +4713,6 @@
         "name": "Josh Cuevas",
         "team": "Ravens",
         "athleteId": "4876132"
-      }
-    ],
-    "chumaedoga": [
-      {
-        "name": "Chuma Edoga",
-        "team": "Ravens",
-        "athleteId": "3701582"
       }
     ],
     "joefagnano": [
@@ -4697,6 +4848,13 @@
         "athleteId": "4035479"
       }
     ],
+    "kedonslovis": [
+      {
+        "name": "Kedon Slovis",
+        "team": "Ravens",
+        "athleteId": "4428512"
+      }
+    ],
     "ronniestanley": [
       {
         "name": "Ronnie Stanley",
@@ -4807,13 +4965,6 @@
         "name": "Marlon Humphrey",
         "team": "Ravens",
         "athleteId": "3126356"
-      }
-    ],
-    "adisaisaac": [
-      {
-        "name": "Adisa Isaac",
-        "team": "Ravens",
-        "athleteId": "4426372"
       }
     ],
     "keondrejackson": [
@@ -4928,13 +5079,6 @@
         "athleteId": "5084956"
       }
     ],
-    "tylerloop": [
-      {
-        "name": "Tyler Loop",
-        "team": "Ravens",
-        "athleteId": "4697745"
-      }
-    ],
     "nickmoore": [
       {
         "name": "Nick Moore",
@@ -4947,6 +5091,13 @@
         "name": "Bilhal Kone",
         "team": "Ravens",
         "athleteId": "5083656"
+      }
+    ],
+    "tylerloop": [
+      {
+        "name": "Tyler Loop",
+        "team": "Ravens",
+        "athleteId": "4697745"
       }
     ],
     "dannypinter": [
@@ -5003,6 +5154,20 @@
         "name": "Rayshaun Benny",
         "team": "Ravens",
         "athleteId": "4432661"
+      }
+    ],
+    "chumaedoga": [
+      {
+        "name": "Chuma Edoga",
+        "team": "Ravens",
+        "athleteId": "3701582"
+      }
+    ],
+    "adisaisaac": [
+      {
+        "name": "Adisa Isaac",
+        "team": "Ravens",
+        "athleteId": "4426372"
       }
     ],
     "rayshawnjenkins": [
@@ -5341,13 +5506,6 @@
         "athleteId": "3127294"
       }
     ],
-    "cjgardnerjohnson": [
-      {
-        "name": "C.J. Gardner-Johnson",
-        "team": "Bills",
-        "athleteId": "4034953"
-      }
-    ],
     "maxwellhairston": [
       {
         "name": "Maxwell Hairston",
@@ -5425,13 +5583,6 @@
         "athleteId": "4428548"
       }
     ],
-    "genostone": [
-      {
-        "name": "Geno Stone",
-        "team": "Bills",
-        "athleteId": "4240575"
-      }
-    ],
     "deonewalker": [
       {
         "name": "Deone Walker",
@@ -5451,13 +5602,6 @@
         "name": "Dorian Williams",
         "team": "Bills",
         "athleteId": "4568624"
-      }
-    ],
-    "ajwoods": [
-      {
-        "name": "A.J. Woods",
-        "team": "Bills",
-        "athleteId": "4428932"
       }
     ],
     "tylerbass": [
@@ -5579,6 +5723,13 @@
         "athleteId": "3122168"
       }
     ],
+    "genostone": [
+      {
+        "name": "Geno Stone",
+        "team": "Bills",
+        "athleteId": "4240575"
+      }
+    ],
     "shaqthompson": [
       {
         "name": "Shaq Thompson",
@@ -5591,6 +5742,13 @@
         "name": "Tre'Davious White",
         "team": "Bills",
         "athleteId": "3042717"
+      }
+    ],
+    "ajwoods": [
+      {
+        "name": "A.J. Woods",
+        "team": "Bills",
+        "athleteId": "4428932"
       }
     ],
     "coreybullock": [
@@ -5920,13 +6078,6 @@
         "name": "Lathan Ransom",
         "team": "Panthers",
         "athleteId": "4429110"
-      }
-    ],
-    "robertrochell": [
-      {
-        "name": "Robert Rochell",
-        "team": "Panthers",
-        "athleteId": "4032200"
       }
     ],
     "nickscott": [
@@ -7222,13 +7373,6 @@
         "athleteId": "4426457"
       }
     ],
-    "blakefreeland": [
-      {
-        "name": "Blake Freeland",
-        "team": "Bengals",
-        "athleteId": "4429636"
-      }
-    ],
     "emanyjohnson": [
       {
         "name": "Emany Johnson",
@@ -7292,6 +7436,13 @@
         "athleteId": "4597310"
       }
     ],
+    "austinblaske": [
+      {
+        "name": "Austin Blaske",
+        "team": "Browns",
+        "athleteId": "4430949"
+      }
+    ],
     "isaiahbond": [
       {
         "name": "Isaiah Bond",
@@ -7332,13 +7483,6 @@
         "name": "Malachi Corley",
         "team": "Browns",
         "athleteId": "4613104"
-      }
-    ],
-    "audricestime": [
-      {
-        "name": "Audric Estime",
-        "team": "Browns",
-        "athleteId": "4569682"
       }
     ],
     "haroldfanninjr": [
@@ -7416,13 +7560,6 @@
         "name": "Jaleel McLaughlin",
         "team": "Browns",
         "athleteId": "4722893"
-      }
-    ],
-    "carsenryan": [
-      {
-        "name": "Carsen Ryan",
-        "team": "Browns",
-        "athleteId": "4685540"
       }
     ],
     "dylansampson": [
@@ -7759,13 +7896,6 @@
         "athleteId": "5160391"
       }
     ],
-    "andrewcoker": [
-      {
-        "name": "Andrew Coker",
-        "team": "Browns",
-        "athleteId": "4429430"
-      }
-    ],
     "obinnaeze": [
       {
         "name": "Obinna Eze",
@@ -7787,6 +7917,20 @@
         "athleteId": "4379401"
       }
     ],
+    "xavierguillory": [
+      {
+        "name": "Xavier Guillory",
+        "team": "Browns",
+        "athleteId": "4695910"
+      }
+    ],
+    "hassanhaskins": [
+      {
+        "name": "Hassan Haskins",
+        "team": "Browns",
+        "athleteId": "4372071"
+      }
+    ],
     "jimmyhornjr": [
       {
         "name": "Jimmy Horn Jr.",
@@ -7801,13 +7945,6 @@
         "athleteId": "4050971"
       }
     ],
-    "vershonlee": [
-      {
-        "name": "Vershon Lee",
-        "team": "Browns",
-        "athleteId": "4430218"
-      }
-    ],
     "ktleveston": [
       {
         "name": "KT Leveston",
@@ -7815,18 +7952,11 @@
         "athleteId": "4373079"
       }
     ],
-    "bubmeans": [
+    "carsenryan": [
       {
-        "name": "Bub Means",
+        "name": "Carsen Ryan",
         "team": "Browns",
-        "athleteId": "4427985"
-      }
-    ],
-    "wespahl": [
-      {
-        "name": "Wes Pahl",
-        "team": "Browns",
-        "athleteId": "4690083"
+        "athleteId": "4685540"
       }
     ],
     "khordaesydnor": [
@@ -7834,6 +7964,13 @@
         "name": "Khordae Sydnor",
         "team": "Browns",
         "athleteId": "4683129"
+      }
+    ],
+    "xaviertruss": [
+      {
+        "name": "Xavier Truss",
+        "team": "Browns",
+        "athleteId": "4427080"
       }
     ],
     "nadametucker": [
@@ -7953,13 +8090,6 @@
         "name": "Jonathan Mingo",
         "team": "Cowboys",
         "athleteId": "4426485"
-      }
-    ],
-    "jamesmitchell": [
-      {
-        "name": "James Mitchell",
-        "team": "Cowboys",
-        "athleteId": "4361988"
       }
     ],
     "georgepickens": [
@@ -8361,6 +8491,13 @@
         "athleteId": "3920591"
       }
     ],
+    "jamesmitchell": [
+      {
+        "name": "James Mitchell",
+        "team": "Cowboys",
+        "athleteId": "4361988"
+      }
+    ],
     "wanyamorris": [
       {
         "name": "Wanya Morris",
@@ -8508,13 +8645,6 @@
         "athleteId": "4426338"
       }
     ],
-    "gavinortega": [
-      {
-        "name": "Gavin Ortega",
-        "team": "Broncos",
-        "athleteId": "5085625"
-      }
-    ],
     "alexpalczewski": [
       {
         "name": "Alex Palczewski",
@@ -8541,13 +8671,6 @@
         "name": "Adam Prentice",
         "team": "Broncos",
         "athleteId": "3929914"
-      }
-    ],
-    "codyschrader": [
-      {
-        "name": "Cody Schrader",
-        "team": "Broncos",
-        "athleteId": "4391845"
       }
     ],
     "jarrettstidham": [
@@ -8879,6 +9002,13 @@
         "athleteId": "5144941"
       }
     ],
+    "ugoamadi": [
+      {
+        "name": "Ugo Amadi",
+        "team": "Broncos",
+        "athleteId": "3886834"
+      }
+    ],
     "michaelbandy": [
       {
         "name": "Michael Bandy",
@@ -8907,6 +9037,13 @@
         "athleteId": "4360231"
       }
     ],
+    "jordanmiller": [
+      {
+        "name": "Jordan Miller",
+        "team": "Broncos",
+        "athleteId": "4362524"
+      }
+    ],
     "tylermiller": [
       {
         "name": "Tyler Miller",
@@ -8921,11 +9058,25 @@
         "athleteId": "4912190"
       }
     ],
-    "elipancol": [
+    "gavinortega": [
       {
-        "name": "Eli Pancol",
+        "name": "Gavin Ortega",
         "team": "Broncos",
-        "athleteId": "4430288"
+        "athleteId": "5085625"
+      }
+    ],
+    "jaretpatterson": [
+      {
+        "name": "Jaret Patterson",
+        "team": "Broncos",
+        "athleteId": "4362452"
+      }
+    ],
+    "codyschrader": [
+      {
+        "name": "Cody Schrader",
+        "team": "Broncos",
+        "athleteId": "4391845"
       }
     ],
     "milesscott": [
@@ -9152,13 +9303,6 @@
         "athleteId": "4027919"
       }
     ],
-    "bishopfitzgerald": [
-      {
-        "name": "Bishop Fitzgerald",
-        "team": "Lions",
-        "athleteId": "5151810"
-      }
-    ],
     "skylergillhoward": [
       {
         "name": "Skyler Gill-Howard",
@@ -9262,13 +9406,6 @@
         "name": "Malcolm Rodriguez",
         "team": "Lions",
         "athleteId": "4241411"
-      }
-    ],
-    "jimmyrolder": [
-      {
-        "name": "Jimmy Rolder",
-        "team": "Lions",
-        "athleteId": "4896353"
       }
     ],
     "benstille": [
@@ -9395,6 +9532,13 @@
         "name": "Isiah Pacheco",
         "team": "Lions",
         "athleteId": "4361529"
+      }
+    ],
+    "jimmyrolder": [
+      {
+        "name": "Jimmy Rolder",
+        "team": "Lions",
+        "athleteId": "4896353"
       }
     ],
     "paytonturner": [
@@ -10020,18 +10164,18 @@
         "athleteId": "4429466"
       }
     ],
-    "kahlefhailassie": [
-      {
-        "name": "Kahlef Hailassie",
-        "team": "Packers",
-        "athleteId": "4373814"
-      }
-    ],
     "domanijackson": [
       {
         "name": "Domani Jackson",
         "team": "Packers",
         "athleteId": "4685402"
+      }
+    ],
+    "djjohnson": [
+      {
+        "name": "DJ Johnson",
+        "team": "Packers",
+        "athleteId": "4240623"
       }
     ],
     "nyjalikkelly": [
@@ -10048,6 +10192,13 @@
         "athleteId": "5277116"
       }
     ],
+    "cammiller": [
+      {
+        "name": "Cam Miller",
+        "team": "Packers",
+        "athleteId": "4693331"
+      }
+    ],
     "arronmosby": [
       {
         "name": "Arron Mosby",
@@ -10062,18 +10213,18 @@
         "athleteId": "4428116"
       }
     ],
+    "johnsaundersjr": [
+      {
+        "name": "John Saunders Jr.",
+        "team": "Packers",
+        "athleteId": "4608762"
+      }
+    ],
     "quincyskinnerjr": [
       {
         "name": "Quincy Skinner Jr.",
         "team": "Packers",
         "athleteId": "4572380"
-      }
-    ],
-    "kedonslovis": [
-      {
-        "name": "Kedon Slovis",
-        "team": "Packers",
-        "athleteId": "4428512"
       }
     ],
     "mazismith": [
@@ -10587,18 +10738,18 @@
         "athleteId": "4428989"
       }
     ],
+    "jadencrumedy": [
+      {
+        "name": "Jaden Crumedy",
+        "team": "Texans",
+        "athleteId": "4362910"
+      }
+    ],
     "jadendavis": [
       {
         "name": "Jaden Davis",
         "team": "Texans",
         "athleteId": "4426435"
-      }
-    ],
-    "kyontehamilton": [
-      {
-        "name": "Kyonte Hamilton",
-        "team": "Texans",
-        "athleteId": "4677281"
       }
     ],
     "calebjohnson": [
@@ -10613,13 +10764,6 @@
         "name": "Josh Kelly",
         "team": "Texans",
         "athleteId": "4575558"
-      }
-    ],
-    "zairemitchellpaden": [
-      {
-        "name": "Zaire Mitchell-Paden",
-        "team": "Texans",
-        "athleteId": "4876006"
       }
     ],
     "chadmuma": [
@@ -10662,6 +10806,13 @@
         "name": "Treyvhon Saunders",
         "team": "Texans",
         "athleteId": "5085942"
+      }
+    ],
+    "danielsobkowicz": [
+      {
+        "name": "Daniel Sobkowicz",
+        "team": "Texans",
+        "athleteId": "4878293"
       }
     ],
     "juniortafuna": [
@@ -10937,13 +11088,6 @@
         "athleteId": "3917142"
       }
     ],
-    "johnathanedwards": [
-      {
-        "name": "Johnathan Edwards",
-        "team": "Colts",
-        "athleteId": "4695991"
-      }
-    ],
     "saucegardner": [
       {
         "name": "Sauce Gardner",
@@ -10991,13 +11135,6 @@
         "name": "Laiatu Latu",
         "team": "Colts",
         "athleteId": "4426473"
-      }
-    ],
-    "carllawson": [
-      {
-        "name": "Carl Lawson",
-        "team": "Colts",
-        "athleteId": "3051911"
       }
     ],
     "jonathanowens": [
@@ -11161,6 +11298,13 @@
         "athleteId": "4689989"
       }
     ],
+    "johnathanedwards": [
+      {
+        "name": "Johnathan Edwards",
+        "team": "Colts",
+        "athleteId": "4695991"
+      }
+    ],
     "joshuagray": [
       {
         "name": "Joshua Gray",
@@ -11180,6 +11324,13 @@
         "name": "Reid Holskey",
         "team": "Colts",
         "athleteId": "4429951"
+      }
+    ],
+    "carllawson": [
+      {
+        "name": "Carl Lawson",
+        "team": "Colts",
+        "athleteId": "3051911"
       }
     ],
     "roymbaeteka": [
@@ -11441,20 +11592,6 @@
         "athleteId": "4334300"
       }
     ],
-    "davonhamilton": [
-      {
-        "name": "DaVon Hamilton",
-        "team": "Jaguars",
-        "athleteId": "3915520"
-      }
-    ],
-    "jamalhill": [
-      {
-        "name": "Jamal Hill",
-        "team": "Jaguars",
-        "athleteId": "4427479"
-      }
-    ],
     "joshhinesallen": [
       {
         "name": "Josh Hines-Allen",
@@ -11544,13 +11681,6 @@
         "athleteId": "4432440"
       }
     ],
-    "ericmurray": [
-      {
-        "name": "Eric Murray",
-        "team": "Jaguars",
-        "athleteId": "2970716"
-      }
-    ],
     "foyesadeoluokun": [
       {
         "name": "Foyesade Oluokun",
@@ -11607,13 +11737,6 @@
         "athleteId": "4832922"
       }
     ],
-    "jacobbobenmoyer": [
-      {
-        "name": "Jacob Bobenmoyer",
-        "team": "Jaguars",
-        "athleteId": "3925443"
-      }
-    ],
     "logancooke": [
       {
         "name": "Logan Cooke",
@@ -11663,6 +11786,13 @@
         "athleteId": "4875266"
       }
     ],
+    "davonhamilton": [
+      {
+        "name": "DaVon Hamilton",
+        "team": "Jaguars",
+        "athleteId": "3915520"
+      }
+    ],
     "antonharrison": [
       {
         "name": "Anton Harrison",
@@ -11689,6 +11819,13 @@
         "name": "Patrick Mekari",
         "team": "Jaguars",
         "athleteId": "3863820"
+      }
+    ],
+    "ericmurray": [
+      {
+        "name": "Eric Murray",
+        "team": "Jaguars",
+        "athleteId": "2970716"
       }
     ],
     "sammustipher": [
@@ -11738,6 +11875,13 @@
         "name": "Eli Cox",
         "team": "Jaguars",
         "athleteId": "4426981"
+      }
+    ],
+    "jamalhill": [
+      {
+        "name": "Jamal Hill",
+        "team": "Jaguars",
+        "athleteId": "4427479"
       }
     ],
     "austinjohnson": [
@@ -12144,13 +12288,6 @@
         "athleteId": "4428383"
       }
     ],
-    "tyrekesmith": [
-      {
-        "name": "Tyreke Smith",
-        "team": "Chiefs",
-        "athleteId": "4361340"
-      }
-    ],
     "melvinsmithjr": [
       {
         "name": "Melvin Smith Jr.",
@@ -12319,13 +12456,6 @@
         "athleteId": "4705926"
       }
     ],
-    "kaderkohou": [
-      {
-        "name": "Kader Kohou",
-        "team": "Chiefs",
-        "athleteId": "4291489"
-      }
-    ],
     "petenygra": [
       {
         "name": "Pete Nygra",
@@ -12352,6 +12482,13 @@
         "name": "DeShon Singleton",
         "team": "Chiefs",
         "athleteId": "5081093"
+      }
+    ],
+    "tyrekesmith": [
+      {
+        "name": "Tyreke Smith",
+        "team": "Chiefs",
+        "athleteId": "4361340"
       }
     ],
     "justintucker": [
@@ -12634,13 +12771,6 @@
         "athleteId": "3121003"
       }
     ],
-    "timkeenaniii": [
-      {
-        "name": "Tim Keenan III",
-        "team": "Raiders",
-        "athleteId": "4431414"
-      }
-    ],
     "malcolmkoonce": [
       {
         "name": "Malcolm Koonce",
@@ -12716,13 +12846,6 @@
         "name": "Darien Porter",
         "team": "Raiders",
         "athleteId": "4430330"
-      }
-    ],
-    "cianslone": [
-      {
-        "name": "Cian Slone",
-        "team": "Raiders",
-        "athleteId": "5153665"
       }
     ],
     "ericstokes": [
@@ -12830,6 +12953,13 @@
         "athleteId": "2579604"
       }
     ],
+    "anthonygoodlow": [
+      {
+        "name": "Anthony Goodlow",
+        "team": "Raiders",
+        "athleteId": "4372378"
+      }
+    ],
     "patrickgurd": [
       {
         "name": "Patrick Gurd",
@@ -12842,6 +12972,13 @@
         "name": "Niklas Henning",
         "team": "Raiders",
         "athleteId": "5348412"
+      }
+    ],
+    "timkeenaniii": [
+      {
+        "name": "Tim Keenan III",
+        "team": "Raiders",
+        "athleteId": "4431414"
       }
     ],
     "kanseimatsuzawa": [
@@ -12877,6 +13014,13 @@
         "name": "Tyler Scott",
         "team": "Raiders",
         "athleteId": "4565908"
+      }
+    ],
+    "cianslone": [
+      {
+        "name": "Cian Slone",
+        "team": "Raiders",
+        "athleteId": "5153665"
       }
     ],
     "greedyvance": [
@@ -13124,13 +13268,6 @@
         "athleteId": "4567138"
       }
     ],
-    "kaiirelam": [
-      {
-        "name": "Kaiir Elam",
-        "team": "Chargers",
-        "athleteId": "4567399"
-      }
-    ],
     "camhart": [
       {
         "name": "Cam Hart",
@@ -13362,6 +13499,13 @@
         "athleteId": "4039164"
       }
     ],
+    "jalynarmourdavis": [
+      {
+        "name": "Jalyn Armour-Davis",
+        "team": "Chargers",
+        "athleteId": "4372017"
+      }
+    ],
     "landerbarton": [
       {
         "name": "Lander Barton",
@@ -13388,6 +13532,13 @@
         "name": "Junior Colson",
         "team": "Chargers",
         "athleteId": "4431212"
+      }
+    ],
+    "kaiirelam": [
+      {
+        "name": "Kaiir Elam",
+        "team": "Chargers",
+        "athleteId": "4567399"
       }
     ],
     "lukegrimm": [
@@ -13467,25 +13618,11 @@
         "athleteId": "4362474"
       }
     ],
-    "alexbachman": [
-      {
-        "name": "Alex Bachman",
-        "team": "Rams",
-        "athleteId": "3919510"
-      }
-    ],
     "stetsonbennettiv": [
       {
         "name": "Stetson Bennett IV",
         "team": "Rams",
         "athleteId": "4259553"
-      }
-    ],
-    "deanconnors": [
-      {
-        "name": "Dean Connors",
-        "team": "Rams",
-        "athleteId": "5082269"
       }
     ],
     "blakecorum": [
@@ -13822,25 +13959,11 @@
         "athleteId": "5125875"
       }
     ],
-    "joshuakarty": [
-      {
-        "name": "Joshua Karty",
-        "team": "Rams",
-        "athleteId": "4566192"
-      }
-    ],
     "brandonmcmanus": [
       {
         "name": "Brandon McManus",
         "team": "Rams",
         "athleteId": "16339"
-      }
-    ],
-    "jakemcquaide": [
-      {
-        "name": "Jake McQuaide",
-        "team": "Rams",
-        "athleteId": "14676"
       }
     ],
     "davanteadams": [
@@ -13855,6 +13978,13 @@
         "name": "Matthew Caldwell",
         "team": "Rams",
         "athleteId": "4877717"
+      }
+    ],
+    "deanconnors": [
+      {
+        "name": "Dean Connors",
+        "team": "Rams",
+        "athleteId": "5082269"
       }
     ],
     "justindedich": [
@@ -13948,6 +14078,13 @@
         "athleteId": "4426752"
       }
     ],
+    "nyzierfourqurean": [
+      {
+        "name": "Nyzier Fourqurean",
+        "team": "Rams",
+        "athleteId": "5160648"
+      }
+    ],
     "blakehance": [
       {
         "name": "Blake Hance",
@@ -13969,18 +14106,25 @@
         "athleteId": "4361651"
       }
     ],
+    "joshuakarty": [
+      {
+        "name": "Joshua Karty",
+        "team": "Rams",
+        "athleteId": "4566192"
+      }
+    ],
+    "jakemcquaide": [
+      {
+        "name": "Jake McQuaide",
+        "team": "Rams",
+        "athleteId": "14676"
+      }
+    ],
     "jaxsonmoi": [
       {
         "name": "Jaxson Moi",
         "team": "Rams",
         "athleteId": "4791223"
-      }
-    ],
-    "garrettnelson": [
-      {
-        "name": "Garrett Nelson",
-        "team": "Rams",
-        "athleteId": "4430250"
       }
     ],
     "billnorton": [
@@ -14298,13 +14442,6 @@
         "athleteId": "4372463"
       }
     ],
-    "maxllewellyn": [
-      {
-        "name": "Max Llewellyn",
-        "team": "Dolphins",
-        "athleteId": "4683101"
-      }
-    ],
     "kylelouis": [
       {
         "name": "Kyle Louis",
@@ -14410,13 +14547,6 @@
         "athleteId": "4034729"
       }
     ],
-    "zanegonzalez": [
-      {
-        "name": "Zane Gonzalez",
-        "team": "Dolphins",
-        "athleteId": "3043234"
-      }
-    ],
     "bradleypinion": [
       {
         "name": "Bradley Pinion",
@@ -14508,6 +14638,13 @@
         "athleteId": "4360469"
       }
     ],
+    "zanegonzalez": [
+      {
+        "name": "Zane Gonzalez",
+        "team": "Dolphins",
+        "athleteId": "3043234"
+      }
+    ],
     "ajhenning": [
       {
         "name": "AJ Henning",
@@ -14520,6 +14657,13 @@
         "name": "Jordan Jefferson",
         "team": "Dolphins",
         "athleteId": "4569448"
+      }
+    ],
+    "maxllewellyn": [
+      {
+        "name": "Max Llewellyn",
+        "team": "Dolphins",
+        "athleteId": "4683101"
       }
     ],
     "jalenreagor": [
@@ -14606,13 +14750,6 @@
         "athleteId": "4832846"
       }
     ],
-    "deejaydallas": [
-      {
-        "name": "DeeJay Dallas",
-        "team": "Vikings",
-        "athleteId": "4240631"
-      }
-    ],
     "christiandarrisaw": [
       {
         "name": "Christian Darrisaw",
@@ -14674,13 +14811,6 @@
         "name": "Michael Jurgens",
         "team": "Vikings",
         "athleteId": "4362010"
-      }
-    ],
-    "trevorkeegan": [
-      {
-        "name": "Trevor Keegan",
-        "team": "Vikings",
-        "athleteId": "4427140"
       }
     ],
     "kylermurray": [
@@ -15033,6 +15163,13 @@
         "athleteId": "4361112"
       }
     ],
+    "deejaydallas": [
+      {
+        "name": "DeeJay Dallas",
+        "team": "Vikings",
+        "athleteId": "4240631"
+      }
+    ],
     "kennydysonjr": [
       {
         "name": "Kenny Dyson Jr.",
@@ -15052,13 +15189,6 @@
         "name": "Jack Nelson",
         "team": "Vikings",
         "athleteId": "4693369"
-      }
-    ],
-    "brysonnesbit": [
-      {
-        "name": "Bryson Nesbit",
-        "team": "Vikings",
-        "athleteId": "4602969"
       }
     ],
     "joshpriebe": [
@@ -15108,6 +15238,13 @@
         "name": "Ben Brown",
         "team": "Patriots",
         "athleteId": "4362890"
+      }
+    ],
+    "marcusbryant": [
+      {
+        "name": "Marcus Bryant",
+        "team": "Patriots",
+        "athleteId": "4565293"
       }
     ],
     "willcampbell": [
@@ -15201,13 +15338,6 @@
         "athleteId": "4431452"
       }
     ],
-    "ryanmiller": [
-      {
-        "name": "Ryan Miller",
-        "team": "Patriots",
-        "athleteId": "4369466"
-      }
-    ],
     "behrenmorton": [
       {
         "name": "Behren Morton",
@@ -15297,13 +15427,6 @@
         "name": "Carlton Davis III",
         "team": "Patriots",
         "athleteId": "3916923"
-      }
-    ],
-    "elliottdavison": [
-      {
-        "name": "Elliott Davison",
-        "team": "Patriots",
-        "athleteId": "4688366"
       }
     ],
     "corydurden": [
@@ -15425,13 +15548,6 @@
         "athleteId": "4431598"
       }
     ],
-    "kindlevildor": [
-      {
-        "name": "Kindle Vildor",
-        "team": "Patriots",
-        "athleteId": "4036651"
-      }
-    ],
     "miltonwilliams": [
       {
         "name": "Milton Williams",
@@ -15472,13 +15588,6 @@
         "name": "Mitch Wishnowsky",
         "team": "Patriots",
         "athleteId": "4035685"
-      }
-    ],
-    "marcusbryant": [
-      {
-        "name": "Marcus Bryant",
-        "team": "Patriots",
-        "athleteId": "4565293"
       }
     ],
     "romeodoubs": [
@@ -15579,18 +15688,18 @@
         "athleteId": "4047422"
       }
     ],
+    "elliottdavison": [
+      {
+        "name": "Elliott Davison",
+        "team": "Patriots",
+        "athleteId": "4688366"
+      }
+    ],
     "kyledixon": [
       {
         "name": "Kyle Dixon",
         "team": "Patriots",
         "athleteId": "5011554"
-      }
-    ],
-    "camerondorner": [
-      {
-        "name": "Cameron Dorner",
-        "team": "Patriots",
-        "athleteId": "5295981"
       }
     ],
     "ericgregory": [
@@ -15621,18 +15730,25 @@
         "athleteId": "4427600"
       }
     ],
-    "jakekubas": [
-      {
-        "name": "Jake Kubas",
-        "team": "Patriots",
-        "athleteId": "4383405"
-      }
-    ],
     "lorenzmetz": [
       {
         "name": "Lorenz Metz",
         "team": "Patriots",
         "athleteId": "4360063"
+      }
+    ],
+    "ryanmiller": [
+      {
+        "name": "Ryan Miller",
+        "team": "Patriots",
+        "athleteId": "4369466"
+      }
+    ],
+    "eliasneal": [
+      {
+        "name": "Elias Neal",
+        "team": "Patriots",
+        "athleteId": "4428098"
       }
     ],
     "xaviernewmanjohnson": [
@@ -16039,13 +16155,6 @@
         "name": "Chase Young",
         "team": "Saints",
         "athleteId": "4241986"
-      }
-    ],
-    "danielcarlson": [
-      {
-        "name": "Daniel Carlson",
-        "team": "Saints",
-        "athleteId": "3051909"
       }
     ],
     "zachwood": [
@@ -16811,13 +16920,6 @@
         "athleteId": "3042476"
       }
     ],
-    "joshtupou": [
-      {
-        "name": "Josh Tupou",
-        "team": "Giants",
-        "athleteId": "2979632"
-      }
-    ],
     "genovandemark": [
       {
         "name": "Geno VanDeMark",
@@ -16830,13 +16932,6 @@
         "name": "Braelon Allen",
         "team": "Jets",
         "athleteId": "4685247"
-      }
-    ],
-    "brantbanks": [
-      {
-        "name": "Brant Banks",
-        "team": "Jets",
-        "athleteId": "4426623"
       }
     ],
     "andrewbeck": [
@@ -16865,6 +16960,13 @@
         "name": "Olu Fashanu",
         "team": "Jets",
         "athleteId": "4431809"
+      }
+    ],
+    "blakefreeland": [
+      {
+        "name": "Blake Freeland",
+        "team": "Jets",
+        "athleteId": "4429636"
       }
     ],
     "breecehall": [
@@ -16921,13 +17023,6 @@
         "name": "Adonai Mitchell",
         "team": "Jets",
         "athleteId": "4597500"
-      }
-    ],
-    "maxmitchell": [
-      {
-        "name": "Max Mitchell",
-        "team": "Jets",
-        "athleteId": "4373656"
       }
     ],
     "joshmyers": [
@@ -17026,13 +17121,6 @@
         "name": "David Bailey",
         "team": "Jets",
         "athleteId": "4685248"
-      }
-    ],
-    "quintonbell": [
-      {
-        "name": "Quinton Bell",
-        "team": "Jets",
-        "athleteId": "3933407"
       }
     ],
     "danebelton": [
@@ -17238,13 +17326,6 @@
         "athleteId": "4692555"
       }
     ],
-    "trebrown": [
-      {
-        "name": "Tre Brown",
-        "team": "Jets",
-        "athleteId": "4241373"
-      }
-    ],
     "anezcooper": [
       {
         "name": "Anez Cooper",
@@ -17278,6 +17359,13 @@
         "name": "Braiden McGregor",
         "team": "Jets",
         "athleteId": "4429005"
+      }
+    ],
+    "maxmitchell": [
+      {
+        "name": "Max Mitchell",
+        "team": "Jets",
+        "athleteId": "4373656"
       }
     ],
     "davidonyemata": [
@@ -17327,6 +17415,20 @@
         "name": "Mory Bamba",
         "team": "Jets",
         "athleteId": "5092196"
+      }
+    ],
+    "brantbanks": [
+      {
+        "name": "Brant Banks",
+        "team": "Jets",
+        "athleteId": "4426623"
+      }
+    ],
+    "quintonbell": [
+      {
+        "name": "Quinton Bell",
+        "team": "Jets",
+        "athleteId": "3933407"
       }
     ],
     "jordanclark": [
@@ -17546,13 +17648,6 @@
         "athleteId": "4360698"
       }
     ],
-    "elijahmitchell": [
-      {
-        "name": "Elijah Mitchell",
-        "team": "Eagles",
-        "athleteId": "4241555"
-      }
-    ],
     "elijahmoore": [
       {
         "name": "Elijah Moore",
@@ -17756,13 +17851,6 @@
         "athleteId": "4362116"
       }
     ],
-    "masonreiger": [
-      {
-        "name": "Mason Reiger",
-        "team": "Eagles",
-        "athleteId": "4691903"
-      }
-    ],
     "keleeringo": [
       {
         "name": "Kelee Ringo",
@@ -17824,13 +17912,6 @@
         "name": "Rocco Underwood",
         "team": "Eagles",
         "athleteId": "4686566"
-      }
-    ],
-    "jakorianbennett": [
-      {
-        "name": "Jakorian Bennett",
-        "team": "Eagles",
-        "athleteId": "4686911"
       }
     ],
     "tariqcastrofields": [
@@ -17910,6 +17991,13 @@
         "athleteId": "4429731"
       }
     ],
+    "elijahmitchell": [
+      {
+        "name": "Elijah Mitchell",
+        "team": "Eagles",
+        "athleteId": "4241555"
+      }
+    ],
     "evanneal": [
       {
         "name": "Evan Neal",
@@ -17922,6 +18010,13 @@
         "name": "Anfernee Orji",
         "team": "Eagles",
         "athleteId": "4567535"
+      }
+    ],
+    "masonreiger": [
+      {
+        "name": "Mason Reiger",
+        "team": "Eagles",
+        "athleteId": "4691903"
       }
     ],
     "joshuaweru": [
@@ -18027,18 +18122,6 @@
         "name": "Max Iheanachor",
         "team": "Steelers",
         "athleteId": "5150136"
-      }
-    ],
-    "brandonjohnson": [
-      {
-        "name": "Brandon Johnson",
-        "team": "Steelers",
-        "athleteId": "4035198"
-      },
-      {
-        "name": "Brandon Johnson",
-        "team": "Buccaneers",
-        "athleteId": "4594338"
       }
     ],
     "ryanmccollum": [
@@ -18424,6 +18507,18 @@
         "name": "Isaiah Hodgins",
         "team": "Steelers",
         "athleteId": "4242540"
+      }
+    ],
+    "brandonjohnson": [
+      {
+        "name": "Brandon Johnson",
+        "team": "Steelers",
+        "athleteId": "4035198"
+      },
+      {
+        "name": "Brandon Johnson",
+        "team": "Buccaneers",
+        "athleteId": "4594338"
       }
     ],
     "stevenjones": [
@@ -19028,6 +19123,13 @@
         "athleteId": "4875123"
       }
     ],
+    "robertbealjr": [
+      {
+        "name": "Robert Beal Jr.",
+        "team": "49ers",
+        "athleteId": "4259558"
+      }
+    ],
     "brandoncodrington": [
       {
         "name": "Brandon Codrington",
@@ -19166,13 +19268,6 @@
         "name": "Bobby Hart",
         "team": "Seahawks",
         "athleteId": "2576789"
-      }
-    ],
-    "roberthenryjr": [
-      {
-        "name": "Robert Henry Jr.",
-        "team": "Seahawks",
-        "athleteId": "5151317"
       }
     ],
     "georgeholani": [
@@ -20323,13 +20418,6 @@
         "athleteId": "3916148"
       }
     ],
-    "xavierrestrepo": [
-      {
-        "name": "Xavier Restrepo",
-        "team": "Titans",
-        "athleteId": "4431353"
-      }
-    ],
     "calvinridley": [
       {
         "name": "Calvin Ridley",
@@ -20568,13 +20656,6 @@
         "athleteId": "13848"
       }
     ],
-    "thomasmorstead": [
-      {
-        "name": "Thomas Morstead",
-        "team": "Titans",
-        "athleteId": "12701"
-      }
-    ],
     "joeyslye": [
       {
         "name": "Joey Slye",
@@ -20715,6 +20796,13 @@
         "athleteId": "5103197"
       }
     ],
+    "thomasmorstead": [
+      {
+        "name": "Thomas Morstead",
+        "team": "Titans",
+        "athleteId": "12701"
+      }
+    ],
     "drewmoss": [
       {
         "name": "Drew Moss",
@@ -20727,6 +20815,13 @@
         "name": "Owen Pappoe",
         "team": "Titans",
         "athleteId": "4567219"
+      }
+    ],
+    "xavierrestrepo": [
+      {
+        "name": "Xavier Restrepo",
+        "team": "Titans",
+        "athleteId": "4431353"
       }
     ],
     "jakobrobinson": [
@@ -20846,6 +20941,13 @@
         "name": "Matt Gulbin",
         "team": "Commanders",
         "athleteId": "4683463"
+      }
+    ],
+    "roberthenryjr": [
+      {
+        "name": "Robert Henry Jr.",
+        "team": "Commanders",
+        "athleteId": "5151317"
       }
     ],
     "vanjefferson": [
@@ -20981,13 +21083,6 @@
         "athleteId": "4242205"
       }
     ],
-    "byroncowart": [
-      {
-        "name": "Byron Cowart",
-        "team": "Commanders",
-        "athleteId": "3916922"
-      }
-    ],
     "nickcross": [
       {
         "name": "Nick Cross",
@@ -21028,13 +21123,6 @@
         "name": "Ale Kaho",
         "team": "Commanders",
         "athleteId": "4361090"
-      }
-    ],
-    "javonkinlaw": [
-      {
-        "name": "Javon Kinlaw",
-        "team": "Commanders",
-        "athleteId": "4259491"
       }
     ],
     "frankieluvu": [
@@ -21091,13 +21179,6 @@
         "name": "Tyler Owens",
         "team": "Commanders",
         "athleteId": "4572460"
-      }
-    ],
-    "daronpayne": [
-      {
-        "name": "Daron Payne",
-        "team": "Commanders",
-        "athleteId": "3925354"
       }
     ],
     "jeremyreaves": [
@@ -21191,6 +21272,13 @@
         "athleteId": "4426901"
       }
     ],
+    "javonkinlaw": [
+      {
+        "name": "Javon Kinlaw",
+        "team": "Commanders",
+        "athleteId": "4259491"
+      }
+    ],
     "terrymclaurin": [
       {
         "name": "Terry McLaurin",
@@ -21212,6 +21300,13 @@
         "athleteId": "4430560"
       }
     ],
+    "daronpayne": [
+      {
+        "name": "Daron Payne",
+        "team": "Commanders",
+        "athleteId": "3925354"
+      }
+    ],
     "laremytunsil": [
       {
         "name": "Laremy Tunsil",
@@ -21226,6 +21321,13 @@
         "athleteId": "4683111"
       }
     ],
+    "byroncowart": [
+      {
+        "name": "Byron Cowart",
+        "team": "Commanders",
+        "athleteId": "3916922"
+      }
+    ],
     "freddavisii": [
       {
         "name": "Fred Davis II",
@@ -21238,6 +21340,13 @@
         "name": "Nick DeGennaro",
         "team": "Commanders",
         "athleteId": "4692796"
+      }
+    ],
+    "danielekuale": [
+      {
+        "name": "Daniel Ekuale",
+        "team": "Commanders",
+        "athleteId": "3052059"
       }
     ],
     "samhartman": [
@@ -21304,6 +21413,6 @@
       }
     ]
   },
-  "rostersCheckedAt": "2026-11-03T20:58:54.817141+00:00",
+  "rostersCheckedAt": "2026-11-04T22:39:31.996441+00:00",
   "rosterStatus": "ok"
 }
