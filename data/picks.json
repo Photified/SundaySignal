@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-04T09:12:36.915534+00:00",
-  "lastSuccessfulUpdate": "2026-11-04T09:12:36.915534+00:00",
+  "checkedAt": "2026-11-04T17:15:17.737123+00:00",
+  "lastSuccessfulUpdate": "2026-11-04T17:15:17.737123+00:00",
   "sources": [
     {
       "id": "sbd",
@@ -10,9 +10,9 @@
       "website": "https://www.sportsbettingdime.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-04T09:12:36.915534+00:00",
-      "lastSuccessAt": "2026-11-04T09:12:36.915534+00:00",
-      "count": 10,
+      "checkedAt": "2026-11-04T17:15:17.737123+00:00",
+      "lastSuccessAt": "2026-11-04T17:15:17.737123+00:00",
+      "count": 11,
       "message": "Feed retrieved successfully"
     },
     {
@@ -22,9 +22,9 @@
       "website": "https://www.bettingpros.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-04T09:12:36.915534+00:00",
-      "lastSuccessAt": "2026-11-04T09:12:36.915534+00:00",
-      "count": 37,
+      "checkedAt": "2026-11-04T17:15:17.737123+00:00",
+      "lastSuccessAt": "2026-11-04T17:15:17.737123+00:00",
+      "count": 35,
       "message": "Feed retrieved successfully"
     },
     {
@@ -35,7 +35,7 @@
       "website": "https://www.cbssports.com/nfl/picks/experts/",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-11-04T09:12:36.915534+00:00",
+      "checkedAt": "2026-11-04T17:15:17.737123+00:00",
       "lastSuccessAt": "2026-11-02T23:30:07.017023+00:00",
       "count": 7,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -47,11 +47,11 @@
       "feed": "https://www.covers.com/nfl",
       "website": "https://www.covers.com/nfl",
       "enabled": true,
-      "status": "ok",
-      "checkedAt": "2026-11-04T09:12:36.915534+00:00",
+      "status": "unavailable",
+      "checkedAt": "2026-11-04T17:15:17.737123+00:00",
       "lastSuccessAt": "2026-11-04T09:12:36.915534+00:00",
       "count": 1,
-      "message": "Public expert selections retrieved"
+      "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
     },
     {
       "id": "sportschat",
@@ -62,8 +62,8 @@
       "articlePattern": "/nfl-picks/[^/]+prediction[^/]+/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-04T09:12:36.915534+00:00",
-      "lastSuccessAt": "2026-11-04T09:12:36.915534+00:00",
+      "checkedAt": "2026-11-04T17:15:17.737123+00:00",
+      "lastSuccessAt": "2026-11-04T17:15:17.737123+00:00",
       "count": 11,
       "message": "Public expert selections retrieved"
     },
@@ -76,7 +76,7 @@
       "articlePattern": "/picks/nfl/(?:picks-against-the-spread-ats-predictions|player-props)-week-\\d+-\\d{4}/$",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-11-04T09:12:36.915534+00:00",
+      "checkedAt": "2026-11-04T17:15:17.737123+00:00",
       "lastSuccessAt": "2026-11-01T19:40:17.548807+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -89,11 +89,11 @@
       "kind": "articles",
       "articlePattern": "/us/nfl/news/nfl-picks-predictions-against-spread-week-\\d+/",
       "enabled": true,
-      "status": "ok",
-      "checkedAt": "2026-11-04T09:12:36.915534+00:00",
+      "status": "unavailable",
+      "checkedAt": "2026-11-04T17:15:17.737123+00:00",
       "lastSuccessAt": "2026-11-04T09:12:36.915534+00:00",
       "count": 1,
-      "message": "Public expert selections retrieved"
+      "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
     },
     {
       "id": "rotowire",
@@ -104,13 +104,191 @@
       "articlePattern": "/football/article/(?:nfl-picks-and-props|[^/]*odds-picks-and-predictions|[^/]*betting-odds-picks-and-predictions)[^/]+$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-04T09:12:36.915534+00:00",
-      "lastSuccessAt": "2026-11-04T09:12:36.915534+00:00",
+      "checkedAt": "2026-11-04T17:15:17.737123+00:00",
+      "lastSuccessAt": "2026-11-04T17:15:17.737123+00:00",
       "count": 4,
       "message": "Public expert selections retrieved"
     }
   ],
   "articles": [
+    {
+      "id": "d915c707b44cf9cb",
+      "title": "NFL Week 9 Anytime Touchdown Scorer Picks & Best Bets",
+      "url": "https://www.sportsbettingdime.com/news/nfl/week-9-anytime-touchdown-picks/",
+      "publisher": "Sports Betting Dime",
+      "sourceId": "sbd",
+      "author": "Daniel Destler",
+      "publishedAt": "2026-11-04T16:32:00+00:00",
+      "picks": [
+        {
+          "selection": "Parker Washington Anytime TD (+145) vs. Baltimore Ravens",
+          "market": "Other",
+          "context": "",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873037",
+            "startAt": "2026-11-06T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Ravens",
+              "Jaguars"
+            ],
+            "matchup": "Jacksonville Jaguars at Baltimore Ravens",
+            "week": 9,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Malik Nabers Anytime TD (+160) vs. Philadelphia Eagles",
+          "market": "Other",
+          "context": "",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873044",
+            "startAt": "2026-11-08T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Eagles",
+              "Giants"
+            ],
+            "matchup": "New York Giants at Philadelphia Eagles",
+            "week": 9,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Other"
+      ],
+      "teams": [
+        "Eagles",
+        "Ravens"
+      ]
+    },
+    {
+      "id": "a200ea47967027e9",
+      "title": "NFL Week 9 Confidence Pool Picks & Predictions (2026)",
+      "url": "https://www.bettingpros.com/articles/nfl-week-9-confidence-pool-picks-predictions-2026/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "Jason Radowitz",
+      "publishedAt": "2026-11-04T14:36:02+00:00",
+      "picks": [],
+      "parlays": [],
+      "markets": [
+        "Other"
+      ],
+      "teams": []
+    },
+    {
+      "id": "730e5b41722f59f1",
+      "title": "NFL Week 9 Picks & Predictions: Best Early Parlays (2026)",
+      "url": "https://www.bettingpros.com/articles/nfl-week-9-picks-predictions-best-early-parlays-2026/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "Steve Krebs",
+      "publishedAt": "2026-11-04T12:07:44+00:00",
+      "picks": [],
+      "parlays": [
+        {
+          "label": "Early NFL Week 9 Parlay #1",
+          "americanOdds": 205,
+          "legs": [
+            {
+              "selection": "Joe Burrow 225+ Passing Yards ( -350 )",
+              "market": "Props",
+              "context": "",
+              "event": null
+            },
+            {
+              "selection": "Lions Moneyline ( -350 )",
+              "market": "Moneyline",
+              "context": "",
+              "event": {
+                "id": "401873042",
+                "startAt": "2026-11-08T18:00Z",
+                "state": "pre",
+                "teams": [
+                  "Dolphins",
+                  "Lions"
+                ],
+                "matchup": "Detroit Lions at Miami Dolphins",
+                "week": 9,
+                "season": 2026
+              }
+            },
+            {
+              "selection": "49ers -9.5 ( -120 )",
+              "market": "Spread",
+              "context": "",
+              "event": {
+                "id": "401873047",
+                "startAt": "2026-11-08T21:25Z",
+                "state": "pre",
+                "teams": [
+                  "49ers",
+                  "Raiders"
+                ],
+                "matchup": "Las Vegas Raiders at San Francisco 49ers",
+                "week": 9,
+                "season": 2026
+              }
+            }
+          ]
+        },
+        {
+          "label": "Early NFL Week 9 Parlay #2",
+          "americanOdds": 435,
+          "legs": [
+            {
+              "selection": "Jaguars Total Team 24+ Points ( -180 )",
+              "market": "Totals",
+              "context": "",
+              "event": {
+                "id": "401873037",
+                "startAt": "2026-11-06T01:15Z",
+                "state": "pre",
+                "teams": [
+                  "Ravens",
+                  "Jaguars"
+                ],
+                "matchup": "Jacksonville Jaguars at Baltimore Ravens",
+                "week": 9,
+                "season": 2026
+              }
+            },
+            {
+              "selection": "Packers Moneyline ( +128 )",
+              "market": "Moneyline",
+              "context": "",
+              "event": {
+                "id": "401873049",
+                "startAt": "2026-11-08T21:25Z",
+                "state": "pre",
+                "teams": [
+                  "Patriots",
+                  "Packers"
+                ],
+                "matchup": "Green Bay Packers at New England Patriots",
+                "week": 9,
+                "season": 2026
+              }
+            },
+            {
+              "selection": "Caleb Williams vs. Baker Mayfield Most Passing Yards: Caleb Williams ( -225 )",
+              "market": "Props",
+              "context": "",
+              "event": null
+            }
+          ]
+        }
+      ],
+      "markets": [
+        "Other"
+      ],
+      "teams": []
+    },
     {
       "id": "6be3f8053d0198f2",
       "title": "Ravens vs Jaguars Prediction 11/5/26 NFL Picks Today | Sports Chat Place",
@@ -2443,61 +2621,6 @@
       ]
     },
     {
-      "id": "e0c4f1097c4f7334",
-      "title": "NFL Week 9 Odds & Picks: Best Lookahead Bets (2026)",
-      "url": "https://www.bettingpros.com/articles/nfl-week-9-odds-picks-best-lookahead-bets-2026/",
-      "publisher": "BettingPros",
-      "sourceId": "bettingpros",
-      "author": "Jason Radowitz",
-      "publishedAt": "2026-10-29T15:50:34+00:00",
-      "picks": [
-        {
-          "selection": "Rams -5.5 ( -110 )",
-          "market": "Spread",
-          "context": "Los Angeles Rams vs. Washington Commanders",
-          "method": "Explicit selection in publisher feed",
-          "event": {
-            "id": "401873043",
-            "startAt": "2026-11-08T18:00Z",
-            "state": "pre",
-            "teams": [
-              "Commanders",
-              "Rams"
-            ],
-            "matchup": "Los Angeles Rams at Washington Commanders",
-            "week": 9,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "49ers -9.5 ( -110 )",
-          "market": "Spread",
-          "context": "San Francisco 49ers vs. Las Vegas Raiders",
-          "method": "Explicit selection in publisher feed",
-          "event": {
-            "id": "401873047",
-            "startAt": "2026-11-08T21:25Z",
-            "state": "pre",
-            "teams": [
-              "49ers",
-              "Raiders"
-            ],
-            "matchup": "Las Vegas Raiders at San Francisco 49ers",
-            "week": 9,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "49ers",
-        "Rams"
-      ]
-    },
-    {
       "id": "3321bdc9f5371a6e",
       "title": "NFL Bears vs Seahawks expert spread pick",
       "url": "https://www.cbssports.com/nfl/picks/experts/",
@@ -2640,93 +2763,6 @@
       "teams": [
         "Bears",
         "Seahawks"
-      ]
-    },
-    {
-      "id": "0dd7dfd35328e278",
-      "title": "NFL Thursday Night Football Betting Primer: Panthers vs Packers Picks",
-      "url": "https://www.bettingpros.com/articles/nfl-thursday-night-football-betting-primer-panthers-vs-packers-picks/",
-      "publisher": "BettingPros",
-      "sourceId": "bettingpros",
-      "author": "Andrew Erickson",
-      "publishedAt": "2026-10-29T10:56:58+00:00",
-      "picks": [
-        {
-          "selection": "Panthers +3.5",
-          "market": "Spread",
-          "context": "NFL Thursday Night Football Betting Primer: Carolina Panthers vs. Green Bay Packers",
-          "method": "Explicit selection in publisher feed",
-          "event": null
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Packers",
-        "Panthers"
-      ]
-    },
-    {
-      "id": "99268afad36bfce6",
-      "title": "Best NFL Player Props: Thursday Night Football (Panthers vs. Packers)",
-      "url": "https://www.bettingpros.com/articles/best-nfl-player-props-thursday-night-football-panthers-vs-packers-week-8-2026/",
-      "publisher": "BettingPros",
-      "sourceId": "bettingpros",
-      "author": "BettingPros Staff",
-      "publishedAt": "2026-10-29T10:56:45+00:00",
-      "picks": [],
-      "parlays": [],
-      "markets": [
-        "Props"
-      ],
-      "teams": [
-        "Packers",
-        "Panthers"
-      ]
-    },
-    {
-      "id": "9dc415ae07b123f2",
-      "title": "NFL Thursday Night Football Player Props & Bets: Panthers vs. Packers",
-      "url": "https://www.bettingpros.com/articles/nfl-thursday-night-football-player-props-bets-panthers-vs-packers/",
-      "publisher": "BettingPros",
-      "sourceId": "bettingpros",
-      "author": "Steve Krebs",
-      "publishedAt": "2026-10-29T10:19:40+00:00",
-      "picks": [
-        {
-          "selection": "Jordan Love 2+ Passing Touchdowns ( -154 )",
-          "market": "Props",
-          "context": "NFL Thursday Night Football Player Props: Panthers vs. Packers",
-          "method": "Explicit selection in publisher feed",
-          "player": {
-            "name": "Jordan Love",
-            "team": "Packers",
-            "athleteId": "4036378"
-          },
-          "event": null
-        },
-        {
-          "selection": "Chuba Hubbard Anytime Touchdown Scorer ( -115 )",
-          "market": "Props",
-          "context": "NFL Thursday Night Football Player Props: Panthers vs. Packers",
-          "method": "Explicit selection in publisher feed",
-          "player": {
-            "name": "Chuba Hubbard",
-            "team": "Panthers",
-            "athleteId": "4241416"
-          },
-          "event": null
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Props"
-      ],
-      "teams": [
-        "Packers",
-        "Panthers"
       ]
     },
     {
@@ -3341,8 +3377,8 @@
   ],
   "scheduleStatus": {
     "status": "ok",
-    "checkedAt": "2026-11-04T09:12:36.915534+00:00",
-    "lastSuccessAt": "2026-11-04T09:12:36.915534+00:00"
+    "checkedAt": "2026-11-04T17:15:17.737123+00:00",
+    "lastSuccessAt": "2026-11-04T17:15:17.737123+00:00"
   },
   "playerTeams": {
     "tylerallgeier": [
