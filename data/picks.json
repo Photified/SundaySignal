@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-05T03:29:38.056482+00:00",
-  "lastSuccessfulUpdate": "2026-11-05T03:29:38.056482+00:00",
+  "checkedAt": "2026-11-05T12:20:39.462325+00:00",
+  "lastSuccessfulUpdate": "2026-11-05T12:20:39.462325+00:00",
   "sources": [
     {
       "id": "sbd",
@@ -10,8 +10,8 @@
       "website": "https://www.sportsbettingdime.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-05T03:29:38.056482+00:00",
-      "lastSuccessAt": "2026-11-05T03:29:38.056482+00:00",
+      "checkedAt": "2026-11-05T12:20:39.462325+00:00",
+      "lastSuccessAt": "2026-11-05T12:20:39.462325+00:00",
       "count": 11,
       "message": "Feed retrieved successfully"
     },
@@ -22,9 +22,9 @@
       "website": "https://www.bettingpros.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-05T03:29:38.056482+00:00",
-      "lastSuccessAt": "2026-11-05T03:29:38.056482+00:00",
-      "count": 35,
+      "checkedAt": "2026-11-05T12:20:39.462325+00:00",
+      "lastSuccessAt": "2026-11-05T12:20:39.462325+00:00",
+      "count": 41,
       "message": "Feed retrieved successfully"
     },
     {
@@ -35,7 +35,7 @@
       "website": "https://www.cbssports.com/nfl/picks/experts/",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-11-05T03:29:38.056482+00:00",
+      "checkedAt": "2026-11-05T12:20:39.462325+00:00",
       "lastSuccessAt": "2026-11-02T23:30:07.017023+00:00",
       "count": 7,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -48,8 +48,8 @@
       "website": "https://www.covers.com/nfl",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-05T03:29:38.056482+00:00",
-      "lastSuccessAt": "2026-11-05T03:29:38.056482+00:00",
+      "checkedAt": "2026-11-05T12:20:39.462325+00:00",
+      "lastSuccessAt": "2026-11-05T12:20:39.462325+00:00",
       "count": 1,
       "message": "Public expert selections retrieved"
     },
@@ -62,8 +62,8 @@
       "articlePattern": "/nfl-picks/[^/]+prediction[^/]+/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-05T03:29:38.056482+00:00",
-      "lastSuccessAt": "2026-11-05T03:29:38.056482+00:00",
+      "checkedAt": "2026-11-05T12:20:39.462325+00:00",
+      "lastSuccessAt": "2026-11-05T12:20:39.462325+00:00",
       "count": 11,
       "message": "Public expert selections retrieved"
     },
@@ -76,7 +76,7 @@
       "articlePattern": "/picks/nfl/(?:picks-against-the-spread-ats-predictions|player-props)-week-\\d+-\\d{4}/$",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-11-05T03:29:38.056482+00:00",
+      "checkedAt": "2026-11-05T12:20:39.462325+00:00",
       "lastSuccessAt": "2026-11-01T19:40:17.548807+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -90,7 +90,7 @@
       "articlePattern": "/us/nfl/news/nfl-picks-predictions-against-spread-week-\\d+/",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-11-05T03:29:38.056482+00:00",
+      "checkedAt": "2026-11-05T12:20:39.462325+00:00",
       "lastSuccessAt": "2026-11-04T09:12:36.915534+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -104,13 +104,339 @@
       "articlePattern": "/football/article/(?:nfl-picks-and-props|[^/]*odds-picks-and-predictions|[^/]*betting-odds-picks-and-predictions)[^/]+$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-05T03:29:38.056482+00:00",
-      "lastSuccessAt": "2026-11-05T03:29:38.056482+00:00",
+      "checkedAt": "2026-11-05T12:20:39.462325+00:00",
+      "lastSuccessAt": "2026-11-05T12:20:39.462325+00:00",
       "count": 4,
       "message": "Public expert selections retrieved"
     }
   ],
   "articles": [
+    {
+      "id": "6bda2d7b5cd01484",
+      "title": "Best NFL Player Props: Thursday Night Football (Jaguars vs. Ravens)",
+      "url": "https://www.bettingpros.com/articles/best-nfl-player-props-thursday-night-football-jaguars-vs-ravens-week-9-2026/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "BettingPros Staff",
+      "publishedAt": "2026-11-05T12:03:27+00:00",
+      "picks": [],
+      "parlays": [],
+      "markets": [
+        "Props"
+      ],
+      "teams": [
+        "Jaguars",
+        "Ravens"
+      ]
+    },
+    {
+      "id": "4f5af1bcb5cfda55",
+      "title": "NFL Thursday Night Football Player Props & Bets: Jaguars vs. Ravens",
+      "url": "https://www.bettingpros.com/articles/nfl-thursday-night-football-player-props-bets-jaguars-vs-ravens/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "Steve Krebs",
+      "publishedAt": "2026-11-05T11:53:21+00:00",
+      "picks": [
+        {
+          "selection": "Trevor Lawrence 100+ Yards in Each Half ( +130 )",
+          "market": "Props",
+          "context": "NFL Thursday Night Football Player Props: Jaguars vs. Ravens",
+          "method": "Explicit selection in publisher feed",
+          "player": {
+            "name": "Trevor Lawrence",
+            "team": "Jaguars",
+            "athleteId": "4360310"
+          },
+          "event": {
+            "id": "401873037",
+            "startAt": "2026-11-06T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Ravens",
+              "Jaguars"
+            ],
+            "matchup": "Jacksonville Jaguars at Baltimore Ravens",
+            "week": 9,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Bhayshul Tuten Anytime Touchdown Scorer ( -105 )",
+          "market": "Props",
+          "context": "NFL Thursday Night Football Player Props: Jaguars vs. Ravens",
+          "method": "Explicit selection in publisher feed",
+          "player": {
+            "name": "Bhayshul Tuten",
+            "team": "Jaguars",
+            "athleteId": "4882093"
+          },
+          "event": {
+            "id": "401873037",
+            "startAt": "2026-11-06T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Ravens",
+              "Jaguars"
+            ],
+            "matchup": "Jacksonville Jaguars at Baltimore Ravens",
+            "week": 9,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Props"
+      ],
+      "teams": [
+        "Jaguars",
+        "Ravens"
+      ]
+    },
+    {
+      "id": "1117eeb0934b28e9",
+      "title": "NFL Thursday Night Football Picks: Jaguars vs. Ravens (Week 9)",
+      "url": "https://www.bettingpros.com/articles/nfl-thursday-night-football-picks-jaguars-vs-ravens-week-9/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "Josh Shepardson",
+      "publishedAt": "2026-11-05T11:23:23+00:00",
+      "picks": [
+        {
+          "selection": "Derrick Henry Under 17.5 Rushing Attempts ( -113 )",
+          "market": "Props",
+          "context": "",
+          "method": "Explicit selection in publisher feed",
+          "player": {
+            "name": "Derrick Henry",
+            "team": "Ravens",
+            "athleteId": "3043078"
+          },
+          "event": {
+            "id": "401873037",
+            "startAt": "2026-11-06T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Ravens",
+              "Jaguars"
+            ],
+            "matchup": "Jacksonville Jaguars at Baltimore Ravens",
+            "week": 9,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Brenton Strange -14.5 Receiving Yards vs. Mark Andrews ( -115 )",
+          "market": "Props",
+          "context": "",
+          "method": "Explicit selection in publisher feed",
+          "player": {
+            "name": "Brenton Strange",
+            "team": "Jaguars",
+            "athleteId": "4430539"
+          },
+          "event": {
+            "id": "401873037",
+            "startAt": "2026-11-06T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Ravens",
+              "Jaguars"
+            ],
+            "matchup": "Jacksonville Jaguars at Baltimore Ravens",
+            "week": 9,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Props"
+      ],
+      "teams": [
+        "Jaguars",
+        "Ravens"
+      ]
+    },
+    {
+      "id": "8feba44f960419bc",
+      "title": "NFL Thursday Night Football Same Game Parlay: Jaguars vs. Ravens",
+      "url": "https://www.bettingpros.com/articles/nfl-thursday-night-football-same-game-parlay-jaguars-vs-ravens/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "Richard Janvrin",
+      "publishedAt": "2026-11-05T10:53:27+00:00",
+      "picks": [],
+      "parlays": [
+        {
+          "label": "Expert parlay",
+          "americanOdds": 900,
+          "legs": [
+            {
+              "selection": "Jacksonville Jaguars -9.5 ( -108 )",
+              "market": "Spread",
+              "context": "Jacksonville Jaguars at Baltimore Ravens",
+              "event": {
+                "id": "401873037",
+                "startAt": "2026-11-06T01:15Z",
+                "state": "pre",
+                "teams": [
+                  "Ravens",
+                  "Jaguars"
+                ],
+                "matchup": "Jacksonville Jaguars at Baltimore Ravens",
+                "week": 9,
+                "season": 2026
+              }
+            },
+            {
+              "selection": "Derrick Henry Over 18.5 Rush Attempts ( +101 )",
+              "market": "Props",
+              "context": "Jacksonville Jaguars at Baltimore Ravens",
+              "event": {
+                "id": "401873037",
+                "startAt": "2026-11-06T01:15Z",
+                "state": "pre",
+                "teams": [
+                  "Ravens",
+                  "Jaguars"
+                ],
+                "matchup": "Jacksonville Jaguars at Baltimore Ravens",
+                "week": 9,
+                "season": 2026
+              }
+            },
+            {
+              "selection": "Josh Cameron Under 14.5 Receiving Yards ( -113 )",
+              "market": "Props",
+              "context": "Jacksonville Jaguars at Baltimore Ravens",
+              "event": {
+                "id": "401873037",
+                "startAt": "2026-11-06T01:15Z",
+                "state": "pre",
+                "teams": [
+                  "Ravens",
+                  "Jaguars"
+                ],
+                "matchup": "Jacksonville Jaguars at Baltimore Ravens",
+                "week": 9,
+                "season": 2026
+              }
+            }
+          ]
+        }
+      ],
+      "markets": [
+        "Other"
+      ],
+      "teams": [
+        "Jaguars",
+        "Ravens"
+      ]
+    },
+    {
+      "id": "01184fd20737ae64",
+      "title": "NFL Thursday Night Football TD Scorers Picks: Jaguars vs. Ravens",
+      "url": "https://www.bettingpros.com/articles/nfl-thursday-night-football-td-scorers-picks-jaguars-vs-ravens/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "Mike Spector",
+      "publishedAt": "2026-11-05T10:53:22+00:00",
+      "picks": [
+        {
+          "selection": "Parker Washington First Touchdown Scorer ( +650 )",
+          "market": "Props",
+          "context": "NFL Thursday Night Football TD Scorers Picks: Jaguars vs. Ravens",
+          "method": "Explicit selection in publisher feed",
+          "player": {
+            "name": "Parker Washington",
+            "team": "Jaguars",
+            "athleteId": "4432620"
+          },
+          "event": {
+            "id": "401873037",
+            "startAt": "2026-11-06T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Ravens",
+              "Jaguars"
+            ],
+            "matchup": "Jacksonville Jaguars at Baltimore Ravens",
+            "week": 9,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Bhayshul Tuten Anytime Touchdown Scorer ( +120 )",
+          "market": "Props",
+          "context": "NFL Thursday Night Football TD Scorers Picks: Jaguars vs. Ravens",
+          "method": "Explicit selection in publisher feed",
+          "player": {
+            "name": "Bhayshul Tuten",
+            "team": "Jaguars",
+            "athleteId": "4882093"
+          },
+          "event": {
+            "id": "401873037",
+            "startAt": "2026-11-06T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Ravens",
+              "Jaguars"
+            ],
+            "matchup": "Jacksonville Jaguars at Baltimore Ravens",
+            "week": 9,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Props"
+      ],
+      "teams": [
+        "Jaguars",
+        "Ravens"
+      ]
+    },
+    {
+      "id": "80e68f7ecc9c2183",
+      "title": "NFL Thursday Night Football Betting Primer: Jaguars vs Ravens Picks",
+      "url": "https://www.bettingpros.com/articles/nfl-thursday-night-football-betting-primer-jaguars-vs-ravens-picks/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "Andrew Erickson",
+      "publishedAt": "2026-11-05T10:00:13+00:00",
+      "picks": [
+        {
+          "selection": "Ravens +10",
+          "market": "Other",
+          "context": "NFL Thursday Night Football Betting Primer: Jacksonville Jaguars vs Baltimore Ravens",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873037",
+            "startAt": "2026-11-06T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Ravens",
+              "Jaguars"
+            ],
+            "matchup": "Jacksonville Jaguars at Baltimore Ravens",
+            "week": 9,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Other"
+      ],
+      "teams": [
+        "Jaguars",
+        "Ravens"
+      ]
+    },
     {
       "id": "2302f7531fc8df09",
       "title": "NFL Moneyline Picks for Every Week 9 Game",
@@ -3549,8 +3875,8 @@
   ],
   "scheduleStatus": {
     "status": "ok",
-    "checkedAt": "2026-11-05T03:29:38.056482+00:00",
-    "lastSuccessAt": "2026-11-05T03:29:38.056482+00:00"
+    "checkedAt": "2026-11-05T12:20:39.462325+00:00",
+    "lastSuccessAt": "2026-11-05T12:20:39.462325+00:00"
   },
   "playerTeams": {
     "tylerallgeier": [
