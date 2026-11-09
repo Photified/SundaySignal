@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-09T06:28:08.509423+00:00",
-  "lastSuccessfulUpdate": "2026-11-09T06:28:08.509423+00:00",
+  "checkedAt": "2026-11-09T17:29:08.895768+00:00",
+  "lastSuccessfulUpdate": "2026-11-09T17:29:08.895768+00:00",
   "sources": [
     {
       "id": "sbd",
@@ -10,8 +10,8 @@
       "website": "https://www.sportsbettingdime.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-09T06:28:08.509423+00:00",
-      "lastSuccessAt": "2026-11-09T06:28:08.509423+00:00",
+      "checkedAt": "2026-11-09T17:29:08.895768+00:00",
+      "lastSuccessAt": "2026-11-09T17:29:08.895768+00:00",
       "count": 3,
       "message": "Feed retrieved successfully"
     },
@@ -22,9 +22,9 @@
       "website": "https://www.bettingpros.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-09T06:28:08.509423+00:00",
-      "lastSuccessAt": "2026-11-09T06:28:08.509423+00:00",
-      "count": 37,
+      "checkedAt": "2026-11-09T17:29:08.895768+00:00",
+      "lastSuccessAt": "2026-11-09T17:29:08.895768+00:00",
+      "count": 38,
       "message": "Feed retrieved successfully"
     },
     {
@@ -35,8 +35,8 @@
       "website": "https://www.cbssports.com/nfl/picks/experts/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-09T06:28:08.509423+00:00",
-      "lastSuccessAt": "2026-11-09T06:28:08.509423+00:00",
+      "checkedAt": "2026-11-09T17:29:08.895768+00:00",
+      "lastSuccessAt": "2026-11-09T17:29:08.895768+00:00",
       "count": 7,
       "message": "Public expert selections retrieved"
     },
@@ -48,8 +48,8 @@
       "website": "https://www.covers.com/nfl",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-09T06:28:08.509423+00:00",
-      "lastSuccessAt": "2026-11-09T06:28:08.509423+00:00",
+      "checkedAt": "2026-11-09T17:29:08.895768+00:00",
+      "lastSuccessAt": "2026-11-09T17:29:08.895768+00:00",
       "count": 1,
       "message": "Public expert selections retrieved"
     },
@@ -62,8 +62,8 @@
       "articlePattern": "/nfl-picks/[^/]+prediction[^/]+/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-09T06:28:08.509423+00:00",
-      "lastSuccessAt": "2026-11-09T06:28:08.509423+00:00",
+      "checkedAt": "2026-11-09T17:29:08.895768+00:00",
+      "lastSuccessAt": "2026-11-09T17:29:08.895768+00:00",
       "count": 11,
       "message": "Public expert selections retrieved"
     },
@@ -76,8 +76,8 @@
       "articlePattern": "/picks/nfl/(?:picks-against-the-spread-ats-predictions|player-props)-week-\\d+-\\d{4}/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-09T06:28:08.509423+00:00",
-      "lastSuccessAt": "2026-11-09T06:28:08.509423+00:00",
+      "checkedAt": "2026-11-09T17:29:08.895768+00:00",
+      "lastSuccessAt": "2026-11-09T17:29:08.895768+00:00",
       "count": 1,
       "message": "Public expert selections retrieved"
     },
@@ -90,7 +90,7 @@
       "articlePattern": "/us/nfl/news/nfl-picks-predictions-against-spread-week-\\d+/",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-11-09T06:28:08.509423+00:00",
+      "checkedAt": "2026-11-09T17:29:08.895768+00:00",
       "lastSuccessAt": "2026-11-04T09:12:36.915534+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -104,13 +104,28 @@
       "articlePattern": "/football/article/(?:nfl-picks-and-props|[^/]*odds-picks-and-predictions|[^/]*betting-odds-picks-and-predictions)[^/]+$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-09T06:28:08.509423+00:00",
-      "lastSuccessAt": "2026-11-09T06:28:08.509423+00:00",
+      "checkedAt": "2026-11-09T17:29:08.895768+00:00",
+      "lastSuccessAt": "2026-11-09T17:29:08.895768+00:00",
       "count": 4,
       "message": "Public expert selections retrieved"
     }
   ],
   "articles": [
+    {
+      "id": "7054420f62fe2d2b",
+      "title": "NFL Picks Against the Spread for Week 10 – ATS Predictions for All 14 Games",
+      "url": "https://www.sportsbettingdime.com/news/nfl/picks-against-the-spread-week-10-ats-predictions-all-games/",
+      "publisher": "Sports Betting Dime",
+      "sourceId": "sbd",
+      "author": "Sascha Paruk",
+      "publishedAt": "2026-11-09T13:56:43+00:00",
+      "picks": [],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": []
+    },
     {
       "id": "2302f7531fc8df09",
       "title": "NFL Moneyline Picks for Every Week 9 Game",
@@ -118,7 +133,7 @@
       "publisher": "Covers",
       "sourceId": "covers",
       "author": "Trevor Knapp",
-      "publishedAt": "2026-11-09T00:45:35+00:00",
+      "publishedAt": "2026-11-09T12:09:00+00:00",
       "picks": [
         {
           "selection": "Jaguars Moneyline",
@@ -216,18 +231,7 @@
           "market": "Moneyline",
           "context": "Buccaneers vs Bears",
           "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873050",
-            "startAt": "2026-11-09T01:20Z",
-            "state": "post",
-            "teams": [
-              "Bears",
-              "Buccaneers"
-            ],
-            "matchup": "Tampa Bay Buccaneers at Chicago Bears",
-            "week": 9,
-            "season": 2026
-          }
+          "event": null
         },
         {
           "selection": "Bills Moneyline",
@@ -253,6 +257,359 @@
         "Moneyline"
       ],
       "teams": []
+    },
+    {
+      "id": "81811be75fd3c73e",
+      "title": "NFL Monday Night Football Same Game Parlay: Bills vs. Vikings",
+      "url": "https://www.bettingpros.com/articles/nfl-monday-night-football-same-game-parlay-bills-vs-vikings-2026/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "Dan Servodidio",
+      "publishedAt": "2026-11-09T12:07:58+00:00",
+      "picks": [],
+      "parlays": [
+        {
+          "label": "Expert parlay",
+          "americanOdds": 575,
+          "legs": [
+            {
+              "selection": "T.J. Hockenson 40+ Receiving Yards ( -123 )",
+              "market": "Props",
+              "context": "Buffalo Bills at Minnesota Vikings",
+              "event": {
+                "id": "401873051",
+                "startAt": "2026-11-10T01:15Z",
+                "state": "pre",
+                "teams": [
+                  "Vikings",
+                  "Bills"
+                ],
+                "matchup": "Buffalo Bills at Minnesota Vikings",
+                "week": 9,
+                "season": 2026
+              }
+            },
+            {
+              "selection": "Dalton Kincaid Under 36.5 Receiving Yards ( -113 )",
+              "market": "Props",
+              "context": "Buffalo Bills at Minnesota Vikings",
+              "event": {
+                "id": "401873051",
+                "startAt": "2026-11-10T01:15Z",
+                "state": "pre",
+                "teams": [
+                  "Vikings",
+                  "Bills"
+                ],
+                "matchup": "Buffalo Bills at Minnesota Vikings",
+                "week": 9,
+                "season": 2026
+              }
+            },
+            {
+              "selection": "Aaron Jones 10+ Receiving Yards ( +112 )",
+              "market": "Props",
+              "context": "Buffalo Bills at Minnesota Vikings",
+              "event": {
+                "id": "401873051",
+                "startAt": "2026-11-10T01:15Z",
+                "state": "pre",
+                "teams": [
+                  "Vikings",
+                  "Bills"
+                ],
+                "matchup": "Buffalo Bills at Minnesota Vikings",
+                "week": 9,
+                "season": 2026
+              }
+            }
+          ]
+        }
+      ],
+      "markets": [
+        "Other"
+      ],
+      "teams": [
+        "Bills",
+        "Vikings"
+      ]
+    },
+    {
+      "id": "187851c5c77dce50",
+      "title": "NFL Monday Night Football Player Props & Picks: Bills vs. Vikings",
+      "url": "https://www.bettingpros.com/articles/nfl-monday-night-football-player-props-picks-bills-vs-vikings-2026/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "Matt MacKay",
+      "publishedAt": "2026-11-09T12:07:52+00:00",
+      "picks": [
+        {
+          "selection": "Josh Allen Under 238.5 Passing Yards ( -112 )",
+          "market": "Props",
+          "context": "Best NFL Monday Night Football Player Prop Bets – Week 9: Bills vs. Vikings",
+          "method": "Explicit selection in publisher feed",
+          "player": {
+            "name": "Josh Allen",
+            "team": "Bills",
+            "athleteId": "3918298"
+          },
+          "event": {
+            "id": "401873051",
+            "startAt": "2026-11-10T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Vikings",
+              "Bills"
+            ],
+            "matchup": "Buffalo Bills at Minnesota Vikings",
+            "week": 9,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "James Cook 80+ Rushing Yards ( -137 )",
+          "market": "Props",
+          "context": "Best NFL Monday Night Football Player Prop Bets – Week 9: Bills vs. Vikings",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873051",
+            "startAt": "2026-11-10T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Vikings",
+              "Bills"
+            ],
+            "matchup": "Buffalo Bills at Minnesota Vikings",
+            "week": 9,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Props"
+      ],
+      "teams": [
+        "Bills",
+        "Vikings"
+      ]
+    },
+    {
+      "id": "555f9f5894b99e9f",
+      "title": "NFL Monday Night Football Anytime & First TD Scorers: Bills vs. Vikings",
+      "url": "https://www.bettingpros.com/articles/nfl-monday-night-football-anytime-first-td-scorers-bills-vs-vikings-2026/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "Mike Fanelli",
+      "publishedAt": "2026-11-09T12:07:46+00:00",
+      "picks": [
+        {
+          "selection": "Buffalo Bills First TD Scorer: Josh Allen ( +260 )",
+          "market": "Props",
+          "context": "NFL Monday Night Football Anytime & First TD Scorers: Bills vs. Vikings",
+          "method": "Explicit selection in publisher feed",
+          "player": {
+            "name": "Josh Allen",
+            "team": "Bills",
+            "athleteId": "3918298"
+          },
+          "event": {
+            "id": "401873051",
+            "startAt": "2026-11-10T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Vikings",
+              "Bills"
+            ],
+            "matchup": "Buffalo Bills at Minnesota Vikings",
+            "week": 9,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Minnesota Vikings First TD Scorer: Justin Jefferson ( +370 )",
+          "market": "Props",
+          "context": "NFL Monday Night Football Anytime & First TD Scorers: Bills vs. Vikings",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873051",
+            "startAt": "2026-11-10T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Vikings",
+              "Bills"
+            ],
+            "matchup": "Buffalo Bills at Minnesota Vikings",
+            "week": 9,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Props"
+      ],
+      "teams": [
+        "Bills",
+        "Vikings"
+      ]
+    },
+    {
+      "id": "af056ec80ea773c7",
+      "title": "NFL Monday Night Football Picks & Predictions: Bills vs. Vikings",
+      "url": "https://www.bettingpros.com/articles/nfl-monday-night-football-picks-predictions-bills-vs-vikings-2026/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "Richard Janvrin",
+      "publishedAt": "2026-11-09T12:07:38+00:00",
+      "picks": [
+        {
+          "selection": "Buffalo Bills -3.5 ( -102 )",
+          "market": "Spread",
+          "context": "NFL Monday Night Football Picks & Predictions: Bills vs. Vikings",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873051",
+            "startAt": "2026-11-10T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Vikings",
+              "Bills"
+            ],
+            "matchup": "Buffalo Bills at Minnesota Vikings",
+            "week": 9,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Josh Allen Anytime Touchdown Scorer ( -125 )",
+          "market": "Props",
+          "context": "NFL Monday Night Football Picks & Predictions: Bills vs. Vikings",
+          "method": "Explicit selection in publisher feed",
+          "player": {
+            "name": "Josh Allen",
+            "team": "Bills",
+            "athleteId": "3918298"
+          },
+          "event": {
+            "id": "401873051",
+            "startAt": "2026-11-10T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Vikings",
+              "Bills"
+            ],
+            "matchup": "Buffalo Bills at Minnesota Vikings",
+            "week": 9,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "T.J. Hockenson 42+ Receiving Yards ( -110 )",
+          "market": "Props",
+          "context": "NFL Monday Night Football Picks & Predictions: Bills vs. Vikings",
+          "method": "Explicit selection in publisher feed",
+          "player": {
+            "name": "T.J. Hockenson",
+            "team": "Vikings",
+            "athleteId": "4036133"
+          },
+          "event": {
+            "id": "401873051",
+            "startAt": "2026-11-10T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Vikings",
+              "Bills"
+            ],
+            "matchup": "Buffalo Bills at Minnesota Vikings",
+            "week": 9,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Props",
+        "Spread"
+      ],
+      "teams": [
+        "Bills",
+        "Vikings"
+      ]
+    },
+    {
+      "id": "30a7353ddda2e678",
+      "title": "Early NFL Best Bets & Trends for Week 10 (2026)",
+      "url": "https://www.bettingpros.com/articles/early-nfl-best-bets-trends-for-week-10-2026/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "Jason Radowitz",
+      "publishedAt": "2026-11-09T12:07:19+00:00",
+      "picks": [
+        {
+          "selection": "Texans -4.5 ( -105 )",
+          "market": "Spread",
+          "context": "Houston Texans vs. Cleveland Browns",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873056",
+            "startAt": "2026-11-15T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Browns",
+              "Texans"
+            ],
+            "matchup": "Houston Texans at Cleveland Browns",
+            "week": 10,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Dolphins +2.5 ( -115 )",
+          "market": "Spread",
+          "context": "Miami Dolphins vs. Indianapolis Colts",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873059",
+            "startAt": "2026-11-15T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Colts",
+              "Dolphins"
+            ],
+            "matchup": "Miami Dolphins at Indianapolis Colts",
+            "week": 10,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Dolphins",
+        "Texans"
+      ]
+    },
+    {
+      "id": "a9e91ce4b249419f",
+      "title": "Best NFL Player Props: Monday Night Football (Bills vs. Vikings)",
+      "url": "https://www.bettingpros.com/articles/best-nfl-player-props-monday-night-football-bills-vs-vikings-week-9-2026/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "BettingPros Staff",
+      "publishedAt": "2026-11-09T12:07:09+00:00",
+      "picks": [],
+      "parlays": [],
+      "markets": [
+        "Props"
+      ],
+      "teams": [
+        "Bills",
+        "Vikings"
+      ]
     },
     {
       "id": "c09694a60e4de1ea",
@@ -296,21 +653,6 @@
       "parlays": [],
       "markets": [
         "Other"
-      ],
-      "teams": []
-    },
-    {
-      "id": "17931d4ffe3337c8",
-      "title": "NFL Week 9 Player Props Picks: Best Bets for Every Team",
-      "url": "https://www.sportsbettingdime.com/news/nfl/nfl-week-9-player-props-picks-best-bets-every-team/",
-      "publisher": "Sports Betting Dime",
-      "sourceId": "sbd",
-      "author": "Juan Pablo Aravena",
-      "publishedAt": "2026-11-08T13:30:00+00:00",
-      "picks": [],
-      "parlays": [],
-      "markets": [
-        "Props"
       ],
       "teams": []
     },
@@ -2370,7 +2712,7 @@
       "sourceId": "cbs",
       "author": "Dave Richard",
       "publishedAt": "2026-11-06T01:33:11.553888+00:00",
-      "observedAt": "2026-11-09T06:28:08.509423+00:00",
+      "observedAt": "2026-11-09T17:29:08.895768+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2410,7 +2752,7 @@
       "sourceId": "cbs",
       "author": "Pete Prisco",
       "publishedAt": "2026-11-05T20:40:06.948661+00:00",
-      "observedAt": "2026-11-09T06:28:08.509423+00:00",
+      "observedAt": "2026-11-09T17:29:08.895768+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2450,7 +2792,7 @@
       "sourceId": "cbs",
       "author": "Jared Dubin",
       "publishedAt": "2026-11-05T20:40:06.948661+00:00",
-      "observedAt": "2026-11-09T06:28:08.509423+00:00",
+      "observedAt": "2026-11-09T17:29:08.895768+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2490,7 +2832,7 @@
       "sourceId": "cbs",
       "author": "Ryan Wilson",
       "publishedAt": "2026-11-05T20:40:06.948661+00:00",
-      "observedAt": "2026-11-09T06:28:08.509423+00:00",
+      "observedAt": "2026-11-09T17:29:08.895768+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2530,7 +2872,7 @@
       "sourceId": "cbs",
       "author": "John Breech",
       "publishedAt": "2026-11-05T20:40:06.948661+00:00",
-      "observedAt": "2026-11-09T06:28:08.509423+00:00",
+      "observedAt": "2026-11-09T17:29:08.895768+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2570,7 +2912,7 @@
       "sourceId": "cbs",
       "author": "Tyler Sullivan",
       "publishedAt": "2026-11-05T20:40:06.948661+00:00",
-      "observedAt": "2026-11-09T06:28:08.509423+00:00",
+      "observedAt": "2026-11-09T17:29:08.895768+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2610,7 +2952,7 @@
       "sourceId": "cbs",
       "author": "Jamey Eisenberg",
       "publishedAt": "2026-11-05T20:40:06.948661+00:00",
-      "observedAt": "2026-11-09T06:28:08.509423+00:00",
+      "observedAt": "2026-11-09T17:29:08.895768+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3829,136 +4171,6 @@
       ]
     },
     {
-      "id": "6f9c7c3d540f664c",
-      "title": "NFL Monday Night Football Anytime & First TD Scorers: Bears vs. Seahawks",
-      "url": "https://www.bettingpros.com/articles/nfl-monday-night-football-anytime-first-td-scorers-bears-vs-seahawks/",
-      "publisher": "BettingPros",
-      "sourceId": "bettingpros",
-      "author": "Mike Fanelli",
-      "publishedAt": "2026-11-02T10:31:08+00:00",
-      "picks": [
-        {
-          "selection": "Chicago Bears First TD Scorer: D’Andre Swift ( +245 )",
-          "market": "Props",
-          "context": "NFL Monday Night Football Anytime & First TD Scorers: Bears vs. Seahawks",
-          "method": "Explicit selection in publisher feed",
-          "player": {
-            "name": "D'Andre Swift",
-            "team": "Bears",
-            "athleteId": "4259545"
-          },
-          "event": null
-        },
-        {
-          "selection": "Seattle Seahawks First TD Scorer: Jaxon Smith-Njigba ( +310 )",
-          "market": "Props",
-          "context": "NFL Monday Night Football Anytime & First TD Scorers: Bears vs. Seahawks",
-          "method": "Explicit selection in publisher feed",
-          "player": {
-            "name": "Jaxon Smith-Njigba",
-            "team": "Seahawks",
-            "athleteId": "4430878"
-          },
-          "event": null
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Props"
-      ],
-      "teams": [
-        "Bears",
-        "Seahawks"
-      ]
-    },
-    {
-      "id": "0fe5554482ba350f",
-      "title": "NFL Monday Night Football Picks & Predictions: Bears vs. Seahawks",
-      "url": "https://www.bettingpros.com/articles/nfl-monday-night-football-picks-predictions-bears-vs-seahawks/",
-      "publisher": "BettingPros",
-      "sourceId": "bettingpros",
-      "author": "Richard Janvrin",
-      "publishedAt": "2026-11-02T10:31:05+00:00",
-      "picks": [
-        {
-          "selection": "Seahawks -3 ( -115 )",
-          "market": "Spread",
-          "context": "NFL Monday Night Football Picks & Predictions: Bears vs. Seahawks",
-          "method": "Explicit selection in publisher feed",
-          "event": null
-        },
-        {
-          "selection": "Caleb Williams Under 228.5 Passing Yards ( -113 )",
-          "market": "Props",
-          "context": "NFL Monday Night Football Picks & Predictions: Bears vs. Seahawks",
-          "method": "Explicit selection in publisher feed",
-          "player": {
-            "name": "Caleb Williams",
-            "team": "Bears",
-            "athleteId": "4431611"
-          },
-          "event": null
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Props",
-        "Spread"
-      ],
-      "teams": [
-        "Bears",
-        "Seahawks"
-      ]
-    },
-    {
-      "id": "a0c48566a1ed949b",
-      "title": "Best NFL Player Props: Monday Night Football (Bears vs. Seahawks)",
-      "url": "https://www.bettingpros.com/articles/best-nfl-player-props-monday-night-football-bears-vs-seahawks-week-8-2026/",
-      "publisher": "BettingPros",
-      "sourceId": "bettingpros",
-      "author": "BettingPros Staff",
-      "publishedAt": "2026-11-02T09:56:02+00:00",
-      "picks": [],
-      "parlays": [],
-      "markets": [
-        "Props"
-      ],
-      "teams": [
-        "Bears",
-        "Seahawks"
-      ]
-    },
-    {
-      "id": "f14fbba9141ab431",
-      "title": "NFL Week 8 Picks, Predictions and Parlays",
-      "url": "https://www.bettingpros.com/articles/nfl-week-8-picks-predictions-and-parlays/",
-      "publisher": "BettingPros",
-      "sourceId": "bettingpros",
-      "author": "Mike Maher",
-      "publishedAt": "2026-11-01T15:12:59+00:00",
-      "picks": [],
-      "parlays": [],
-      "markets": [
-        "Other"
-      ],
-      "teams": []
-    },
-    {
-      "id": "e4fb7a47f367da3f",
-      "title": "NFL Week 8 Teasers: Picks & Predictions (2026)",
-      "url": "https://www.bettingpros.com/articles/nfl-week-8-teasers-picks-predictions-2026/",
-      "publisher": "BettingPros",
-      "sourceId": "bettingpros",
-      "author": "Kurt Blakeway",
-      "publishedAt": "2026-11-01T14:29:28+00:00",
-      "picks": [],
-      "parlays": [],
-      "markets": [
-        "Other"
-      ],
-      "teams": []
-    },
-    {
       "id": "1d6863261d390aa0",
       "title": "NFL Picks and Props for Week 8 Sunday Slate",
       "url": "https://www.rotowire.com/football/article/nfl-picks-and-props-for-week-8-sunday-slate-144832",
@@ -4378,8 +4590,8 @@
   ],
   "scheduleStatus": {
     "status": "ok",
-    "checkedAt": "2026-11-09T06:28:08.509423+00:00",
-    "lastSuccessAt": "2026-11-09T06:28:08.509423+00:00"
+    "checkedAt": "2026-11-09T17:29:08.895768+00:00",
+    "lastSuccessAt": "2026-11-09T17:29:08.895768+00:00"
   },
   "playerTeams": {
     "tylerallgeier": [
@@ -5150,13 +5362,6 @@
         "name": "Yasir Abdullah",
         "team": "Falcons",
         "athleteId": "4360807"
-      }
-    ],
-    "jessiebatesiii": [
-      {
-        "name": "Jessie Bates III",
-        "team": "Falcons",
-        "athleteId": "3919512"
       }
     ],
     "billybowmanjr": [
@@ -12454,6 +12659,13 @@
         "name": "Arik Armstead",
         "team": "Jaguars",
         "athleteId": "2971275"
+      }
+    ],
+    "jessiebatesiii": [
+      {
+        "name": "Jessie Bates III",
+        "team": "Jaguars",
+        "athleteId": "3919512"
       }
     ],
     "montaricbrown": [
@@ -22340,6 +22552,6 @@
       }
     ]
   },
-  "rostersCheckedAt": "2026-11-08T07:20:38.750254+00:00",
+  "rostersCheckedAt": "2026-11-09T17:29:08.895768+00:00",
   "rosterStatus": "ok"
 }
