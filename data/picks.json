@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-10T17:50:12.985477+00:00",
-  "lastSuccessfulUpdate": "2026-11-10T17:50:12.985477+00:00",
+  "checkedAt": "2026-11-10T23:22:11.385112+00:00",
+  "lastSuccessfulUpdate": "2026-11-10T23:22:11.385112+00:00",
   "sources": [
     {
       "id": "sbd",
@@ -10,9 +10,9 @@
       "website": "https://www.sportsbettingdime.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-10T17:50:12.985477+00:00",
-      "lastSuccessAt": "2026-11-10T17:50:12.985477+00:00",
-      "count": 7,
+      "checkedAt": "2026-11-10T23:22:11.385112+00:00",
+      "lastSuccessAt": "2026-11-10T23:22:11.385112+00:00",
+      "count": 9,
       "message": "Feed retrieved successfully"
     },
     {
@@ -22,8 +22,8 @@
       "website": "https://www.bettingpros.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-10T17:50:12.985477+00:00",
-      "lastSuccessAt": "2026-11-10T17:50:12.985477+00:00",
+      "checkedAt": "2026-11-10T23:22:11.385112+00:00",
+      "lastSuccessAt": "2026-11-10T23:22:11.385112+00:00",
       "count": 37,
       "message": "Feed retrieved successfully"
     },
@@ -35,7 +35,7 @@
       "website": "https://www.cbssports.com/nfl/picks/experts/",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-11-10T17:50:12.985477+00:00",
+      "checkedAt": "2026-11-10T23:22:11.385112+00:00",
       "lastSuccessAt": "2026-11-10T01:31:38.785341+00:00",
       "count": 7,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -48,8 +48,8 @@
       "website": "https://www.covers.com/nfl",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-10T17:50:12.985477+00:00",
-      "lastSuccessAt": "2026-11-10T17:50:12.985477+00:00",
+      "checkedAt": "2026-11-10T23:22:11.385112+00:00",
+      "lastSuccessAt": "2026-11-10T23:22:11.385112+00:00",
       "count": 1,
       "message": "Public expert selections retrieved"
     },
@@ -62,8 +62,8 @@
       "articlePattern": "/nfl-picks/[^/]+prediction[^/]+/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-10T17:50:12.985477+00:00",
-      "lastSuccessAt": "2026-11-10T17:50:12.985477+00:00",
+      "checkedAt": "2026-11-10T23:22:11.385112+00:00",
+      "lastSuccessAt": "2026-11-10T23:22:11.385112+00:00",
       "count": 11,
       "message": "Public expert selections retrieved"
     },
@@ -76,7 +76,7 @@
       "articlePattern": "/picks/nfl/(?:picks-against-the-spread-ats-predictions|player-props)-week-\\d+-\\d{4}/$",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-11-10T17:50:12.985477+00:00",
+      "checkedAt": "2026-11-10T23:22:11.385112+00:00",
       "lastSuccessAt": "2026-11-09T17:29:08.895768+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -90,8 +90,8 @@
       "articlePattern": "/us/nfl/news/nfl-picks-predictions-against-spread-week-\\d+/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-10T17:50:12.985477+00:00",
-      "lastSuccessAt": "2026-11-10T17:50:12.985477+00:00",
+      "checkedAt": "2026-11-10T23:22:11.385112+00:00",
+      "lastSuccessAt": "2026-11-10T23:22:11.385112+00:00",
       "count": 1,
       "message": "Public expert selections retrieved"
     },
@@ -104,13 +104,28 @@
       "articlePattern": "/football/article/(?:nfl-picks-and-props|[^/]*odds-picks-and-predictions|[^/]*betting-odds-picks-and-predictions)[^/]+$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-10T17:50:12.985477+00:00",
-      "lastSuccessAt": "2026-11-10T17:50:12.985477+00:00",
+      "checkedAt": "2026-11-10T23:22:11.385112+00:00",
+      "lastSuccessAt": "2026-11-10T23:22:11.385112+00:00",
       "count": 4,
       "message": "Public expert selections retrieved"
     }
   ],
   "articles": [
+    {
+      "id": "ef76d7e5b9b647c3",
+      "title": "Latest Super Bowl Odds on NFL Trade Deadline Day: NFL Futures Markets",
+      "url": "https://www.sportsbettingdime.com/news/nfl/super-bowl-odds-nfl-trade-deadline-day-nfl-futures-markets/",
+      "publisher": "Sports Betting Dime",
+      "sourceId": "sbd",
+      "author": "Paul Lebowitz",
+      "publishedAt": "2026-11-10T21:00:00+00:00",
+      "picks": [],
+      "parlays": [],
+      "markets": [
+        "Other"
+      ],
+      "teams": []
+    },
     {
       "id": "cb07576a69ca8c2e",
       "title": "NFL Moneyline Picks for Every Week 10 Game",
@@ -118,7 +133,7 @@
       "publisher": "Covers",
       "sourceId": "covers",
       "author": "Trevor Knapp",
-      "publishedAt": "2026-11-10T16:26:00+00:00",
+      "publishedAt": "2026-11-10T20:30:00+00:00",
       "picks": [
         {
           "selection": "Giants Moneyline",
@@ -373,6 +388,21 @@
           }
         }
       ],
+      "parlays": [],
+      "markets": [
+        "Moneyline"
+      ],
+      "teams": []
+    },
+    {
+      "id": "2eb7b265160ca84e",
+      "title": "NFL Picks & Straight-Up Predictions for Week 10: Data-Driven Best Bets from Model That’s +13.4 Units",
+      "url": "https://www.sportsbettingdime.com/news/nfl/picks-straight-up-predictions-week-10-data-driven-best-bet/",
+      "publisher": "Sports Betting Dime",
+      "sourceId": "sbd",
+      "author": "Sascha Paruk",
+      "publishedAt": "2026-11-10T18:13:39+00:00",
+      "picks": [],
       "parlays": [],
       "markets": [
         "Moneyline"
@@ -4773,8 +4803,8 @@
   ],
   "scheduleStatus": {
     "status": "ok",
-    "checkedAt": "2026-11-10T17:50:12.985477+00:00",
-    "lastSuccessAt": "2026-11-10T17:50:12.985477+00:00"
+    "checkedAt": "2026-11-10T23:22:11.385112+00:00",
+    "lastSuccessAt": "2026-11-10T23:22:11.385112+00:00"
   },
   "playerTeams": {
     "tylerallgeier": [
