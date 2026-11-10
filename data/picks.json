@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-09T17:29:08.895768+00:00",
-  "lastSuccessfulUpdate": "2026-11-09T17:29:08.895768+00:00",
+  "checkedAt": "2026-11-10T01:31:38.785341+00:00",
+  "lastSuccessfulUpdate": "2026-11-10T01:31:38.785341+00:00",
   "sources": [
     {
       "id": "sbd",
@@ -10,9 +10,9 @@
       "website": "https://www.sportsbettingdime.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-09T17:29:08.895768+00:00",
-      "lastSuccessAt": "2026-11-09T17:29:08.895768+00:00",
-      "count": 3,
+      "checkedAt": "2026-11-10T01:31:38.785341+00:00",
+      "lastSuccessAt": "2026-11-10T01:31:38.785341+00:00",
+      "count": 5,
       "message": "Feed retrieved successfully"
     },
     {
@@ -22,8 +22,8 @@
       "website": "https://www.bettingpros.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-09T17:29:08.895768+00:00",
-      "lastSuccessAt": "2026-11-09T17:29:08.895768+00:00",
+      "checkedAt": "2026-11-10T01:31:38.785341+00:00",
+      "lastSuccessAt": "2026-11-10T01:31:38.785341+00:00",
       "count": 38,
       "message": "Feed retrieved successfully"
     },
@@ -35,8 +35,8 @@
       "website": "https://www.cbssports.com/nfl/picks/experts/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-09T17:29:08.895768+00:00",
-      "lastSuccessAt": "2026-11-09T17:29:08.895768+00:00",
+      "checkedAt": "2026-11-10T01:31:38.785341+00:00",
+      "lastSuccessAt": "2026-11-10T01:31:38.785341+00:00",
       "count": 7,
       "message": "Public expert selections retrieved"
     },
@@ -47,11 +47,11 @@
       "feed": "https://www.covers.com/nfl",
       "website": "https://www.covers.com/nfl",
       "enabled": true,
-      "status": "ok",
-      "checkedAt": "2026-11-09T17:29:08.895768+00:00",
+      "status": "unavailable",
+      "checkedAt": "2026-11-10T01:31:38.785341+00:00",
       "lastSuccessAt": "2026-11-09T17:29:08.895768+00:00",
       "count": 1,
-      "message": "Public expert selections retrieved"
+      "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
     },
     {
       "id": "sportschat",
@@ -62,8 +62,8 @@
       "articlePattern": "/nfl-picks/[^/]+prediction[^/]+/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-09T17:29:08.895768+00:00",
-      "lastSuccessAt": "2026-11-09T17:29:08.895768+00:00",
+      "checkedAt": "2026-11-10T01:31:38.785341+00:00",
+      "lastSuccessAt": "2026-11-10T01:31:38.785341+00:00",
       "count": 11,
       "message": "Public expert selections retrieved"
     },
@@ -75,11 +75,11 @@
       "kind": "articles",
       "articlePattern": "/picks/nfl/(?:picks-against-the-spread-ats-predictions|player-props)-week-\\d+-\\d{4}/$",
       "enabled": true,
-      "status": "ok",
-      "checkedAt": "2026-11-09T17:29:08.895768+00:00",
+      "status": "unavailable",
+      "checkedAt": "2026-11-10T01:31:38.785341+00:00",
       "lastSuccessAt": "2026-11-09T17:29:08.895768+00:00",
       "count": 1,
-      "message": "Public expert selections retrieved"
+      "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
     },
     {
       "id": "sportingnews",
@@ -90,7 +90,7 @@
       "articlePattern": "/us/nfl/news/nfl-picks-predictions-against-spread-week-\\d+/",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-11-09T17:29:08.895768+00:00",
+      "checkedAt": "2026-11-10T01:31:38.785341+00:00",
       "lastSuccessAt": "2026-11-04T09:12:36.915534+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -104,13 +104,61 @@
       "articlePattern": "/football/article/(?:nfl-picks-and-props|[^/]*odds-picks-and-predictions|[^/]*betting-odds-picks-and-predictions)[^/]+$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-09T17:29:08.895768+00:00",
-      "lastSuccessAt": "2026-11-09T17:29:08.895768+00:00",
+      "checkedAt": "2026-11-10T01:31:38.785341+00:00",
+      "lastSuccessAt": "2026-11-10T01:31:38.785341+00:00",
       "count": 4,
       "message": "Public expert selections retrieved"
     }
   ],
   "articles": [
+    {
+      "id": "3d33ca07f330c875",
+      "title": "2026 NFL Trade Deadline Odds & Next Team Predictions: Jonathan Taylor, Garrett Wilson & More",
+      "url": "https://www.sportsbettingdime.com/news/nfl/2026-trade-deadline-next-team-odds-predictions-jonathan-taylor-garrett-wilson/",
+      "publisher": "Sports Betting Dime",
+      "sourceId": "sbd",
+      "author": "Brady Trettenero",
+      "publishedAt": "2026-11-10T00:02:00+00:00",
+      "picks": [],
+      "parlays": [],
+      "markets": [
+        "Other"
+      ],
+      "teams": []
+    },
+    {
+      "id": "facb788382542841",
+      "title": "Closing Odds & Final Picks for Bills vs Vikings on Monday Night Football (Nov 9)",
+      "url": "https://www.sportsbettingdime.com/news/nfl/closing-odds-final-picks-for-bills-vs-vikings-on-monday-night-football-nov-9/",
+      "publisher": "Sports Betting Dime",
+      "sourceId": "sbd",
+      "author": "Jordan Tomiyama",
+      "publishedAt": "2026-11-09T22:15:00+00:00",
+      "picks": [],
+      "parlays": [],
+      "markets": [
+        "Other"
+      ],
+      "teams": [
+        "Bills",
+        "Vikings"
+      ]
+    },
+    {
+      "id": "8d4fc37e718bca98",
+      "title": "Next NFL Coach Fired? Latest Odds from Prediction Markets",
+      "url": "https://www.sportsbettingdime.com/news/nfl/next-nfl-coach-fired-latest-odds-prediction-markets/",
+      "publisher": "Sports Betting Dime",
+      "sourceId": "sbd",
+      "author": "Paul Lebowitz",
+      "publishedAt": "2026-11-09T21:38:35+00:00",
+      "picks": [],
+      "parlays": [],
+      "markets": [
+        "Other"
+      ],
+      "teams": []
+    },
     {
       "id": "7054420f62fe2d2b",
       "title": "NFL Picks Against the Spread for Week 10 – ATS Predictions for All 14 Games",
@@ -241,7 +289,7 @@
           "event": {
             "id": "401873051",
             "startAt": "2026-11-10T01:15Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "Vikings",
               "Bills"
@@ -279,7 +327,7 @@
               "event": {
                 "id": "401873051",
                 "startAt": "2026-11-10T01:15Z",
-                "state": "pre",
+                "state": "in",
                 "teams": [
                   "Vikings",
                   "Bills"
@@ -296,7 +344,7 @@
               "event": {
                 "id": "401873051",
                 "startAt": "2026-11-10T01:15Z",
-                "state": "pre",
+                "state": "in",
                 "teams": [
                   "Vikings",
                   "Bills"
@@ -313,7 +361,7 @@
               "event": {
                 "id": "401873051",
                 "startAt": "2026-11-10T01:15Z",
-                "state": "pre",
+                "state": "in",
                 "teams": [
                   "Vikings",
                   "Bills"
@@ -356,7 +404,7 @@
           "event": {
             "id": "401873051",
             "startAt": "2026-11-10T01:15Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "Vikings",
               "Bills"
@@ -374,7 +422,7 @@
           "event": {
             "id": "401873051",
             "startAt": "2026-11-10T01:15Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "Vikings",
               "Bills"
@@ -416,7 +464,7 @@
           "event": {
             "id": "401873051",
             "startAt": "2026-11-10T01:15Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "Vikings",
               "Bills"
@@ -434,7 +482,7 @@
           "event": {
             "id": "401873051",
             "startAt": "2026-11-10T01:15Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "Vikings",
               "Bills"
@@ -471,7 +519,7 @@
           "event": {
             "id": "401873051",
             "startAt": "2026-11-10T01:15Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "Vikings",
               "Bills"
@@ -494,7 +542,7 @@
           "event": {
             "id": "401873051",
             "startAt": "2026-11-10T01:15Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "Vikings",
               "Bills"
@@ -517,7 +565,7 @@
           "event": {
             "id": "401873051",
             "startAt": "2026-11-10T01:15Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "Vikings",
               "Bills"
@@ -623,21 +671,6 @@
       "parlays": [],
       "markets": [
         "Totals"
-      ],
-      "teams": []
-    },
-    {
-      "id": "7d294d7423ba82d9",
-      "title": "Parlay These Week 9 NFL Player Props for Big Potential 28-1 Payout",
-      "url": "https://www.sportsbettingdime.com/news/nfl/parlay-these-week-9-player-props-big-potential-payout/",
-      "publisher": "Sports Betting Dime",
-      "sourceId": "sbd",
-      "author": "Matt McEwan",
-      "publishedAt": "2026-11-08T15:45:00+00:00",
-      "picks": [],
-      "parlays": [],
-      "markets": [
-        "Props"
       ],
       "teams": []
     },
@@ -2647,7 +2680,7 @@
           "event": {
             "id": "401873051",
             "startAt": "2026-11-10T01:15Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "Vikings",
               "Bills"
@@ -2712,7 +2745,7 @@
       "sourceId": "cbs",
       "author": "Dave Richard",
       "publishedAt": "2026-11-06T01:33:11.553888+00:00",
-      "observedAt": "2026-11-09T17:29:08.895768+00:00",
+      "observedAt": "2026-11-10T01:31:38.785341+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2724,7 +2757,7 @@
           "event": {
             "id": "401873051",
             "startAt": "2026-11-10T01:15Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "Vikings",
               "Bills"
@@ -2752,7 +2785,7 @@
       "sourceId": "cbs",
       "author": "Pete Prisco",
       "publishedAt": "2026-11-05T20:40:06.948661+00:00",
-      "observedAt": "2026-11-09T17:29:08.895768+00:00",
+      "observedAt": "2026-11-10T01:31:38.785341+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2764,7 +2797,7 @@
           "event": {
             "id": "401873051",
             "startAt": "2026-11-10T01:15Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "Vikings",
               "Bills"
@@ -2792,7 +2825,7 @@
       "sourceId": "cbs",
       "author": "Jared Dubin",
       "publishedAt": "2026-11-05T20:40:06.948661+00:00",
-      "observedAt": "2026-11-09T17:29:08.895768+00:00",
+      "observedAt": "2026-11-10T01:31:38.785341+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2804,7 +2837,7 @@
           "event": {
             "id": "401873051",
             "startAt": "2026-11-10T01:15Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "Vikings",
               "Bills"
@@ -2832,7 +2865,7 @@
       "sourceId": "cbs",
       "author": "Ryan Wilson",
       "publishedAt": "2026-11-05T20:40:06.948661+00:00",
-      "observedAt": "2026-11-09T17:29:08.895768+00:00",
+      "observedAt": "2026-11-10T01:31:38.785341+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2844,7 +2877,7 @@
           "event": {
             "id": "401873051",
             "startAt": "2026-11-10T01:15Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "Vikings",
               "Bills"
@@ -2872,7 +2905,7 @@
       "sourceId": "cbs",
       "author": "John Breech",
       "publishedAt": "2026-11-05T20:40:06.948661+00:00",
-      "observedAt": "2026-11-09T17:29:08.895768+00:00",
+      "observedAt": "2026-11-10T01:31:38.785341+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2884,7 +2917,7 @@
           "event": {
             "id": "401873051",
             "startAt": "2026-11-10T01:15Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "Vikings",
               "Bills"
@@ -2912,7 +2945,7 @@
       "sourceId": "cbs",
       "author": "Tyler Sullivan",
       "publishedAt": "2026-11-05T20:40:06.948661+00:00",
-      "observedAt": "2026-11-09T17:29:08.895768+00:00",
+      "observedAt": "2026-11-10T01:31:38.785341+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2924,7 +2957,7 @@
           "event": {
             "id": "401873051",
             "startAt": "2026-11-10T01:15Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "Vikings",
               "Bills"
@@ -2952,7 +2985,7 @@
       "sourceId": "cbs",
       "author": "Jamey Eisenberg",
       "publishedAt": "2026-11-05T20:40:06.948661+00:00",
-      "observedAt": "2026-11-09T17:29:08.895768+00:00",
+      "observedAt": "2026-11-10T01:31:38.785341+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2964,7 +2997,7 @@
           "event": {
             "id": "401873051",
             "startAt": "2026-11-10T01:15Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "Vikings",
               "Bills"
@@ -3771,7 +3804,7 @@
           "event": {
             "id": "401873051",
             "startAt": "2026-11-10T01:15Z",
-            "state": "pre",
+            "state": "in",
             "teams": [
               "Vikings",
               "Bills"
@@ -4242,7 +4275,7 @@
     {
       "id": "401873051",
       "startAt": "2026-11-10T01:15Z",
-      "state": "pre",
+      "state": "in",
       "teams": [
         "Vikings",
         "Bills"
@@ -4590,8 +4623,8 @@
   ],
   "scheduleStatus": {
     "status": "ok",
-    "checkedAt": "2026-11-09T17:29:08.895768+00:00",
-    "lastSuccessAt": "2026-11-09T17:29:08.895768+00:00"
+    "checkedAt": "2026-11-10T01:31:38.785341+00:00",
+    "lastSuccessAt": "2026-11-10T01:31:38.785341+00:00"
   },
   "playerTeams": {
     "tylerallgeier": [
