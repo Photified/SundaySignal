@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-11T06:20:00.680006+00:00",
-  "lastSuccessfulUpdate": "2026-11-11T06:20:00.680006+00:00",
+  "checkedAt": "2026-11-11T15:11:50.564116+00:00",
+  "lastSuccessfulUpdate": "2026-11-11T15:11:50.564116+00:00",
   "sources": [
     {
       "id": "sbd",
@@ -10,8 +10,8 @@
       "website": "https://www.sportsbettingdime.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-11T06:20:00.680006+00:00",
-      "lastSuccessAt": "2026-11-11T06:20:00.680006+00:00",
+      "checkedAt": "2026-11-11T15:11:50.564116+00:00",
+      "lastSuccessAt": "2026-11-11T15:11:50.564116+00:00",
       "count": 9,
       "message": "Feed retrieved successfully"
     },
@@ -22,8 +22,8 @@
       "website": "https://www.bettingpros.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-11T06:20:00.680006+00:00",
-      "lastSuccessAt": "2026-11-11T06:20:00.680006+00:00",
+      "checkedAt": "2026-11-11T15:11:50.564116+00:00",
+      "lastSuccessAt": "2026-11-11T15:11:50.564116+00:00",
       "count": 37,
       "message": "Feed retrieved successfully"
     },
@@ -35,7 +35,7 @@
       "website": "https://www.cbssports.com/nfl/picks/experts/",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-11-11T06:20:00.680006+00:00",
+      "checkedAt": "2026-11-11T15:11:50.564116+00:00",
       "lastSuccessAt": "2026-11-10T01:31:38.785341+00:00",
       "count": 7,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -48,8 +48,8 @@
       "website": "https://www.covers.com/nfl",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-11T06:20:00.680006+00:00",
-      "lastSuccessAt": "2026-11-11T06:20:00.680006+00:00",
+      "checkedAt": "2026-11-11T15:11:50.564116+00:00",
+      "lastSuccessAt": "2026-11-11T15:11:50.564116+00:00",
       "count": 1,
       "message": "Public expert selections retrieved"
     },
@@ -62,8 +62,8 @@
       "articlePattern": "/nfl-picks/[^/]+prediction[^/]+/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-11T06:20:00.680006+00:00",
-      "lastSuccessAt": "2026-11-11T06:20:00.680006+00:00",
+      "checkedAt": "2026-11-11T15:11:50.564116+00:00",
+      "lastSuccessAt": "2026-11-11T15:11:50.564116+00:00",
       "count": 11,
       "message": "Public expert selections retrieved"
     },
@@ -76,7 +76,7 @@
       "articlePattern": "/picks/nfl/(?:picks-against-the-spread-ats-predictions|player-props)-week-\\d+-\\d{4}/$",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-11-11T06:20:00.680006+00:00",
+      "checkedAt": "2026-11-11T15:11:50.564116+00:00",
       "lastSuccessAt": "2026-11-09T17:29:08.895768+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -90,8 +90,8 @@
       "articlePattern": "/us/nfl/news/nfl-picks-predictions-against-spread-week-\\d+/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-11T06:20:00.680006+00:00",
-      "lastSuccessAt": "2026-11-11T06:20:00.680006+00:00",
+      "checkedAt": "2026-11-11T15:11:50.564116+00:00",
+      "lastSuccessAt": "2026-11-11T15:11:50.564116+00:00",
       "count": 1,
       "message": "Public expert selections retrieved"
     },
@@ -104,13 +104,286 @@
       "articlePattern": "/football/article/(?:nfl-picks-and-props|[^/]*odds-picks-and-predictions|[^/]*betting-odds-picks-and-predictions)[^/]+$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-11T06:20:00.680006+00:00",
-      "lastSuccessAt": "2026-11-11T06:20:00.680006+00:00",
+      "checkedAt": "2026-11-11T15:11:50.564116+00:00",
+      "lastSuccessAt": "2026-11-11T15:11:50.564116+00:00",
       "count": 4,
       "message": "Public expert selections retrieved"
     }
   ],
   "articles": [
+    {
+      "id": "ae4d720ed987500d",
+      "title": "NFL picks, predictions against the spread Week 10: Packers stop Vikings, Lions get past Patriots",
+      "url": "https://www.sportingnews.com/us/nfl/news/nfl-picks-predictions-against-spread-week-10/96a8f2cc9f0b0ffc83e9d472",
+      "publisher": "Sporting News",
+      "sourceId": "sportingnews",
+      "author": "Vinnie Iyer",
+      "publishedAt": "2026-11-11T11:34:01+00:00",
+      "picks": [
+        {
+          "selection": "Giants -1.5",
+          "market": "Spread",
+          "context": "Game of Midweek: Commanders at Giants (-1.5, 43.5 o/u)",
+          "method": "Publisher ATS pick heading and accompanying Pick statement",
+          "event": {
+            "id": "401873052",
+            "startAt": "2026-11-13T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Giants",
+              "Commanders"
+            ],
+            "matchup": "Washington Commanders at New York Giants",
+            "week": 10,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Bengals -3.5",
+          "market": "Spread",
+          "context": "AFC Game of the Week: Steelers at Bengals (-3.5, 48.5 o/u)",
+          "method": "Publisher ATS pick heading and accompanying Pick statement",
+          "event": {
+            "id": "401873064",
+            "startAt": "2026-11-16T01:20Z",
+            "state": "pre",
+            "teams": [
+              "Bengals",
+              "Steelers"
+            ],
+            "matchup": "Pittsburgh Steelers at Cincinnati Bengals",
+            "week": 10,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Packers -3.5",
+          "market": "Spread",
+          "context": "NFC Game of the Week: Vikings at Packers (-3.5, 42.5 o/u)",
+          "method": "Publisher ATS pick heading and accompanying Pick statement",
+          "event": {
+            "id": "401873060",
+            "startAt": "2026-11-15T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Packers",
+              "Vikings"
+            ],
+            "matchup": "Minnesota Vikings at Green Bay Packers",
+            "week": 10,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Rams -7.5",
+          "market": "Spread",
+          "context": "Lock of the Week: Rams (-7.5, 44.5 o/u) over Cardinals",
+          "method": "Publisher ATS pick heading and accompanying Pick statement",
+          "event": {
+            "id": "401873061",
+            "startAt": "2026-11-15T21:05Z",
+            "state": "pre",
+            "teams": [
+              "Cardinals",
+              "Rams"
+            ],
+            "matchup": "Los Angeles Rams at Arizona Cardinals",
+            "week": 10,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Dolphins +2.5",
+          "market": "Spread",
+          "context": "Upset of the Week: Dolphins (+2.5, 40.5 o/u) over Colts",
+          "method": "Publisher ATS pick heading and accompanying Pick statement",
+          "event": {
+            "id": "401873059",
+            "startAt": "2026-11-15T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Colts",
+              "Dolphins"
+            ],
+            "matchup": "Miami Dolphins at Indianapolis Colts",
+            "week": 10,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Lions -2.5",
+          "market": "Spread",
+          "context": "Lions (-2.5, 51.5 o/u) vs. Patriots (in Munich)",
+          "method": "Publisher ATS pick heading and accompanying Pick statement",
+          "event": {
+            "id": "401873053",
+            "startAt": "2026-11-15T14:30Z",
+            "state": "pre",
+            "teams": [
+              "Lions",
+              "Patriots"
+            ],
+            "matchup": "New England Patriots at Detroit Lions",
+            "week": 10,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Chiefs -3.5",
+          "market": "Spread",
+          "context": "Chiefs (-3.5, 45.5 o/u) at Falcons",
+          "method": "Publisher ATS pick heading and accompanying Pick statement",
+          "event": {
+            "id": "401873058",
+            "startAt": "2026-11-15T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Falcons",
+              "Chiefs"
+            ],
+            "matchup": "Kansas City Chiefs at Atlanta Falcons",
+            "week": 10,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Texans -5.5",
+          "market": "Spread",
+          "context": "Texans (-5.5, 39.5 o/u) at Browns",
+          "method": "Publisher ATS pick heading and accompanying Pick statement",
+          "event": {
+            "id": "401873056",
+            "startAt": "2026-11-15T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Browns",
+              "Texans"
+            ],
+            "matchup": "Houston Texans at Cleveland Browns",
+            "week": 10,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Jaguars -9.5",
+          "market": "Spread",
+          "context": "Jaguars (-9.5, 46.5 o/u) at Titans",
+          "method": "Publisher ATS pick heading and accompanying Pick statement",
+          "event": {
+            "id": "401873057",
+            "startAt": "2026-11-15T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Titans",
+              "Jaguars"
+            ],
+            "matchup": "Jacksonville Jaguars at Tennessee Titans",
+            "week": 10,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Saints -1.5",
+          "market": "Spread",
+          "context": "Panthers at Saints (-1.5, 47.5 o/u)",
+          "method": "Publisher ATS pick heading and accompanying Pick statement",
+          "event": {
+            "id": "401873055",
+            "startAt": "2026-11-15T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Saints",
+              "Panthers"
+            ],
+            "matchup": "Carolina Panthers at New Orleans Saints",
+            "week": 10,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Bills -7.5",
+          "market": "Spread",
+          "context": "Bills (-7.5, 50.5 o/u) at Jets",
+          "method": "Publisher ATS pick heading and accompanying Pick statement",
+          "event": {
+            "id": "401873054",
+            "startAt": "2026-11-15T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Jets",
+              "Bills"
+            ],
+            "matchup": "Buffalo Bills at New York Jets",
+            "week": 10,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Seahawks -3.5",
+          "market": "Spread",
+          "context": "Seahawks (-3.5, 42.5 o/u) at Raiders",
+          "method": "Publisher ATS pick heading and accompanying Pick statement",
+          "event": {
+            "id": "401873062",
+            "startAt": "2026-11-15T21:05Z",
+            "state": "pre",
+            "teams": [
+              "Raiders",
+              "Seahawks"
+            ],
+            "matchup": "Seattle Seahawks at Las Vegas Raiders",
+            "week": 10,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "49ers -4.5",
+          "market": "Spread",
+          "context": "49ers (-4.5, 55.5 o/u) at Cowboys",
+          "method": "Publisher ATS pick heading and accompanying Pick statement",
+          "event": {
+            "id": "401873063",
+            "startAt": "2026-11-15T21:25Z",
+            "state": "pre",
+            "teams": [
+              "Cowboys",
+              "49ers"
+            ],
+            "matchup": "San Francisco 49ers at Dallas Cowboys",
+            "week": 10,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Ravens -5.5",
+          "market": "Spread",
+          "context": "Chargers at Ravens (-5.5, 38.5 o/u)",
+          "method": "Publisher ATS pick heading and accompanying Pick statement",
+          "event": {
+            "id": "401873065",
+            "startAt": "2026-11-17T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Ravens",
+              "Chargers"
+            ],
+            "matchup": "Los Angeles Chargers at Baltimore Ravens",
+            "week": 10,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Lions",
+        "Packers",
+        "Vikings",
+        "Patriots"
+      ]
+    },
     {
       "id": "cb07576a69ca8c2e",
       "title": "NFL Moneyline Picks for Every Week 10 Game",
@@ -381,7 +654,7 @@
     },
     {
       "id": "03939c0f3b71447d",
-      "title": "Dallas Cowboys vs San Francisco 49ers Prediction 11/15/26 NFL Picks Today | Sports Chat Place",
+      "title": "Cowboys vs 49ers Prediction 11/15/26 NFL Picks Today | Sports Chat Place",
       "url": "https://sportschatplace.com/nfl-picks/dallas-cowboys-vs-san-francisco-49ers-prediction-11-15-26-nfl-picks-today/",
       "publisher": "Sports Chat Place",
       "sourceId": "sportschat",
@@ -391,7 +664,7 @@
         {
           "selection": "San Francisco 49ers -4.5",
           "market": "Spread",
-          "context": "San Francisco 49ers @ Dallas Cowboys Betting Trends: Week 10",
+          "context": "Cowboys vs 49ers Prediction",
           "method": "Explicit selection in publisher feed",
           "event": {
             "id": "401873063",
@@ -418,7 +691,7 @@
     },
     {
       "id": "ba66daa408bc480f",
-      "title": "Indianapolis Colts vs Miami Dolphins Prediction 11/15/26 NFL Picks Today | Sports Chat Place",
+      "title": "Colts vs Dolphins Prediction 11/15/26 NFL Picks Today | Sports Chat Place",
       "url": "https://sportschatplace.com/nfl-picks/indianapolis-colts-vs-miami-dolphins-prediction-11-15-26-nfl-picks-today/",
       "publisher": "Sports Chat Place",
       "sourceId": "sportschat",
@@ -428,7 +701,7 @@
         {
           "selection": "Indianapolis Colts -3.5",
           "market": "Spread",
-          "context": "Miami Dolphins @ Indianapolis Colts Betting Trends: Week 10",
+          "context": "Colts vs Dolphins Prediction",
           "method": "Explicit selection in publisher feed",
           "event": {
             "id": "401873059",
@@ -455,7 +728,7 @@
     },
     {
       "id": "9c2601c6ec62cd1c",
-      "title": "Detroit Lions vs New England Patriots Prediction 11/15/26 NFL Picks Today | Sports Chat Place",
+      "title": "Lions vs Patriots Prediction 11/15/26 NFL Picks Today | Sports Chat Place",
       "url": "https://sportschatplace.com/nfl-picks/detroit-lions-vs-new-england-patriots-prediction-11-15-26-nfl-picks-today/",
       "publisher": "Sports Chat Place",
       "sourceId": "sportschat",
@@ -465,7 +738,7 @@
         {
           "selection": "New England Patriots +2.5",
           "market": "Spread",
-          "context": "New England Patriots @ Detroit Lions Betting Trends: Week 10",
+          "context": "Lions vs Patriots Prediction",
           "method": "Explicit selection in publisher feed",
           "event": {
             "id": "401873053",
@@ -596,279 +869,6 @@
         "Props"
       ],
       "teams": []
-    },
-    {
-      "id": "ae4d720ed987500d",
-      "title": "NFL picks, predictions against the spread Week 10: Packers stop Vikings, Lions get past Patriots",
-      "url": "https://www.sportingnews.com/us/nfl/news/nfl-picks-predictions-against-spread-week-10/96a8f2cc9f0b0ffc83e9d472",
-      "publisher": "Sporting News",
-      "sourceId": "sportingnews",
-      "author": "Vinnie Iyer",
-      "publishedAt": "2026-11-10T12:10:01+00:00",
-      "picks": [
-        {
-          "selection": "Giants -1.5",
-          "market": "Spread",
-          "context": "Game of Midweek: Commanders at Giants (-1.5, 43.5 o/u)",
-          "method": "Publisher ATS pick heading and accompanying Pick statement",
-          "event": {
-            "id": "401873052",
-            "startAt": "2026-11-13T01:15Z",
-            "state": "pre",
-            "teams": [
-              "Giants",
-              "Commanders"
-            ],
-            "matchup": "Washington Commanders at New York Giants",
-            "week": 10,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Bengals -3.5",
-          "market": "Spread",
-          "context": "AFC Game of the Week: Steelers at Bengals (-3.5, 48.5 o/u)",
-          "method": "Publisher ATS pick heading and accompanying Pick statement",
-          "event": {
-            "id": "401873064",
-            "startAt": "2026-11-16T01:20Z",
-            "state": "pre",
-            "teams": [
-              "Bengals",
-              "Steelers"
-            ],
-            "matchup": "Pittsburgh Steelers at Cincinnati Bengals",
-            "week": 10,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Packers -3.5",
-          "market": "Spread",
-          "context": "NFC Game of the Week: Vikings at Packers (-3.5, 42.5 o/u)",
-          "method": "Publisher ATS pick heading and accompanying Pick statement",
-          "event": {
-            "id": "401873060",
-            "startAt": "2026-11-15T18:00Z",
-            "state": "pre",
-            "teams": [
-              "Packers",
-              "Vikings"
-            ],
-            "matchup": "Minnesota Vikings at Green Bay Packers",
-            "week": 10,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Rams -7.5",
-          "market": "Spread",
-          "context": "Lock of the Week: Rams (-7.5, 44.5 o/u) over Cardinals",
-          "method": "Publisher ATS pick heading and accompanying Pick statement",
-          "event": {
-            "id": "401873061",
-            "startAt": "2026-11-15T21:05Z",
-            "state": "pre",
-            "teams": [
-              "Cardinals",
-              "Rams"
-            ],
-            "matchup": "Los Angeles Rams at Arizona Cardinals",
-            "week": 10,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Dolphins +2.5",
-          "market": "Spread",
-          "context": "Upset of the Week: Dolphins (+2.5, 40.5 o/u) over Colts",
-          "method": "Publisher ATS pick heading and accompanying Pick statement",
-          "event": {
-            "id": "401873059",
-            "startAt": "2026-11-15T18:00Z",
-            "state": "pre",
-            "teams": [
-              "Colts",
-              "Dolphins"
-            ],
-            "matchup": "Miami Dolphins at Indianapolis Colts",
-            "week": 10,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Lions -2.5",
-          "market": "Spread",
-          "context": "Lions (-2.5, 51.5 o/u) vs. Patriots (in Munich)",
-          "method": "Publisher ATS pick heading and accompanying Pick statement",
-          "event": {
-            "id": "401873053",
-            "startAt": "2026-11-15T14:30Z",
-            "state": "pre",
-            "teams": [
-              "Lions",
-              "Patriots"
-            ],
-            "matchup": "New England Patriots at Detroit Lions",
-            "week": 10,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Chiefs -3.5",
-          "market": "Spread",
-          "context": "Chiefs (-3.5, 45.5 o/u) at Falcons",
-          "method": "Publisher ATS pick heading and accompanying Pick statement",
-          "event": {
-            "id": "401873058",
-            "startAt": "2026-11-15T18:00Z",
-            "state": "pre",
-            "teams": [
-              "Falcons",
-              "Chiefs"
-            ],
-            "matchup": "Kansas City Chiefs at Atlanta Falcons",
-            "week": 10,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Texans -5.5",
-          "market": "Spread",
-          "context": "Texans (-5.5, 39.5 o/u) at Browns",
-          "method": "Publisher ATS pick heading and accompanying Pick statement",
-          "event": {
-            "id": "401873056",
-            "startAt": "2026-11-15T18:00Z",
-            "state": "pre",
-            "teams": [
-              "Browns",
-              "Texans"
-            ],
-            "matchup": "Houston Texans at Cleveland Browns",
-            "week": 10,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Jaguars -9.5",
-          "market": "Spread",
-          "context": "Jaguars (-9.5, 46.5 o/u) at Titans",
-          "method": "Publisher ATS pick heading and accompanying Pick statement",
-          "event": {
-            "id": "401873057",
-            "startAt": "2026-11-15T18:00Z",
-            "state": "pre",
-            "teams": [
-              "Titans",
-              "Jaguars"
-            ],
-            "matchup": "Jacksonville Jaguars at Tennessee Titans",
-            "week": 10,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Saints -1.5",
-          "market": "Spread",
-          "context": "Panthers at Saints (-1.5, 47.5 o/u)",
-          "method": "Publisher ATS pick heading and accompanying Pick statement",
-          "event": {
-            "id": "401873055",
-            "startAt": "2026-11-15T18:00Z",
-            "state": "pre",
-            "teams": [
-              "Saints",
-              "Panthers"
-            ],
-            "matchup": "Carolina Panthers at New Orleans Saints",
-            "week": 10,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Bills -7.5",
-          "market": "Spread",
-          "context": "Bills (-7.5, 50.5 o/u) at Jets",
-          "method": "Publisher ATS pick heading and accompanying Pick statement",
-          "event": {
-            "id": "401873054",
-            "startAt": "2026-11-15T18:00Z",
-            "state": "pre",
-            "teams": [
-              "Jets",
-              "Bills"
-            ],
-            "matchup": "Buffalo Bills at New York Jets",
-            "week": 10,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Seahawks -3.5",
-          "market": "Spread",
-          "context": "Seahawks (-3.5, 42.5 o/u) at Raiders",
-          "method": "Publisher ATS pick heading and accompanying Pick statement",
-          "event": {
-            "id": "401873062",
-            "startAt": "2026-11-15T21:05Z",
-            "state": "pre",
-            "teams": [
-              "Raiders",
-              "Seahawks"
-            ],
-            "matchup": "Seattle Seahawks at Las Vegas Raiders",
-            "week": 10,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "49ers -4.5",
-          "market": "Spread",
-          "context": "49ers (-4.5, 55.5 o/u) at Cowboys",
-          "method": "Publisher ATS pick heading and accompanying Pick statement",
-          "event": {
-            "id": "401873063",
-            "startAt": "2026-11-15T21:25Z",
-            "state": "pre",
-            "teams": [
-              "Cowboys",
-              "49ers"
-            ],
-            "matchup": "San Francisco 49ers at Dallas Cowboys",
-            "week": 10,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Ravens -5.5",
-          "market": "Spread",
-          "context": "Chargers at Ravens (-5.5, 38.5 o/u)",
-          "method": "Publisher ATS pick heading and accompanying Pick statement",
-          "event": {
-            "id": "401873065",
-            "startAt": "2026-11-17T01:15Z",
-            "state": "pre",
-            "teams": [
-              "Ravens",
-              "Chargers"
-            ],
-            "matchup": "Los Angeles Chargers at Baltimore Ravens",
-            "week": 10,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Lions",
-        "Packers",
-        "Vikings",
-        "Patriots"
-      ]
     },
     {
       "id": "3d33ca07f330c875",
@@ -3492,8 +3492,8 @@
   ],
   "scheduleStatus": {
     "status": "ok",
-    "checkedAt": "2026-11-11T06:20:00.680006+00:00",
-    "lastSuccessAt": "2026-11-11T06:20:00.680006+00:00"
+    "checkedAt": "2026-11-11T15:11:50.564116+00:00",
+    "lastSuccessAt": "2026-11-11T15:11:50.564116+00:00"
   },
   "playerTeams": {
     "tylerallgeier": [
