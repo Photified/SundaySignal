@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-11T15:11:50.564116+00:00",
-  "lastSuccessfulUpdate": "2026-11-11T15:11:50.564116+00:00",
+  "checkedAt": "2026-11-11T21:57:46.593359+00:00",
+  "lastSuccessfulUpdate": "2026-11-11T21:57:46.593359+00:00",
   "sources": [
     {
       "id": "sbd",
@@ -10,9 +10,9 @@
       "website": "https://www.sportsbettingdime.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-11T15:11:50.564116+00:00",
-      "lastSuccessAt": "2026-11-11T15:11:50.564116+00:00",
-      "count": 9,
+      "checkedAt": "2026-11-11T21:57:46.593359+00:00",
+      "lastSuccessAt": "2026-11-11T21:57:46.593359+00:00",
+      "count": 10,
       "message": "Feed retrieved successfully"
     },
     {
@@ -22,9 +22,9 @@
       "website": "https://www.bettingpros.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-11T15:11:50.564116+00:00",
-      "lastSuccessAt": "2026-11-11T15:11:50.564116+00:00",
-      "count": 37,
+      "checkedAt": "2026-11-11T21:57:46.593359+00:00",
+      "lastSuccessAt": "2026-11-11T21:57:46.593359+00:00",
+      "count": 36,
       "message": "Feed retrieved successfully"
     },
     {
@@ -35,7 +35,7 @@
       "website": "https://www.cbssports.com/nfl/picks/experts/",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-11-11T15:11:50.564116+00:00",
+      "checkedAt": "2026-11-11T21:57:46.593359+00:00",
       "lastSuccessAt": "2026-11-10T01:31:38.785341+00:00",
       "count": 7,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -48,8 +48,8 @@
       "website": "https://www.covers.com/nfl",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-11T15:11:50.564116+00:00",
-      "lastSuccessAt": "2026-11-11T15:11:50.564116+00:00",
+      "checkedAt": "2026-11-11T21:57:46.593359+00:00",
+      "lastSuccessAt": "2026-11-11T21:57:46.593359+00:00",
       "count": 1,
       "message": "Public expert selections retrieved"
     },
@@ -62,8 +62,8 @@
       "articlePattern": "/nfl-picks/[^/]+prediction[^/]+/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-11T15:11:50.564116+00:00",
-      "lastSuccessAt": "2026-11-11T15:11:50.564116+00:00",
+      "checkedAt": "2026-11-11T21:57:46.593359+00:00",
+      "lastSuccessAt": "2026-11-11T21:57:46.593359+00:00",
       "count": 11,
       "message": "Public expert selections retrieved"
     },
@@ -75,11 +75,11 @@
       "kind": "articles",
       "articlePattern": "/picks/nfl/(?:picks-against-the-spread-ats-predictions|player-props)-week-\\d+-\\d{4}/$",
       "enabled": true,
-      "status": "unavailable",
-      "checkedAt": "2026-11-11T15:11:50.564116+00:00",
-      "lastSuccessAt": "2026-11-09T17:29:08.895768+00:00",
+      "status": "ok",
+      "checkedAt": "2026-11-11T21:57:46.593359+00:00",
+      "lastSuccessAt": "2026-11-11T21:57:46.593359+00:00",
       "count": 1,
-      "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
+      "message": "Public expert selections retrieved"
     },
     {
       "id": "sportingnews",
@@ -90,8 +90,8 @@
       "articlePattern": "/us/nfl/news/nfl-picks-predictions-against-spread-week-\\d+/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-11T15:11:50.564116+00:00",
-      "lastSuccessAt": "2026-11-11T15:11:50.564116+00:00",
+      "checkedAt": "2026-11-11T21:57:46.593359+00:00",
+      "lastSuccessAt": "2026-11-11T21:57:46.593359+00:00",
       "count": 1,
       "message": "Public expert selections retrieved"
     },
@@ -104,13 +104,643 @@
       "articlePattern": "/football/article/(?:nfl-picks-and-props|[^/]*odds-picks-and-predictions|[^/]*betting-odds-picks-and-predictions)[^/]+$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-11T15:11:50.564116+00:00",
-      "lastSuccessAt": "2026-11-11T15:11:50.564116+00:00",
+      "checkedAt": "2026-11-11T21:57:46.593359+00:00",
+      "lastSuccessAt": "2026-11-11T21:57:46.593359+00:00",
       "count": 4,
       "message": "Public expert selections retrieved"
     }
   ],
   "articles": [
+    {
+      "id": "30d906bd9290ce1b",
+      "title": "NFL Week 10 Upset Predictions: Best Underdog Moneyline Picks",
+      "url": "https://www.sportsbettingdime.com/news/nfl/week-10-upset-predictions-best-underdog-moneyline-picks/",
+      "publisher": "Sports Betting Dime",
+      "sourceId": "sbd",
+      "author": "Sascha Paruk",
+      "publishedAt": "2026-11-11T19:08:48+00:00",
+      "picks": [
+        {
+          "selection": "Carolina Panthers (+122, Novig) at New Orleans Saints",
+          "market": "Other",
+          "context": "Carolina Panthers (+122, Novig) at New Orleans Saints",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873055",
+            "startAt": "2026-11-15T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Saints",
+              "Panthers"
+            ],
+            "matchup": "Carolina Panthers at New Orleans Saints",
+            "week": 10,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Washington Commanders (+127, Kalshi) at New York Giants",
+          "market": "Other",
+          "context": "Washington Commanders (+127, Kalshi) at New York Giants",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873052",
+            "startAt": "2026-11-13T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Giants",
+              "Commanders"
+            ],
+            "matchup": "Washington Commanders at New York Giants",
+            "week": 10,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Other"
+      ],
+      "teams": [
+        "Commanders",
+        "Giants",
+        "Panthers",
+        "Saints"
+      ]
+    },
+    {
+      "id": "cb07576a69ca8c2e",
+      "title": "NFL Moneyline Picks for Every Week 10 Game",
+      "url": "https://www.covers.com/nfl/moneyline-picks-week-10-2026",
+      "publisher": "Covers",
+      "sourceId": "covers",
+      "author": "Trevor Knapp",
+      "publishedAt": "2026-11-11T17:16:00+00:00",
+      "picks": [
+        {
+          "selection": "Giants Moneyline",
+          "market": "Moneyline",
+          "context": "Commanders vs Giants",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873052",
+            "startAt": "2026-11-13T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Giants",
+              "Commanders"
+            ],
+            "matchup": "Washington Commanders at New York Giants",
+            "week": 10,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Lions Moneyline",
+          "market": "Moneyline",
+          "context": "Patriots vs Lions",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873053",
+            "startAt": "2026-11-15T14:30Z",
+            "state": "pre",
+            "teams": [
+              "Lions",
+              "Patriots"
+            ],
+            "matchup": "New England Patriots at Detroit Lions",
+            "week": 10,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Jaguars Moneyline",
+          "market": "Moneyline",
+          "context": "Jaguars vs Titans",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873057",
+            "startAt": "2026-11-15T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Titans",
+              "Jaguars"
+            ],
+            "matchup": "Jacksonville Jaguars at Tennessee Titans",
+            "week": 10,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Texans Moneyline",
+          "market": "Moneyline",
+          "context": "Texans vs Browns",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873056",
+            "startAt": "2026-11-15T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Browns",
+              "Texans"
+            ],
+            "matchup": "Houston Texans at Cleveland Browns",
+            "week": 10,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Packers Moneyline",
+          "market": "Moneyline",
+          "context": "Vikings vs Packers",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873060",
+            "startAt": "2026-11-15T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Packers",
+              "Vikings"
+            ],
+            "matchup": "Minnesota Vikings at Green Bay Packers",
+            "week": 10,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Chiefs Moneyline",
+          "market": "Moneyline",
+          "context": "Chiefs vs Falcons",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873058",
+            "startAt": "2026-11-15T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Falcons",
+              "Chiefs"
+            ],
+            "matchup": "Kansas City Chiefs at Atlanta Falcons",
+            "week": 10,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Dolphins Moneyline",
+          "market": "Moneyline",
+          "context": "Dolphins vs Colts",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873059",
+            "startAt": "2026-11-15T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Colts",
+              "Dolphins"
+            ],
+            "matchup": "Miami Dolphins at Indianapolis Colts",
+            "week": 10,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Saints Moneyline",
+          "market": "Moneyline",
+          "context": "Panthers vs Saints",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873055",
+            "startAt": "2026-11-15T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Saints",
+              "Panthers"
+            ],
+            "matchup": "Carolina Panthers at New Orleans Saints",
+            "week": 10,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Bills Moneyline",
+          "market": "Moneyline",
+          "context": "Bills vs Jets",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873054",
+            "startAt": "2026-11-15T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Jets",
+              "Bills"
+            ],
+            "matchup": "Buffalo Bills at New York Jets",
+            "week": 10,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Rams Moneyline",
+          "market": "Moneyline",
+          "context": "Rams vs Cardinals",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873061",
+            "startAt": "2026-11-15T21:05Z",
+            "state": "pre",
+            "teams": [
+              "Cardinals",
+              "Rams"
+            ],
+            "matchup": "Los Angeles Rams at Arizona Cardinals",
+            "week": 10,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Seahawks Moneyline",
+          "market": "Moneyline",
+          "context": "Seahawks vs Raiders",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873062",
+            "startAt": "2026-11-15T21:05Z",
+            "state": "pre",
+            "teams": [
+              "Raiders",
+              "Seahawks"
+            ],
+            "matchup": "Seattle Seahawks at Las Vegas Raiders",
+            "week": 10,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "49ers Moneyline",
+          "market": "Moneyline",
+          "context": "49ers vs Cowboys",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873063",
+            "startAt": "2026-11-15T21:25Z",
+            "state": "pre",
+            "teams": [
+              "Cowboys",
+              "49ers"
+            ],
+            "matchup": "San Francisco 49ers at Dallas Cowboys",
+            "week": 10,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Bengals Moneyline",
+          "market": "Moneyline",
+          "context": "Steelers vs Bengals",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873064",
+            "startAt": "2026-11-16T01:20Z",
+            "state": "pre",
+            "teams": [
+              "Bengals",
+              "Steelers"
+            ],
+            "matchup": "Pittsburgh Steelers at Cincinnati Bengals",
+            "week": 10,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Ravens Moneyline",
+          "market": "Moneyline",
+          "context": "Chargers vs Ravens",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873065",
+            "startAt": "2026-11-17T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Ravens",
+              "Chargers"
+            ],
+            "matchup": "Los Angeles Chargers at Baltimore Ravens",
+            "week": 10,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Moneyline"
+      ],
+      "teams": []
+    },
+    {
+      "id": "18ae3bcf6225587e",
+      "title": "NFL Picks Against the Spread Week 10: ATS Predictions for Every Game",
+      "url": "https://www.sportsbookreview.com/picks/nfl/picks-against-the-spread-ats-predictions-week-10-2026/",
+      "publisher": "Sportsbook Review",
+      "sourceId": "sbr",
+      "author": "Gary Pearson",
+      "publishedAt": "2026-11-11T16:00:00+00:00",
+      "picks": [
+        {
+          "selection": "49ers -4",
+          "market": "Spread",
+          "context": "49ers (-4) vs. Cowboys",
+          "method": "Explicit publisher pick table",
+          "event": {
+            "id": "401873063",
+            "startAt": "2026-11-15T21:25Z",
+            "state": "pre",
+            "teams": [
+              "Cowboys",
+              "49ers"
+            ],
+            "matchup": "San Francisco 49ers at Dallas Cowboys",
+            "week": 10,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Seahawks -3.5",
+          "market": "Spread",
+          "context": "Seahawks (-3.5) vs. Raiders",
+          "method": "Explicit publisher pick table",
+          "event": {
+            "id": "401873062",
+            "startAt": "2026-11-15T21:05Z",
+            "state": "pre",
+            "teams": [
+              "Raiders",
+              "Seahawks"
+            ],
+            "matchup": "Seattle Seahawks at Las Vegas Raiders",
+            "week": 10,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Rams -8.5",
+          "market": "Spread",
+          "context": "Rams (-8.5) vs. Cardinals",
+          "method": "Explicit publisher pick table",
+          "event": {
+            "id": "401873061",
+            "startAt": "2026-11-15T21:05Z",
+            "state": "pre",
+            "teams": [
+              "Cardinals",
+              "Rams"
+            ],
+            "matchup": "Los Angeles Rams at Arizona Cardinals",
+            "week": 10,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Commanders +2.5",
+          "market": "Spread",
+          "context": "Commanders vs. Giants (-2.5)",
+          "method": "Explicit publisher pick table",
+          "event": {
+            "id": "401873052",
+            "startAt": "2026-11-13T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Giants",
+              "Commanders"
+            ],
+            "matchup": "Washington Commanders at New York Giants",
+            "week": 10,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Lions -2.5",
+          "market": "Spread",
+          "context": "Patriots vs. Lions (-2.5)",
+          "method": "Explicit publisher pick table",
+          "event": {
+            "id": "401873053",
+            "startAt": "2026-11-15T14:30Z",
+            "state": "pre",
+            "teams": [
+              "Lions",
+              "Patriots"
+            ],
+            "matchup": "New England Patriots at Detroit Lions",
+            "week": 10,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Chiefs -3.5",
+          "market": "Spread",
+          "context": "Chiefs (-3.5) vs. Falcons",
+          "method": "Explicit publisher pick table",
+          "event": {
+            "id": "401873058",
+            "startAt": "2026-11-15T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Falcons",
+              "Chiefs"
+            ],
+            "matchup": "Kansas City Chiefs at Atlanta Falcons",
+            "week": 10,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Bills -7",
+          "market": "Spread",
+          "context": "Bills (-7) vs. Jets",
+          "method": "Explicit publisher pick table",
+          "event": {
+            "id": "401873054",
+            "startAt": "2026-11-15T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Jets",
+              "Bills"
+            ],
+            "matchup": "Buffalo Bills at New York Jets",
+            "week": 10,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Colts -2.5",
+          "market": "Spread",
+          "context": "Dolphins vs. Colts (-2.5)",
+          "method": "Explicit publisher pick table",
+          "event": {
+            "id": "401873059",
+            "startAt": "2026-11-15T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Colts",
+              "Dolphins"
+            ],
+            "matchup": "Miami Dolphins at Indianapolis Colts",
+            "week": 10,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Titans +10.5",
+          "market": "Spread",
+          "context": "Jaguars (-10.5) vs. Titans",
+          "method": "Explicit publisher pick table",
+          "event": {
+            "id": "401873057",
+            "startAt": "2026-11-15T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Titans",
+              "Jaguars"
+            ],
+            "matchup": "Jacksonville Jaguars at Tennessee Titans",
+            "week": 10,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Browns +5",
+          "market": "Spread",
+          "context": "Texans (-5) vs. Browns",
+          "method": "Explicit publisher pick table",
+          "event": {
+            "id": "401873056",
+            "startAt": "2026-11-15T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Browns",
+              "Texans"
+            ],
+            "matchup": "Houston Texans at Cleveland Browns",
+            "week": 10,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Packers -4.5",
+          "market": "Spread",
+          "context": "Vikings vs. Packers (-4.5)",
+          "method": "Explicit publisher pick table",
+          "event": {
+            "id": "401873060",
+            "startAt": "2026-11-15T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Packers",
+              "Vikings"
+            ],
+            "matchup": "Minnesota Vikings at Green Bay Packers",
+            "week": 10,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Panthers +1.5",
+          "market": "Spread",
+          "context": "Panthers vs. Saints (-1.5)",
+          "method": "Explicit publisher pick table",
+          "event": {
+            "id": "401873055",
+            "startAt": "2026-11-15T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Saints",
+              "Panthers"
+            ],
+            "matchup": "Carolina Panthers at New Orleans Saints",
+            "week": 10,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Steelers +3.5",
+          "market": "Spread",
+          "context": "Steelers vs. Bengals (-3.5)",
+          "method": "Explicit publisher pick table",
+          "event": {
+            "id": "401873064",
+            "startAt": "2026-11-16T01:20Z",
+            "state": "pre",
+            "teams": [
+              "Bengals",
+              "Steelers"
+            ],
+            "matchup": "Pittsburgh Steelers at Cincinnati Bengals",
+            "week": 10,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Ravens -5",
+          "market": "Spread",
+          "context": "Chargers vs. Ravens (-5)",
+          "method": "Explicit publisher pick table",
+          "event": {
+            "id": "401873065",
+            "startAt": "2026-11-17T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Ravens",
+              "Chargers"
+            ],
+            "matchup": "Los Angeles Chargers at Baltimore Ravens",
+            "week": 10,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": []
+    },
+    {
+      "id": "18ff6ac10726725a",
+      "title": "Giants vs Commanders Prediction 11/12/26 NFL Picks Today | Sports Chat Place",
+      "url": "https://sportschatplace.com/nfl-picks/giants-vs-commanders-prediction-11-12-26-nfl-picks-today/",
+      "publisher": "Sports Chat Place",
+      "sourceId": "sportschat",
+      "author": "Randy Chambers",
+      "publishedAt": "2026-11-11T15:31:43+00:00",
+      "picks": [
+        {
+          "selection": "NY Giants -2.5",
+          "market": "Spread",
+          "context": "Giants vs Commanders Prediction",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873052",
+            "startAt": "2026-11-13T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Giants",
+              "Commanders"
+            ],
+            "matchup": "Washington Commanders at New York Giants",
+            "week": 10,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Giants",
+        "Commanders"
+      ]
+    },
     {
       "id": "ae4d720ed987500d",
       "title": "NFL picks, predictions against the spread Week 10: Packers stop Vikings, Lions get past Patriots",
@@ -383,274 +1013,6 @@
         "Vikings",
         "Patriots"
       ]
-    },
-    {
-      "id": "cb07576a69ca8c2e",
-      "title": "NFL Moneyline Picks for Every Week 10 Game",
-      "url": "https://www.covers.com/nfl/moneyline-picks-week-10-2026",
-      "publisher": "Covers",
-      "sourceId": "covers",
-      "author": "Trevor Knapp",
-      "publishedAt": "2026-11-11T02:27:00+00:00",
-      "picks": [
-        {
-          "selection": "Giants Moneyline",
-          "market": "Moneyline",
-          "context": "Commanders vs Giants",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873052",
-            "startAt": "2026-11-13T01:15Z",
-            "state": "pre",
-            "teams": [
-              "Giants",
-              "Commanders"
-            ],
-            "matchup": "Washington Commanders at New York Giants",
-            "week": 10,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Lions Moneyline",
-          "market": "Moneyline",
-          "context": "Patriots vs Lions",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873053",
-            "startAt": "2026-11-15T14:30Z",
-            "state": "pre",
-            "teams": [
-              "Lions",
-              "Patriots"
-            ],
-            "matchup": "New England Patriots at Detroit Lions",
-            "week": 10,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Jaguars Moneyline",
-          "market": "Moneyline",
-          "context": "Jaguars vs Titans",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873057",
-            "startAt": "2026-11-15T18:00Z",
-            "state": "pre",
-            "teams": [
-              "Titans",
-              "Jaguars"
-            ],
-            "matchup": "Jacksonville Jaguars at Tennessee Titans",
-            "week": 10,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Texans Moneyline",
-          "market": "Moneyline",
-          "context": "Texans vs Browns",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873056",
-            "startAt": "2026-11-15T18:00Z",
-            "state": "pre",
-            "teams": [
-              "Browns",
-              "Texans"
-            ],
-            "matchup": "Houston Texans at Cleveland Browns",
-            "week": 10,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Packers Moneyline",
-          "market": "Moneyline",
-          "context": "Vikings vs Packers",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873060",
-            "startAt": "2026-11-15T18:00Z",
-            "state": "pre",
-            "teams": [
-              "Packers",
-              "Vikings"
-            ],
-            "matchup": "Minnesota Vikings at Green Bay Packers",
-            "week": 10,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Chiefs Moneyline",
-          "market": "Moneyline",
-          "context": "Chiefs vs Falcons",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873058",
-            "startAt": "2026-11-15T18:00Z",
-            "state": "pre",
-            "teams": [
-              "Falcons",
-              "Chiefs"
-            ],
-            "matchup": "Kansas City Chiefs at Atlanta Falcons",
-            "week": 10,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Dolphins Moneyline",
-          "market": "Moneyline",
-          "context": "Dolphins vs Colts",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873059",
-            "startAt": "2026-11-15T18:00Z",
-            "state": "pre",
-            "teams": [
-              "Colts",
-              "Dolphins"
-            ],
-            "matchup": "Miami Dolphins at Indianapolis Colts",
-            "week": 10,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Saints Moneyline",
-          "market": "Moneyline",
-          "context": "Panthers vs Saints",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873055",
-            "startAt": "2026-11-15T18:00Z",
-            "state": "pre",
-            "teams": [
-              "Saints",
-              "Panthers"
-            ],
-            "matchup": "Carolina Panthers at New Orleans Saints",
-            "week": 10,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Bills Moneyline",
-          "market": "Moneyline",
-          "context": "Bills vs Jets",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873054",
-            "startAt": "2026-11-15T18:00Z",
-            "state": "pre",
-            "teams": [
-              "Jets",
-              "Bills"
-            ],
-            "matchup": "Buffalo Bills at New York Jets",
-            "week": 10,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Rams Moneyline",
-          "market": "Moneyline",
-          "context": "Rams vs Cardinals",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873061",
-            "startAt": "2026-11-15T21:05Z",
-            "state": "pre",
-            "teams": [
-              "Cardinals",
-              "Rams"
-            ],
-            "matchup": "Los Angeles Rams at Arizona Cardinals",
-            "week": 10,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Seahawks Moneyline",
-          "market": "Moneyline",
-          "context": "Seahawks vs Raiders",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873062",
-            "startAt": "2026-11-15T21:05Z",
-            "state": "pre",
-            "teams": [
-              "Raiders",
-              "Seahawks"
-            ],
-            "matchup": "Seattle Seahawks at Las Vegas Raiders",
-            "week": 10,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "49ers Moneyline",
-          "market": "Moneyline",
-          "context": "49ers vs Cowboys",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873063",
-            "startAt": "2026-11-15T21:25Z",
-            "state": "pre",
-            "teams": [
-              "Cowboys",
-              "49ers"
-            ],
-            "matchup": "San Francisco 49ers at Dallas Cowboys",
-            "week": 10,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Bengals Moneyline",
-          "market": "Moneyline",
-          "context": "Steelers vs Bengals",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873064",
-            "startAt": "2026-11-16T01:20Z",
-            "state": "pre",
-            "teams": [
-              "Bengals",
-              "Steelers"
-            ],
-            "matchup": "Pittsburgh Steelers at Cincinnati Bengals",
-            "week": 10,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Ravens Moneyline",
-          "market": "Moneyline",
-          "context": "Chargers vs Ravens",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873065",
-            "startAt": "2026-11-17T01:15Z",
-            "state": "pre",
-            "teams": [
-              "Ravens",
-              "Chargers"
-            ],
-            "matchup": "Los Angeles Chargers at Baltimore Ravens",
-            "week": 10,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Moneyline"
-      ],
-      "teams": []
     },
     {
       "id": "03939c0f3b71447d",
@@ -2319,32 +2681,6 @@
       ]
     },
     {
-      "id": "b6ae380c48fd4993",
-      "title": "Dolphins vs Lions Prediction 11/8/26 NFL Picks Today | Sports Chat Place",
-      "url": "https://sportschatplace.com/nfl-picks/dolphins-vs-lions-prediction-11-8-26-nfl-picks-today/",
-      "publisher": "Sports Chat Place",
-      "sourceId": "sportschat",
-      "author": "David Racey",
-      "publishedAt": "2026-11-06T14:57:16+00:00",
-      "picks": [
-        {
-          "selection": "Lions -6.5",
-          "market": "Spread",
-          "context": "Dolphins vs Lions Prediction",
-          "method": "Explicit selection in publisher feed",
-          "event": null
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Lions",
-        "Dolphins"
-      ]
-    },
-    {
       "id": "0f55432c7732d252",
       "title": "NFL Bills vs Vikings expert spread pick",
       "url": "https://www.cbssports.com/nfl/picks/experts/",
@@ -2546,58 +2882,6 @@
         "Bills",
         "Vikings"
       ]
-    },
-    {
-      "id": "a6acb9e618ca9009",
-      "title": "NFL Player Props for Week 9: Best O/U Prop Bets & TD Picks This Week",
-      "url": "https://www.sportsbookreview.com/picks/nfl/player-props-week-9-2026/",
-      "publisher": "Sportsbook Review",
-      "sourceId": "sbr",
-      "author": "Gary Pearson",
-      "publishedAt": "2026-11-05T13:20:00+00:00",
-      "picks": [
-        {
-          "selection": "Kenneth Walker III Over 90.5 rushing yards (-114)",
-          "market": "Props",
-          "context": "",
-          "method": "Explicit player prop selection in publisher pick table",
-          "player": {
-            "name": "Kenneth Walker III",
-            "team": "Chiefs",
-            "athleteId": "4567048"
-          },
-          "event": null
-        },
-        {
-          "selection": "Jared Goff Over 261.5 passing yards (-114)",
-          "market": "Props",
-          "context": "",
-          "method": "Explicit player prop selection in publisher pick table",
-          "player": {
-            "name": "Jared Goff",
-            "team": "Lions",
-            "athleteId": "3046779"
-          },
-          "event": null
-        },
-        {
-          "selection": "Jaxon Smith-Njigba Anytime TD (-125)",
-          "market": "Props",
-          "context": "",
-          "method": "Explicit player prop selection in publisher pick table",
-          "player": {
-            "name": "Jaxon Smith-Njigba",
-            "team": "Seahawks",
-            "athleteId": "4430878"
-          },
-          "event": null
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Props"
-      ],
-      "teams": []
     },
     {
       "id": "6bda2d7b5cd01484",
@@ -3064,39 +3348,6 @@
       ]
     },
     {
-      "id": "66e438ae12ca361b",
-      "title": "Early NFL Best Bets & Trends for Week 9 (2026)",
-      "url": "https://www.bettingpros.com/articles/early-nfl-best-bets-trends-for-week-9-2026/",
-      "publisher": "BettingPros",
-      "sourceId": "bettingpros",
-      "author": "Jason Radowitz",
-      "publishedAt": "2026-11-02T16:36:20+00:00",
-      "picks": [
-        {
-          "selection": "Giants -3 ( -105 )",
-          "market": "Spread",
-          "context": "New York Giants vs. Philadelphia Eagles",
-          "method": "Explicit selection in publisher feed",
-          "event": null
-        },
-        {
-          "selection": "Texans -5.5 ( -105 )",
-          "market": "Spread",
-          "context": "Houston Texans vs. Los Angeles Chargers",
-          "method": "Explicit selection in publisher feed",
-          "event": null
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Giants",
-        "Texans"
-      ]
-    },
-    {
       "id": "1d6863261d390aa0",
       "title": "NFL Picks and Props for Week 8 Sunday Slate",
       "url": "https://www.rotowire.com/football/article/nfl-picks-and-props-for-week-8-sunday-slate-144832",
@@ -3492,10 +3743,17 @@
   ],
   "scheduleStatus": {
     "status": "ok",
-    "checkedAt": "2026-11-11T15:11:50.564116+00:00",
-    "lastSuccessAt": "2026-11-11T15:11:50.564116+00:00"
+    "checkedAt": "2026-11-11T21:57:46.593359+00:00",
+    "lastSuccessAt": "2026-11-11T21:57:46.593359+00:00"
   },
   "playerTeams": {
+    "joeyaguilar": [
+      {
+        "name": "Joey Aguilar",
+        "team": "Cardinals",
+        "athleteId": "5151948"
+      }
+    ],
     "tylerallgeier": [
       {
         "name": "Tyler Allgeier",
@@ -3594,6 +3852,13 @@
         "athleteId": "4569609"
       }
     ],
+    "joshjohnson": [
+      {
+        "name": "Josh Johnson",
+        "team": "Cardinals",
+        "athleteId": "11394"
+      }
+    ],
     "bamknight": [
       {
         "name": "Bam Knight",
@@ -3606,13 +3871,6 @@
         "name": "Trey McBride",
         "team": "Cardinals",
         "athleteId": "4361307"
-      }
-    ],
-    "gardnerminshewii": [
-      {
-        "name": "Gardner Minshew II",
-        "team": "Cardinals",
-        "athleteId": "4038524"
       }
     ],
     "teaganquitoriano": [
@@ -3965,6 +4223,13 @@
         "athleteId": "4686338"
       }
     ],
+    "gardnerminshewii": [
+      {
+        "name": "Gardner Minshew II",
+        "team": "Cardinals",
+        "athleteId": "4038524"
+      }
+    ],
     "kalebproctor": [
       {
         "name": "Kaleb Proctor",
@@ -4000,11 +4265,11 @@
         "athleteId": "4242229"
       }
     ],
-    "rivaldofairweather": [
+    "phillipdorsettii": [
       {
-        "name": "Rivaldo Fairweather",
+        "name": "Phillip Dorsett II",
         "team": "Cardinals",
-        "athleteId": "4605858"
+        "athleteId": "2579604"
       }
     ],
     "jaredharrisonhunte": [
@@ -4028,13 +4293,6 @@
         "athleteId": "4250935"
       }
     ],
-    "jermarjefferson": [
-      {
-        "name": "Jermar Jefferson",
-        "team": "Cardinals",
-        "athleteId": "4374033"
-      }
-    ],
     "zayjones": [
       {
         "name": "Zay Jones",
@@ -4047,6 +4305,13 @@
         "name": "James Proche II",
         "team": "Cardinals",
         "athleteId": "3916204"
+      }
+    ],
+    "jamareesalyer": [
+      {
+        "name": "Jamaree Salyer",
+        "team": "Cardinals",
+        "athleteId": "4379412"
       }
     ],
     "valentinsenn": [
@@ -4189,13 +4454,6 @@
         "athleteId": "4249624"
       }
     ],
-    "ryanneuzil": [
-      {
-        "name": "Ryan Neuzil",
-        "team": "Falcons",
-        "athleteId": "4036444"
-      }
-    ],
     "ethanonianwa": [
       {
         "name": "Ethan Onianwa",
@@ -4243,6 +4501,20 @@
         "name": "Jawaan Taylor",
         "team": "Falcons",
         "athleteId": "4034961"
+      }
+    ],
+    "andrewvorhees": [
+      {
+        "name": "Andrew Vorhees",
+        "team": "Falcons",
+        "athleteId": "4243220"
+      }
+    ],
+    "cameronwilliams": [
+      {
+        "name": "Cameron Williams",
+        "team": "Falcons",
+        "athleteId": "4685590"
       }
     ],
     "charliewoerner": [
@@ -4350,13 +4622,6 @@
         "athleteId": "3895841"
       }
     ],
-    "drakejackson": [
-      {
-        "name": "Drake Jackson",
-        "team": "Falcons",
-        "athleteId": "4569511"
-      }
-    ],
     "lacalelondon": [
       {
         "name": "LaCale London",
@@ -4462,18 +4727,18 @@
         "athleteId": "3931395"
       }
     ],
-    "nickfolk": [
-      {
-        "name": "Nick Folk",
-        "team": "Falcons",
-        "athleteId": "10621"
-      }
-    ],
     "liammccullough": [
       {
         "name": "Liam McCullough",
         "team": "Falcons",
         "athleteId": "3915528"
+      }
+    ],
+    "jakemoody": [
+      {
+        "name": "Jake Moody",
+        "team": "Falcons",
+        "athleteId": "4372066"
       }
     ],
     "jdbertrand": [
@@ -4539,13 +4804,6 @@
         "athleteId": "5150660"
       }
     ],
-    "cameronwilliams": [
-      {
-        "name": "Cameron Williams",
-        "team": "Falcons",
-        "athleteId": "4685590"
-      }
-    ],
     "vinnyanthonyii": [
       {
         "name": "Vinny Anthony II",
@@ -4572,6 +4830,13 @@
         "name": "Dylan Drummond",
         "team": "Falcons",
         "athleteId": "4363551"
+      }
+    ],
+    "gushartwig": [
+      {
+        "name": "Gus Hartwig",
+        "team": "Falcons",
+        "athleteId": "4432237"
       }
     ],
     "darnayholmes": [
@@ -4628,6 +4893,13 @@
         "name": "Josh Thompson",
         "team": "Falcons",
         "athleteId": "4682692"
+      }
+    ],
+    "delarrinturneryell": [
+      {
+        "name": "Delarrin Turner-Yell",
+        "team": "Falcons",
+        "athleteId": "4360287"
       }
     ],
     "antwanewellsjr": [
@@ -4700,13 +4972,6 @@
         "athleteId": "3043078"
       }
     ],
-    "kylehergel": [
-      {
-        "name": "Kyle Hergel",
-        "team": "Ravens",
-        "athleteId": "4384683"
-      }
-    ],
     "matthibner": [
       {
         "name": "Matt Hibner",
@@ -4735,13 +5000,6 @@
         "athleteId": "4685736"
       }
     ],
-    "michaeljordan": [
-      {
-        "name": "Michael Jordan",
-        "team": "Ravens",
-        "athleteId": "4040622"
-      }
-    ],
     "camjurgens": [
       {
         "name": "Cam Jurgens",
@@ -4761,6 +5019,13 @@
         "name": "Gerad Lichtenhan",
         "team": "Ravens",
         "athleteId": "4686768"
+      }
+    ],
+    "ryanneuzil": [
+      {
+        "name": "Ryan Neuzil",
+        "team": "Ravens",
+        "athleteId": "4036444"
       }
     ],
     "ethanpocic": [
@@ -4805,25 +5070,11 @@
         "athleteId": "2980153"
       }
     ],
-    "nickvannett": [
-      {
-        "name": "Nick Vannett",
-        "team": "Ravens",
-        "athleteId": "2576399"
-      }
-    ],
     "carsonvinson": [
       {
         "name": "Carson Vinson",
         "team": "Ravens",
         "athleteId": "4769895"
-      }
-    ],
-    "andrewvorhees": [
-      {
-        "name": "Andrew Vorhees",
-        "team": "Ravens",
-        "athleteId": "4243220"
       }
     ],
     "devontezwalker": [
@@ -5029,13 +5280,6 @@
         "athleteId": "5084956"
       }
     ],
-    "jakemoody": [
-      {
-        "name": "Jake Moody",
-        "team": "Ravens",
-        "athleteId": "4372066"
-      }
-    ],
     "nickmoore": [
       {
         "name": "Nick Moore",
@@ -5188,6 +5432,13 @@
         "name": "Kaimon Rucker",
         "team": "Ravens",
         "athleteId": "4433904"
+      }
+    ],
+    "lucasscott": [
+      {
+        "name": "Lucas Scott",
+        "team": "Ravens",
+        "athleteId": "4879972"
       }
     ],
     "lardariuswebbjr": [
@@ -5358,13 +5609,6 @@
         "athleteId": "4373678"
       }
     ],
-    "trentsherfield": [
-      {
-        "name": "Trent Sherfield",
-        "team": "Bills",
-        "athleteId": "3122168"
-      }
-    ],
     "ocyrustorrence": [
       {
         "name": "O'Cyrus Torrence",
@@ -5477,6 +5721,13 @@
         "athleteId": "4033234"
       }
     ],
+    "amanihooker": [
+      {
+        "name": "Amani Hooker",
+        "team": "Bills",
+        "athleteId": "4036134"
+      }
+    ],
     "davisonigbinosun": [
       {
         "name": "Davison Igbinosun",
@@ -5531,13 +5782,6 @@
         "name": "Javon Solomon",
         "team": "Bills",
         "athleteId": "4428548"
-      }
-    ],
-    "genostone": [
-      {
-        "name": "Geno Stone",
-        "team": "Bills",
-        "athleteId": "4240575"
       }
     ],
     "deonewalker": [
@@ -5617,6 +5861,13 @@
         "athleteId": "4568703"
       }
     ],
+    "nickbroeker": [
+      {
+        "name": "Nick Broeker",
+        "team": "Bills",
+        "athleteId": "4426498"
+      }
+    ],
     "shanebuechele": [
       {
         "name": "Shane Buechele",
@@ -5687,6 +5938,20 @@
         "athleteId": "4241468"
       }
     ],
+    "trentsherfield": [
+      {
+        "name": "Trent Sherfield",
+        "team": "Bills",
+        "athleteId": "3122168"
+      }
+    ],
+    "genostone": [
+      {
+        "name": "Geno Stone",
+        "team": "Bills",
+        "athleteId": "4240575"
+      }
+    ],
     "shaqthompson": [
       {
         "name": "Shaq Thompson",
@@ -5699,13 +5964,6 @@
         "name": "Tre'Davious White",
         "team": "Bills",
         "athleteId": "3042717"
-      }
-    ],
-    "ajwoods": [
-      {
-        "name": "A.J. Woods",
-        "team": "Bills",
-        "athleteId": "4428932"
       }
     ],
     "coreybullock": [
@@ -5825,13 +6083,6 @@
         "name": "John Metchie III",
         "team": "Panthers",
         "athleteId": "4567096"
-      }
-    ],
-    "davidmoore": [
-      {
-        "name": "David Moore",
-        "team": "Panthers",
-        "athleteId": "4212909"
       }
     ],
     "kennypickett": [
@@ -6212,11 +6463,11 @@
         "athleteId": "4242230"
       }
     ],
-    "keithcooperjr": [
+    "claudincherelus": [
       {
-        "name": "Keith Cooper Jr.",
+        "name": "Claudin Cherelus",
         "team": "Panthers",
-        "athleteId": "4712462"
+        "athleteId": "4256224"
       }
     ],
     "jakecurhan": [
@@ -6264,13 +6515,6 @@
         "name": "DeVonta Smith",
         "team": "Eagles",
         "athleteId": "4241478"
-      }
-    ],
-    "ihmirsmithmarsette": [
-      {
-        "name": "Ihmir Smith-Marsette",
-        "team": "Panthers",
-        "athleteId": "4240573"
       }
     ],
     "caseywashington": [
@@ -6964,13 +7208,6 @@
         "name": "Myles Hinton",
         "team": "Bengals",
         "athleteId": "4429000"
-      }
-    ],
-    "joshjohnson": [
-      {
-        "name": "Josh Johnson",
-        "team": "Bengals",
-        "athleteId": "11394"
       }
     ],
     "tedkarras": [
@@ -7888,13 +8125,6 @@
         "athleteId": "5080699"
       }
     ],
-    "johnfitzpatrick": [
-      {
-        "name": "John FitzPatrick",
-        "team": "Browns",
-        "athleteId": "4379401"
-      }
-    ],
     "xavierguillory": [
       {
         "name": "Xavier Guillory",
@@ -7916,18 +8146,18 @@
         "athleteId": "4708486"
       }
     ],
-    "ericjohnsonii": [
-      {
-        "name": "Eric Johnson II",
-        "team": "Browns",
-        "athleteId": "4050971"
-      }
-    ],
     "ktleveston": [
       {
         "name": "KT Leveston",
         "team": "Browns",
         "athleteId": "4373079"
+      }
+    ],
+    "wespahl": [
+      {
+        "name": "Wes Pahl",
+        "team": "Browns",
+        "athleteId": "4690083"
       }
     ],
     "khordaesydnor": [
@@ -8313,13 +8543,6 @@
         "name": "Ameer Speed",
         "team": "Cowboys",
         "athleteId": "4259546"
-      }
-    ],
-    "reddysteward": [
-      {
-        "name": "Reddy Steward",
-        "team": "Cowboys",
-        "athleteId": "4428584"
       }
     ],
     "juanyehthomas": [
@@ -8742,11 +8965,11 @@
         "athleteId": "4040608"
       }
     ],
-    "seanfresch": [
+    "daiyanhenley": [
       {
-        "name": "Sean Fresch",
+        "name": "Daiyan Henley",
         "team": "Broncos",
-        "athleteId": "4565769"
+        "athleteId": "4241597"
       }
     ],
     "talanoahufanga": [
@@ -8985,13 +9208,6 @@
         "name": "David Ebuka Agoha",
         "team": "Broncos",
         "athleteId": "5144941"
-      }
-    ],
-    "ugoamadi": [
-      {
-        "name": "Ugo Amadi",
-        "team": "Broncos",
-        "athleteId": "3886834"
       }
     ],
     "michaelbandy": [
@@ -10156,6 +10372,13 @@
         "athleteId": "4572261"
       }
     ],
+    "kennyfletcherjr": [
+      {
+        "name": "Kenny Fletcher Jr.",
+        "team": "Packers",
+        "athleteId": "4746099"
+      }
+    ],
     "domanijackson": [
       {
         "name": "Domani Jackson",
@@ -10765,6 +10988,13 @@
         "athleteId": "4575558"
       }
     ],
+    "zairemitchellpaden": [
+      {
+        "name": "Zaire Mitchell-Paden",
+        "team": "Texans",
+        "athleteId": "4876006"
+      }
+    ],
     "jamesnealiii": [
       {
         "name": "James Neal III",
@@ -10835,13 +11065,6 @@
         "athleteId": "2998565"
       }
     ],
-    "keenanallen": [
-      {
-        "name": "Keenan Allen",
-        "team": "Colts",
-        "athleteId": "15818"
-      }
-    ],
     "tanorbortolini": [
       {
         "name": "Tanor Bortolini",
@@ -10861,13 +11084,6 @@
         "name": "Deion Burks",
         "team": "Colts",
         "athleteId": "4683151"
-      }
-    ],
-    "joshdowns": [
-      {
-        "name": "Josh Downs",
-        "team": "Colts",
-        "athleteId": "4688813"
       }
     ],
     "ashtondulin": [
@@ -11619,13 +11835,6 @@
         "athleteId": "4912185"
       }
     ],
-    "alijahhuzzie": [
-      {
-        "name": "Alijah Huzzie",
-        "team": "Jaguars",
-        "athleteId": "4577494"
-      }
-    ],
     "antoniojohnson": [
       {
         "name": "Antonio Johnson",
@@ -11862,18 +12071,18 @@
         "athleteId": "4683347"
       }
     ],
-    "joeyaguilar": [
-      {
-        "name": "Joey Aguilar",
-        "team": "Jaguars",
-        "athleteId": "5151948"
-      }
-    ],
     "brendenbates": [
       {
         "name": "Brenden Bates",
         "team": "Jaguars",
         "athleteId": "4362603"
+      }
+    ],
+    "jacobbobenmoyer": [
+      {
+        "name": "Jacob Bobenmoyer",
+        "team": "Jaguars",
+        "athleteId": "3925443"
       }
     ],
     "tjbollers": [
@@ -12002,6 +12211,13 @@
         "athleteId": "4043039"
       }
     ],
+    "joshdowns": [
+      {
+        "name": "Josh Downs",
+        "team": "Chiefs",
+        "athleteId": "4688813"
+      }
+    ],
     "joshuaezeudu": [
       {
         "name": "Joshua Ezeudu",
@@ -12084,13 +12300,6 @@
         "name": "Diego Pounds",
         "team": "Chiefs",
         "athleteId": "4602984"
-      }
-    ],
-    "nikkoremigio": [
-      {
-        "name": "Nikko Remigio",
-        "team": "Chiefs",
-        "athleteId": "4372716"
       }
     ],
     "rasheerice": [
@@ -12287,13 +12496,6 @@
         "athleteId": "4685491"
       }
     ],
-    "jackpyburn": [
-      {
-        "name": "Jack Pyburn",
-        "team": "Chiefs",
-        "athleteId": "4837252"
-      }
-    ],
     "chrisrolandwallace": [
       {
         "name": "Chris Roland-Wallace",
@@ -12434,6 +12636,13 @@
         "athleteId": "4370876"
       }
     ],
+    "colebrevard": [
+      {
+        "name": "Cole Brevard",
+        "team": "Chiefs",
+        "athleteId": "4430818"
+      }
+    ],
     "natecarter": [
       {
         "name": "Nate Carter",
@@ -12558,13 +12767,6 @@
         "name": "Bryce Cabeldue",
         "team": "Raiders",
         "athleteId": "4612077"
-      }
-    ],
-    "kirkcousins": [
-      {
-        "name": "Kirk Cousins",
-        "team": "Raiders",
-        "athleteId": "14880"
       }
     ],
     "djglaze": [
@@ -13183,13 +13385,6 @@
         "athleteId": "4596334"
       }
     ],
-    "haydenrucci": [
-      {
-        "name": "Hayden Rucci",
-        "team": "Chargers",
-        "athleteId": "4428396"
-      }
-    ],
     "jakeslaughter": [
       {
         "name": "Jake Slaughter",
@@ -13293,13 +13488,6 @@
         "name": "Cam Hart",
         "team": "Chargers",
         "athleteId": "4427404"
-      }
-    ],
-    "daiyanhenley": [
-      {
-        "name": "Daiyan Henley",
-        "team": "Chargers",
-        "athleteId": "4241597"
       }
     ],
     "dontejackson": [
@@ -13596,13 +13784,6 @@
         "athleteId": "4875912"
       }
     ],
-    "evansvoboda": [
-      {
-        "name": "Evan Svoboda",
-        "team": "Chargers",
-        "athleteId": "5082633"
-      }
-    ],
     "laekinvakalahi": [
       {
         "name": "Laekin Vakalahi",
@@ -13764,6 +13945,13 @@
         "athleteId": "4685522"
       }
     ],
+    "xaviersmith": [
+      {
+        "name": "Xavier Smith",
+        "team": "Rams",
+        "athleteId": "4386544"
+      }
+    ],
     "matthewstafford": [
       {
         "name": "Matthew Stafford",
@@ -13776,13 +13964,6 @@
         "name": "Keagen Trost",
         "team": "Rams",
         "athleteId": "4575003"
-      }
-    ],
-    "jordanwhittington": [
-      {
-        "name": "Jordan Whittington",
-        "team": "Rams",
-        "athleteId": "4569382"
       }
     ],
     "kyrenwilliams": [
@@ -14105,6 +14286,13 @@
         "athleteId": "4697639"
       }
     ],
+    "jordanwhittington": [
+      {
+        "name": "Jordan Whittington",
+        "team": "Rams",
+        "athleteId": "4569382"
+      }
+    ],
     "nickandersen": [
       {
         "name": "Nick Andersen",
@@ -14371,13 +14559,6 @@
         "athleteId": "4430681"
       }
     ],
-    "malikwillis": [
-      {
-        "name": "Malik Willis",
-        "team": "Dolphins",
-        "athleteId": "4242512"
-      }
-    ],
     "jaylenwright": [
       {
         "name": "Jaylen Wright",
@@ -14418,6 +14599,13 @@
         "name": "Jordyn Brooks",
         "team": "Dolphins",
         "athleteId": "4043130"
+      }
+    ],
+    "keithcooperjr": [
+      {
+        "name": "Keith Cooper Jr.",
+        "team": "Dolphins",
+        "athleteId": "4712462"
       }
     ],
     "marcellasdialjr": [
@@ -14511,13 +14699,6 @@
         "athleteId": "4566094"
       }
     ],
-    "zachsieler": [
-      {
-        "name": "Zach Sieler",
-        "team": "Dolphins",
-        "athleteId": "3057956"
-      }
-    ],
     "jaylinsimpson": [
       {
         "name": "Jaylin Simpson",
@@ -14530,13 +14711,6 @@
         "name": "Michael Taaffe",
         "team": "Dolphins",
         "athleteId": "4880346"
-      }
-    ],
-    "reesetaylor": [
-      {
-        "name": "Reese Taylor",
-        "team": "Dolphins",
-        "athleteId": "4371946"
       }
     ],
     "dantetraderjr": [
@@ -14623,11 +14797,25 @@
         "athleteId": "4879212"
       }
     ],
+    "zachsieler": [
+      {
+        "name": "Zach Sieler",
+        "team": "Dolphins",
+        "athleteId": "3057956"
+      }
+    ],
     "coleturner": [
       {
         "name": "Cole Turner",
         "team": "Dolphins",
         "athleteId": "4361438"
+      }
+    ],
+    "malikwillis": [
+      {
+        "name": "Malik Willis",
+        "team": "Dolphins",
+        "athleteId": "4242512"
       }
     ],
     "ethanbonner": [
@@ -14735,13 +14923,6 @@
         "athleteId": "4708049"
       }
     ],
-    "odellbeckhamjr": [
-      {
-        "name": "Odell Beckham Jr.",
-        "team": "Vikings",
-        "athleteId": "16733"
-      }
-    ],
     "dillonbell": [
       {
         "name": "Dillon Bell",
@@ -14768,6 +14949,13 @@
         "name": "Max Brosmer",
         "team": "Vikings",
         "athleteId": "4573398"
+      }
+    ],
+    "kirkcousins": [
+      {
+        "name": "Kirk Cousins",
+        "team": "Vikings",
+        "athleteId": "14880"
       }
     ],
     "deejaydallas": [
@@ -15029,13 +15217,6 @@
         "athleteId": "4710865"
       }
     ],
-    "tavierrethomas": [
-      {
-        "name": "Tavierre Thomas",
-        "team": "Vikings",
-        "athleteId": "4334405"
-      }
-    ],
     "dallasturner": [
       {
         "name": "Dallas Turner",
@@ -15176,6 +15357,13 @@
         "athleteId": "5452151"
       }
     ],
+    "odellbeckhamjr": [
+      {
+        "name": "Odell Beckham Jr.",
+        "team": "Vikings",
+        "athleteId": "16733"
+      }
+    ],
     "michaelbriscoe": [
       {
         "name": "Michael Briscoe",
@@ -15204,18 +15392,18 @@
         "athleteId": "4574008"
       }
     ],
-    "cjhanson": [
-      {
-        "name": "C.J. Hanson",
-        "team": "Vikings",
-        "athleteId": "4571810"
-      }
-    ],
     "bangallykamara": [
       {
         "name": "Bangally Kamara",
         "team": "Vikings",
         "athleteId": "4432325"
+      }
+    ],
+    "mattlauter": [
+      {
+        "name": "Matt Lauter",
+        "team": "Vikings",
+        "athleteId": "4687486"
       }
     ],
     "jacknelson": [
@@ -15239,18 +15427,18 @@
         "athleteId": "4431584"
       }
     ],
-    "coreyrobinsonii": [
-      {
-        "name": "Corey Robinson II",
-        "team": "Vikings",
-        "athleteId": "4705561"
-      }
-    ],
     "takitaimani": [
       {
         "name": "Taki Taimani",
         "team": "Vikings",
         "athleteId": "4361114"
+      }
+    ],
+    "tavierrethomas": [
+      {
+        "name": "Tavierre Thomas",
+        "team": "Vikings",
+        "athleteId": "4334405"
       }
     ],
     "jihadward": [
@@ -16303,13 +16491,6 @@
         "athleteId": "5164879"
       }
     ],
-    "jarquezhunter": [
-      {
-        "name": "Jarquez Hunter",
-        "team": "Saints",
-        "athleteId": "4710341"
-      }
-    ],
     "davidojabo": [
       {
         "name": "David Ojabo",
@@ -16331,18 +16512,18 @@
         "athleteId": "4361101"
       }
     ],
-    "stonesmartt": [
-      {
-        "name": "Stone Smartt",
-        "team": "Saints",
-        "athleteId": "4250764"
-      }
-    ],
     "jayviarsuggs": [
       {
         "name": "Jay'viar Suggs",
         "team": "Saints",
         "athleteId": "5213029"
+      }
+    ],
+    "treytonwelch": [
+      {
+        "name": "Treyton Welch",
+        "team": "Saints",
+        "athleteId": "4430684"
       }
     ],
     "jonahwilliams": [
@@ -17556,13 +17737,6 @@
         "athleteId": "4429013"
       }
     ],
-    "jaydonblue": [
-      {
-        "name": "Jaydon Blue",
-        "team": "Eagles",
-        "athleteId": "4685279"
-      }
-    ],
     "hollywoodbrown": [
       {
         "name": "Hollywood Brown",
@@ -18632,6 +18806,13 @@
         "athleteId": "4360438"
       }
     ],
+    "keenanallen": [
+      {
+        "name": "Keenan Allen",
+        "team": "49ers",
+        "athleteId": "15818"
+      }
+    ],
     "kaelonblack": [
       {
         "name": "Kaelon Black",
@@ -18891,13 +19072,6 @@
         "athleteId": "3916903"
       }
     ],
-    "gracenhalton": [
-      {
-        "name": "Gracen Halton",
-        "team": "49ers",
-        "athleteId": "4685369"
-      }
-    ],
     "romelloheight": [
       {
         "name": "Romello Height",
@@ -19059,6 +19233,13 @@
         "athleteId": "4372561"
       }
     ],
+    "gracenhalton": [
+      {
+        "name": "Gracen Halton",
+        "team": "49ers",
+        "athleteId": "4685369"
+      }
+    ],
     "natehobbs": [
       {
         "name": "Nate Hobbs",
@@ -19199,6 +19380,13 @@
         "athleteId": "4692680"
       }
     ],
+    "jackjones": [
+      {
+        "name": "Jack Jones",
+        "team": "49ers",
+        "athleteId": "4035686"
+      }
+    ],
     "sinceremccormick": [
       {
         "name": "Sincere McCormick",
@@ -19225,13 +19413,6 @@
         "name": "Foster Sarell",
         "team": "49ers",
         "athleteId": "4242555"
-      }
-    ],
-    "xaviersmith": [
-      {
-        "name": "Xavier Smith",
-        "team": "49ers",
-        "athleteId": "4386544"
       }
     ],
     "jalenstroman": [
@@ -19794,13 +19975,6 @@
         "athleteId": "4373030"
       }
     ],
-    "garysmithiii": [
-      {
-        "name": "Gary Smith III",
-        "team": "Seahawks",
-        "athleteId": "4431390"
-      }
-    ],
     "rickywhiteiii": [
       {
         "name": "Ricky White III",
@@ -19925,13 +20099,6 @@
         "name": "Ko Kieft",
         "team": "Buccaneers",
         "athleteId": "4034779"
-      }
-    ],
-    "barikakpeenu": [
-      {
-        "name": "Barika Kpeenu",
-        "team": "Buccaneers",
-        "athleteId": "4879256"
       }
     ],
     "codymauch": [
@@ -20242,13 +20409,6 @@
         "athleteId": "3909013"
       }
     ],
-    "davidsillsv": [
-      {
-        "name": "David Sills V",
-        "team": "Buccaneers",
-        "athleteId": "3871102"
-      }
-    ],
     "cjdippre": [
       {
         "name": "CJ Dippre",
@@ -20261,6 +20421,13 @@
         "name": "Garrett Greene",
         "team": "Buccaneers",
         "athleteId": "4429847"
+      }
+    ],
+    "lukehaggard": [
+      {
+        "name": "Luke Haggard",
+        "team": "Buccaneers",
+        "athleteId": "4686884"
       }
     ],
     "yasirholmes": [
@@ -20571,13 +20738,6 @@
         "athleteId": "4870805"
       }
     ],
-    "amanihooker": [
-      {
-        "name": "Amani Hooker",
-        "team": "Titans",
-        "athleteId": "4036134"
-      }
-    ],
     "timmyhorne": [
       {
         "name": "Timmy Horne",
@@ -20758,13 +20918,6 @@
         "name": "James Williams Sr.",
         "team": "Titans",
         "athleteId": "4431613"
-      }
-    ],
-    "nickbroeker": [
-      {
-        "name": "Nick Broeker",
-        "team": "Titans",
-        "athleteId": "4426498"
       }
     ],
     "mariogoodrichiii": [
@@ -21433,6 +21586,6 @@
       }
     ]
   },
-  "rostersCheckedAt": "2026-11-10T17:50:12.985477+00:00",
+  "rostersCheckedAt": "2026-11-11T21:57:46.593359+00:00",
   "rosterStatus": "ok"
 }
