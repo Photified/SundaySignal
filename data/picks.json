@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-16T02:07:43.662084+00:00",
-  "lastSuccessfulUpdate": "2026-11-16T02:07:43.662084+00:00",
+  "checkedAt": "2026-11-16T09:43:45.832253+00:00",
+  "lastSuccessfulUpdate": "2026-11-16T09:43:45.832253+00:00",
   "sources": [
     {
       "id": "sbd",
@@ -10,8 +10,8 @@
       "website": "https://www.sportsbettingdime.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-16T02:07:43.662084+00:00",
-      "lastSuccessAt": "2026-11-16T02:07:43.662084+00:00",
+      "checkedAt": "2026-11-16T09:43:45.832253+00:00",
+      "lastSuccessAt": "2026-11-16T09:43:45.832253+00:00",
       "count": 3,
       "message": "Feed retrieved successfully"
     },
@@ -22,8 +22,8 @@
       "website": "https://www.bettingpros.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-16T02:07:43.662084+00:00",
-      "lastSuccessAt": "2026-11-16T02:07:43.662084+00:00",
+      "checkedAt": "2026-11-16T09:43:45.832253+00:00",
+      "lastSuccessAt": "2026-11-16T09:43:45.832253+00:00",
       "count": 49,
       "message": "Feed retrieved successfully"
     },
@@ -35,9 +35,9 @@
       "website": "https://www.cbssports.com/nfl/picks/experts/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-16T02:07:43.662084+00:00",
-      "lastSuccessAt": "2026-11-16T02:07:43.662084+00:00",
-      "count": 14,
+      "checkedAt": "2026-11-16T09:43:45.832253+00:00",
+      "lastSuccessAt": "2026-11-16T09:43:45.832253+00:00",
+      "count": 7,
       "message": "Public expert selections retrieved"
     },
     {
@@ -48,8 +48,8 @@
       "website": "https://www.covers.com/nfl",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-16T02:07:43.662084+00:00",
-      "lastSuccessAt": "2026-11-16T02:07:43.662084+00:00",
+      "checkedAt": "2026-11-16T09:43:45.832253+00:00",
+      "lastSuccessAt": "2026-11-16T09:43:45.832253+00:00",
       "count": 1,
       "message": "Public expert selections retrieved"
     },
@@ -62,8 +62,8 @@
       "articlePattern": "/nfl-picks/[^/]+prediction[^/]+/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-16T02:07:43.662084+00:00",
-      "lastSuccessAt": "2026-11-16T02:07:43.662084+00:00",
+      "checkedAt": "2026-11-16T09:43:45.832253+00:00",
+      "lastSuccessAt": "2026-11-16T09:43:45.832253+00:00",
       "count": 12,
       "message": "Public expert selections retrieved"
     },
@@ -76,8 +76,8 @@
       "articlePattern": "/picks/nfl/(?:picks-against-the-spread-ats-predictions|player-props)-week-\\d+-\\d{4}/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-16T02:07:43.662084+00:00",
-      "lastSuccessAt": "2026-11-16T02:07:43.662084+00:00",
+      "checkedAt": "2026-11-16T09:43:45.832253+00:00",
+      "lastSuccessAt": "2026-11-16T09:43:45.832253+00:00",
       "count": 1,
       "message": "Public expert selections retrieved"
     },
@@ -90,7 +90,7 @@
       "articlePattern": "/us/nfl/news/nfl-picks-predictions-against-spread-week-\\d+/",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-11-16T02:07:43.662084+00:00",
+      "checkedAt": "2026-11-16T09:43:45.832253+00:00",
       "lastSuccessAt": "2026-11-15T17:10:52.904803+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -104,8 +104,8 @@
       "articlePattern": "/football/article/(?:nfl-picks-and-props|[^/]*odds-picks-and-predictions|[^/]*betting-odds-picks-and-predictions)[^/]+$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-16T02:07:43.662084+00:00",
-      "lastSuccessAt": "2026-11-16T02:07:43.662084+00:00",
+      "checkedAt": "2026-11-16T09:43:45.832253+00:00",
+      "lastSuccessAt": "2026-11-16T09:43:45.832253+00:00",
       "count": 4,
       "message": "Public expert selections retrieved"
     }
@@ -319,7 +319,7 @@
           "event": {
             "id": "401873064",
             "startAt": "2026-11-16T01:20Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Bengals",
               "Steelers"
@@ -445,7 +445,7 @@
           "event": {
             "id": "401873064",
             "startAt": "2026-11-16T01:20Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Bengals",
               "Steelers"
@@ -719,7 +719,7 @@
               "event": {
                 "id": "401873064",
                 "startAt": "2026-11-16T01:20Z",
-                "state": "in",
+                "state": "post",
                 "teams": [
                   "Bengals",
                   "Steelers"
@@ -736,7 +736,7 @@
               "event": {
                 "id": "401873064",
                 "startAt": "2026-11-16T01:20Z",
-                "state": "in",
+                "state": "post",
                 "teams": [
                   "Bengals",
                   "Steelers"
@@ -753,7 +753,7 @@
               "event": {
                 "id": "401873064",
                 "startAt": "2026-11-16T01:20Z",
-                "state": "in",
+                "state": "post",
                 "teams": [
                   "Bengals",
                   "Steelers"
@@ -796,7 +796,7 @@
           "event": {
             "id": "401873064",
             "startAt": "2026-11-16T01:20Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Bengals",
               "Steelers"
@@ -819,7 +819,7 @@
           "event": {
             "id": "401873064",
             "startAt": "2026-11-16T01:20Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Bengals",
               "Steelers"
@@ -2433,46 +2433,6 @@
       "teams": []
     },
     {
-      "id": "bd204113f5a41983",
-      "title": "NFL Steelers vs Bengals expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Dave Richard",
-      "publishedAt": "2026-11-13T07:57:42.534671+00:00",
-      "observedAt": "2026-11-16T02:07:43.662084+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Steelers +3.5",
-          "market": "Spread",
-          "context": "Steelers vs Bengals",
-          "eventDate": "2026-11-15",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873064",
-            "startAt": "2026-11-16T01:20Z",
-            "state": "in",
-            "teams": [
-              "Bengals",
-              "Steelers"
-            ],
-            "matchup": "Pittsburgh Steelers at Cincinnati Bengals",
-            "week": 10,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Bengals",
-        "Steelers"
-      ]
-    },
-    {
       "id": "029ad43e7a398467",
       "title": "NFL Chargers vs Ravens expert spread pick",
       "url": "https://www.cbssports.com/nfl/picks/experts/",
@@ -2480,7 +2440,7 @@
       "sourceId": "cbs",
       "author": "Dave Richard",
       "publishedAt": "2026-11-13T07:57:42.534671+00:00",
-      "observedAt": "2026-11-16T02:07:43.662084+00:00",
+      "observedAt": "2026-11-16T09:43:45.832253+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2513,86 +2473,6 @@
       ]
     },
     {
-      "id": "a8952133bb58d902",
-      "title": "NFL Steelers vs Bengals expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Pete Prisco",
-      "publishedAt": "2026-11-12T18:56:07.067545+00:00",
-      "observedAt": "2026-11-16T02:07:43.662084+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Bengals -3.5",
-          "market": "Spread",
-          "context": "Steelers vs Bengals",
-          "eventDate": "2026-11-15",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873064",
-            "startAt": "2026-11-16T01:20Z",
-            "state": "in",
-            "teams": [
-              "Bengals",
-              "Steelers"
-            ],
-            "matchup": "Pittsburgh Steelers at Cincinnati Bengals",
-            "week": 10,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Bengals",
-        "Steelers"
-      ]
-    },
-    {
-      "id": "bf92d88fa43f59f3",
-      "title": "NFL Steelers vs Bengals expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Jamey Eisenberg",
-      "publishedAt": "2026-11-12T18:56:07.067545+00:00",
-      "observedAt": "2026-11-16T02:07:43.662084+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Steelers +3.5",
-          "market": "Spread",
-          "context": "Steelers vs Bengals",
-          "eventDate": "2026-11-15",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873064",
-            "startAt": "2026-11-16T01:20Z",
-            "state": "in",
-            "teams": [
-              "Bengals",
-              "Steelers"
-            ],
-            "matchup": "Pittsburgh Steelers at Cincinnati Bengals",
-            "week": 10,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Bengals",
-        "Steelers"
-      ]
-    },
-    {
       "id": "e4a38a311180e27e",
       "title": "NFL Chargers vs Ravens expert spread pick",
       "url": "https://www.cbssports.com/nfl/picks/experts/",
@@ -2600,7 +2480,7 @@
       "sourceId": "cbs",
       "author": "Pete Prisco",
       "publishedAt": "2026-11-12T18:56:07.067545+00:00",
-      "observedAt": "2026-11-16T02:07:43.662084+00:00",
+      "observedAt": "2026-11-16T09:43:45.832253+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2640,7 +2520,7 @@
       "sourceId": "cbs",
       "author": "Jamey Eisenberg",
       "publishedAt": "2026-11-12T18:56:07.067545+00:00",
-      "observedAt": "2026-11-16T02:07:43.662084+00:00",
+      "observedAt": "2026-11-16T09:43:45.832253+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2875,166 +2755,6 @@
       ]
     },
     {
-      "id": "92a55bfcc8272e42",
-      "title": "NFL Steelers vs Bengals expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Jared Dubin",
-      "publishedAt": "2026-11-12T02:59:01.548591+00:00",
-      "observedAt": "2026-11-16T02:07:43.662084+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Steelers +3.5",
-          "market": "Spread",
-          "context": "Steelers vs Bengals",
-          "eventDate": "2026-11-15",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873064",
-            "startAt": "2026-11-16T01:20Z",
-            "state": "in",
-            "teams": [
-              "Bengals",
-              "Steelers"
-            ],
-            "matchup": "Pittsburgh Steelers at Cincinnati Bengals",
-            "week": 10,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Bengals",
-        "Steelers"
-      ]
-    },
-    {
-      "id": "91cc23945b581c61",
-      "title": "NFL Steelers vs Bengals expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Ryan Wilson",
-      "publishedAt": "2026-11-12T02:59:01.548591+00:00",
-      "observedAt": "2026-11-16T02:07:43.662084+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Bengals -3.5",
-          "market": "Spread",
-          "context": "Steelers vs Bengals",
-          "eventDate": "2026-11-15",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873064",
-            "startAt": "2026-11-16T01:20Z",
-            "state": "in",
-            "teams": [
-              "Bengals",
-              "Steelers"
-            ],
-            "matchup": "Pittsburgh Steelers at Cincinnati Bengals",
-            "week": 10,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Bengals",
-        "Steelers"
-      ]
-    },
-    {
-      "id": "478b4493c483c86f",
-      "title": "NFL Steelers vs Bengals expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "John Breech",
-      "publishedAt": "2026-11-12T02:59:01.548591+00:00",
-      "observedAt": "2026-11-16T02:07:43.662084+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Steelers +3.5",
-          "market": "Spread",
-          "context": "Steelers vs Bengals",
-          "eventDate": "2026-11-15",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873064",
-            "startAt": "2026-11-16T01:20Z",
-            "state": "in",
-            "teams": [
-              "Bengals",
-              "Steelers"
-            ],
-            "matchup": "Pittsburgh Steelers at Cincinnati Bengals",
-            "week": 10,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Bengals",
-        "Steelers"
-      ]
-    },
-    {
-      "id": "7ac75d87bbf5ce31",
-      "title": "NFL Steelers vs Bengals expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Tyler Sullivan",
-      "publishedAt": "2026-11-12T02:59:01.548591+00:00",
-      "observedAt": "2026-11-16T02:07:43.662084+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Steelers +3.5",
-          "market": "Spread",
-          "context": "Steelers vs Bengals",
-          "eventDate": "2026-11-15",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873064",
-            "startAt": "2026-11-16T01:20Z",
-            "state": "in",
-            "teams": [
-              "Bengals",
-              "Steelers"
-            ],
-            "matchup": "Pittsburgh Steelers at Cincinnati Bengals",
-            "week": 10,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Bengals",
-        "Steelers"
-      ]
-    },
-    {
       "id": "46f3515db3a6da7b",
       "title": "NFL Chargers vs Ravens expert spread pick",
       "url": "https://www.cbssports.com/nfl/picks/experts/",
@@ -3042,7 +2762,7 @@
       "sourceId": "cbs",
       "author": "Jared Dubin",
       "publishedAt": "2026-11-12T02:59:01.548591+00:00",
-      "observedAt": "2026-11-16T02:07:43.662084+00:00",
+      "observedAt": "2026-11-16T09:43:45.832253+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3082,7 +2802,7 @@
       "sourceId": "cbs",
       "author": "Ryan Wilson",
       "publishedAt": "2026-11-12T02:59:01.548591+00:00",
-      "observedAt": "2026-11-16T02:07:43.662084+00:00",
+      "observedAt": "2026-11-16T09:43:45.832253+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3122,7 +2842,7 @@
       "sourceId": "cbs",
       "author": "John Breech",
       "publishedAt": "2026-11-12T02:59:01.548591+00:00",
-      "observedAt": "2026-11-16T02:07:43.662084+00:00",
+      "observedAt": "2026-11-16T09:43:45.832253+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3162,7 +2882,7 @@
       "sourceId": "cbs",
       "author": "Tyler Sullivan",
       "publishedAt": "2026-11-12T02:59:01.548591+00:00",
-      "observedAt": "2026-11-16T02:07:43.662084+00:00",
+      "observedAt": "2026-11-16T09:43:45.832253+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4612,14 +4332,26 @@
   "refreshMinutes": 60,
   "games": [
     {
-      "id": "401873064",
-      "startAt": "2026-11-16T01:20Z",
-      "state": "in",
+      "id": "401873065",
+      "startAt": "2026-11-17T01:15Z",
+      "state": "pre",
       "teams": [
-        "Bengals",
-        "Steelers"
+        "Ravens",
+        "Chargers"
       ],
-      "matchup": "Pittsburgh Steelers at Cincinnati Bengals",
+      "matchup": "Los Angeles Chargers at Baltimore Ravens",
+      "week": 10,
+      "season": 2026
+    },
+    {
+      "id": "401873052",
+      "startAt": "2026-11-13T01:15Z",
+      "state": "post",
+      "teams": [
+        "Giants",
+        "Commanders"
+      ],
+      "matchup": "Washington Commanders at New York Giants",
       "week": 10,
       "season": 2026
     },
@@ -4756,26 +4488,14 @@
       "season": 2026
     },
     {
-      "id": "401873052",
-      "startAt": "2026-11-13T01:15Z",
+      "id": "401873064",
+      "startAt": "2026-11-16T01:20Z",
       "state": "post",
       "teams": [
-        "Giants",
-        "Commanders"
+        "Bengals",
+        "Steelers"
       ],
-      "matchup": "Washington Commanders at New York Giants",
-      "week": 10,
-      "season": 2026
-    },
-    {
-      "id": "401873065",
-      "startAt": "2026-11-17T01:15Z",
-      "state": "pre",
-      "teams": [
-        "Ravens",
-        "Chargers"
-      ],
-      "matchup": "Los Angeles Chargers at Baltimore Ravens",
+      "matchup": "Pittsburgh Steelers at Cincinnati Bengals",
       "week": 10,
       "season": 2026
     },
@@ -4938,8 +4658,8 @@
   ],
   "scheduleStatus": {
     "status": "ok",
-    "checkedAt": "2026-11-16T02:07:43.662084+00:00",
-    "lastSuccessAt": "2026-11-16T02:07:43.662084+00:00"
+    "checkedAt": "2026-11-16T09:43:45.832253+00:00",
+    "lastSuccessAt": "2026-11-16T09:43:45.832253+00:00"
   },
   "playerTeams": {
     "joeyaguilar": [
@@ -9775,6 +9495,13 @@
         "athleteId": "4360590"
       }
     ],
+    "tyruswheat": [
+      {
+        "name": "Tyrus Wheat",
+        "team": "Cowboys",
+        "athleteId": "4689333"
+      }
+    ],
     "quinnenwilliams": [
       {
         "name": "Quinnen Williams",
@@ -10587,6 +10314,13 @@
         "athleteId": "4245144"
       }
     ],
+    "cademays": [
+      {
+        "name": "Cade Mays",
+        "team": "Lions",
+        "athleteId": "4361788"
+      }
+    ],
     "sethmclaughlin": [
       {
         "name": "Seth McLaughlin",
@@ -10732,6 +10466,13 @@
         "name": "Skyler Gill-Howard",
         "team": "Lions",
         "athleteId": "5103940"
+      }
+    ],
+    "thomasharper": [
+      {
+        "name": "Thomas Harper",
+        "team": "Lions",
+        "athleteId": "4569323"
       }
     ],
     "ahmedhassanein": [
@@ -10930,13 +10671,6 @@
         "athleteId": "4362636"
       }
     ],
-    "thomasharper": [
-      {
-        "name": "Thomas Harper",
-        "team": "Lions",
-        "athleteId": "4569323"
-      }
-    ],
     "kerbyjoseph": [
       {
         "name": "Kerby Joseph",
@@ -10970,13 +10704,6 @@
         "name": "Giovanni Manu",
         "team": "Lions",
         "athleteId": "5209589"
-      }
-    ],
-    "cademays": [
-      {
-        "name": "Cade Mays",
-        "team": "Lions",
-        "athleteId": "4361788"
       }
     ],
     "isiahpacheco": [
@@ -11714,6 +11441,13 @@
         "athleteId": "4258173"
       }
     ],
+    "emaridemercado": [
+      {
+        "name": "Emari Demercado",
+        "team": "Texans",
+        "athleteId": "4362478"
+      }
+    ],
     "aireontaeersery": [
       {
         "name": "Aireontae Ersery",
@@ -11817,6 +11551,13 @@
         "name": "Dare Ogunbowale",
         "team": "Texans",
         "athleteId": "2983509"
+      }
+    ],
+    "nikkoremigio": [
+      {
+        "name": "Nikko Remigio",
+        "team": "Texans",
+        "athleteId": "4372716"
       }
     ],
     "keylanrutledge": [
@@ -22788,6 +22529,6 @@
       }
     ]
   },
-  "rostersCheckedAt": "2026-11-15T09:25:58.980732+00:00",
+  "rostersCheckedAt": "2026-11-16T09:43:45.832253+00:00",
   "rosterStatus": "ok"
 }
