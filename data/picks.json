@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-17T13:26:06.787981+00:00",
-  "lastSuccessfulUpdate": "2026-11-17T13:26:06.787981+00:00",
+  "checkedAt": "2026-11-17T22:23:57.541112+00:00",
+  "lastSuccessfulUpdate": "2026-11-17T22:23:57.541112+00:00",
   "sources": [
     {
       "id": "sbd",
@@ -10,9 +10,9 @@
       "website": "https://www.sportsbettingdime.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-17T13:26:06.787981+00:00",
-      "lastSuccessAt": "2026-11-17T13:26:06.787981+00:00",
-      "count": 3,
+      "checkedAt": "2026-11-17T22:23:57.541112+00:00",
+      "lastSuccessAt": "2026-11-17T22:23:57.541112+00:00",
+      "count": 6,
       "message": "Feed retrieved successfully"
     },
     {
@@ -22,8 +22,8 @@
       "website": "https://www.bettingpros.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-17T13:26:06.787981+00:00",
-      "lastSuccessAt": "2026-11-17T13:26:06.787981+00:00",
+      "checkedAt": "2026-11-17T22:23:57.541112+00:00",
+      "lastSuccessAt": "2026-11-17T22:23:57.541112+00:00",
       "count": 53,
       "message": "Feed retrieved successfully"
     },
@@ -35,7 +35,7 @@
       "website": "https://www.cbssports.com/nfl/picks/experts/",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-11-17T13:26:06.787981+00:00",
+      "checkedAt": "2026-11-17T22:23:57.541112+00:00",
       "lastSuccessAt": "2026-11-17T03:54:06.879745+00:00",
       "count": 7,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -48,7 +48,7 @@
       "website": "https://www.covers.com/nfl",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-11-17T13:26:06.787981+00:00",
+      "checkedAt": "2026-11-17T22:23:57.541112+00:00",
       "lastSuccessAt": "2026-11-16T20:28:51.313155+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -62,8 +62,8 @@
       "articlePattern": "/nfl-picks/[^/]+prediction[^/]+/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-17T13:26:06.787981+00:00",
-      "lastSuccessAt": "2026-11-17T13:26:06.787981+00:00",
+      "checkedAt": "2026-11-17T22:23:57.541112+00:00",
+      "lastSuccessAt": "2026-11-17T22:23:57.541112+00:00",
       "count": 12,
       "message": "Public expert selections retrieved"
     },
@@ -75,11 +75,11 @@
       "kind": "articles",
       "articlePattern": "/picks/nfl/(?:picks-against-the-spread-ats-predictions|player-props)-week-\\d+-\\d{4}/$",
       "enabled": true,
-      "status": "ok",
-      "checkedAt": "2026-11-17T13:26:06.787981+00:00",
+      "status": "unavailable",
+      "checkedAt": "2026-11-17T22:23:57.541112+00:00",
       "lastSuccessAt": "2026-11-17T13:26:06.787981+00:00",
       "count": 1,
-      "message": "Public expert selections retrieved"
+      "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
     },
     {
       "id": "sportingnews",
@@ -90,8 +90,8 @@
       "articlePattern": "/us/nfl/news/nfl-picks-predictions-against-spread-week-\\d+/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-17T13:26:06.787981+00:00",
-      "lastSuccessAt": "2026-11-17T13:26:06.787981+00:00",
+      "checkedAt": "2026-11-17T22:23:57.541112+00:00",
+      "lastSuccessAt": "2026-11-17T22:23:57.541112+00:00",
       "count": 1,
       "message": "Public expert selections retrieved"
     },
@@ -104,13 +104,265 @@
       "articlePattern": "/football/article/(?:nfl-picks-and-props|[^/]*odds-picks-and-predictions|[^/]*betting-odds-picks-and-predictions)[^/]+$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-17T13:26:06.787981+00:00",
-      "lastSuccessAt": "2026-11-17T13:26:06.787981+00:00",
+      "checkedAt": "2026-11-17T22:23:57.541112+00:00",
+      "lastSuccessAt": "2026-11-17T22:23:57.541112+00:00",
       "count": 4,
       "message": "Public expert selections retrieved"
     }
   ],
   "articles": [
+    {
+      "id": "7946f18167c7f00e",
+      "title": "Chargers vs Jets Prediction 11/22/26 NFL Picks Today | Sports Chat Place",
+      "url": "https://sportschatplace.com/nfl-picks/la-chargers-vs-ny-jets-prediction-11-22-26-nfl-picks-today/",
+      "publisher": "Sports Chat Place",
+      "sourceId": "sportschat",
+      "author": "Andrew",
+      "publishedAt": "2026-11-17T21:56:06+00:00",
+      "picks": [
+        {
+          "selection": "Los Angeles Chargers -3.5",
+          "market": "Spread",
+          "context": "Chargers vs Jets Prediction",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873074",
+            "startAt": "2026-11-22T21:05Z",
+            "state": "pre",
+            "teams": [
+              "Chargers",
+              "Jets"
+            ],
+            "matchup": "New York Jets at Los Angeles Chargers",
+            "week": 11,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Chargers",
+        "Jets"
+      ]
+    },
+    {
+      "id": "0ace21b3e5573692",
+      "title": "Chiefs vs Cardinals Prediction 11/22/26 NFL Picks Today | Sports Chat Place",
+      "url": "https://sportschatplace.com/nfl-picks/chiefs-vs-cardinals-prediction-11-22-26-nfl-picks-today/",
+      "publisher": "Sports Chat Place",
+      "sourceId": "sportschat",
+      "author": "Andrew",
+      "publishedAt": "2026-11-17T21:52:50+00:00",
+      "picks": [
+        {
+          "selection": "Kansas City Chiefs -16.5",
+          "market": "Other",
+          "context": "Chiefs vs Cardinals Prediction",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873067",
+            "startAt": "2026-11-22T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Chiefs",
+              "Cardinals"
+            ],
+            "matchup": "Arizona Cardinals at Kansas City Chiefs",
+            "week": 11,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Other"
+      ],
+      "teams": [
+        "Cardinals",
+        "Chiefs"
+      ]
+    },
+    {
+      "id": "222784e3437b8ea1",
+      "title": "Bears vs Saints Prediction 11/22/26 NFL Picks Today | Sports Chat Place",
+      "url": "https://sportschatplace.com/nfl-picks/bears-vs-saints-prediction-11-22-26-nfl-picks-today/",
+      "publisher": "Sports Chat Place",
+      "sourceId": "sportschat",
+      "author": "Andrew",
+      "publishedAt": "2026-11-17T21:47:14+00:00",
+      "picks": [
+        {
+          "selection": "Chicago Bears -11.5",
+          "market": "Other",
+          "context": "Bears vs Saints Prediction",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873071",
+            "startAt": "2026-11-22T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Bears",
+              "Saints"
+            ],
+            "matchup": "New Orleans Saints at Chicago Bears",
+            "week": 11,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Other"
+      ],
+      "teams": [
+        "Bears",
+        "Saints"
+      ]
+    },
+    {
+      "id": "f42ab72db1583597",
+      "title": "NFL Super Bowl Futures Odds After Week 10 – Packers Plummet, Vikings Rise",
+      "url": "https://www.sportsbettingdime.com/news/nfl/super-bowl-futures-odds-data-driven-market-update/",
+      "publisher": "Sports Betting Dime",
+      "sourceId": "sbd",
+      "author": "Sascha Paruk",
+      "publishedAt": "2026-11-17T19:26:50+00:00",
+      "picks": [],
+      "parlays": [],
+      "markets": [
+        "Other"
+      ],
+      "teams": [
+        "Packers",
+        "Vikings"
+      ]
+    },
+    {
+      "id": "13af11109e03a49a",
+      "title": "NFL Moneyline Picks for Week 11: Data-Driven SU Picks from Model That’s +10.01 Units",
+      "url": "https://www.sportsbettingdime.com/news/nfl/picks-moneyline-week-11-su-predictions/",
+      "publisher": "Sports Betting Dime",
+      "sourceId": "sbd",
+      "author": "Sascha Paruk",
+      "publishedAt": "2026-11-17T15:57:08+00:00",
+      "picks": [
+        {
+          "selection": "Texans (-455) vs Colts",
+          "market": "Other",
+          "context": "Texans (-455) vs Colts",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873066",
+            "startAt": "2026-11-20T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Texans",
+              "Colts"
+            ],
+            "matchup": "Indianapolis Colts at Houston Texans",
+            "week": 11,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Bengals (-205) vs Commanders",
+          "market": "Other",
+          "context": "Bengals (-205) vs Commanders",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873078",
+            "startAt": "2026-11-24T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Commanders",
+              "Bengals"
+            ],
+            "matchup": "Cincinnati Bengals at Washington Commanders",
+            "week": 11,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Bears (-470) vs Saints",
+          "market": "Other",
+          "context": "Bears (-470) vs Saints",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873071",
+            "startAt": "2026-11-22T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Bears",
+              "Saints"
+            ],
+            "matchup": "New Orleans Saints at Chicago Bears",
+            "week": 11,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Other"
+      ],
+      "teams": [
+        "Bears",
+        "Bengals",
+        "Colts",
+        "Commanders",
+        "Saints",
+        "Texans"
+      ]
+    },
+    {
+      "id": "6a76616fcbfd4a9e",
+      "title": "Early NFL Player Props for Week 11: James Cook, Christian McCaffrey & More",
+      "url": "https://www.sportsbettingdime.com/news/nfl/early-nfl-props-week-11-cook-mccaffrey-2026/",
+      "publisher": "Sports Betting Dime",
+      "sourceId": "sbd",
+      "author": "Brady Trettenero",
+      "publishedAt": "2026-11-17T14:00:00+00:00",
+      "picks": [
+        {
+          "selection": "Christian McCaffrey under 74.5 rushing yards (estimated target)",
+          "market": "Props",
+          "context": "",
+          "method": "Explicit selection in publisher feed",
+          "player": {
+            "name": "Christian McCaffrey",
+            "team": "49ers",
+            "athleteId": "3117251"
+          },
+          "event": {
+            "id": "401873077",
+            "startAt": "2026-11-23T01:20Z",
+            "state": "pre",
+            "teams": [
+              "49ers",
+              "Vikings"
+            ],
+            "matchup": "Minnesota Vikings at San Francisco 49ers",
+            "week": 11,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "James Cook over 89.5 rushing yards (estimated target)",
+          "market": "Props",
+          "context": "",
+          "method": "Explicit selection in publisher feed",
+          "event": null
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Props"
+      ],
+      "teams": []
+    },
     {
       "id": "5ecc03d5324a023a",
       "title": "NFL picks, predictions against the spread Week 11: Bills and Chiefs flex, Cowboys and Broncos survive",
@@ -1539,80 +1791,6 @@
       "teams": [
         "Cardinals",
         "Rams"
-      ]
-    },
-    {
-      "id": "4ecb41146f600390",
-      "title": "Titans vs Jaguars Prediction 11/15/26 NFL Picks Today | Sports Chat Place",
-      "url": "https://sportschatplace.com/nfl-picks/titans-vs-jaguars-prediction-11-15-26-nfl-picks-today/",
-      "publisher": "Sports Chat Place",
-      "sourceId": "sportschat",
-      "author": "Randy Chambers",
-      "publishedAt": "2026-11-14T13:45:39+00:00",
-      "picks": [
-        {
-          "selection": "Jacksonville Jaguars -10.5",
-          "market": "Other",
-          "context": "Titans vs Jaguars Prediction",
-          "method": "Explicit selection in publisher feed",
-          "event": {
-            "id": "401873057",
-            "startAt": "2026-11-15T18:00Z",
-            "state": "post",
-            "teams": [
-              "Titans",
-              "Jaguars"
-            ],
-            "matchup": "Jacksonville Jaguars at Tennessee Titans",
-            "week": 10,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Other"
-      ],
-      "teams": [
-        "Jaguars",
-        "Titans"
-      ]
-    },
-    {
-      "id": "55a037851647d555",
-      "title": "Falcons vs Chiefs Prediction 11/15/26 NFL Picks Today | Sports Chat Place",
-      "url": "https://sportschatplace.com/nfl-picks/falcons-vs-chiefs-prediction-11-15-26-nfl-picks-today/",
-      "publisher": "Sports Chat Place",
-      "sourceId": "sportschat",
-      "author": "Randy Chambers",
-      "publishedAt": "2026-11-14T13:34:20+00:00",
-      "picks": [
-        {
-          "selection": "Kansas City Chiefs -3",
-          "market": "Spread",
-          "context": "Falcons vs Chiefs Prediction",
-          "method": "Explicit selection in publisher feed",
-          "event": {
-            "id": "401873058",
-            "startAt": "2026-11-15T18:00Z",
-            "state": "post",
-            "teams": [
-              "Falcons",
-              "Chiefs"
-            ],
-            "matchup": "Kansas City Chiefs at Atlanta Falcons",
-            "week": 10,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Falcons",
-        "Chiefs"
       ]
     },
     {
@@ -3255,43 +3433,6 @@
       ]
     },
     {
-      "id": "9c2601c6ec62cd1c",
-      "title": "Lions vs Patriots Prediction 11/15/26 NFL Picks Today | Sports Chat Place",
-      "url": "https://sportschatplace.com/nfl-picks/detroit-lions-vs-new-england-patriots-prediction-11-15-26-nfl-picks-today/",
-      "publisher": "Sports Chat Place",
-      "sourceId": "sportschat",
-      "author": "Andrew",
-      "publishedAt": "2026-11-11T00:51:40+00:00",
-      "picks": [
-        {
-          "selection": "New England Patriots +2.5",
-          "market": "Spread",
-          "context": "Lions vs Patriots Prediction",
-          "method": "Explicit selection in publisher feed",
-          "event": {
-            "id": "401873053",
-            "startAt": "2026-11-15T14:30Z",
-            "state": "post",
-            "teams": [
-              "Lions",
-              "Patriots"
-            ],
-            "matchup": "New England Patriots at Detroit Lions",
-            "week": 10,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Lions",
-        "Patriots"
-      ]
-    },
-    {
       "id": "81811be75fd3c73e",
       "title": "NFL Monday Night Football Same Game Parlay: Bills vs. Vikings",
       "url": "https://www.bettingpros.com/articles/nfl-monday-night-football-same-game-parlay-bills-vs-vikings-2026/",
@@ -4847,8 +4988,8 @@
   ],
   "scheduleStatus": {
     "status": "ok",
-    "checkedAt": "2026-11-17T13:26:06.787981+00:00",
-    "lastSuccessAt": "2026-11-17T13:26:06.787981+00:00"
+    "checkedAt": "2026-11-17T22:23:57.541112+00:00",
+    "lastSuccessAt": "2026-11-17T22:23:57.541112+00:00"
   },
   "playerTeams": {
     "joeyaguilar": [
