@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-17T22:23:57.541112+00:00",
-  "lastSuccessfulUpdate": "2026-11-17T22:23:57.541112+00:00",
+  "checkedAt": "2026-11-18T04:21:18.665217+00:00",
+  "lastSuccessfulUpdate": "2026-11-18T04:21:18.665217+00:00",
   "sources": [
     {
       "id": "sbd",
@@ -10,9 +10,9 @@
       "website": "https://www.sportsbettingdime.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-17T22:23:57.541112+00:00",
-      "lastSuccessAt": "2026-11-17T22:23:57.541112+00:00",
-      "count": 6,
+      "checkedAt": "2026-11-18T04:21:18.665217+00:00",
+      "lastSuccessAt": "2026-11-18T04:21:18.665217+00:00",
+      "count": 7,
       "message": "Feed retrieved successfully"
     },
     {
@@ -22,8 +22,8 @@
       "website": "https://www.bettingpros.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-17T22:23:57.541112+00:00",
-      "lastSuccessAt": "2026-11-17T22:23:57.541112+00:00",
+      "checkedAt": "2026-11-18T04:21:18.665217+00:00",
+      "lastSuccessAt": "2026-11-18T04:21:18.665217+00:00",
       "count": 53,
       "message": "Feed retrieved successfully"
     },
@@ -35,7 +35,7 @@
       "website": "https://www.cbssports.com/nfl/picks/experts/",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-11-17T22:23:57.541112+00:00",
+      "checkedAt": "2026-11-18T04:21:18.665217+00:00",
       "lastSuccessAt": "2026-11-17T03:54:06.879745+00:00",
       "count": 7,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -48,7 +48,7 @@
       "website": "https://www.covers.com/nfl",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-11-17T22:23:57.541112+00:00",
+      "checkedAt": "2026-11-18T04:21:18.665217+00:00",
       "lastSuccessAt": "2026-11-16T20:28:51.313155+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -62,8 +62,8 @@
       "articlePattern": "/nfl-picks/[^/]+prediction[^/]+/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-17T22:23:57.541112+00:00",
-      "lastSuccessAt": "2026-11-17T22:23:57.541112+00:00",
+      "checkedAt": "2026-11-18T04:21:18.665217+00:00",
+      "lastSuccessAt": "2026-11-18T04:21:18.665217+00:00",
       "count": 12,
       "message": "Public expert selections retrieved"
     },
@@ -76,7 +76,7 @@
       "articlePattern": "/picks/nfl/(?:picks-against-the-spread-ats-predictions|player-props)-week-\\d+-\\d{4}/$",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-11-17T22:23:57.541112+00:00",
+      "checkedAt": "2026-11-18T04:21:18.665217+00:00",
       "lastSuccessAt": "2026-11-17T13:26:06.787981+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -90,8 +90,8 @@
       "articlePattern": "/us/nfl/news/nfl-picks-predictions-against-spread-week-\\d+/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-17T22:23:57.541112+00:00",
-      "lastSuccessAt": "2026-11-17T22:23:57.541112+00:00",
+      "checkedAt": "2026-11-18T04:21:18.665217+00:00",
+      "lastSuccessAt": "2026-11-18T04:21:18.665217+00:00",
       "count": 1,
       "message": "Public expert selections retrieved"
     },
@@ -104,17 +104,74 @@
       "articlePattern": "/football/article/(?:nfl-picks-and-props|[^/]*odds-picks-and-predictions|[^/]*betting-odds-picks-and-predictions)[^/]+$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-17T22:23:57.541112+00:00",
-      "lastSuccessAt": "2026-11-17T22:23:57.541112+00:00",
+      "checkedAt": "2026-11-18T04:21:18.665217+00:00",
+      "lastSuccessAt": "2026-11-18T04:21:18.665217+00:00",
       "count": 4,
       "message": "Public expert selections retrieved"
     }
   ],
   "articles": [
     {
-      "id": "7946f18167c7f00e",
+      "id": "b79f4f60a09f5e5c",
+      "title": "NFL Week 11 Upset Picks: 3 Best SU Underdog Picks",
+      "url": "https://www.sportsbettingdime.com/news/nfl/week-11-upset-picks-3-best-underdog-picks-2026/",
+      "publisher": "Sports Betting Dime",
+      "sourceId": "sbd",
+      "author": "Sascha Paruk",
+      "publishedAt": "2026-11-17T23:45:30+00:00",
+      "picks": [
+        {
+          "selection": "Upset Pick 1: WSH Commanders (+257, Novig) vs CIN Bengals",
+          "market": "Other",
+          "context": "Upset Pick 1: WSH Commanders (+257, Novig) vs CIN Bengals",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873078",
+            "startAt": "2026-11-24T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Commanders",
+              "Bengals"
+            ],
+            "matchup": "Cincinnati Bengals at Washington Commanders",
+            "week": 11,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Upset Pick 2: PHI Eagles (+194, Kalshi) vs PIT Steelers",
+          "market": "Other",
+          "context": "Upset Pick 2: PHI Eagles (+194, Kalshi) vs PIT Steelers",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873076",
+            "startAt": "2026-11-22T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Eagles",
+              "Steelers"
+            ],
+            "matchup": "Pittsburgh Steelers at Philadelphia Eagles",
+            "week": 11,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Other"
+      ],
+      "teams": [
+        "Bengals",
+        "Commanders",
+        "Eagles",
+        "Steelers"
+      ]
+    },
+    {
+      "id": "c76bb243add54557",
       "title": "Chargers vs Jets Prediction 11/22/26 NFL Picks Today | Sports Chat Place",
-      "url": "https://sportschatplace.com/nfl-picks/la-chargers-vs-ny-jets-prediction-11-22-26-nfl-picks-today/",
+      "url": "https://sportschatplace.com/nfl-picks/chargers-vs-jets-prediction-11-22-26-nfl-picks-today/",
       "publisher": "Sports Chat Place",
       "sourceId": "sportschat",
       "author": "Andrew",
@@ -4988,8 +5045,8 @@
   ],
   "scheduleStatus": {
     "status": "ok",
-    "checkedAt": "2026-11-17T22:23:57.541112+00:00",
-    "lastSuccessAt": "2026-11-17T22:23:57.541112+00:00"
+    "checkedAt": "2026-11-18T04:21:18.665217+00:00",
+    "lastSuccessAt": "2026-11-18T04:21:18.665217+00:00"
   },
   "playerTeams": {
     "joeyaguilar": [
