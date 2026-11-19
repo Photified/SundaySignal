@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-18T21:56:43.240547+00:00",
-  "lastSuccessfulUpdate": "2026-11-18T21:56:43.240547+00:00",
+  "checkedAt": "2026-11-19T03:27:36.806369+00:00",
+  "lastSuccessfulUpdate": "2026-11-19T03:27:36.806369+00:00",
   "sources": [
     {
       "id": "sbd",
@@ -10,8 +10,8 @@
       "website": "https://www.sportsbettingdime.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-18T21:56:43.240547+00:00",
-      "lastSuccessAt": "2026-11-18T21:56:43.240547+00:00",
+      "checkedAt": "2026-11-19T03:27:36.806369+00:00",
+      "lastSuccessAt": "2026-11-19T03:27:36.806369+00:00",
       "count": 8,
       "message": "Feed retrieved successfully"
     },
@@ -22,8 +22,8 @@
       "website": "https://www.bettingpros.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-18T21:56:43.240547+00:00",
-      "lastSuccessAt": "2026-11-18T21:56:43.240547+00:00",
+      "checkedAt": "2026-11-19T03:27:36.806369+00:00",
+      "lastSuccessAt": "2026-11-19T03:27:36.806369+00:00",
       "count": 53,
       "message": "Feed retrieved successfully"
     },
@@ -35,7 +35,7 @@
       "website": "https://www.cbssports.com/nfl/picks/experts/",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-11-18T21:56:43.240547+00:00",
+      "checkedAt": "2026-11-19T03:27:36.806369+00:00",
       "lastSuccessAt": "2026-11-17T03:54:06.879745+00:00",
       "count": 7,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -48,8 +48,8 @@
       "website": "https://www.covers.com/nfl",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-18T21:56:43.240547+00:00",
-      "lastSuccessAt": "2026-11-18T21:56:43.240547+00:00",
+      "checkedAt": "2026-11-19T03:27:36.806369+00:00",
+      "lastSuccessAt": "2026-11-19T03:27:36.806369+00:00",
       "count": 1,
       "message": "Public expert selections retrieved"
     },
@@ -62,8 +62,8 @@
       "articlePattern": "/nfl-picks/[^/]+prediction[^/]+/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-18T21:56:43.240547+00:00",
-      "lastSuccessAt": "2026-11-18T21:56:43.240547+00:00",
+      "checkedAt": "2026-11-19T03:27:36.806369+00:00",
+      "lastSuccessAt": "2026-11-19T03:27:36.806369+00:00",
       "count": 12,
       "message": "Public expert selections retrieved"
     },
@@ -76,8 +76,8 @@
       "articlePattern": "/picks/nfl/(?:picks-against-the-spread-ats-predictions|player-props)-week-\\d+-\\d{4}/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-18T21:56:43.240547+00:00",
-      "lastSuccessAt": "2026-11-18T21:56:43.240547+00:00",
+      "checkedAt": "2026-11-19T03:27:36.806369+00:00",
+      "lastSuccessAt": "2026-11-19T03:27:36.806369+00:00",
       "count": 1,
       "message": "Public expert selections retrieved"
     },
@@ -90,7 +90,7 @@
       "articlePattern": "/us/nfl/news/nfl-picks-predictions-against-spread-week-\\d+/",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-11-18T21:56:43.240547+00:00",
+      "checkedAt": "2026-11-19T03:27:36.806369+00:00",
       "lastSuccessAt": "2026-11-18T13:58:16.091945+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -104,13 +104,263 @@
       "articlePattern": "/football/article/(?:nfl-picks-and-props|[^/]*odds-picks-and-predictions|[^/]*betting-odds-picks-and-predictions)[^/]+$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-18T21:56:43.240547+00:00",
-      "lastSuccessAt": "2026-11-18T21:56:43.240547+00:00",
+      "checkedAt": "2026-11-19T03:27:36.806369+00:00",
+      "lastSuccessAt": "2026-11-19T03:27:36.806369+00:00",
       "count": 4,
       "message": "Public expert selections retrieved"
     }
   ],
   "articles": [
+    {
+      "id": "a2c71811f1a8713d",
+      "title": "NFL Moneyline Picks for Every Week 11 Game",
+      "url": "https://www.covers.com/nfl/moneyline-picks-week-11-2026",
+      "publisher": "Covers",
+      "sourceId": "covers",
+      "author": "Trevor Knapp",
+      "publishedAt": "2026-11-19T00:42:00+00:00",
+      "picks": [
+        {
+          "selection": "Texans Moneyline",
+          "market": "Moneyline",
+          "context": "Colts vs Texans",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873066",
+            "startAt": "2026-11-20T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Texans",
+              "Colts"
+            ],
+            "matchup": "Indianapolis Colts at Houston Texans",
+            "week": 11,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Bills Moneyline",
+          "market": "Moneyline",
+          "context": "Dolphins vs Bills",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873070",
+            "startAt": "2026-11-22T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Bills",
+              "Dolphins"
+            ],
+            "matchup": "Miami Dolphins at Buffalo Bills",
+            "week": 11,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Panthers Moneyline",
+          "market": "Moneyline",
+          "context": "Ravens vs Panthers",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873068",
+            "startAt": "2026-11-22T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Panthers",
+              "Ravens"
+            ],
+            "matchup": "Baltimore Ravens at Carolina Panthers",
+            "week": 11,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Bears Moneyline",
+          "market": "Moneyline",
+          "context": "Saints vs Bears",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873071",
+            "startAt": "2026-11-22T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Bears",
+              "Saints"
+            ],
+            "matchup": "New Orleans Saints at Chicago Bears",
+            "week": 11,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Cowboys Moneyline",
+          "market": "Moneyline",
+          "context": "Titans vs Cowboys",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873073",
+            "startAt": "2026-11-22T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Cowboys",
+              "Titans"
+            ],
+            "matchup": "Tennessee Titans at Dallas Cowboys",
+            "week": 11,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Buccaneers Moneyline",
+          "market": "Moneyline",
+          "context": "Buccaneers vs Lions",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873072",
+            "startAt": "2026-11-22T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Lions",
+              "Buccaneers"
+            ],
+            "matchup": "Tampa Bay Buccaneers at Detroit Lions",
+            "week": 11,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Chiefs Moneyline",
+          "market": "Moneyline",
+          "context": "Cardinals vs Chiefs",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873067",
+            "startAt": "2026-11-22T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Chiefs",
+              "Cardinals"
+            ],
+            "matchup": "Arizona Cardinals at Kansas City Chiefs",
+            "week": 11,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Steelers Moneyline",
+          "market": "Moneyline",
+          "context": "Steelers vs Eagles",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873076",
+            "startAt": "2026-11-22T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Eagles",
+              "Steelers"
+            ],
+            "matchup": "Pittsburgh Steelers at Philadelphia Eagles",
+            "week": 11,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Chargers Moneyline",
+          "market": "Moneyline",
+          "context": "Jets vs Chargers",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873074",
+            "startAt": "2026-11-22T21:05Z",
+            "state": "pre",
+            "teams": [
+              "Chargers",
+              "Jets"
+            ],
+            "matchup": "New York Jets at Los Angeles Chargers",
+            "week": 11,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Broncos Moneyline",
+          "market": "Moneyline",
+          "context": "Raiders vs Broncos",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873075",
+            "startAt": "2026-11-22T21:25Z",
+            "state": "pre",
+            "teams": [
+              "Broncos",
+              "Raiders"
+            ],
+            "matchup": "Las Vegas Raiders at Denver Broncos",
+            "week": 11,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Jaguars Moneyline",
+          "market": "Moneyline",
+          "context": "Jaguars vs Giants",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873069",
+            "startAt": "2026-11-22T21:25Z",
+            "state": "pre",
+            "teams": [
+              "Giants",
+              "Jaguars"
+            ],
+            "matchup": "Jacksonville Jaguars at New York Giants",
+            "week": 11,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Vikings Moneyline",
+          "market": "Moneyline",
+          "context": "Vikings vs 49ers",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873077",
+            "startAt": "2026-11-23T01:20Z",
+            "state": "pre",
+            "teams": [
+              "49ers",
+              "Vikings"
+            ],
+            "matchup": "Minnesota Vikings at San Francisco 49ers",
+            "week": 11,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Bengals Moneyline",
+          "market": "Moneyline",
+          "context": "Bengals vs Commanders",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873078",
+            "startAt": "2026-11-24T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Commanders",
+              "Bengals"
+            ],
+            "matchup": "Cincinnati Bengals at Washington Commanders",
+            "week": 11,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Moneyline"
+      ],
+      "teams": []
+    },
     {
       "id": "9bb4e8b91702f5f3",
       "title": "NFL Week 11 Anytime Touchdown Scorer Picks & Best Bets",
@@ -413,256 +663,6 @@
       "parlays": [],
       "markets": [
         "Spread"
-      ],
-      "teams": []
-    },
-    {
-      "id": "a2c71811f1a8713d",
-      "title": "NFL Moneyline Picks for Every Week 11 Game",
-      "url": "https://www.covers.com/nfl/moneyline-picks-week-11-2026",
-      "publisher": "Covers",
-      "sourceId": "covers",
-      "author": "Trevor Knapp",
-      "publishedAt": "2026-11-18T11:30:00+00:00",
-      "picks": [
-        {
-          "selection": "Texans Moneyline",
-          "market": "Moneyline",
-          "context": "Colts vs Texans",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873066",
-            "startAt": "2026-11-20T01:15Z",
-            "state": "pre",
-            "teams": [
-              "Texans",
-              "Colts"
-            ],
-            "matchup": "Indianapolis Colts at Houston Texans",
-            "week": 11,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Bills Moneyline",
-          "market": "Moneyline",
-          "context": "Dolphins vs Bills",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873070",
-            "startAt": "2026-11-22T18:00Z",
-            "state": "pre",
-            "teams": [
-              "Bills",
-              "Dolphins"
-            ],
-            "matchup": "Miami Dolphins at Buffalo Bills",
-            "week": 11,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Panthers Moneyline",
-          "market": "Moneyline",
-          "context": "Ravens vs Panthers",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873068",
-            "startAt": "2026-11-22T18:00Z",
-            "state": "pre",
-            "teams": [
-              "Panthers",
-              "Ravens"
-            ],
-            "matchup": "Baltimore Ravens at Carolina Panthers",
-            "week": 11,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Bears Moneyline",
-          "market": "Moneyline",
-          "context": "Saints vs Bears",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873071",
-            "startAt": "2026-11-22T18:00Z",
-            "state": "pre",
-            "teams": [
-              "Bears",
-              "Saints"
-            ],
-            "matchup": "New Orleans Saints at Chicago Bears",
-            "week": 11,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Cowboys Moneyline",
-          "market": "Moneyline",
-          "context": "Titans vs Cowboys",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873073",
-            "startAt": "2026-11-22T18:00Z",
-            "state": "pre",
-            "teams": [
-              "Cowboys",
-              "Titans"
-            ],
-            "matchup": "Tennessee Titans at Dallas Cowboys",
-            "week": 11,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Buccaneers Moneyline",
-          "market": "Moneyline",
-          "context": "Buccaneers vs Lions",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873072",
-            "startAt": "2026-11-22T18:00Z",
-            "state": "pre",
-            "teams": [
-              "Lions",
-              "Buccaneers"
-            ],
-            "matchup": "Tampa Bay Buccaneers at Detroit Lions",
-            "week": 11,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Chiefs Moneyline",
-          "market": "Moneyline",
-          "context": "Cardinals vs Chiefs",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873067",
-            "startAt": "2026-11-22T18:00Z",
-            "state": "pre",
-            "teams": [
-              "Chiefs",
-              "Cardinals"
-            ],
-            "matchup": "Arizona Cardinals at Kansas City Chiefs",
-            "week": 11,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Steelers Moneyline",
-          "market": "Moneyline",
-          "context": "Steelers vs Eagles",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873076",
-            "startAt": "2026-11-22T18:00Z",
-            "state": "pre",
-            "teams": [
-              "Eagles",
-              "Steelers"
-            ],
-            "matchup": "Pittsburgh Steelers at Philadelphia Eagles",
-            "week": 11,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Chargers Moneyline",
-          "market": "Moneyline",
-          "context": "Jets vs Chargers",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873074",
-            "startAt": "2026-11-22T21:05Z",
-            "state": "pre",
-            "teams": [
-              "Chargers",
-              "Jets"
-            ],
-            "matchup": "New York Jets at Los Angeles Chargers",
-            "week": 11,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Broncos Moneyline",
-          "market": "Moneyline",
-          "context": "Raiders vs Broncos",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873075",
-            "startAt": "2026-11-22T21:25Z",
-            "state": "pre",
-            "teams": [
-              "Broncos",
-              "Raiders"
-            ],
-            "matchup": "Las Vegas Raiders at Denver Broncos",
-            "week": 11,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Jaguars Moneyline",
-          "market": "Moneyline",
-          "context": "Jaguars vs Giants",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873069",
-            "startAt": "2026-11-22T21:25Z",
-            "state": "pre",
-            "teams": [
-              "Giants",
-              "Jaguars"
-            ],
-            "matchup": "Jacksonville Jaguars at New York Giants",
-            "week": 11,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Vikings Moneyline",
-          "market": "Moneyline",
-          "context": "Vikings vs 49ers",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873077",
-            "startAt": "2026-11-23T01:20Z",
-            "state": "pre",
-            "teams": [
-              "49ers",
-              "Vikings"
-            ],
-            "matchup": "Minnesota Vikings at San Francisco 49ers",
-            "week": 11,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Bengals Moneyline",
-          "market": "Moneyline",
-          "context": "Bengals vs Commanders",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873078",
-            "startAt": "2026-11-24T01:15Z",
-            "state": "pre",
-            "teams": [
-              "Commanders",
-              "Bengals"
-            ],
-            "matchup": "Cincinnati Bengals at Washington Commanders",
-            "week": 11,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Moneyline"
       ],
       "teams": []
     },
@@ -4479,8 +4479,8 @@
   ],
   "scheduleStatus": {
     "status": "ok",
-    "checkedAt": "2026-11-18T21:56:43.240547+00:00",
-    "lastSuccessAt": "2026-11-18T21:56:43.240547+00:00"
+    "checkedAt": "2026-11-19T03:27:36.806369+00:00",
+    "lastSuccessAt": "2026-11-19T03:27:36.806369+00:00"
   },
   "playerTeams": {
     "joeyaguilar": [
