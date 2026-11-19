@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-19T03:27:36.806369+00:00",
-  "lastSuccessfulUpdate": "2026-11-19T03:27:36.806369+00:00",
+  "checkedAt": "2026-11-19T13:06:18.380961+00:00",
+  "lastSuccessfulUpdate": "2026-11-19T13:06:18.380961+00:00",
   "sources": [
     {
       "id": "sbd",
@@ -10,8 +10,8 @@
       "website": "https://www.sportsbettingdime.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-19T03:27:36.806369+00:00",
-      "lastSuccessAt": "2026-11-19T03:27:36.806369+00:00",
+      "checkedAt": "2026-11-19T13:06:18.380961+00:00",
+      "lastSuccessAt": "2026-11-19T13:06:18.380961+00:00",
       "count": 8,
       "message": "Feed retrieved successfully"
     },
@@ -22,9 +22,9 @@
       "website": "https://www.bettingpros.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-19T03:27:36.806369+00:00",
-      "lastSuccessAt": "2026-11-19T03:27:36.806369+00:00",
-      "count": 53,
+      "checkedAt": "2026-11-19T13:06:18.380961+00:00",
+      "lastSuccessAt": "2026-11-19T13:06:18.380961+00:00",
+      "count": 52,
       "message": "Feed retrieved successfully"
     },
     {
@@ -35,7 +35,7 @@
       "website": "https://www.cbssports.com/nfl/picks/experts/",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-11-19T03:27:36.806369+00:00",
+      "checkedAt": "2026-11-19T13:06:18.380961+00:00",
       "lastSuccessAt": "2026-11-17T03:54:06.879745+00:00",
       "count": 7,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -48,8 +48,8 @@
       "website": "https://www.covers.com/nfl",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-19T03:27:36.806369+00:00",
-      "lastSuccessAt": "2026-11-19T03:27:36.806369+00:00",
+      "checkedAt": "2026-11-19T13:06:18.380961+00:00",
+      "lastSuccessAt": "2026-11-19T13:06:18.380961+00:00",
       "count": 1,
       "message": "Public expert selections retrieved"
     },
@@ -62,8 +62,8 @@
       "articlePattern": "/nfl-picks/[^/]+prediction[^/]+/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-19T03:27:36.806369+00:00",
-      "lastSuccessAt": "2026-11-19T03:27:36.806369+00:00",
+      "checkedAt": "2026-11-19T13:06:18.380961+00:00",
+      "lastSuccessAt": "2026-11-19T13:06:18.380961+00:00",
       "count": 12,
       "message": "Public expert selections retrieved"
     },
@@ -76,8 +76,8 @@
       "articlePattern": "/picks/nfl/(?:picks-against-the-spread-ats-predictions|player-props)-week-\\d+-\\d{4}/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-19T03:27:36.806369+00:00",
-      "lastSuccessAt": "2026-11-19T03:27:36.806369+00:00",
+      "checkedAt": "2026-11-19T13:06:18.380961+00:00",
+      "lastSuccessAt": "2026-11-19T13:06:18.380961+00:00",
       "count": 1,
       "message": "Public expert selections retrieved"
     },
@@ -90,7 +90,7 @@
       "articlePattern": "/us/nfl/news/nfl-picks-predictions-against-spread-week-\\d+/",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-11-19T03:27:36.806369+00:00",
+      "checkedAt": "2026-11-19T13:06:18.380961+00:00",
       "lastSuccessAt": "2026-11-18T13:58:16.091945+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -104,13 +104,209 @@
       "articlePattern": "/football/article/(?:nfl-picks-and-props|[^/]*odds-picks-and-predictions|[^/]*betting-odds-picks-and-predictions)[^/]+$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-19T03:27:36.806369+00:00",
-      "lastSuccessAt": "2026-11-19T03:27:36.806369+00:00",
+      "checkedAt": "2026-11-19T13:06:18.380961+00:00",
+      "lastSuccessAt": "2026-11-19T13:06:18.380961+00:00",
       "count": 4,
       "message": "Public expert selections retrieved"
     }
   ],
   "articles": [
+    {
+      "id": "8d359f2ac5739bac",
+      "title": "NFL Thursday Night Football Betting Primer: Colts vs. Texans",
+      "url": "https://www.bettingpros.com/articles/nfl-thursday-night-football-betting-primer-colts-vs-texans-2026-week-11/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "Andrew Erickson",
+      "publishedAt": "2026-11-19T12:18:26+00:00",
+      "picks": [
+        {
+          "selection": "Colts +12.5",
+          "market": "Other",
+          "context": "NFL Thursday Night Football Betting Primer: Colts at Texans (Week 11)",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873066",
+            "startAt": "2026-11-20T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Texans",
+              "Colts"
+            ],
+            "matchup": "Indianapolis Colts at Houston Texans",
+            "week": 11,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Other"
+      ],
+      "teams": [
+        "Colts",
+        "Texans"
+      ]
+    },
+    {
+      "id": "6243843f9638473b",
+      "title": "NFL Thursday Night Football Same Game Parlay: Texans vs. Colts",
+      "url": "https://www.bettingpros.com/articles/nfl-thursday-night-football-same-game-parlay-texans-vs-colts-2026-week-11/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "Richard Janvrin",
+      "publishedAt": "2026-11-19T12:18:18+00:00",
+      "picks": [],
+      "parlays": [
+        {
+          "label": "Expert parlay",
+          "americanOdds": 900,
+          "legs": [
+            {
+              "selection": "Indianapolis Colts +12.5 ( -112 )",
+              "market": "Other",
+              "context": "Indianapolis Colts at Houston Texans",
+              "event": {
+                "id": "401873066",
+                "startAt": "2026-11-20T01:15Z",
+                "state": "pre",
+                "teams": [
+                  "Texans",
+                  "Colts"
+                ],
+                "matchup": "Indianapolis Colts at Houston Texans",
+                "week": 11,
+                "season": 2026
+              }
+            },
+            {
+              "selection": "Daniel Jones Over 182.5 Passing Yards ( -113 )",
+              "market": "Props",
+              "context": "Indianapolis Colts at Houston Texans",
+              "event": {
+                "id": "401873066",
+                "startAt": "2026-11-20T01:15Z",
+                "state": "pre",
+                "teams": [
+                  "Texans",
+                  "Colts"
+                ],
+                "matchup": "Indianapolis Colts at Houston Texans",
+                "week": 11,
+                "season": 2026
+              }
+            },
+            {
+              "selection": "Dalton Schultz Anytime Touchdown ( +185 )",
+              "market": "Props",
+              "context": "Indianapolis Colts at Houston Texans",
+              "event": {
+                "id": "401873066",
+                "startAt": "2026-11-20T01:15Z",
+                "state": "pre",
+                "teams": [
+                  "Texans",
+                  "Colts"
+                ],
+                "matchup": "Indianapolis Colts at Houston Texans",
+                "week": 11,
+                "season": 2026
+              }
+            }
+          ]
+        }
+      ],
+      "markets": [
+        "Other"
+      ],
+      "teams": [
+        "Colts",
+        "Texans"
+      ]
+    },
+    {
+      "id": "8ae8159cf6ec27eb",
+      "title": "Best NFL Player Props: Thursday Night Football (Colts vs. Texans)",
+      "url": "https://www.bettingpros.com/articles/best-nfl-player-props-thursday-night-football-colts-vs-texans-week-11-2026/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "BettingPros Staff",
+      "publishedAt": "2026-11-19T12:18:07+00:00",
+      "picks": [],
+      "parlays": [],
+      "markets": [
+        "Props"
+      ],
+      "teams": [
+        "Colts",
+        "Texans"
+      ]
+    },
+    {
+      "id": "6eac8ccad786e2aa",
+      "title": "NFL Thursday Night Football TD Scorers Picks: Colts vs. Texans",
+      "url": "https://www.bettingpros.com/articles/nfl-thursday-night-football-td-scorers-picks-colts-vs-texans/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "Mike Spector",
+      "publishedAt": "2026-11-19T12:17:45+00:00",
+      "picks": [
+        {
+          "selection": "Jonathan Taylor First Touchdown Scorer ( +700 )",
+          "market": "Props",
+          "context": "NFL Thursday Night Football TD Scorers Picks: Colts vs. Texans",
+          "method": "Explicit selection in publisher feed",
+          "player": {
+            "name": "Jonathan Taylor",
+            "team": "Colts",
+            "athleteId": "4242335"
+          },
+          "event": {
+            "id": "401873066",
+            "startAt": "2026-11-20T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Texans",
+              "Colts"
+            ],
+            "matchup": "Indianapolis Colts at Houston Texans",
+            "week": 11,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Nico Collins Anytime Touchdown Scorer ( +105 )",
+          "market": "Props",
+          "context": "NFL Thursday Night Football TD Scorers Picks: Colts vs. Texans",
+          "method": "Explicit selection in publisher feed",
+          "player": {
+            "name": "Nico Collins",
+            "team": "Texans",
+            "athleteId": "4258173"
+          },
+          "event": {
+            "id": "401873066",
+            "startAt": "2026-11-20T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Texans",
+              "Colts"
+            ],
+            "matchup": "Indianapolis Colts at Houston Texans",
+            "week": 11,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Props"
+      ],
+      "teams": [
+        "Colts",
+        "Texans"
+      ]
+    },
     {
       "id": "a2c71811f1a8713d",
       "title": "NFL Moneyline Picks for Every Week 11 Game",
@@ -3976,154 +4172,6 @@
         "Lions",
         "Seahawks"
       ]
-    },
-    {
-      "id": "e3f81ba0644b7296",
-      "title": "NFL Week 9 Picks & Predictions: Underdog Bets (2026)",
-      "url": "https://www.bettingpros.com/articles/nfl-week-9-picks-predictions-underdog-bets-2026/",
-      "publisher": "BettingPros",
-      "sourceId": "bettingpros",
-      "author": "Travis Pulver",
-      "publishedAt": "2026-11-07T12:09:16+00:00",
-      "picks": [
-        {
-          "selection": "Colts Moneyline ( +190 at DraftKings Sportsbook )",
-          "market": "Moneyline",
-          "context": "Dallas Cowboys vs. Indianapolis Colts",
-          "method": "Explicit selection in publisher feed",
-          "event": null
-        },
-        {
-          "selection": "Packers Moneyline ( +140 at FanDuel Sportsbook )",
-          "market": "Moneyline",
-          "context": "Green Bay Packers vs. New England Patriots",
-          "method": "Explicit selection in publisher feed",
-          "event": null
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Moneyline"
-      ],
-      "teams": [
-        "Colts",
-        "Packers"
-      ]
-    },
-    {
-      "id": "60e3eecc2723d475",
-      "title": "NFL Week 9 First Touchdown Scorers Picks & Predictions (2026)",
-      "url": "https://www.bettingpros.com/articles/nfl-week-9-first-touchdown-scorers-picks-predictions-2026/",
-      "publisher": "BettingPros",
-      "sourceId": "bettingpros",
-      "author": "Trent Conner",
-      "publishedAt": "2026-11-07T12:09:15+00:00",
-      "picks": [
-        {
-          "selection": "NFL Week 9 First Touchdown Scorers Picks & Predictions",
-          "market": "Props",
-          "context": "",
-          "method": "Explicit selection in publisher feed",
-          "event": null
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Props"
-      ],
-      "teams": []
-    },
-    {
-      "id": "5ae1165500596f7d",
-      "title": "NFL Week 9 PrizePicks Player Predictions: Sunday (2026)",
-      "url": "https://www.bettingpros.com/articles/nfl-week-9-prizepicks-player-predictions-sunday-2026/",
-      "publisher": "BettingPros",
-      "sourceId": "bettingpros",
-      "author": "Trent Conner",
-      "publishedAt": "2026-11-07T12:09:13+00:00",
-      "picks": [],
-      "parlays": [],
-      "markets": [
-        "Other"
-      ],
-      "teams": []
-    },
-    {
-      "id": "33542490d1424d4c",
-      "title": "NFL Week 10 Odds & Picks: Best Lookahead Bets (2026)",
-      "url": "https://www.bettingpros.com/articles/nfl-week-10-odds-picks-best-lookahead-bets-2026/",
-      "publisher": "BettingPros",
-      "sourceId": "bettingpros",
-      "author": "Jason Radowitz",
-      "publishedAt": "2026-11-07T12:09:11+00:00",
-      "picks": [
-        {
-          "selection": "Giants -1.5 ( -105 )",
-          "market": "Spread",
-          "context": "Washington Commanders vs. New York Giants",
-          "method": "Explicit selection in publisher feed",
-          "event": null
-        },
-        {
-          "selection": "Dolphins Moneyline ( +115 )",
-          "market": "Moneyline",
-          "context": "Miami Dolphins vs. Indianapolis Colts",
-          "method": "Explicit selection in publisher feed",
-          "event": null
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Moneyline",
-        "Spread"
-      ],
-      "teams": [
-        "Dolphins",
-        "Giants"
-      ]
-    },
-    {
-      "id": "7a32f9252cac0aa1",
-      "title": "NFL Anytime & First TD Scorers Picks: Bengals vs. Falcons",
-      "url": "https://www.bettingpros.com/articles/nfl-anytime-first-td-scorers-picks-bengals-vs-falcons-2026/",
-      "publisher": "BettingPros",
-      "sourceId": "bettingpros",
-      "author": "Richard Janvrin",
-      "publishedAt": "2026-11-07T12:09:09+00:00",
-      "picks": [
-        {
-          "selection": "Bijan Robinson First Touchdown Scorer ( +350 )",
-          "market": "Props",
-          "context": "NFL Anytime & First TD Scorers Picks: Bengals vs. Falcons",
-          "method": "Explicit selection in publisher feed",
-          "player": {
-            "name": "Bijan Robinson",
-            "team": "Falcons",
-            "athleteId": "4430807"
-          },
-          "event": null
-        },
-        {
-          "selection": "Tee Higgins Anytime Touchdown Scorer ( +105 )",
-          "market": "Props",
-          "context": "NFL Anytime & First TD Scorers Picks: Bengals vs. Falcons",
-          "method": "Explicit selection in publisher feed",
-          "player": {
-            "name": "Tee Higgins",
-            "team": "Bengals",
-            "athleteId": "4239993"
-          },
-          "event": null
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Props"
-      ],
-      "teams": [
-        "Bengals",
-        "Falcons"
-      ]
     }
   ],
   "refreshMinutes": 60,
@@ -4479,8 +4527,8 @@
   ],
   "scheduleStatus": {
     "status": "ok",
-    "checkedAt": "2026-11-19T03:27:36.806369+00:00",
-    "lastSuccessAt": "2026-11-19T03:27:36.806369+00:00"
+    "checkedAt": "2026-11-19T13:06:18.380961+00:00",
+    "lastSuccessAt": "2026-11-19T13:06:18.380961+00:00"
   },
   "playerTeams": {
     "joeyaguilar": [
