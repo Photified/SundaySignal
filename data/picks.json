@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-23T00:53:39.839629+00:00",
-  "lastSuccessfulUpdate": "2026-11-23T00:53:39.839629+00:00",
+  "checkedAt": "2026-11-23T09:05:00.762141+00:00",
+  "lastSuccessfulUpdate": "2026-11-23T09:05:00.762141+00:00",
   "sources": [
     {
       "id": "sbd",
@@ -10,9 +10,9 @@
       "website": "https://www.sportsbettingdime.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-23T00:53:39.839629+00:00",
-      "lastSuccessAt": "2026-11-23T00:53:39.839629+00:00",
-      "count": 3,
+      "checkedAt": "2026-11-23T09:05:00.762141+00:00",
+      "lastSuccessAt": "2026-11-23T09:05:00.762141+00:00",
+      "count": 4,
       "message": "Feed retrieved successfully"
     },
     {
@@ -22,8 +22,8 @@
       "website": "https://www.bettingpros.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-23T00:53:39.839629+00:00",
-      "lastSuccessAt": "2026-11-23T00:53:39.839629+00:00",
+      "checkedAt": "2026-11-23T09:05:00.762141+00:00",
+      "lastSuccessAt": "2026-11-23T09:05:00.762141+00:00",
       "count": 54,
       "message": "Feed retrieved successfully"
     },
@@ -35,9 +35,9 @@
       "website": "https://www.cbssports.com/nfl/picks/experts/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-23T00:53:39.839629+00:00",
-      "lastSuccessAt": "2026-11-23T00:53:39.839629+00:00",
-      "count": 21,
+      "checkedAt": "2026-11-23T09:05:00.762141+00:00",
+      "lastSuccessAt": "2026-11-23T09:05:00.762141+00:00",
+      "count": 7,
       "message": "Public expert selections retrieved"
     },
     {
@@ -47,11 +47,11 @@
       "feed": "https://www.covers.com/nfl",
       "website": "https://www.covers.com/nfl",
       "enabled": true,
-      "status": "unavailable",
-      "checkedAt": "2026-11-23T00:53:39.839629+00:00",
-      "lastSuccessAt": "2026-11-22T11:33:04.044585+00:00",
+      "status": "ok",
+      "checkedAt": "2026-11-23T09:05:00.762141+00:00",
+      "lastSuccessAt": "2026-11-23T09:05:00.762141+00:00",
       "count": 1,
-      "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
+      "message": "Public expert selections retrieved"
     },
     {
       "id": "sportschat",
@@ -62,8 +62,8 @@
       "articlePattern": "/nfl-picks/[^/]+prediction[^/]+/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-23T00:53:39.839629+00:00",
-      "lastSuccessAt": "2026-11-23T00:53:39.839629+00:00",
+      "checkedAt": "2026-11-23T09:05:00.762141+00:00",
+      "lastSuccessAt": "2026-11-23T09:05:00.762141+00:00",
       "count": 12,
       "message": "Public expert selections retrieved"
     },
@@ -76,7 +76,7 @@
       "articlePattern": "/picks/nfl/(?:picks-against-the-spread-ats-predictions|player-props)-week-\\d+-\\d{4}/$",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-11-23T00:53:39.839629+00:00",
+      "checkedAt": "2026-11-23T09:05:00.762141+00:00",
       "lastSuccessAt": "2026-11-22T19:39:45.602621+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -90,7 +90,7 @@
       "articlePattern": "/us/nfl/news/nfl-picks-predictions-against-spread-week-\\d+/",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-11-23T00:53:39.839629+00:00",
+      "checkedAt": "2026-11-23T09:05:00.762141+00:00",
       "lastSuccessAt": "2026-11-18T13:58:16.091945+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -104,13 +104,216 @@
       "articlePattern": "/football/article/(?:nfl-picks-and-props|[^/]*odds-picks-and-predictions|[^/]*betting-odds-picks-and-predictions)[^/]+$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-23T00:53:39.839629+00:00",
-      "lastSuccessAt": "2026-11-23T00:53:39.839629+00:00",
+      "checkedAt": "2026-11-23T09:05:00.762141+00:00",
+      "lastSuccessAt": "2026-11-23T09:05:00.762141+00:00",
       "count": 4,
       "message": "Public expert selections retrieved"
     }
   ],
   "articles": [
+    {
+      "id": "a2c71811f1a8713d",
+      "title": "NFL Moneyline Picks for Every Week 11 Game",
+      "url": "https://www.covers.com/nfl/moneyline-picks-week-11-2026",
+      "publisher": "Covers",
+      "sourceId": "covers",
+      "author": "Trevor Knapp",
+      "publishedAt": "2026-11-23T01:47:00+00:00",
+      "picks": [
+        {
+          "selection": "Texans Moneyline",
+          "market": "Moneyline",
+          "context": "Colts Texans",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": null
+        },
+        {
+          "selection": "Bills Moneyline",
+          "market": "Moneyline",
+          "context": "Dolphins Bills",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": null
+        },
+        {
+          "selection": "Panthers Moneyline",
+          "market": "Moneyline",
+          "context": "Ravens Panthers",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": null
+        },
+        {
+          "selection": "Bears Moneyline",
+          "market": "Moneyline",
+          "context": "Saints Bears",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": null
+        },
+        {
+          "selection": "Cowboys Moneyline",
+          "market": "Moneyline",
+          "context": "Titans Cowboys",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": null
+        },
+        {
+          "selection": "Buccaneers Moneyline",
+          "market": "Moneyline",
+          "context": "Buccaneers Lions",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": null
+        },
+        {
+          "selection": "Chiefs Moneyline",
+          "market": "Moneyline",
+          "context": "Cardinals Chiefs",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": null
+        },
+        {
+          "selection": "Steelers Moneyline",
+          "market": "Moneyline",
+          "context": "Steelers Eagles",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": null
+        },
+        {
+          "selection": "Chargers Moneyline",
+          "market": "Moneyline",
+          "context": "Jets Chargers",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": null
+        },
+        {
+          "selection": "Broncos Moneyline",
+          "market": "Moneyline",
+          "context": "Raiders Broncos",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": null
+        },
+        {
+          "selection": "Jaguars Moneyline",
+          "market": "Moneyline",
+          "context": "Jaguars Giants",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": null
+        },
+        {
+          "selection": "Vikings Moneyline",
+          "market": "Moneyline",
+          "context": "Vikings 49ers",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873077",
+            "startAt": "2026-11-23T01:20Z",
+            "state": "post",
+            "teams": [
+              "49ers",
+              "Vikings"
+            ],
+            "matchup": "Minnesota Vikings at San Francisco 49ers",
+            "week": 11,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Bengals Moneyline",
+          "market": "Moneyline",
+          "context": "Bengals Commanders",
+          "method": "Explicit team logo and selection in publisher pick table",
+          "event": {
+            "id": "401873078",
+            "startAt": "2026-11-24T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Commanders",
+              "Bengals"
+            ],
+            "matchup": "Cincinnati Bengals at Washington Commanders",
+            "week": 11,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Moneyline"
+      ],
+      "teams": []
+    },
+    {
+      "id": "f0e4646297128121",
+      "title": "NFL Picks Against the Spread for Week 12 – ATS Bets for Thanksgiving",
+      "url": "https://www.sportsbettingdime.com/news/nfl/nfl-picks-against-the-spread-for-week-12-ats-bets-for-thanksgiving/",
+      "publisher": "Sports Betting Dime",
+      "sourceId": "sbd",
+      "author": "Sascha Paruk",
+      "publishedAt": "2026-11-23T01:40:24+00:00",
+      "picks": [
+        {
+          "selection": "Rams -2.5 (-117)",
+          "market": "Spread",
+          "context": "Packers at Rams ATS Pick: Rams -2.5 (-117)",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873079",
+            "startAt": "2026-11-26T01:00Z",
+            "state": "pre",
+            "teams": [
+              "Rams",
+              "Packers"
+            ],
+            "matchup": "Green Bay Packers at Los Angeles Rams",
+            "week": 12,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Lions +2.5 (-104)",
+          "market": "Spread",
+          "context": "Bears at Lions ATS Pick: Lions +2.5 (-104)",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873081",
+            "startAt": "2026-11-26T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Lions",
+              "Bears"
+            ],
+            "matchup": "Chicago Bears at Detroit Lions",
+            "week": 12,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Cowboys -8.5 (+100)",
+          "market": "Spread",
+          "context": "Eagles at Cowboys ATS Pick: Cowboys -8.5 (+100)",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873080",
+            "startAt": "2026-11-26T21:30Z",
+            "state": "pre",
+            "teams": [
+              "Cowboys",
+              "Eagles"
+            ],
+            "matchup": "Philadelphia Eagles at Dallas Cowboys",
+            "week": 12,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread"
+      ],
+      "teams": [
+        "Cowboys",
+        "Lions",
+        "Rams"
+      ]
+    },
     {
       "id": "35be155db91c57f5",
       "title": "Opening NFL Week 12 Odds & Thanksgiving Lines",
@@ -148,7 +351,7 @@
           "event": {
             "id": "401873077",
             "startAt": "2026-11-23T01:20Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "49ers",
               "Vikings"
@@ -171,7 +374,7 @@
           "event": {
             "id": "401873077",
             "startAt": "2026-11-23T01:20Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "49ers",
               "Vikings"
@@ -238,7 +441,7 @@
           "event": {
             "id": "401873077",
             "startAt": "2026-11-23T01:20Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "49ers",
               "Vikings"
@@ -261,7 +464,7 @@
           "event": {
             "id": "401873077",
             "startAt": "2026-11-23T01:20Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "49ers",
               "Vikings"
@@ -302,7 +505,7 @@
               "event": {
                 "id": "401873077",
                 "startAt": "2026-11-23T01:20Z",
-                "state": "pre",
+                "state": "post",
                 "teams": [
                   "49ers",
                   "Vikings"
@@ -319,7 +522,7 @@
               "event": {
                 "id": "401873077",
                 "startAt": "2026-11-23T01:20Z",
-                "state": "pre",
+                "state": "post",
                 "teams": [
                   "49ers",
                   "Vikings"
@@ -336,7 +539,7 @@
               "event": {
                 "id": "401873077",
                 "startAt": "2026-11-23T01:20Z",
-                "state": "pre",
+                "state": "post",
                 "teams": [
                   "49ers",
                   "Vikings"
@@ -374,7 +577,7 @@
           "event": {
             "id": "401873077",
             "startAt": "2026-11-23T01:20Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "49ers",
               "Vikings"
@@ -392,7 +595,7 @@
           "event": {
             "id": "401873077",
             "startAt": "2026-11-23T01:20Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "49ers",
               "Vikings"
@@ -434,7 +637,7 @@
           "event": {
             "id": "401873077",
             "startAt": "2026-11-23T01:20Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "49ers",
               "Vikings"
@@ -457,7 +660,7 @@
           "event": {
             "id": "401873077",
             "startAt": "2026-11-23T01:20Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "49ers",
               "Vikings"
@@ -808,7 +1011,7 @@
           "event": {
             "id": "401873069",
             "startAt": "2026-11-22T21:25Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Giants",
               "Jaguars"
@@ -827,245 +1030,6 @@
         "Jaguars",
         "Jets"
       ]
-    },
-    {
-      "id": "a2c71811f1a8713d",
-      "title": "NFL Moneyline Picks for Every Week 11 Game",
-      "url": "https://www.covers.com/nfl/moneyline-picks-week-11-2026",
-      "publisher": "Covers",
-      "sourceId": "covers",
-      "author": "Trevor Knapp",
-      "publishedAt": "2026-11-22T00:56:00+00:00",
-      "picks": [
-        {
-          "selection": "Texans Moneyline",
-          "market": "Moneyline",
-          "context": "Colts vs Texans",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": null
-        },
-        {
-          "selection": "Bills Moneyline",
-          "market": "Moneyline",
-          "context": "Dolphins vs Bills",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873070",
-            "startAt": "2026-11-22T18:00Z",
-            "state": "post",
-            "teams": [
-              "Bills",
-              "Dolphins"
-            ],
-            "matchup": "Miami Dolphins at Buffalo Bills",
-            "week": 11,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Panthers Moneyline",
-          "market": "Moneyline",
-          "context": "Ravens vs Panthers",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873068",
-            "startAt": "2026-11-22T18:00Z",
-            "state": "post",
-            "teams": [
-              "Panthers",
-              "Ravens"
-            ],
-            "matchup": "Baltimore Ravens at Carolina Panthers",
-            "week": 11,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Bears Moneyline",
-          "market": "Moneyline",
-          "context": "Saints vs Bears",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873071",
-            "startAt": "2026-11-22T18:00Z",
-            "state": "post",
-            "teams": [
-              "Bears",
-              "Saints"
-            ],
-            "matchup": "New Orleans Saints at Chicago Bears",
-            "week": 11,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Cowboys Moneyline",
-          "market": "Moneyline",
-          "context": "Titans vs Cowboys",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873073",
-            "startAt": "2026-11-22T18:00Z",
-            "state": "post",
-            "teams": [
-              "Cowboys",
-              "Titans"
-            ],
-            "matchup": "Tennessee Titans at Dallas Cowboys",
-            "week": 11,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Buccaneers Moneyline",
-          "market": "Moneyline",
-          "context": "Buccaneers vs Lions",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873072",
-            "startAt": "2026-11-22T18:00Z",
-            "state": "post",
-            "teams": [
-              "Lions",
-              "Buccaneers"
-            ],
-            "matchup": "Tampa Bay Buccaneers at Detroit Lions",
-            "week": 11,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Chiefs Moneyline",
-          "market": "Moneyline",
-          "context": "Cardinals vs Chiefs",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873067",
-            "startAt": "2026-11-22T18:00Z",
-            "state": "post",
-            "teams": [
-              "Chiefs",
-              "Cardinals"
-            ],
-            "matchup": "Arizona Cardinals at Kansas City Chiefs",
-            "week": 11,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Steelers Moneyline",
-          "market": "Moneyline",
-          "context": "Steelers vs Eagles",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873076",
-            "startAt": "2026-11-22T18:00Z",
-            "state": "post",
-            "teams": [
-              "Eagles",
-              "Steelers"
-            ],
-            "matchup": "Pittsburgh Steelers at Philadelphia Eagles",
-            "week": 11,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Chargers Moneyline",
-          "market": "Moneyline",
-          "context": "Jets vs Chargers",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873074",
-            "startAt": "2026-11-22T21:05Z",
-            "state": "post",
-            "teams": [
-              "Chargers",
-              "Jets"
-            ],
-            "matchup": "New York Jets at Los Angeles Chargers",
-            "week": 11,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Broncos Moneyline",
-          "market": "Moneyline",
-          "context": "Raiders vs Broncos",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873075",
-            "startAt": "2026-11-22T21:25Z",
-            "state": "post",
-            "teams": [
-              "Broncos",
-              "Raiders"
-            ],
-            "matchup": "Las Vegas Raiders at Denver Broncos",
-            "week": 11,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Jaguars Moneyline",
-          "market": "Moneyline",
-          "context": "Jaguars vs Giants",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873069",
-            "startAt": "2026-11-22T21:25Z",
-            "state": "in",
-            "teams": [
-              "Giants",
-              "Jaguars"
-            ],
-            "matchup": "Jacksonville Jaguars at New York Giants",
-            "week": 11,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Vikings Moneyline",
-          "market": "Moneyline",
-          "context": "Vikings vs 49ers",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873077",
-            "startAt": "2026-11-23T01:20Z",
-            "state": "pre",
-            "teams": [
-              "49ers",
-              "Vikings"
-            ],
-            "matchup": "Minnesota Vikings at San Francisco 49ers",
-            "week": 11,
-            "season": 2026
-          }
-        },
-        {
-          "selection": "Bengals Moneyline",
-          "market": "Moneyline",
-          "context": "Bengals vs Commanders",
-          "method": "Explicit team logo and selection in publisher pick table",
-          "event": {
-            "id": "401873078",
-            "startAt": "2026-11-24T01:15Z",
-            "state": "pre",
-            "teams": [
-              "Commanders",
-              "Bengals"
-            ],
-            "matchup": "Cincinnati Bengals at Washington Commanders",
-            "week": 11,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Moneyline"
-      ],
-      "teams": []
     },
     {
       "id": "6d0d4139d896915e",
@@ -1183,7 +1147,7 @@
           "event": {
             "id": "401873077",
             "startAt": "2026-11-23T01:20Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "49ers",
               "Vikings"
@@ -1826,7 +1790,7 @@
               "event": {
                 "id": "401873069",
                 "startAt": "2026-11-22T21:25Z",
-                "state": "in",
+                "state": "post",
                 "teams": [
                   "Giants",
                   "Jaguars"
@@ -1843,7 +1807,7 @@
               "event": {
                 "id": "401873069",
                 "startAt": "2026-11-22T21:25Z",
-                "state": "in",
+                "state": "post",
                 "teams": [
                   "Giants",
                   "Jaguars"
@@ -1860,7 +1824,7 @@
               "event": {
                 "id": "401873069",
                 "startAt": "2026-11-22T21:25Z",
-                "state": "in",
+                "state": "post",
                 "teams": [
                   "Giants",
                   "Jaguars"
@@ -1971,7 +1935,7 @@
           "event": {
             "id": "401873069",
             "startAt": "2026-11-22T21:25Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Giants",
               "Jaguars"
@@ -2118,566 +2082,6 @@
       "teams": []
     },
     {
-      "id": "fda02230c71ca07d",
-      "title": "NFL Jaguars vs Giants expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Pete Prisco",
-      "publishedAt": "2026-11-19T21:34:08.970798+00:00",
-      "observedAt": "2026-11-23T00:53:39.839629+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Jaguars -6",
-          "market": "Spread",
-          "context": "Jaguars vs Giants",
-          "eventDate": "2026-11-22",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873069",
-            "startAt": "2026-11-22T21:25Z",
-            "state": "in",
-            "teams": [
-              "Giants",
-              "Jaguars"
-            ],
-            "matchup": "Jacksonville Jaguars at New York Giants",
-            "week": 11,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Jaguars",
-        "Giants"
-      ]
-    },
-    {
-      "id": "68b9e47f40caefc2",
-      "title": "NFL Jaguars vs Giants expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Jared Dubin",
-      "publishedAt": "2026-11-19T21:34:08.970798+00:00",
-      "observedAt": "2026-11-23T00:53:39.839629+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Jaguars -6",
-          "market": "Spread",
-          "context": "Jaguars vs Giants",
-          "eventDate": "2026-11-22",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873069",
-            "startAt": "2026-11-22T21:25Z",
-            "state": "in",
-            "teams": [
-              "Giants",
-              "Jaguars"
-            ],
-            "matchup": "Jacksonville Jaguars at New York Giants",
-            "week": 11,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Jaguars",
-        "Giants"
-      ]
-    },
-    {
-      "id": "b76ae772b2228d1d",
-      "title": "NFL Jaguars vs Giants expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Ryan Wilson",
-      "publishedAt": "2026-11-19T21:34:08.970798+00:00",
-      "observedAt": "2026-11-23T00:53:39.839629+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Jaguars -6",
-          "market": "Spread",
-          "context": "Jaguars vs Giants",
-          "eventDate": "2026-11-22",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873069",
-            "startAt": "2026-11-22T21:25Z",
-            "state": "in",
-            "teams": [
-              "Giants",
-              "Jaguars"
-            ],
-            "matchup": "Jacksonville Jaguars at New York Giants",
-            "week": 11,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Jaguars",
-        "Giants"
-      ]
-    },
-    {
-      "id": "8efc6b2c0d5c3519",
-      "title": "NFL Jaguars vs Giants expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "John Breech",
-      "publishedAt": "2026-11-19T21:34:08.970798+00:00",
-      "observedAt": "2026-11-23T00:53:39.839629+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Jaguars -6",
-          "market": "Spread",
-          "context": "Jaguars vs Giants",
-          "eventDate": "2026-11-22",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873069",
-            "startAt": "2026-11-22T21:25Z",
-            "state": "in",
-            "teams": [
-              "Giants",
-              "Jaguars"
-            ],
-            "matchup": "Jacksonville Jaguars at New York Giants",
-            "week": 11,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Jaguars",
-        "Giants"
-      ]
-    },
-    {
-      "id": "53779c8c92a421b3",
-      "title": "NFL Jaguars vs Giants expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Tyler Sullivan",
-      "publishedAt": "2026-11-19T21:34:08.970798+00:00",
-      "observedAt": "2026-11-23T00:53:39.839629+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Jaguars -6",
-          "market": "Spread",
-          "context": "Jaguars vs Giants",
-          "eventDate": "2026-11-22",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873069",
-            "startAt": "2026-11-22T21:25Z",
-            "state": "in",
-            "teams": [
-              "Giants",
-              "Jaguars"
-            ],
-            "matchup": "Jacksonville Jaguars at New York Giants",
-            "week": 11,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Jaguars",
-        "Giants"
-      ]
-    },
-    {
-      "id": "21322b8962628f8f",
-      "title": "NFL Jaguars vs Giants expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Dave Richard",
-      "publishedAt": "2026-11-19T21:34:08.970798+00:00",
-      "observedAt": "2026-11-23T00:53:39.839629+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Giants +6",
-          "market": "Spread",
-          "context": "Jaguars vs Giants",
-          "eventDate": "2026-11-22",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873069",
-            "startAt": "2026-11-22T21:25Z",
-            "state": "in",
-            "teams": [
-              "Giants",
-              "Jaguars"
-            ],
-            "matchup": "Jacksonville Jaguars at New York Giants",
-            "week": 11,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Jaguars",
-        "Giants"
-      ]
-    },
-    {
-      "id": "6b1de2871b0810a0",
-      "title": "NFL Jaguars vs Giants expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Jamey Eisenberg",
-      "publishedAt": "2026-11-19T21:34:08.970798+00:00",
-      "observedAt": "2026-11-23T00:53:39.839629+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Giants +6",
-          "market": "Spread",
-          "context": "Jaguars vs Giants",
-          "eventDate": "2026-11-22",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873069",
-            "startAt": "2026-11-22T21:25Z",
-            "state": "in",
-            "teams": [
-              "Giants",
-              "Jaguars"
-            ],
-            "matchup": "Jacksonville Jaguars at New York Giants",
-            "week": 11,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Jaguars",
-        "Giants"
-      ]
-    },
-    {
-      "id": "8db6ea1d4a5d00b8",
-      "title": "NFL Vikings vs 49ers expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Pete Prisco",
-      "publishedAt": "2026-11-19T21:34:08.970798+00:00",
-      "observedAt": "2026-11-23T00:53:39.839629+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "49ers -3",
-          "market": "Spread",
-          "context": "Vikings vs 49ers",
-          "eventDate": "2026-11-22",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873077",
-            "startAt": "2026-11-23T01:20Z",
-            "state": "pre",
-            "teams": [
-              "49ers",
-              "Vikings"
-            ],
-            "matchup": "Minnesota Vikings at San Francisco 49ers",
-            "week": 11,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Vikings",
-        "49ers"
-      ]
-    },
-    {
-      "id": "3865d23aa85abd68",
-      "title": "NFL Vikings vs 49ers expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Jared Dubin",
-      "publishedAt": "2026-11-19T21:34:08.970798+00:00",
-      "observedAt": "2026-11-23T00:53:39.839629+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "49ers -3",
-          "market": "Spread",
-          "context": "Vikings vs 49ers",
-          "eventDate": "2026-11-22",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873077",
-            "startAt": "2026-11-23T01:20Z",
-            "state": "pre",
-            "teams": [
-              "49ers",
-              "Vikings"
-            ],
-            "matchup": "Minnesota Vikings at San Francisco 49ers",
-            "week": 11,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Vikings",
-        "49ers"
-      ]
-    },
-    {
-      "id": "b1987943fd9e04e4",
-      "title": "NFL Vikings vs 49ers expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Ryan Wilson",
-      "publishedAt": "2026-11-19T21:34:08.970798+00:00",
-      "observedAt": "2026-11-23T00:53:39.839629+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Vikings +3",
-          "market": "Spread",
-          "context": "Vikings vs 49ers",
-          "eventDate": "2026-11-22",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873077",
-            "startAt": "2026-11-23T01:20Z",
-            "state": "pre",
-            "teams": [
-              "49ers",
-              "Vikings"
-            ],
-            "matchup": "Minnesota Vikings at San Francisco 49ers",
-            "week": 11,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Vikings",
-        "49ers"
-      ]
-    },
-    {
-      "id": "ff322dbd796cd2db",
-      "title": "NFL Vikings vs 49ers expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "John Breech",
-      "publishedAt": "2026-11-19T21:34:08.970798+00:00",
-      "observedAt": "2026-11-23T00:53:39.839629+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "49ers -3",
-          "market": "Spread",
-          "context": "Vikings vs 49ers",
-          "eventDate": "2026-11-22",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873077",
-            "startAt": "2026-11-23T01:20Z",
-            "state": "pre",
-            "teams": [
-              "49ers",
-              "Vikings"
-            ],
-            "matchup": "Minnesota Vikings at San Francisco 49ers",
-            "week": 11,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Vikings",
-        "49ers"
-      ]
-    },
-    {
-      "id": "fb59550dce01159b",
-      "title": "NFL Vikings vs 49ers expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Tyler Sullivan",
-      "publishedAt": "2026-11-19T21:34:08.970798+00:00",
-      "observedAt": "2026-11-23T00:53:39.839629+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Vikings +3",
-          "market": "Spread",
-          "context": "Vikings vs 49ers",
-          "eventDate": "2026-11-22",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873077",
-            "startAt": "2026-11-23T01:20Z",
-            "state": "pre",
-            "teams": [
-              "49ers",
-              "Vikings"
-            ],
-            "matchup": "Minnesota Vikings at San Francisco 49ers",
-            "week": 11,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Vikings",
-        "49ers"
-      ]
-    },
-    {
-      "id": "b5362232e3c9ce10",
-      "title": "NFL Vikings vs 49ers expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Dave Richard",
-      "publishedAt": "2026-11-19T21:34:08.970798+00:00",
-      "observedAt": "2026-11-23T00:53:39.839629+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "49ers -3",
-          "market": "Spread",
-          "context": "Vikings vs 49ers",
-          "eventDate": "2026-11-22",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873077",
-            "startAt": "2026-11-23T01:20Z",
-            "state": "pre",
-            "teams": [
-              "49ers",
-              "Vikings"
-            ],
-            "matchup": "Minnesota Vikings at San Francisco 49ers",
-            "week": 11,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Vikings",
-        "49ers"
-      ]
-    },
-    {
-      "id": "e6e345d3e6fd06d3",
-      "title": "NFL Vikings vs 49ers expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Jamey Eisenberg",
-      "publishedAt": "2026-11-19T21:34:08.970798+00:00",
-      "observedAt": "2026-11-23T00:53:39.839629+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "49ers -3",
-          "market": "Spread",
-          "context": "Vikings vs 49ers",
-          "eventDate": "2026-11-22",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873077",
-            "startAt": "2026-11-23T01:20Z",
-            "state": "pre",
-            "teams": [
-              "49ers",
-              "Vikings"
-            ],
-            "matchup": "Minnesota Vikings at San Francisco 49ers",
-            "week": 11,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Vikings",
-        "49ers"
-      ]
-    },
-    {
       "id": "8782fb70982fb166",
       "title": "NFL Bengals vs Commanders expert spread pick",
       "url": "https://www.cbssports.com/nfl/picks/experts/",
@@ -2685,7 +2089,7 @@
       "sourceId": "cbs",
       "author": "Pete Prisco",
       "publishedAt": "2026-11-19T21:34:08.970798+00:00",
-      "observedAt": "2026-11-23T00:53:39.839629+00:00",
+      "observedAt": "2026-11-23T09:05:00.762141+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2725,7 +2129,7 @@
       "sourceId": "cbs",
       "author": "Jared Dubin",
       "publishedAt": "2026-11-19T21:34:08.970798+00:00",
-      "observedAt": "2026-11-23T00:53:39.839629+00:00",
+      "observedAt": "2026-11-23T09:05:00.762141+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2765,7 +2169,7 @@
       "sourceId": "cbs",
       "author": "Ryan Wilson",
       "publishedAt": "2026-11-19T21:34:08.970798+00:00",
-      "observedAt": "2026-11-23T00:53:39.839629+00:00",
+      "observedAt": "2026-11-23T09:05:00.762141+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2805,7 +2209,7 @@
       "sourceId": "cbs",
       "author": "John Breech",
       "publishedAt": "2026-11-19T21:34:08.970798+00:00",
-      "observedAt": "2026-11-23T00:53:39.839629+00:00",
+      "observedAt": "2026-11-23T09:05:00.762141+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2845,7 +2249,7 @@
       "sourceId": "cbs",
       "author": "Tyler Sullivan",
       "publishedAt": "2026-11-19T21:34:08.970798+00:00",
-      "observedAt": "2026-11-23T00:53:39.839629+00:00",
+      "observedAt": "2026-11-23T09:05:00.762141+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2885,7 +2289,7 @@
       "sourceId": "cbs",
       "author": "Dave Richard",
       "publishedAt": "2026-11-19T21:34:08.970798+00:00",
-      "observedAt": "2026-11-23T00:53:39.839629+00:00",
+      "observedAt": "2026-11-23T09:05:00.762141+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2925,7 +2329,7 @@
       "sourceId": "cbs",
       "author": "Jamey Eisenberg",
       "publishedAt": "2026-11-19T21:34:08.970798+00:00",
-      "observedAt": "2026-11-23T00:53:39.839629+00:00",
+      "observedAt": "2026-11-23T09:05:00.762141+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3271,7 +2675,7 @@
           "event": {
             "id": "401873069",
             "startAt": "2026-11-22T21:25Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Giants",
               "Jaguars"
@@ -3343,7 +2747,7 @@
           "event": {
             "id": "401873077",
             "startAt": "2026-11-23T01:20Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "49ers",
               "Vikings"
@@ -3651,7 +3055,7 @@
           "event": {
             "id": "401873077",
             "startAt": "2026-11-23T01:20Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "49ers",
               "Vikings"
@@ -3669,7 +3073,7 @@
           "event": {
             "id": "401873069",
             "startAt": "2026-11-22T21:25Z",
-            "state": "in",
+            "state": "post",
             "teams": [
               "Giants",
               "Jaguars"
@@ -5105,14 +4509,26 @@
   "refreshMinutes": 60,
   "games": [
     {
-      "id": "401873069",
-      "startAt": "2026-11-22T21:25Z",
-      "state": "in",
+      "id": "401873078",
+      "startAt": "2026-11-24T01:15Z",
+      "state": "pre",
       "teams": [
-        "Giants",
-        "Jaguars"
+        "Commanders",
+        "Bengals"
       ],
-      "matchup": "Jacksonville Jaguars at New York Giants",
+      "matchup": "Cincinnati Bengals at Washington Commanders",
+      "week": 11,
+      "season": 2026
+    },
+    {
+      "id": "401873066",
+      "startAt": "2026-11-20T01:15Z",
+      "state": "post",
+      "teams": [
+        "Texans",
+        "Colts"
+      ],
+      "matchup": "Indianapolis Colts at Houston Texans",
       "week": 11,
       "season": 2026
     },
@@ -5225,38 +4641,26 @@
       "season": 2026
     },
     {
+      "id": "401873069",
+      "startAt": "2026-11-22T21:25Z",
+      "state": "post",
+      "teams": [
+        "Giants",
+        "Jaguars"
+      ],
+      "matchup": "Jacksonville Jaguars at New York Giants",
+      "week": 11,
+      "season": 2026
+    },
+    {
       "id": "401873077",
       "startAt": "2026-11-23T01:20Z",
-      "state": "pre",
+      "state": "post",
       "teams": [
         "49ers",
         "Vikings"
       ],
       "matchup": "Minnesota Vikings at San Francisco 49ers",
-      "week": 11,
-      "season": 2026
-    },
-    {
-      "id": "401873066",
-      "startAt": "2026-11-20T01:15Z",
-      "state": "post",
-      "teams": [
-        "Texans",
-        "Colts"
-      ],
-      "matchup": "Indianapolis Colts at Houston Texans",
-      "week": 11,
-      "season": 2026
-    },
-    {
-      "id": "401873078",
-      "startAt": "2026-11-24T01:15Z",
-      "state": "pre",
-      "teams": [
-        "Commanders",
-        "Bengals"
-      ],
-      "matchup": "Cincinnati Bengals at Washington Commanders",
       "week": 11,
       "season": 2026
     },
@@ -5455,8 +4859,8 @@
   ],
   "scheduleStatus": {
     "status": "ok",
-    "checkedAt": "2026-11-23T00:53:39.839629+00:00",
-    "lastSuccessAt": "2026-11-23T00:53:39.839629+00:00"
+    "checkedAt": "2026-11-23T09:05:00.762141+00:00",
+    "lastSuccessAt": "2026-11-23T09:05:00.762141+00:00"
   },
   "playerTeams": {
     "joeyaguilar": [
@@ -15363,6 +14767,13 @@
         "athleteId": "4240528"
       }
     ],
+    "rodneyshelley": [
+      {
+        "name": "Rodney Shelley",
+        "team": "Chargers",
+        "athleteId": "4838693"
+      }
+    ],
     "genesissmith": [
       {
         "name": "Genesis Smith",
@@ -15466,13 +14877,6 @@
         "name": "Trevor Penning",
         "team": "Chargers",
         "athleteId": "4248627"
-      }
-    ],
-    "rodneyshelley": [
-      {
-        "name": "Rodney Shelley",
-        "team": "Chargers",
-        "athleteId": "4838693"
       }
     ],
     "rashawnslater": [
@@ -19085,6 +18489,13 @@
         "athleteId": "4243375"
       }
     ],
+    "timpatrick": [
+      {
+        "name": "Tim Patrick",
+        "team": "Jets",
+        "athleteId": "3134353"
+      }
+    ],
     "jeremyruckert": [
       {
         "name": "Jeremy Ruckert",
@@ -19405,13 +18816,6 @@
         "name": "David Onyemata",
         "team": "Jets",
         "athleteId": "4002046"
-      }
-    ],
-    "timpatrick": [
-      {
-        "name": "Tim Patrick",
-        "team": "Jets",
-        "athleteId": "3134353"
       }
     ],
     "ariansmith": [
@@ -20303,6 +19707,13 @@
         "athleteId": "4567979"
       }
     ],
+    "deshonelliott": [
+      {
+        "name": "DeShon Elliott",
+        "team": "Steelers",
+        "athleteId": "3929846"
+      }
+    ],
     "dayleneverette": [
       {
         "name": "Daylen Everette",
@@ -20469,13 +19880,6 @@
         "name": "Gennings Dunker",
         "team": "Steelers",
         "athleteId": "4431258"
-      }
-    ],
-    "deshonelliott": [
-      {
-        "name": "DeShon Elliott",
-        "team": "Steelers",
-        "athleteId": "3929846"
       }
     ],
     "daequanhardy": [
@@ -21932,6 +21336,13 @@
         "athleteId": "4243331"
       }
     ],
+    "cooperrush": [
+      {
+        "name": "Cooper Rush",
+        "team": "Buccaneers",
+        "athleteId": "2972515"
+      }
+    ],
     "billyschrauth": [
       {
         "name": "Billy Schrauth",
@@ -22280,13 +21691,6 @@
         "name": "Paul Rubelt",
         "team": "Buccaneers",
         "athleteId": "4567896"
-      }
-    ],
-    "cooperrush": [
-      {
-        "name": "Cooper Rush",
-        "team": "Buccaneers",
-        "athleteId": "2972515"
       }
     ],
     "benscott": [
@@ -23438,6 +22842,6 @@
       }
     ]
   },
-  "rostersCheckedAt": "2026-11-22T03:15:12.601346+00:00",
+  "rostersCheckedAt": "2026-11-23T09:05:00.762141+00:00",
   "rosterStatus": "ok"
 }
