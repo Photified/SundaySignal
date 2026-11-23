@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-23T09:05:00.762141+00:00",
-  "lastSuccessfulUpdate": "2026-11-23T09:05:00.762141+00:00",
+  "checkedAt": "2026-11-23T21:24:44.855448+00:00",
+  "lastSuccessfulUpdate": "2026-11-23T21:24:44.855448+00:00",
   "sources": [
     {
       "id": "sbd",
@@ -10,9 +10,9 @@
       "website": "https://www.sportsbettingdime.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-23T09:05:00.762141+00:00",
-      "lastSuccessAt": "2026-11-23T09:05:00.762141+00:00",
-      "count": 4,
+      "checkedAt": "2026-11-23T21:24:44.855448+00:00",
+      "lastSuccessAt": "2026-11-23T21:24:44.855448+00:00",
+      "count": 3,
       "message": "Feed retrieved successfully"
     },
     {
@@ -22,9 +22,9 @@
       "website": "https://www.bettingpros.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-23T09:05:00.762141+00:00",
-      "lastSuccessAt": "2026-11-23T09:05:00.762141+00:00",
-      "count": 54,
+      "checkedAt": "2026-11-23T21:24:44.855448+00:00",
+      "lastSuccessAt": "2026-11-23T21:24:44.855448+00:00",
+      "count": 58,
       "message": "Feed retrieved successfully"
     },
     {
@@ -35,8 +35,8 @@
       "website": "https://www.cbssports.com/nfl/picks/experts/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-23T09:05:00.762141+00:00",
-      "lastSuccessAt": "2026-11-23T09:05:00.762141+00:00",
+      "checkedAt": "2026-11-23T21:24:44.855448+00:00",
+      "lastSuccessAt": "2026-11-23T21:24:44.855448+00:00",
       "count": 7,
       "message": "Public expert selections retrieved"
     },
@@ -48,8 +48,8 @@
       "website": "https://www.covers.com/nfl",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-23T09:05:00.762141+00:00",
-      "lastSuccessAt": "2026-11-23T09:05:00.762141+00:00",
+      "checkedAt": "2026-11-23T21:24:44.855448+00:00",
+      "lastSuccessAt": "2026-11-23T21:24:44.855448+00:00",
       "count": 1,
       "message": "Public expert selections retrieved"
     },
@@ -62,8 +62,8 @@
       "articlePattern": "/nfl-picks/[^/]+prediction[^/]+/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-23T09:05:00.762141+00:00",
-      "lastSuccessAt": "2026-11-23T09:05:00.762141+00:00",
+      "checkedAt": "2026-11-23T21:24:44.855448+00:00",
+      "lastSuccessAt": "2026-11-23T21:24:44.855448+00:00",
       "count": 12,
       "message": "Public expert selections retrieved"
     },
@@ -76,7 +76,7 @@
       "articlePattern": "/picks/nfl/(?:picks-against-the-spread-ats-predictions|player-props)-week-\\d+-\\d{4}/$",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-11-23T09:05:00.762141+00:00",
+      "checkedAt": "2026-11-23T21:24:44.855448+00:00",
       "lastSuccessAt": "2026-11-22T19:39:45.602621+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -90,7 +90,7 @@
       "articlePattern": "/us/nfl/news/nfl-picks-predictions-against-spread-week-\\d+/",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-11-23T09:05:00.762141+00:00",
+      "checkedAt": "2026-11-23T21:24:44.855448+00:00",
       "lastSuccessAt": "2026-11-18T13:58:16.091945+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -104,13 +104,298 @@
       "articlePattern": "/football/article/(?:nfl-picks-and-props|[^/]*odds-picks-and-predictions|[^/]*betting-odds-picks-and-predictions)[^/]+$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-23T09:05:00.762141+00:00",
-      "lastSuccessAt": "2026-11-23T09:05:00.762141+00:00",
+      "checkedAt": "2026-11-23T21:24:44.855448+00:00",
+      "lastSuccessAt": "2026-11-23T21:24:44.855448+00:00",
       "count": 4,
       "message": "Public expert selections retrieved"
     }
   ],
   "articles": [
+    {
+      "id": "b257359522483ccb",
+      "title": "NFL Monday Night Football Same Game Parlay: Bengals vs. Commanders",
+      "url": "https://www.bettingpros.com/articles/nfl-monday-night-football-same-game-parlay-bengals-vs-commanders/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "Dan Servodidio",
+      "publishedAt": "2026-11-23T17:04:28+00:00",
+      "picks": [],
+      "parlays": [
+        {
+          "label": "Expert parlay",
+          "americanOdds": 430,
+          "legs": [
+            {
+              "selection": "Mike Gesicki 25+ Receiving Yards ( -118 )",
+              "market": "Props",
+              "context": "Cincinnati Bengals at Washington Commanders",
+              "event": {
+                "id": "401873078",
+                "startAt": "2026-11-24T01:15Z",
+                "state": "pre",
+                "teams": [
+                  "Commanders",
+                  "Bengals"
+                ],
+                "matchup": "Cincinnati Bengals at Washington Commanders",
+                "week": 11,
+                "season": 2026
+              }
+            },
+            {
+              "selection": "Chig Okonkwo 40+ Receiving Yards ( -156 )",
+              "market": "Props",
+              "context": "Cincinnati Bengals at Washington Commanders",
+              "event": {
+                "id": "401873078",
+                "startAt": "2026-11-24T01:15Z",
+                "state": "pre",
+                "teams": [
+                  "Commanders",
+                  "Bengals"
+                ],
+                "matchup": "Cincinnati Bengals at Washington Commanders",
+                "week": 11,
+                "season": 2026
+              }
+            },
+            {
+              "selection": "Jayden Daniels 40+ Rushing Yards ( -116 )",
+              "market": "Props",
+              "context": "Cincinnati Bengals at Washington Commanders",
+              "event": {
+                "id": "401873078",
+                "startAt": "2026-11-24T01:15Z",
+                "state": "pre",
+                "teams": [
+                  "Commanders",
+                  "Bengals"
+                ],
+                "matchup": "Cincinnati Bengals at Washington Commanders",
+                "week": 11,
+                "season": 2026
+              }
+            }
+          ]
+        }
+      ],
+      "markets": [
+        "Other"
+      ],
+      "teams": [
+        "Bengals",
+        "Commanders"
+      ]
+    },
+    {
+      "id": "7a234fa4946b614e",
+      "title": "NFL Monday Night Football Player Props & Picks: Bengals vs. Commanders",
+      "url": "https://www.bettingpros.com/articles/nfl-monday-night-football-player-props-picks-bengals-vs-commanders-2026-week-11/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "Matt MacKay",
+      "publishedAt": "2026-11-23T15:58:50+00:00",
+      "picks": [
+        {
+          "selection": "Jayden Daniels Under 0.5 Interceptions ( -133 )",
+          "market": "Props",
+          "context": "Best NFL Monday Night Football Player Prop Bets – Week 10: Bengals vs. Commanders",
+          "method": "Explicit selection in publisher feed",
+          "player": {
+            "name": "Jayden Daniels",
+            "team": "Commanders",
+            "athleteId": "4426348"
+          },
+          "event": {
+            "id": "401873078",
+            "startAt": "2026-11-24T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Commanders",
+              "Bengals"
+            ],
+            "matchup": "Cincinnati Bengals at Washington Commanders",
+            "week": 11,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "C hase Brown Over 25.5 Receiving Yards ( -114 )",
+          "market": "Props",
+          "context": "Best NFL Monday Night Football Player Prop Bets – Week 10: Bengals vs. Commanders",
+          "method": "Explicit selection in publisher feed",
+          "player": {
+            "name": "Chase Brown",
+            "team": "Bengals",
+            "athleteId": "4362238"
+          },
+          "event": {
+            "id": "401873078",
+            "startAt": "2026-11-24T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Commanders",
+              "Bengals"
+            ],
+            "matchup": "Cincinnati Bengals at Washington Commanders",
+            "week": 11,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Props"
+      ],
+      "teams": [
+        "Bengals",
+        "Commanders"
+      ]
+    },
+    {
+      "id": "c12208065f087f34",
+      "title": "NFL Monday Night Football Anytime & First TD Scorers: Bengals vs. Commanders",
+      "url": "https://www.bettingpros.com/articles/nfl-monday-night-football-anytime-first-td-scorers-bengals-vs-commanders-week-11-2026/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "Mike Fanelli",
+      "publishedAt": "2026-11-23T11:59:19+00:00",
+      "picks": [
+        {
+          "selection": "Cincinnati Bengals First TD Scorer: Mike Gesicki ( +700 )",
+          "market": "Props",
+          "context": "NFL Monday Night Football Anytime & First TD Scorers: Bengals vs. Commanders",
+          "method": "Explicit selection in publisher feed",
+          "player": {
+            "name": "Mike Gesicki",
+            "team": "Bengals",
+            "athleteId": "3116164"
+          },
+          "event": {
+            "id": "401873078",
+            "startAt": "2026-11-24T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Commanders",
+              "Bengals"
+            ],
+            "matchup": "Cincinnati Bengals at Washington Commanders",
+            "week": 11,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Washington Commanders First TD Scorer: Stefon Diggs ( +550 )",
+          "market": "Props",
+          "context": "NFL Monday Night Football Anytime & First TD Scorers: Bengals vs. Commanders",
+          "method": "Explicit selection in publisher feed",
+          "player": {
+            "name": "Stefon Diggs",
+            "team": "Commanders",
+            "athleteId": "2976212"
+          },
+          "event": {
+            "id": "401873078",
+            "startAt": "2026-11-24T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Commanders",
+              "Bengals"
+            ],
+            "matchup": "Cincinnati Bengals at Washington Commanders",
+            "week": 11,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Props"
+      ],
+      "teams": [
+        "Bengals",
+        "Commanders"
+      ]
+    },
+    {
+      "id": "6d977b7317340638",
+      "title": "NFL Monday Night Football Picks & Predictions: Bengals vs. Commanders",
+      "url": "https://www.bettingpros.com/articles/nfl-monday-night-football-picks-predictions-bengals-vs-commanders-week-11-2026/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "Richard Janvrin",
+      "publishedAt": "2026-11-23T11:59:08+00:00",
+      "picks": [
+        {
+          "selection": "Washington Commanders +6.5 ( -118 )",
+          "market": "Spread",
+          "context": "NFL Monday Night Football Picks & Predictions: Bengals vs. Commanders",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873078",
+            "startAt": "2026-11-24T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Commanders",
+              "Bengals"
+            ],
+            "matchup": "Cincinnati Bengals at Washington Commanders",
+            "week": 11,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Chig Okonkwo 42+ Receiving Yards ( -111 )",
+          "market": "Props",
+          "context": "NFL Monday Night Football Picks & Predictions: Bengals vs. Commanders",
+          "method": "Explicit selection in publisher feed",
+          "player": {
+            "name": "Chig Okonkwo",
+            "team": "Commanders",
+            "athleteId": "4360635"
+          },
+          "event": {
+            "id": "401873078",
+            "startAt": "2026-11-24T01:15Z",
+            "state": "pre",
+            "teams": [
+              "Commanders",
+              "Bengals"
+            ],
+            "matchup": "Cincinnati Bengals at Washington Commanders",
+            "week": 11,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Props",
+        "Spread"
+      ],
+      "teams": [
+        "Bengals",
+        "Commanders"
+      ]
+    },
+    {
+      "id": "061ec081b2eb781b",
+      "title": "Best NFL Player Props: Monday Night Football (Bengals vs. Commanders)",
+      "url": "https://www.bettingpros.com/articles/best-nfl-player-props-monday-night-football-bengals-vs-commanders-week-11-2026/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "BettingPros Staff",
+      "publishedAt": "2026-11-23T11:58:59+00:00",
+      "picks": [],
+      "parlays": [],
+      "markets": [
+        "Props"
+      ],
+      "teams": [
+        "Bengals",
+        "Commanders"
+      ]
+    },
     {
       "id": "a2c71811f1a8713d",
       "title": "NFL Moneyline Picks for Every Week 11 Game",
@@ -402,21 +687,6 @@
       "sourceId": "sbd",
       "author": "Juan Pablo Aravena",
       "publishedAt": "2026-11-22T16:51:18+00:00",
-      "picks": [],
-      "parlays": [],
-      "markets": [
-        "Props"
-      ],
-      "teams": []
-    },
-    {
-      "id": "45336933a2d243d8",
-      "title": "Take a Shot at 30-1 Payout By Parlaying These 4 NFL Player Props in Week 11",
-      "url": "https://www.sportsbettingdime.com/news/nfl/parlaying-4-player-props-week-11/",
-      "publisher": "Sports Betting Dime",
-      "sourceId": "sbd",
-      "author": "Matt McEwan",
-      "publishedAt": "2026-11-22T14:15:00+00:00",
       "picks": [],
       "parlays": [],
       "markets": [
@@ -2089,7 +2359,7 @@
       "sourceId": "cbs",
       "author": "Pete Prisco",
       "publishedAt": "2026-11-19T21:34:08.970798+00:00",
-      "observedAt": "2026-11-23T09:05:00.762141+00:00",
+      "observedAt": "2026-11-23T21:24:44.855448+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2129,7 +2399,7 @@
       "sourceId": "cbs",
       "author": "Jared Dubin",
       "publishedAt": "2026-11-19T21:34:08.970798+00:00",
-      "observedAt": "2026-11-23T09:05:00.762141+00:00",
+      "observedAt": "2026-11-23T21:24:44.855448+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2169,7 +2439,7 @@
       "sourceId": "cbs",
       "author": "Ryan Wilson",
       "publishedAt": "2026-11-19T21:34:08.970798+00:00",
-      "observedAt": "2026-11-23T09:05:00.762141+00:00",
+      "observedAt": "2026-11-23T21:24:44.855448+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2209,7 +2479,7 @@
       "sourceId": "cbs",
       "author": "John Breech",
       "publishedAt": "2026-11-19T21:34:08.970798+00:00",
-      "observedAt": "2026-11-23T09:05:00.762141+00:00",
+      "observedAt": "2026-11-23T21:24:44.855448+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2249,7 +2519,7 @@
       "sourceId": "cbs",
       "author": "Tyler Sullivan",
       "publishedAt": "2026-11-19T21:34:08.970798+00:00",
-      "observedAt": "2026-11-23T09:05:00.762141+00:00",
+      "observedAt": "2026-11-23T21:24:44.855448+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2289,7 +2559,7 @@
       "sourceId": "cbs",
       "author": "Dave Richard",
       "publishedAt": "2026-11-19T21:34:08.970798+00:00",
-      "observedAt": "2026-11-23T09:05:00.762141+00:00",
+      "observedAt": "2026-11-23T21:24:44.855448+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2329,7 +2599,7 @@
       "sourceId": "cbs",
       "author": "Jamey Eisenberg",
       "publishedAt": "2026-11-19T21:34:08.970798+00:00",
-      "observedAt": "2026-11-23T09:05:00.762141+00:00",
+      "observedAt": "2026-11-23T21:24:44.855448+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4461,49 +4731,6 @@
         "Commanders",
         "Giants"
       ]
-    },
-    {
-      "id": "81811be75fd3c73e",
-      "title": "NFL Monday Night Football Same Game Parlay: Bills vs. Vikings",
-      "url": "https://www.bettingpros.com/articles/nfl-monday-night-football-same-game-parlay-bills-vs-vikings-2026/",
-      "publisher": "BettingPros",
-      "sourceId": "bettingpros",
-      "author": "Dan Servodidio",
-      "publishedAt": "2026-11-09T12:07:58+00:00",
-      "picks": [],
-      "parlays": [
-        {
-          "label": "Expert parlay",
-          "americanOdds": 575,
-          "legs": [
-            {
-              "selection": "T.J. Hockenson 40+ Receiving Yards ( -123 )",
-              "market": "Props",
-              "context": "Buffalo Bills at Minnesota Vikings",
-              "event": null
-            },
-            {
-              "selection": "Dalton Kincaid Under 36.5 Receiving Yards ( -113 )",
-              "market": "Props",
-              "context": "Buffalo Bills at Minnesota Vikings",
-              "event": null
-            },
-            {
-              "selection": "Aaron Jones 10+ Receiving Yards ( +112 )",
-              "market": "Props",
-              "context": "Buffalo Bills at Minnesota Vikings",
-              "event": null
-            }
-          ]
-        }
-      ],
-      "markets": [
-        "Other"
-      ],
-      "teams": [
-        "Bills",
-        "Vikings"
-      ]
     }
   ],
   "refreshMinutes": 60,
@@ -4859,8 +5086,8 @@
   ],
   "scheduleStatus": {
     "status": "ok",
-    "checkedAt": "2026-11-23T09:05:00.762141+00:00",
-    "lastSuccessAt": "2026-11-23T09:05:00.762141+00:00"
+    "checkedAt": "2026-11-23T21:24:44.855448+00:00",
+    "lastSuccessAt": "2026-11-23T21:24:44.855448+00:00"
   },
   "playerTeams": {
     "joeyaguilar": [
