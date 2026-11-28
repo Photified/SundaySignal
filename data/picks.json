@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-27T18:58:59.647519+00:00",
-  "lastSuccessfulUpdate": "2026-11-27T18:58:59.647519+00:00",
+  "checkedAt": "2026-11-28T01:59:32.077468+00:00",
+  "lastSuccessfulUpdate": "2026-11-28T01:59:32.077468+00:00",
   "sources": [
     {
       "id": "sbd",
@@ -10,8 +10,8 @@
       "website": "https://www.sportsbettingdime.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-27T18:58:59.647519+00:00",
-      "lastSuccessAt": "2026-11-27T18:58:59.647519+00:00",
+      "checkedAt": "2026-11-28T01:59:32.077468+00:00",
+      "lastSuccessAt": "2026-11-28T01:59:32.077468+00:00",
       "count": 5,
       "message": "Feed retrieved successfully"
     },
@@ -22,8 +22,8 @@
       "website": "https://www.bettingpros.com/nfl/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-27T18:58:59.647519+00:00",
-      "lastSuccessAt": "2026-11-27T18:58:59.647519+00:00",
+      "checkedAt": "2026-11-28T01:59:32.077468+00:00",
+      "lastSuccessAt": "2026-11-28T01:59:32.077468+00:00",
       "count": 62,
       "message": "Feed retrieved successfully"
     },
@@ -35,9 +35,9 @@
       "website": "https://www.cbssports.com/nfl/picks/experts/",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-27T18:58:59.647519+00:00",
-      "lastSuccessAt": "2026-11-27T18:58:59.647519+00:00",
-      "count": 84,
+      "checkedAt": "2026-11-28T01:59:32.077468+00:00",
+      "lastSuccessAt": "2026-11-28T01:59:32.077468+00:00",
+      "count": 77,
       "message": "Public expert selections retrieved"
     },
     {
@@ -48,7 +48,7 @@
       "website": "https://www.covers.com/nfl",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-11-27T18:58:59.647519+00:00",
+      "checkedAt": "2026-11-28T01:59:32.077468+00:00",
       "lastSuccessAt": "2026-11-23T21:24:44.855448+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -62,8 +62,8 @@
       "articlePattern": "/nfl-picks/[^/]+prediction[^/]+/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-27T18:58:59.647519+00:00",
-      "lastSuccessAt": "2026-11-27T18:58:59.647519+00:00",
+      "checkedAt": "2026-11-28T01:59:32.077468+00:00",
+      "lastSuccessAt": "2026-11-28T01:59:32.077468+00:00",
       "count": 9,
       "message": "Public expert selections retrieved"
     },
@@ -76,8 +76,8 @@
       "articlePattern": "/picks/nfl/(?:picks-against-the-spread-ats-predictions|player-props)-week-\\d+-\\d{4}/$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-27T18:58:59.647519+00:00",
-      "lastSuccessAt": "2026-11-27T18:58:59.647519+00:00",
+      "checkedAt": "2026-11-28T01:59:32.077468+00:00",
+      "lastSuccessAt": "2026-11-28T01:59:32.077468+00:00",
       "count": 1,
       "message": "Public expert selections retrieved"
     },
@@ -90,7 +90,7 @@
       "articlePattern": "/us/nfl/news/nfl-picks-predictions-against-spread-week-\\d+/",
       "enabled": true,
       "status": "unavailable",
-      "checkedAt": "2026-11-27T18:58:59.647519+00:00",
+      "checkedAt": "2026-11-28T01:59:32.077468+00:00",
       "lastSuccessAt": "2026-11-25T02:28:38.979486+00:00",
       "count": 1,
       "message": "Publisher feed unavailable. Retaining earlier articles. No current picks could be verified"
@@ -104,13 +104,86 @@
       "articlePattern": "/football/article/(?:nfl-picks-and-props|[^/]*odds-picks-and-predictions|[^/]*betting-odds-picks-and-predictions)[^/]+$",
       "enabled": true,
       "status": "ok",
-      "checkedAt": "2026-11-27T18:58:59.647519+00:00",
-      "lastSuccessAt": "2026-11-27T18:58:59.647519+00:00",
-      "count": 4,
+      "checkedAt": "2026-11-28T01:59:32.077468+00:00",
+      "lastSuccessAt": "2026-11-28T01:59:32.077468+00:00",
+      "count": 3,
       "message": "Public expert selections retrieved"
     }
   ],
   "articles": [
+    {
+      "id": "b329f43c65c51042",
+      "title": "NFL Betting Primer, Picks & Predictions: Week 12",
+      "url": "https://www.bettingpros.com/articles/nfl-betting-primer-picks-predictions-week-12-advice/",
+      "publisher": "BettingPros",
+      "sourceId": "bettingpros",
+      "author": "Andrew Erickson",
+      "publishedAt": "2026-11-27T22:50:06+00:00",
+      "picks": [
+        {
+          "selection": "Giants -5.5",
+          "market": "Spread",
+          "context": "New York Giants at Indianapolis Colts",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873088",
+            "startAt": "2026-11-29T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Colts",
+              "Giants"
+            ],
+            "matchup": "New York Giants at Indianapolis Colts",
+            "week": 12,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Under 42.5",
+          "market": "Totals",
+          "context": "Atlanta Falcons at Minnesota Vikings",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873084",
+            "startAt": "2026-11-29T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Vikings",
+              "Falcons"
+            ],
+            "matchup": "Atlanta Falcons at Minnesota Vikings",
+            "week": 12,
+            "season": 2026
+          }
+        },
+        {
+          "selection": "Over 47.5",
+          "market": "Totals",
+          "context": "Baltimore Ravens at Houston Texans",
+          "method": "Explicit selection in publisher feed",
+          "event": {
+            "id": "401873085",
+            "startAt": "2026-11-29T18:00Z",
+            "state": "pre",
+            "teams": [
+              "Texans",
+              "Ravens"
+            ],
+            "matchup": "Baltimore Ravens at Houston Texans",
+            "week": 12,
+            "season": 2026
+          }
+        }
+      ],
+      "parlays": [],
+      "markets": [
+        "Spread",
+        "Totals"
+      ],
+      "teams": [
+        "Giants"
+      ]
+    },
     {
       "id": "0b4990c5231208dc",
       "title": "NFL Player Props Line Movement: Tracking Week 12 Odds Shifts",
@@ -271,7 +344,7 @@
               "event": {
                 "id": "401873083",
                 "startAt": "2026-11-27T20:00Z",
-                "state": "pre",
+                "state": "post",
                 "teams": [
                   "Steelers",
                   "Broncos"
@@ -288,7 +361,7 @@
               "event": {
                 "id": "401873083",
                 "startAt": "2026-11-27T20:00Z",
-                "state": "pre",
+                "state": "post",
                 "teams": [
                   "Steelers",
                   "Broncos"
@@ -305,7 +378,7 @@
               "event": {
                 "id": "401873083",
                 "startAt": "2026-11-27T20:00Z",
-                "state": "pre",
+                "state": "post",
                 "teams": [
                   "Steelers",
                   "Broncos"
@@ -348,7 +421,7 @@
           "event": {
             "id": "401873083",
             "startAt": "2026-11-27T20:00Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "Steelers",
               "Broncos"
@@ -371,7 +444,7 @@
           "event": {
             "id": "401873083",
             "startAt": "2026-11-27T20:00Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "Steelers",
               "Broncos"
@@ -408,7 +481,7 @@
           "event": {
             "id": "401873083",
             "startAt": "2026-11-27T20:00Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "Steelers",
               "Broncos"
@@ -431,7 +504,7 @@
           "event": {
             "id": "401873083",
             "startAt": "2026-11-27T20:00Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "Steelers",
               "Broncos"
@@ -473,7 +546,7 @@
           "event": {
             "id": "401873083",
             "startAt": "2026-11-27T20:00Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "Steelers",
               "Broncos"
@@ -496,7 +569,7 @@
           "event": {
             "id": "401873083",
             "startAt": "2026-11-27T20:00Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "Steelers",
               "Broncos"
@@ -1194,86 +1267,6 @@
       ]
     },
     {
-      "id": "2b77ec46acea56d3",
-      "title": "NFL Broncos vs Steelers expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "John Breech",
-      "publishedAt": "2026-11-25T22:32:17.504901+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Broncos -3",
-          "market": "Spread",
-          "context": "Broncos vs Steelers",
-          "eventDate": "2026-11-27",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873083",
-            "startAt": "2026-11-27T20:00Z",
-            "state": "pre",
-            "teams": [
-              "Steelers",
-              "Broncos"
-            ],
-            "matchup": "Denver Broncos at Pittsburgh Steelers",
-            "week": 12,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Broncos",
-        "Steelers"
-      ]
-    },
-    {
-      "id": "230807bc7f00a619",
-      "title": "NFL Broncos vs Steelers expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Jamey Eisenberg",
-      "publishedAt": "2026-11-25T22:32:17.504901+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Broncos -3",
-          "market": "Spread",
-          "context": "Broncos vs Steelers",
-          "eventDate": "2026-11-27",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873083",
-            "startAt": "2026-11-27T20:00Z",
-            "state": "pre",
-            "teams": [
-              "Steelers",
-              "Broncos"
-            ],
-            "matchup": "Denver Broncos at Pittsburgh Steelers",
-            "week": 12,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Broncos",
-        "Steelers"
-      ]
-    },
-    {
       "id": "70ea2e7312da7190",
       "title": "NFL Falcons vs Vikings expert spread pick",
       "url": "https://www.cbssports.com/nfl/picks/experts/",
@@ -1281,7 +1274,7 @@
       "sourceId": "cbs",
       "author": "John Breech",
       "publishedAt": "2026-11-25T22:32:17.504901+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -1321,7 +1314,7 @@
       "sourceId": "cbs",
       "author": "Jamey Eisenberg",
       "publishedAt": "2026-11-25T22:32:17.504901+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -1361,7 +1354,7 @@
       "sourceId": "cbs",
       "author": "John Breech",
       "publishedAt": "2026-11-25T22:32:17.504901+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -1401,7 +1394,7 @@
       "sourceId": "cbs",
       "author": "Jamey Eisenberg",
       "publishedAt": "2026-11-25T22:32:17.504901+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -1441,7 +1434,7 @@
       "sourceId": "cbs",
       "author": "John Breech",
       "publishedAt": "2026-11-25T22:32:17.504901+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -1481,7 +1474,7 @@
       "sourceId": "cbs",
       "author": "Jamey Eisenberg",
       "publishedAt": "2026-11-25T22:32:17.504901+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -1521,7 +1514,7 @@
       "sourceId": "cbs",
       "author": "John Breech",
       "publishedAt": "2026-11-25T22:32:17.504901+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -1561,7 +1554,7 @@
       "sourceId": "cbs",
       "author": "Jamey Eisenberg",
       "publishedAt": "2026-11-25T22:32:17.504901+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -1601,7 +1594,7 @@
       "sourceId": "cbs",
       "author": "John Breech",
       "publishedAt": "2026-11-25T22:32:17.504901+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -1641,7 +1634,7 @@
       "sourceId": "cbs",
       "author": "Jamey Eisenberg",
       "publishedAt": "2026-11-25T22:32:17.504901+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -1681,7 +1674,7 @@
       "sourceId": "cbs",
       "author": "John Breech",
       "publishedAt": "2026-11-25T22:32:17.504901+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -1721,7 +1714,7 @@
       "sourceId": "cbs",
       "author": "Jamey Eisenberg",
       "publishedAt": "2026-11-25T22:32:17.504901+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -1761,7 +1754,7 @@
       "sourceId": "cbs",
       "author": "John Breech",
       "publishedAt": "2026-11-25T22:32:17.504901+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -1801,7 +1794,7 @@
       "sourceId": "cbs",
       "author": "Jamey Eisenberg",
       "publishedAt": "2026-11-25T22:32:17.504901+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -1841,7 +1834,7 @@
       "sourceId": "cbs",
       "author": "John Breech",
       "publishedAt": "2026-11-25T22:32:17.504901+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -1881,7 +1874,7 @@
       "sourceId": "cbs",
       "author": "Jamey Eisenberg",
       "publishedAt": "2026-11-25T22:32:17.504901+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -1921,7 +1914,7 @@
       "sourceId": "cbs",
       "author": "John Breech",
       "publishedAt": "2026-11-25T22:32:17.504901+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -1961,7 +1954,7 @@
       "sourceId": "cbs",
       "author": "Jamey Eisenberg",
       "publishedAt": "2026-11-25T22:32:17.504901+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2001,7 +1994,7 @@
       "sourceId": "cbs",
       "author": "John Breech",
       "publishedAt": "2026-11-25T22:32:17.504901+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2041,7 +2034,7 @@
       "sourceId": "cbs",
       "author": "Jamey Eisenberg",
       "publishedAt": "2026-11-25T22:32:17.504901+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2081,7 +2074,7 @@
       "sourceId": "cbs",
       "author": "John Breech",
       "publishedAt": "2026-11-25T22:32:17.504901+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2121,7 +2114,7 @@
       "sourceId": "cbs",
       "author": "Jamey Eisenberg",
       "publishedAt": "2026-11-25T22:32:17.504901+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2265,86 +2258,6 @@
       ]
     },
     {
-      "id": "d38142fea6a64bd8",
-      "title": "NFL Broncos vs Steelers expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Pete Prisco",
-      "publishedAt": "2026-11-25T12:55:01.215439+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Steelers +3",
-          "market": "Spread",
-          "context": "Broncos vs Steelers",
-          "eventDate": "2026-11-27",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873083",
-            "startAt": "2026-11-27T20:00Z",
-            "state": "pre",
-            "teams": [
-              "Steelers",
-              "Broncos"
-            ],
-            "matchup": "Denver Broncos at Pittsburgh Steelers",
-            "week": 12,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Broncos",
-        "Steelers"
-      ]
-    },
-    {
-      "id": "675205a869cd2bdf",
-      "title": "NFL Broncos vs Steelers expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Dave Richard",
-      "publishedAt": "2026-11-25T12:55:01.215439+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Broncos -3",
-          "market": "Spread",
-          "context": "Broncos vs Steelers",
-          "eventDate": "2026-11-27",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873083",
-            "startAt": "2026-11-27T20:00Z",
-            "state": "pre",
-            "teams": [
-              "Steelers",
-              "Broncos"
-            ],
-            "matchup": "Denver Broncos at Pittsburgh Steelers",
-            "week": 12,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Broncos",
-        "Steelers"
-      ]
-    },
-    {
       "id": "67ac900883e2c595",
       "title": "NFL Falcons vs Vikings expert spread pick",
       "url": "https://www.cbssports.com/nfl/picks/experts/",
@@ -2352,7 +2265,7 @@
       "sourceId": "cbs",
       "author": "Pete Prisco",
       "publishedAt": "2026-11-25T12:55:01.215439+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2392,7 +2305,7 @@
       "sourceId": "cbs",
       "author": "Dave Richard",
       "publishedAt": "2026-11-25T12:55:01.215439+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2432,7 +2345,7 @@
       "sourceId": "cbs",
       "author": "Pete Prisco",
       "publishedAt": "2026-11-25T12:55:01.215439+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2472,7 +2385,7 @@
       "sourceId": "cbs",
       "author": "Dave Richard",
       "publishedAt": "2026-11-25T12:55:01.215439+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2512,7 +2425,7 @@
       "sourceId": "cbs",
       "author": "Pete Prisco",
       "publishedAt": "2026-11-25T12:55:01.215439+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2552,7 +2465,7 @@
       "sourceId": "cbs",
       "author": "Dave Richard",
       "publishedAt": "2026-11-25T12:55:01.215439+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2592,7 +2505,7 @@
       "sourceId": "cbs",
       "author": "Pete Prisco",
       "publishedAt": "2026-11-25T12:55:01.215439+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2632,7 +2545,7 @@
       "sourceId": "cbs",
       "author": "Dave Richard",
       "publishedAt": "2026-11-25T12:55:01.215439+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2672,7 +2585,7 @@
       "sourceId": "cbs",
       "author": "Pete Prisco",
       "publishedAt": "2026-11-25T12:55:01.215439+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2712,7 +2625,7 @@
       "sourceId": "cbs",
       "author": "Dave Richard",
       "publishedAt": "2026-11-25T12:55:01.215439+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2752,7 +2665,7 @@
       "sourceId": "cbs",
       "author": "Pete Prisco",
       "publishedAt": "2026-11-25T12:55:01.215439+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2792,7 +2705,7 @@
       "sourceId": "cbs",
       "author": "Dave Richard",
       "publishedAt": "2026-11-25T12:55:01.215439+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2832,7 +2745,7 @@
       "sourceId": "cbs",
       "author": "Pete Prisco",
       "publishedAt": "2026-11-25T12:55:01.215439+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2872,7 +2785,7 @@
       "sourceId": "cbs",
       "author": "Dave Richard",
       "publishedAt": "2026-11-25T12:55:01.215439+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2912,7 +2825,7 @@
       "sourceId": "cbs",
       "author": "Pete Prisco",
       "publishedAt": "2026-11-25T12:55:01.215439+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2952,7 +2865,7 @@
       "sourceId": "cbs",
       "author": "Dave Richard",
       "publishedAt": "2026-11-25T12:55:01.215439+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -2992,7 +2905,7 @@
       "sourceId": "cbs",
       "author": "Pete Prisco",
       "publishedAt": "2026-11-25T12:55:01.215439+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3032,7 +2945,7 @@
       "sourceId": "cbs",
       "author": "Dave Richard",
       "publishedAt": "2026-11-25T12:55:01.215439+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3072,7 +2985,7 @@
       "sourceId": "cbs",
       "author": "Pete Prisco",
       "publishedAt": "2026-11-25T12:55:01.215439+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3112,7 +3025,7 @@
       "sourceId": "cbs",
       "author": "Dave Richard",
       "publishedAt": "2026-11-25T12:55:01.215439+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3152,7 +3065,7 @@
       "sourceId": "cbs",
       "author": "Pete Prisco",
       "publishedAt": "2026-11-25T12:55:01.215439+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3192,7 +3105,7 @@
       "sourceId": "cbs",
       "author": "Dave Richard",
       "publishedAt": "2026-11-25T12:55:01.215439+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3447,126 +3360,6 @@
       ]
     },
     {
-      "id": "13a9a66cdd2df8f8",
-      "title": "NFL Broncos vs Steelers expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Jared Dubin",
-      "publishedAt": "2026-11-25T02:28:38.979486+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Broncos -3",
-          "market": "Spread",
-          "context": "Broncos vs Steelers",
-          "eventDate": "2026-11-27",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873083",
-            "startAt": "2026-11-27T20:00Z",
-            "state": "pre",
-            "teams": [
-              "Steelers",
-              "Broncos"
-            ],
-            "matchup": "Denver Broncos at Pittsburgh Steelers",
-            "week": 12,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Broncos",
-        "Steelers"
-      ]
-    },
-    {
-      "id": "b04507cbf42a2fba",
-      "title": "NFL Broncos vs Steelers expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Ryan Wilson",
-      "publishedAt": "2026-11-25T02:28:38.979486+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Broncos -3",
-          "market": "Spread",
-          "context": "Broncos vs Steelers",
-          "eventDate": "2026-11-27",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873083",
-            "startAt": "2026-11-27T20:00Z",
-            "state": "pre",
-            "teams": [
-              "Steelers",
-              "Broncos"
-            ],
-            "matchup": "Denver Broncos at Pittsburgh Steelers",
-            "week": 12,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Broncos",
-        "Steelers"
-      ]
-    },
-    {
-      "id": "0a35fda45991483c",
-      "title": "NFL Broncos vs Steelers expert spread pick",
-      "url": "https://www.cbssports.com/nfl/picks/experts/",
-      "publisher": "CBS Sports",
-      "sourceId": "cbs",
-      "author": "Tyler Sullivan",
-      "publishedAt": "2026-11-25T02:28:38.979486+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
-      "timestampType": "observed",
-      "picks": [
-        {
-          "selection": "Steelers +3",
-          "market": "Spread",
-          "context": "Broncos vs Steelers",
-          "eventDate": "2026-11-27",
-          "method": "Named analyst selection on public CBS board",
-          "event": {
-            "id": "401873083",
-            "startAt": "2026-11-27T20:00Z",
-            "state": "pre",
-            "teams": [
-              "Steelers",
-              "Broncos"
-            ],
-            "matchup": "Denver Broncos at Pittsburgh Steelers",
-            "week": 12,
-            "season": 2026
-          }
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Broncos",
-        "Steelers"
-      ]
-    },
-    {
       "id": "fd8a79fd8244eba9",
       "title": "NFL Falcons vs Vikings expert spread pick",
       "url": "https://www.cbssports.com/nfl/picks/experts/",
@@ -3574,7 +3367,7 @@
       "sourceId": "cbs",
       "author": "Jared Dubin",
       "publishedAt": "2026-11-25T02:28:38.979486+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3614,7 +3407,7 @@
       "sourceId": "cbs",
       "author": "Ryan Wilson",
       "publishedAt": "2026-11-25T02:28:38.979486+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3654,7 +3447,7 @@
       "sourceId": "cbs",
       "author": "Tyler Sullivan",
       "publishedAt": "2026-11-25T02:28:38.979486+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3694,7 +3487,7 @@
       "sourceId": "cbs",
       "author": "Jared Dubin",
       "publishedAt": "2026-11-25T02:28:38.979486+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3734,7 +3527,7 @@
       "sourceId": "cbs",
       "author": "Ryan Wilson",
       "publishedAt": "2026-11-25T02:28:38.979486+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3774,7 +3567,7 @@
       "sourceId": "cbs",
       "author": "Tyler Sullivan",
       "publishedAt": "2026-11-25T02:28:38.979486+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3814,7 +3607,7 @@
       "sourceId": "cbs",
       "author": "Jared Dubin",
       "publishedAt": "2026-11-25T02:28:38.979486+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3854,7 +3647,7 @@
       "sourceId": "cbs",
       "author": "Ryan Wilson",
       "publishedAt": "2026-11-25T02:28:38.979486+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3894,7 +3687,7 @@
       "sourceId": "cbs",
       "author": "Tyler Sullivan",
       "publishedAt": "2026-11-25T02:28:38.979486+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3934,7 +3727,7 @@
       "sourceId": "cbs",
       "author": "Jared Dubin",
       "publishedAt": "2026-11-25T02:28:38.979486+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -3974,7 +3767,7 @@
       "sourceId": "cbs",
       "author": "Ryan Wilson",
       "publishedAt": "2026-11-25T02:28:38.979486+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4014,7 +3807,7 @@
       "sourceId": "cbs",
       "author": "Tyler Sullivan",
       "publishedAt": "2026-11-25T02:28:38.979486+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4054,7 +3847,7 @@
       "sourceId": "cbs",
       "author": "Jared Dubin",
       "publishedAt": "2026-11-25T02:28:38.979486+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4094,7 +3887,7 @@
       "sourceId": "cbs",
       "author": "Ryan Wilson",
       "publishedAt": "2026-11-25T02:28:38.979486+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4134,7 +3927,7 @@
       "sourceId": "cbs",
       "author": "Tyler Sullivan",
       "publishedAt": "2026-11-25T02:28:38.979486+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4174,7 +3967,7 @@
       "sourceId": "cbs",
       "author": "Jared Dubin",
       "publishedAt": "2026-11-25T02:28:38.979486+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4214,7 +4007,7 @@
       "sourceId": "cbs",
       "author": "Ryan Wilson",
       "publishedAt": "2026-11-25T02:28:38.979486+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4254,7 +4047,7 @@
       "sourceId": "cbs",
       "author": "Tyler Sullivan",
       "publishedAt": "2026-11-25T02:28:38.979486+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4294,7 +4087,7 @@
       "sourceId": "cbs",
       "author": "Jared Dubin",
       "publishedAt": "2026-11-25T02:28:38.979486+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4334,7 +4127,7 @@
       "sourceId": "cbs",
       "author": "Ryan Wilson",
       "publishedAt": "2026-11-25T02:28:38.979486+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4374,7 +4167,7 @@
       "sourceId": "cbs",
       "author": "Tyler Sullivan",
       "publishedAt": "2026-11-25T02:28:38.979486+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4414,7 +4207,7 @@
       "sourceId": "cbs",
       "author": "Jared Dubin",
       "publishedAt": "2026-11-25T02:28:38.979486+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4454,7 +4247,7 @@
       "sourceId": "cbs",
       "author": "Ryan Wilson",
       "publishedAt": "2026-11-25T02:28:38.979486+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4494,7 +4287,7 @@
       "sourceId": "cbs",
       "author": "Tyler Sullivan",
       "publishedAt": "2026-11-25T02:28:38.979486+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4534,7 +4327,7 @@
       "sourceId": "cbs",
       "author": "Jared Dubin",
       "publishedAt": "2026-11-25T02:28:38.979486+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4574,7 +4367,7 @@
       "sourceId": "cbs",
       "author": "Ryan Wilson",
       "publishedAt": "2026-11-25T02:28:38.979486+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4614,7 +4407,7 @@
       "sourceId": "cbs",
       "author": "Tyler Sullivan",
       "publishedAt": "2026-11-25T02:28:38.979486+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4654,7 +4447,7 @@
       "sourceId": "cbs",
       "author": "Jared Dubin",
       "publishedAt": "2026-11-25T02:28:38.979486+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4694,7 +4487,7 @@
       "sourceId": "cbs",
       "author": "Ryan Wilson",
       "publishedAt": "2026-11-25T02:28:38.979486+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4734,7 +4527,7 @@
       "sourceId": "cbs",
       "author": "Tyler Sullivan",
       "publishedAt": "2026-11-25T02:28:38.979486+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4774,7 +4567,7 @@
       "sourceId": "cbs",
       "author": "Jared Dubin",
       "publishedAt": "2026-11-25T02:28:38.979486+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4814,7 +4607,7 @@
       "sourceId": "cbs",
       "author": "Ryan Wilson",
       "publishedAt": "2026-11-25T02:28:38.979486+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4854,7 +4647,7 @@
       "sourceId": "cbs",
       "author": "Tyler Sullivan",
       "publishedAt": "2026-11-25T02:28:38.979486+00:00",
-      "observedAt": "2026-11-27T18:58:59.647519+00:00",
+      "observedAt": "2026-11-28T01:59:32.077468+00:00",
       "timestampType": "observed",
       "picks": [
         {
@@ -4957,7 +4750,7 @@
           "event": {
             "id": "401873083",
             "startAt": "2026-11-27T20:00Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "Steelers",
               "Broncos"
@@ -5212,7 +5005,7 @@
           "event": {
             "id": "401873083",
             "startAt": "2026-11-27T20:00Z",
-            "state": "pre",
+            "state": "post",
             "teams": [
               "Steelers",
               "Broncos"
@@ -7263,50 +7056,6 @@
         "Cardinals",
         "Rams"
       ]
-    },
-    {
-      "id": "a4509c8e9b24a667",
-      "title": "Best NFL Player Props & Picks: Seahawks vs. Raiders (Week 10)",
-      "url": "https://www.bettingpros.com/articles/best-nfl-player-props-picks-seahawks-vs-raiders-week-10-2026/",
-      "publisher": "BettingPros",
-      "sourceId": "bettingpros",
-      "author": "BettingPros Staff",
-      "publishedAt": "2026-11-15T08:27:37+00:00",
-      "picks": [],
-      "parlays": [],
-      "markets": [
-        "Props"
-      ],
-      "teams": [
-        "Raiders",
-        "Seahawks"
-      ]
-    },
-    {
-      "id": "e457e737afebf5ae",
-      "title": "Vikings vs. Packers: Betting Odds, Picks, and Predictions for Week 10",
-      "url": "https://www.rotowire.com/football/article/minnesota-vikings-at-green-bay-packers-betting-odds-picks-and-predictions-for-week-10-146449",
-      "publisher": "RotoWire",
-      "sourceId": "rotowire",
-      "author": "Eric Timm",
-      "publishedAt": "2026-11-14T01:10:00+00:00",
-      "picks": [
-        {
-          "selection": "Packers -2.5 (-127 at Bet365 Sportsbook)",
-          "market": "Spread",
-          "context": "Vikings at Packers Best Bet: Packers -2.5 (-127 at Bet365 Sportsbook)",
-          "method": "Explicit selection in publisher feed",
-          "event": null
-        }
-      ],
-      "parlays": [],
-      "markets": [
-        "Spread"
-      ],
-      "teams": [
-        "Packers",
-        "Vikings"
-      ]
     }
   ],
   "refreshMinutes": 60,
@@ -7314,7 +7063,7 @@
     {
       "id": "401873083",
       "startAt": "2026-11-27T20:00Z",
-      "state": "pre",
+      "state": "post",
       "teams": [
         "Steelers",
         "Broncos"
@@ -7674,8 +7423,8 @@
   ],
   "scheduleStatus": {
     "status": "ok",
-    "checkedAt": "2026-11-27T18:58:59.647519+00:00",
-    "lastSuccessAt": "2026-11-27T18:58:59.647519+00:00"
+    "checkedAt": "2026-11-28T01:59:32.077468+00:00",
+    "lastSuccessAt": "2026-11-28T01:59:32.077468+00:00"
   },
   "playerTeams": {
     "joeyaguilar": [
@@ -12686,6 +12435,13 @@
         "athleteId": "4383440"
       }
     ],
+    "tylerbadie": [
+      {
+        "name": "Tyler Badie",
+        "team": "Broncos",
+        "athleteId": "4362748"
+      }
+    ],
     "dallenbentley": [
       {
         "name": "Dallen Bentley",
@@ -12952,13 +12708,6 @@
         "athleteId": "3894915"
       }
     ],
-    "saivionjones": [
-      {
-        "name": "Sai'vion Jones",
-        "team": "Broncos",
-        "athleteId": "4603189"
-      }
-    ],
     "devonkey": [
       {
         "name": "Devon Key",
@@ -13078,13 +12827,6 @@
         "athleteId": "2985659"
       }
     ],
-    "tylerbadie": [
-      {
-        "name": "Tyler Badie",
-        "team": "Broncos",
-        "athleteId": "4362748"
-      }
-    ],
     "levellebailey": [
       {
         "name": "Levelle Bailey",
@@ -13139,6 +12881,13 @@
         "name": "Matt Henningsen",
         "team": "Broncos",
         "athleteId": "4242358"
+      }
+    ],
+    "saivionjones": [
+      {
+        "name": "Sai'vion Jones",
+        "team": "Broncos",
+        "athleteId": "4603189"
       }
     ],
     "caleblohner": [
@@ -17253,6 +17002,13 @@
         "athleteId": "4035788"
       }
     ],
+    "jakebrowning": [
+      {
+        "name": "Jake Browning",
+        "team": "Chargers",
+        "athleteId": "3886812"
+      }
+    ],
     "travisburke": [
       {
         "name": "Travis Burke",
@@ -17491,13 +17247,6 @@
         "athleteId": "16195"
       }
     ],
-    "deaneleonard": [
-      {
-        "name": "Deane Leonard",
-        "team": "Chargers",
-        "athleteId": "4690171"
-      }
-    ],
     "khalilmack": [
       {
         "name": "Khalil Mack",
@@ -17659,6 +17408,13 @@
         "athleteId": "4383351"
       }
     ],
+    "deaneleonard": [
+      {
+        "name": "Deane Leonard",
+        "team": "Chargers",
+        "athleteId": "4690171"
+      }
+    ],
     "trevorpenning": [
       {
         "name": "Trevor Penning",
@@ -17692,13 +17448,6 @@
         "name": "Lander Barton",
         "team": "Chargers",
         "athleteId": "4685272"
-      }
-    ],
-    "jakebrowning": [
-      {
-        "name": "Jake Browning",
-        "team": "Chargers",
-        "athleteId": "3886812"
       }
     ],
     "andrecarterii": [
@@ -17769,6 +17518,13 @@
         "name": "Laekin Vakalahi",
         "team": "Chargers",
         "athleteId": "5211218"
+      }
+    ],
+    "theoweasejr": [
+      {
+        "name": "Theo Wease Jr.",
+        "team": "Chargers",
+        "athleteId": "4426535"
       }
     ],
     "terrywebb": [
@@ -17895,13 +17651,6 @@
         "name": "Colby Parkinson",
         "team": "Rams",
         "athleteId": "4242557"
-      }
-    ],
-    "brennanpresley": [
-      {
-        "name": "Brennan Presley",
-        "team": "Rams",
-        "athleteId": "4431342"
       }
     ],
     "davidquessenberry": [
@@ -18341,6 +18090,13 @@
         "name": "Bill Norton",
         "team": "Rams",
         "athleteId": "4426401"
+      }
+    ],
+    "brennanpresley": [
+      {
+        "name": "Brennan Presley",
+        "team": "Rams",
+        "athleteId": "4431342"
       }
     ],
     "jonrhattigan": [
@@ -21696,6 +21452,13 @@
         "athleteId": "4046165"
       }
     ],
+    "paytonpage": [
+      {
+        "name": "Payton Page",
+        "team": "Jets",
+        "athleteId": "4431582"
+      }
+    ],
     "jamaalpritchett": [
       {
         "name": "Jamaal Pritchett",
@@ -22375,18 +22138,18 @@
         "athleteId": "4693370"
       }
     ],
+    "michaelpittmanjr": [
+      {
+        "name": "Michael Pittman Jr.",
+        "team": "Steelers",
+        "athleteId": "4035687"
+      }
+    ],
     "masonrudolph": [
       {
         "name": "Mason Rudolph",
         "team": "Steelers",
         "athleteId": "3116407"
-      }
-    ],
-    "benskowronek": [
-      {
-        "name": "Ben Skowronek",
-        "team": "Steelers",
-        "athleteId": "4035656"
       }
     ],
     "roberttonyan": [
@@ -22599,6 +22362,13 @@
         "athleteId": "4361652"
       }
     ],
+    "jacobywindmon": [
+      {
+        "name": "Jacoby Windmon",
+        "team": "Steelers",
+        "athleteId": "4428909"
+      }
+    ],
     "chrisboswell": [
       {
         "name": "Chris Boswell",
@@ -22676,11 +22446,11 @@
         "athleteId": "4368304"
       }
     ],
-    "michaelpittmanjr": [
+    "benskowronek": [
       {
-        "name": "Michael Pittman Jr.",
+        "name": "Ben Skowronek",
         "team": "Steelers",
-        "athleteId": "4035687"
+        "athleteId": "4035656"
       }
     ],
     "kylerbaugh": [
@@ -22784,13 +22554,6 @@
         "name": "Julius Welschof",
         "team": "Steelers",
         "athleteId": "4372098"
-      }
-    ],
-    "jacobywindmon": [
-      {
-        "name": "Jacoby Windmon",
-        "team": "Steelers",
-        "athleteId": "4428909"
       }
     ],
     "keenanallen": [
@@ -25117,13 +24880,6 @@
         "athleteId": "4683463"
       }
     ],
-    "malikheath": [
-      {
-        "name": "Malik Heath",
-        "team": "Commanders",
-        "athleteId": "4689334"
-      }
-    ],
     "roberthenryjr": [
       {
         "name": "Robert Henry Jr.",
@@ -25586,6 +25342,13 @@
         "athleteId": "3123303"
       }
     ],
+    "ambrythomas": [
+      {
+        "name": "Ambry Thomas",
+        "team": "Commanders",
+        "athleteId": "4258209"
+      }
+    ],
     "jackwestover": [
       {
         "name": "Jack Westover",
@@ -25594,6 +25357,6 @@
       }
     ]
   },
-  "rostersCheckedAt": "2026-11-26T23:53:31.958134+00:00",
+  "rostersCheckedAt": "2026-11-28T01:59:32.077468+00:00",
   "rosterStatus": "ok"
 }
